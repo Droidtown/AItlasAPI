@@ -1,0 +1,17 @@
+{
+    "language": "en-us",
+    "type": "advance",
+    "version": {
+        "atk": "v100",
+        "intent": "1.0"
+    },
+    "user_defined": {},
+    "utterance": {
+        "Countess of Lovelace": {
+            "id": "b57daf40-ae0e-43f5-bfce-62ec17df94d6",
+            "pos": "<ENTITY_nouny>Countess</ENTITY_nouny><FUNC_inner>of</FUNC_inner><ENTITY_oov>Lovelace</ENTITY_oov>",
+            "lexy": [],
+            "pattern": "^<(UserDefined|ENTITY_(nounHead|nouny?|oov))>[A-Z][^<]+</(UserDefined|ENTITY_(nounHead|nouny?|oov))>(<FUNC_in[nt]er>of</FUNC_in[nt]er>)?<(UserDefined|ENTITY_(nounHead|nouny?|oov))>[A-Z][^<]+</(UserDefined|ENTITY_(nounHead|nouny?|oov))>"
+        }
+    }
+}

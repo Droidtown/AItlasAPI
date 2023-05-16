@@ -1,0 +1,74 @@
+{
+    "language": "en-us",
+    "type": "basic",
+    "pattern": {
+        "<CLAUSE_YesNoQ>[^<]+</CLAUSE_YesNoQ><FUNC_determiner>[^<]+</FUNC_determiner><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined>": {
+            "id": "e6e89471-b131-47c8-bebd-b248028aa83b",
+            "argument": [
+                [
+                    "ENTITY_UserDefined",
+                    0
+                ]
+            ],
+            "utterance": "be a [mathematician]"
+        },
+        "<CLAUSE_YesNoQ>[^<]+</CLAUSE_YesNoQ><FUNC_determiner>[^<]+</FUNC_determiner><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined>": {
+            "id": "424a0a50-8fe3-4cd6-9db4-9c993d55d9f1",
+            "argument": [
+                [
+                    "ENTITY_UserDefined",
+                    0
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    1
+                ]
+            ],
+            "utterance": "be an [English] [mathematician]"
+        },
+        "<CLAUSE_YesNoQ>[^<]+</CLAUSE_YesNoQ><FUNC_determiner>[^<]+</FUNC_determiner><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><FUNC_conjunction>[^<]+</FUNC_conjunction><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined>": {
+            "id": "110dff39-943c-44a8-ba41-fa8647607bbe",
+            "argument": [
+                [
+                    "ENTITY_UserDefined",
+                    0
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    1
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    2
+                ]
+            ],
+            "utterance": "be an [English] [mathematician] and [writer]"
+        },
+        "(<MODIFIER_P>[^<]+</MODIFIER_P>)?<VERB_P>know</VERB_P><FUNC>[^<]+</FUNC><ENTITY_possessive>[^<]+</ENTITY_possessive><ENTITY_UserDefined>work</ENTITY_UserDefined><RANGE>[^<]+</RANGE><ENTITY_possessive>[^<]+</ENTITY_possessive>(<MODIFIER_P>[^<]+</MODIFIER_P>)?<ENTITY_UserDefined>mechanical</ENTITY_UserDefined>(<MODIFIER_P>[^<]+</MODIFIER_P>)?<ENTITY_UserDefined>computer</ENTITY_UserDefined>": {
+            "id": "c5cffcbb-a667-48be-928d-9260f8d29082",
+            "argument": [
+                [
+                    "MODIFIER_P",
+                    0
+                ],
+                [
+                    "FUNC",
+                    0
+                ],
+                [
+                    "RANGE",
+                    0
+                ],
+                [
+                    "MODIFIER_P",
+                    1
+                ],
+                [
+                    "MODIFIER_P",
+                    2
+                ]
+            ],
+            "utterance": "[chiefly] know [for] her work [on] CharlesBabbage's [proposed] mechanical [general-purpose] computer"
+        }
+    }
+}

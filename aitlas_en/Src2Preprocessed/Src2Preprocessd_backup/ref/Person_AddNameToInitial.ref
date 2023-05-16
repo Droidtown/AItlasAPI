@@ -1,0 +1,176 @@
+{
+    "language": "en-us",
+    "type": "basic",
+    "version": {
+        "atk": "v100",
+        "intent": "1.0"
+    },
+    "user_defined": {},
+    "utterance": {
+        "was a mathematician": {
+            "id": "e6e89471-b131-47c8-bebd-b248028aa83b",
+            "argument": [
+                {
+                    "pos": "CLAUSE_YesNoQ",
+                    "text": "be",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_determiner",
+                    "text": "a",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "mathematician",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "was an English mathematician": {
+            "id": "424a0a50-8fe3-4cd6-9db4-9c993d55d9f1",
+            "argument": [
+                {
+                    "pos": "CLAUSE_YesNoQ",
+                    "text": "be",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_determiner",
+                    "text": "an",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "English",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "mathematician",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "was an English mathematician and writer": {
+            "id": "110dff39-943c-44a8-ba41-fa8647607bbe",
+            "argument": [
+                {
+                    "pos": "CLAUSE_YesNoQ",
+                    "text": "be",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_determiner",
+                    "text": "an",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "English",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "mathematician",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_conjunction",
+                    "text": "and",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "writer",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer": {
+            "id": "c5cffcbb-a667-48be-928d-9260f8d29082",
+            "argument": [
+                {
+                    "pos": "MODIFIER",
+                    "text": "chiefly",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [],
+                    "text": "know",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "for",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_possessive",
+                    "text": "her",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "work",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "RANGE_locality",
+                    "text": "on",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_possessive",
+                    "text": "CharlesBabbage's",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "proposed",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "mechanical",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "general-purpose",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "computer",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        }
+    }
+}
