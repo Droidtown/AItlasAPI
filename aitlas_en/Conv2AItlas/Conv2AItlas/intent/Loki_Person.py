@@ -21,7 +21,7 @@ DEBUG_Person = True
 try:
     userDefinedDICT = json.load(open(os.path.join(os.path.dirname(__file__), "USER_DEFINED.json"), encoding="utf-8"))
 except:
-    userDefinedDICT = {"_PersonName":["Augusta Ada King"]}
+    userDefinedDICT = {"_PersonName":["Albert Camus","Albert Einstein","Alexander Graham Bell","Alexander Hamilton","Alexander III","Alfred Hitchcock","Amelia Mary Earhart","Angelina Jolie","Anne Frank","Annelies Marie Frank","Aphrodite","Ashoka","Augusta Ada King","Augustus","Aung San Suu Kyi","Babe Ruth","Barack Hussein Obama II","Barack Obama","George Herman Ruth","Octavian","Suu Kyi"],"_PersonAward":["Nobel Peace Prize"],"_PersonBirth":["Algerian-born","German-born","Nevisian-born","Scottish-born"]}
 
 # Debug message
 def debugInfo(inputSTR, utterance):

@@ -45,8 +45,10 @@ from requests import post
 from requests import codes
 import math
 try:
+    from intent import Loki_Person_Be
     from intent import Loki_Person
 except:
+    from .intent import Loki_Person_Be
     from .intent import Loki_Person
 
 
@@ -165,6 +167,10 @@ def runLoki(inputLIST, filterLIST=[]):
     if lokiRst.getStatus():
         for index, key in enumerate(inputLIST):
             for resultIndex in range(0, lokiRst.getLokiLen(index)):
+                # Person_Be
+                if lokiRst.getIntent(index, resultIndex) == "Person_Be":
+                    resultDICT = Loki_Person_Be.getResult(key, lokiRst.getUtterance(index, resultIndex), lokiRst.getArgs(index, resultIndex), resultDICT)
+
                 # Person
                 if lokiRst.getIntent(index, resultIndex) == "Person":
                     resultDICT = Loki_Person.getResult(key, lokiRst.getUtterance(index, resultIndex), lokiRst.getArgs(index, resultIndex), resultDICT)
@@ -236,6 +242,12 @@ def testLoki(inputLIST, filterLIST):
         print(resultDICT["msg"])
 
 def testIntent():
+    # Person_Be
+    print("[TEST] Person_Be")
+    inputLIST = ["""Batman is a superhero""","""Augustus was the first Roman emperor""","""Aphrodite is an ancient Greek goddess""","""Augusta Ada King be Countess of Lovelace""","""Alfred Hitchcock was an English filmmaker""","""Ashoka was the third emperor of the Maurya Empire""","""Albert Einstein was a German-born theoretical physicist""","""Amelia Mary Earhart was an American aviation pioneer and writer""","""Alexander Hamilton was a Nevisian-born American military officer""","""Alexander III of Macedon was a king of the ancient Greek kingdom of Macedon""","""Albert Camus was an Algerian-born French philosopher, author, dramatist, and journalist""","""Aung San Suu Kyi is a Burmese politician, diplomat, author, and a 1991 Nobel Peace Prize laureate"""]
+    testLoki(inputLIST, ['Person_Be'])
+    print("")
+
     # Person
     print("[TEST] Person")
     inputLIST = ["""Augusta Ada King be Countess of Lovelace"""]

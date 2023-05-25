@@ -1,0 +1,310 @@
+{
+    "language": "en-us",
+    "type": "basic",
+    "pattern": {
+        "<ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><AUX>[^<]+</AUX><FUNC_determiner>[^<]+</FUNC_determiner><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined>": {
+            "id": "c1213d5e-21b2-4d72-9329-5a6952c0cfc7",
+            "argument": [
+                [
+                    "ENTITY_UserDefined",
+                    0
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    1
+                ]
+            ],
+            "utterance": "[Batman] be a [superhero]"
+        },
+        "<ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><AUX>[^<]+</AUX><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><FUNC>[^<]+</FUNC><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined>": {
+            "id": "e09a5cc8-73db-441d-996d-4a41a6dce8ce",
+            "argument": [
+                [
+                    "ENTITY_UserDefined",
+                    0
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    1
+                ],
+                [
+                    "FUNC",
+                    0
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    2
+                ]
+            ],
+            "utterance": "[Augusta Ada King] be [Countess] [of] [Lovelace]"
+        },
+        "<ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><AUX>[^<]+</AUX><FUNC_determiner>[^<]+</FUNC_determiner><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined>": {
+            "id": "32a8baf3-4cdd-4d32-81f3-2907f1ce8baa",
+            "argument": [
+                [
+                    "ENTITY_UserDefined",
+                    0
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    1
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    2
+                ]
+            ],
+            "utterance": "[Alfred Hitchcock] be an [English] [filmmaker]"
+        },
+        "<ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><AUX>[^<]+</AUX><ENTITY_DetPhrase>the first</ENTITY_DetPhrase><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined>": {
+            "id": "7c014562-0962-4adf-84ac-9aa3cbe32500",
+            "argument": [
+                [
+                    "ENTITY_UserDefined",
+                    0
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    1
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    2
+                ]
+            ],
+            "utterance": "[Augustus] be the first [Roman] [emperor]"
+        },
+        "<ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><AUX>[^<]+</AUX><FUNC_determiner>[^<]+</FUNC_determiner>(<MODIFIER_P>[^<]+</MODIFIER_P>)?<ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined>": {
+            "id": "82bc4c9b-3852-425d-a964-6a6b0773640a",
+            "argument": [
+                [
+                    "ENTITY_UserDefined",
+                    0
+                ],
+                [
+                    "MODIFIER_P",
+                    0
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    1
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    2
+                ]
+            ],
+            "utterance": "[Aphrodite] be an [ancient] [Greek] [goddess]"
+        },
+        "<ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><AUX>[^<]+</AUX><FUNC_determiner>[^<]+</FUNC_determiner><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined>(<MODIFIER_P>[^<]+</MODIFIER_P>)?<ENTITY_UserDefined>[^<]+</ENTITY_UserDefined>": {
+            "id": "efe136f4-e7e3-40db-ac75-8f3762a042fc",
+            "argument": [
+                [
+                    "ENTITY_UserDefined",
+                    0
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    1
+                ],
+                [
+                    "MODIFIER_P",
+                    0
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    2
+                ]
+            ],
+            "utterance": "[Albert Einstein] be a [German-born] [theoretical] [physicist]"
+        },
+        "<ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><AUX>[^<]+</AUX><FUNC_determiner>[^<]+</FUNC_determiner><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined>(<MODIFIER_P>[^<]+</MODIFIER_P>)?<ENTITY_UserDefined>[^<]+</ENTITY_UserDefined>": {
+            "id": "e370e004-70d9-4023-989a-bb6b6d76d1c8",
+            "argument": [
+                [
+                    "ENTITY_UserDefined",
+                    0
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    1
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    2
+                ],
+                [
+                    "MODIFIER_P",
+                    0
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    3
+                ]
+            ],
+            "utterance": "[Alexander Hamilton] be a [Nevisian-born] [American] [military] [officer]"
+        },
+        "<ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><AUX>[^<]+</AUX><ENTITY_DetPhrase>the third</ENTITY_DetPhrase><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><FUNC>[^<]+</FUNC><FUNC_determiner>[^<]+</FUNC_determiner><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined>": {
+            "id": "ae5c03b0-d34d-46f3-be08-5450cb269ea7",
+            "argument": [
+                [
+                    "ENTITY_UserDefined",
+                    0
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    1
+                ],
+                [
+                    "FUNC",
+                    0
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    2
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    3
+                ]
+            ],
+            "utterance": "[Ashoka] be the third [emperor] [of] the [Maurya] [Empire]"
+        },
+        "<ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><AUX>[^<]+</AUX><FUNC_determiner>[^<]+</FUNC_determiner><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><FUNC_conjunction>[^<]+</FUNC_conjunction><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined>": {
+            "id": "72e993de-f526-4321-aa06-a717385a93fb",
+            "argument": [
+                [
+                    "ENTITY_UserDefined",
+                    0
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    1
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    2
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    3
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    4
+                ]
+            ],
+            "utterance": "[Amelia Mary Earhart] be an [American] [aviation] [pioneer] and [writer]"
+        },
+        "<ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><AUX>[^<]+</AUX><FUNC_determiner>[^<]+</FUNC_determiner><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><FUNC_conjunction>[^<]+</FUNC_conjunction><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined>": {
+            "id": "62f036f6-d605-4ef5-8ae3-45b331818e0c",
+            "argument": [
+                [
+                    "ENTITY_UserDefined",
+                    0
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    1
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    2
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    3
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    4
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    5
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    6
+                ]
+            ],
+            "utterance": "[Albert Camus] be an [Algerian-born] [French] [philosopher] , [author] , [dramatist] , and [journalist]"
+        },
+        "<ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><FUNC>[^<]+</FUNC><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><AUX>[^<]+</AUX><FUNC_determiner>[^<]+</FUNC_determiner><ENTITY_classifier>[^<]+</ENTITY_classifier><FUNC_determiner>[^<]+</FUNC_determiner>(<MODIFIER_P>[^<]+</MODIFIER_P>)?<ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><FUNC>[^<]+</FUNC><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined>": {
+            "id": "d7277404-5a3a-4c55-ac27-d73d76b18f95",
+            "argument": [
+                [
+                    "ENTITY_UserDefined",
+                    0
+                ],
+                [
+                    "FUNC",
+                    0
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    1
+                ],
+                [
+                    "ENTITY_classifier",
+                    0
+                ],
+                [
+                    "MODIFIER_P",
+                    0
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    2
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    3
+                ],
+                [
+                    "FUNC",
+                    1
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    4
+                ]
+            ],
+            "utterance": "[Alexander III] [of] [Macedon] be a [king of] the [ancient] [Greek] [kingdom] [of] [Macedon]"
+        },
+        "<ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><AUX>[^<]+</AUX><FUNC_determiner>[^<]+</FUNC_determiner><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><FUNC_conjunction>[^<]+</FUNC_conjunction><FUNC_determiner>[^<]+</FUNC_determiner><ENTITY_num>1991</ENTITY_num><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined><ENTITY_UserDefined>[^<]+</ENTITY_UserDefined>": {
+            "id": "97f0dc14-33d2-442c-bbbf-2d962099587b",
+            "argument": [
+                [
+                    "ENTITY_UserDefined",
+                    0
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    1
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    2
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    3
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    4
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    5
+                ],
+                [
+                    "ENTITY_UserDefined",
+                    6
+                ]
+            ],
+            "utterance": "[Aung San Suu Kyi] be a [Burmese] [politician] , [diplomat] , [author] , and a 1991 [Nobel Peace Prize] [laureate]"
+        }
+    }
+}
