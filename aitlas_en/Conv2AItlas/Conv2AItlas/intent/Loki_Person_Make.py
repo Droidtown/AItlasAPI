@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 """
-    Loki module for Person
+    Loki module for Person_Make
 
     Input:
         inputSTR      str,
@@ -17,7 +17,7 @@
 import json
 import os
 
-DEBUG_Person = True
+DEBUG_Person_Make = True
 try:
     userDefinedDICT = json.load(open(os.path.join(os.path.dirname(__file__), "USER_DEFINED.json"), encoding="utf-8"))
 except:
@@ -25,12 +25,20 @@ except:
 
 # Debug message
 def debugInfo(inputSTR, utterance):
-    if DEBUG_Person:
-        print("[Person] {} ===> {}".format(inputSTR, utterance))
+    if DEBUG_Person_Make:
+        print("[Person_Make] {} ===> {}".format(inputSTR, utterance))
 
 def getResult(inputSTR, utterance, args, resultDICT):
     debugInfo(inputSTR, utterance)
-    if utterance == "[Augusta Ada King] be [Countess] [of] [Lovelace]":
+    if utterance == "[Babe Ruth] make [many] [public] [appearances]":
+        # write your code here
+        pass
+
+    if utterance == "[He] make [peace] [with] the [Parthian Empire] [through] [diplomacy]":
+        # write your code here
+        pass
+
+    if utterance == "[Jackson] make [his] [professional] [theatre] debut [in] [Mother Courage and her Children] [in 1980]":
         # write your code here
         pass
 

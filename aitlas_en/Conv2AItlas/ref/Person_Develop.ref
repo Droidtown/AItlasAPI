@@ -1,0 +1,292 @@
+{
+    "language": "en-us",
+    "type": "basic",
+    "version": {
+        "atk": "v100",
+        "intent": "1.0"
+    },
+    "user_defined": {
+        "_PersonName": [
+            "Albert Camus",
+            "Albert Einstein",
+            "Alexander Graham Bell",
+            "Alexander Hamilton",
+            "Alexander III",
+            "Alfred Hitchcock",
+            "Amelia Mary Earhart",
+            "Angelina Jolie",
+            "Anne Frank",
+            "Annelies Marie Frank",
+            "Aphrodite",
+            "Ashoka",
+            "Augusta Ada King",
+            "Augustus",
+            "Aung San Suu Kyi",
+            "Babe Ruth",
+            "Barack Hussein Obama II",
+            "Barack Obama",
+            "George Herman Ruth",
+            "Octavian",
+            "Suu Kyi",
+            "Obama",
+            "Osama bin Laden",
+            "William Shakespeare",
+            "Shakespeare",
+            "Voltaire",
+            "Van Gogh",
+            "Salvador Dali",
+            "Samuel Jackson",
+            "Jackson",
+            "Ronald Reagan"
+        ],
+        "_PersonAward": [
+            "Nobel Peace Prize",
+            "Nobel Prize",
+            "BAFTA Fellowship",
+            "Distinguished Flying Cross",
+            "Tony Award",
+            "Best Featured Actor in a Play"
+        ],
+        "_PersonBirth": [
+            "Algerian-born",
+            "German-born",
+            "Nevisian-born",
+            "Scottish-born"
+        ],
+        "_PersonDisease": [
+            "nasopharyngeal cancer"
+        ],
+        "_PersonArtStyle": [
+            "Cubism",
+            "avant-garde",
+            "Impressionism",
+            "nuclear mysticism"
+        ],
+        "_PersonOrganization": [
+            "Praetorian Guard",
+            "Parthian Empire",
+            "Roman Empire",
+            "AL",
+            "American League",
+            "Mother Courage and her Children"
+        ]
+    },
+    "utterance": {
+        "He developed his \"nuclear mysticism\" style": {
+            "id": "a640ed3b-0ec4-4909-9bf2-8ecb3964ff80",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "He",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "unravel",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "unfold",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "uncover",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "promote",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "project",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "lay open",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "exhibit",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "evolve",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "disentangle",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "disclose",
+                            "level": "tier_2",
+                            "checked": false
+                        }
+                    ],
+                    "text": "develop",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "his",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "PUNCTUATION",
+                    "text": "\"",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "nuclear mysticism",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "PUNCTUATION",
+                    "text": "\"",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "style",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        },
+        "He developed networks of roads with an official courier system": {
+            "id": "83bb95cd-e2a0-4656-bfef-2e12c78dacd9",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "He",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "unravel",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "unfold",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "uncover",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "promote",
+                            "level": "tier_2",
+                            "checked": true
+                        },
+                        {
+                            "text": "project",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "lay open",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "exhibit",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "evolve",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "disentangle",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "disclose",
+                            "level": "tier_2",
+                            "checked": false
+                        }
+                    ],
+                    "text": "develop",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "networks",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "of",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "roads",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "with",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_determiner",
+                    "text": "an",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "official",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "courier",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "system",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        }
+    }
+}

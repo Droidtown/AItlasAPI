@@ -1,0 +1,232 @@
+{
+    "language": "en-us",
+    "type": "basic",
+    "version": {
+        "atk": "v100",
+        "intent": "1.0"
+    },
+    "user_defined": {
+        "_PersonName": [
+            "Albert Camus",
+            "Albert Einstein",
+            "Alexander Graham Bell",
+            "Alexander Hamilton",
+            "Alexander III",
+            "Alfred Hitchcock",
+            "Amelia Mary Earhart",
+            "Angelina Jolie",
+            "Anne Frank",
+            "Annelies Marie Frank",
+            "Aphrodite",
+            "Ashoka",
+            "Augusta Ada King",
+            "Augustus",
+            "Aung San Suu Kyi",
+            "Babe Ruth",
+            "Barack Hussein Obama II",
+            "Barack Obama",
+            "George Herman Ruth",
+            "Octavian",
+            "Suu Kyi",
+            "Obama",
+            "Osama bin Laden",
+            "William Shakespeare",
+            "Shakespeare",
+            "Voltaire",
+            "Van Gogh",
+            "Salvador Dali",
+            "Samuel Jackson",
+            "Jackson",
+            "Ronald Reagan"
+        ],
+        "_PersonAward": [
+            "Nobel Peace Prize",
+            "Nobel Prize",
+            "BAFTA Fellowship",
+            "Distinguished Flying Cross",
+            "Tony Award",
+            "Best Featured Actor in a Play"
+        ],
+        "_PersonBirth": [
+            "Algerian-born",
+            "German-born",
+            "Nevisian-born",
+            "Scottish-born"
+        ],
+        "_PersonDisease": [
+            "nasopharyngeal cancer"
+        ],
+        "_PersonArtStyle": [
+            "Cubism",
+            "avant-garde",
+            "Impressionism",
+            "nuclear mysticism"
+        ],
+        "_PersonOrganization": [
+            "Praetorian Guard",
+            "Parthian Empire",
+            "Roman Empire",
+            "AL",
+            "American League",
+            "Mother Courage and her Children"
+        ]
+    },
+    "utterance": {
+        "He wrote more than 20000 letters and 2000 books and pamphlets": {
+            "id": "6f928b44-3340-4479-8ce6-4fcc1a3ca36e",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "He",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [],
+                    "text": "write",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "QUANTIFIER",
+                    "text": "more",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "than",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "20000",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "letters",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_conjunction",
+                    "text": "and",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "2000",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "books",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_conjunction",
+                    "text": "and",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "pamphlets",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "He also wrote fiction, poetry, autobiography, essays, and criticism": {
+            "id": "4291272c-3653-44a8-9a07-176f83747723",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "He",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "also",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [],
+                    "text": "write",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "fiction",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "PUNCTUATION",
+                    "text": ",",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "poetry",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "PUNCTUATION",
+                    "text": ",",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "autobiography",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "PUNCTUATION",
+                    "text": ",",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "essays",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "PUNCTUATION",
+                    "text": ",",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_conjunction",
+                    "text": "and",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "criticism",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        }
+    }
+}

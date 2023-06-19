@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 """
-    Loki module for Person
+    Loki module for Person_Order
 
     Input:
         inputSTR      str,
@@ -17,7 +17,7 @@
 import json
 import os
 
-DEBUG_Person = True
+DEBUG_Person_Order = True
 try:
     userDefinedDICT = json.load(open(os.path.join(os.path.dirname(__file__), "USER_DEFINED.json"), encoding="utf-8"))
 except:
@@ -25,12 +25,16 @@ except:
 
 # Debug message
 def debugInfo(inputSTR, utterance):
-    if DEBUG_Person:
-        print("[Person] {} ===> {}".format(inputSTR, utterance))
+    if DEBUG_Person_Order:
+        print("[Person_Order] {} ===> {}".format(inputSTR, utterance))
 
 def getResult(inputSTR, utterance, args, resultDICT):
     debugInfo(inputSTR, utterance)
-    if utterance == "[Augusta Ada King] be [Countess] [of] [Lovelace]":
+    if utterance == "[He] [ordered] the [counterterrorism] [raid] which kill [Osama bin Laden]":
+        # write your code here
+        pass
+
+    if utterance == "[He] [ordered] the [invasion] [of] [Grenada] [in 1983]":
         # write your code here
         pass
 

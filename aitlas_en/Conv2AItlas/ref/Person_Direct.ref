@@ -72,36 +72,89 @@
         ]
     },
     "utterance": {
-        "Augusta Ada King be Countess of Lovelace": {
-            "id": "c87435b9-04d8-438f-b591-b478ce257257",
+        "He directed over 50 feature films": {
+            "id": "47a9e20b-6a3c-4222-b1aa-1f9c1e040b15",
             "argument": [
                 {
-                    "pos": "UserDefined",
-                    "text": "Augusta Ada King",
+                    "pos": "ENTITY_pronoun",
+                    "text": "He",
                     "checked": true,
-                    "checkbox": true
+                    "checkbox": false
                 },
                 {
-                    "pos": "AUX",
-                    "text": "be",
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "regulate",
+                            "level": "tier_2",
+                            "checked": true
+                        },
+                        {
+                            "text": "order",
+                            "level": "tier_2",
+                            "checked": true
+                        },
+                        {
+                            "text": "manage",
+                            "level": "tier_2",
+                            "checked": true
+                        },
+                        {
+                            "text": "lead",
+                            "level": "tier_2",
+                            "checked": true
+                        },
+                        {
+                            "text": "instruct",
+                            "level": "tier_2",
+                            "checked": true
+                        },
+                        {
+                            "text": "guide",
+                            "level": "tier_2",
+                            "checked": true
+                        },
+                        {
+                            "text": "dispose",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "conduct",
+                            "level": "tier_2",
+                            "checked": true
+                        },
+                        {
+                            "text": "command",
+                            "level": "tier_2",
+                            "checked": true
+                        }
+                    ],
+                    "text": "direct",
                     "checked": false,
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_nouny",
-                    "text": "Countess",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "FUNC_inner",
-                    "text": "of",
+                    "pos": "RANGE_locality",
+                    "text": "over",
                     "checked": true,
                     "checkbox": false
                 },
                 {
+                    "pos": "ENTITY_num",
+                    "text": "50",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "feature",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
                     "pos": "ENTITY_oov",
-                    "text": "Lovelace",
+                    "text": "films",
                     "checked": true,
                     "checkbox": true
                 }

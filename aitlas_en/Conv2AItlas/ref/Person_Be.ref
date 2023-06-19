@@ -27,16 +27,48 @@
             "Barack Obama",
             "George Herman Ruth",
             "Octavian",
-            "Suu Kyi"
+            "Suu Kyi",
+            "Obama",
+            "Osama bin Laden",
+            "William Shakespeare",
+            "Shakespeare",
+            "Voltaire",
+            "Van Gogh",
+            "Salvador Dali",
+            "Samuel Jackson",
+            "Jackson",
+            "Ronald Reagan"
         ],
         "_PersonAward": [
-            "Nobel Peace Prize"
+            "Nobel Peace Prize",
+            "Nobel Prize",
+            "BAFTA Fellowship",
+            "Distinguished Flying Cross",
+            "Tony Award",
+            "Best Featured Actor in a Play"
         ],
         "_PersonBirth": [
             "Algerian-born",
             "German-born",
             "Nevisian-born",
             "Scottish-born"
+        ],
+        "_PersonDisease": [
+            "nasopharyngeal cancer"
+        ],
+        "_PersonArtStyle": [
+            "Cubism",
+            "avant-garde",
+            "Impressionism",
+            "nuclear mysticism"
+        ],
+        "_PersonOrganization": [
+            "Praetorian Guard",
+            "Parthian Empire",
+            "Roman Empire",
+            "AL",
+            "American League",
+            "Mother Courage and her Children"
         ]
     },
     "utterance": {
@@ -210,6 +242,53 @@
                 {
                     "pos": "ENTITY_nouny",
                     "text": "filmmaker",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "Voltaire was an advocate of freedom of speech": {
+            "id": "0320d9cc-e0d0-4b2f-9964-d0c91e2986bc",
+            "argument": [
+                {
+                    "pos": "UserDefined",
+                    "text": "Voltaire",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "AUX",
+                    "text": "be",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_determiner",
+                    "text": "an",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "advocate of",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "freedom",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "of",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "speech",
                     "checked": true,
                     "checkbox": true
                 }
@@ -661,6 +740,90 @@
                     "text": "laureate",
                     "checked": true,
                     "checkbox": true
+                }
+            ]
+        },
+        "Voltaire was one of the first authors to become renowned and commercially successful internationally": {
+            "id": "5eb87588-f746-4e96-b5c2-ab8d3b9c65b9",
+            "argument": [
+                {
+                    "pos": "UserDefined",
+                    "text": "Voltaire",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "AUX",
+                    "text": "be",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "one",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "of",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_DetPhrase",
+                    "text": "the first",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "authors",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "to",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [],
+                    "text": "become",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "renowned",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_conjunction",
+                    "text": "and",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "commercially",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "successful",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "internationally",
+                    "checked": false,
+                    "checkbox": false
                 }
             ]
         }

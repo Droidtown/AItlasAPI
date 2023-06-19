@@ -72,24 +72,36 @@
         ]
     },
     "utterance": {
-        "Augusta Ada King be Countess of Lovelace": {
-            "id": "c87435b9-04d8-438f-b591-b478ce257257",
+        "He reformed the Roman system of taxation": {
+            "id": "29621bfd-f46d-4a38-b84c-326f3d0737db",
             "argument": [
                 {
-                    "pos": "UserDefined",
-                    "text": "Augusta Ada King",
+                    "pos": "ENTITY_pronoun",
+                    "text": "He",
                     "checked": true,
-                    "checkbox": true
+                    "checkbox": false
                 },
                 {
-                    "pos": "AUX",
-                    "text": "be",
+                    "pos": "MODIFIER",
+                    "text": "reformed",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_determiner",
+                    "text": "the",
                     "checked": false,
                     "checkbox": false
                 },
                 {
                     "pos": "ENTITY_nouny",
-                    "text": "Countess",
+                    "text": "Roman",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "system",
                     "checked": true,
                     "checkbox": true
                 },
@@ -100,8 +112,8 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_oov",
-                    "text": "Lovelace",
+                    "pos": "ENTITY_nouny",
+                    "text": "taxation",
                     "checked": true,
                     "checkbox": true
                 }

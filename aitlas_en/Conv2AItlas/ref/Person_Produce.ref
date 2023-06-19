@@ -72,26 +72,27 @@
         ]
     },
     "utterance": {
-        "Augusta Ada King be Countess of Lovelace": {
-            "id": "c87435b9-04d8-438f-b591-b478ce257257",
+        "Shakespeare produced most of his known works between 1589 and 1613": {
+            "id": "36580f35-f6fb-41a2-8100-718b42b6fcf2",
             "argument": [
                 {
                     "pos": "UserDefined",
-                    "text": "Augusta Ada King",
+                    "text": "Shakespeare",
                     "checked": true,
                     "checkbox": true
                 },
                 {
-                    "pos": "AUX",
-                    "text": "be",
+                    "pos": "ACTION_verb",
+                    "lexy": [],
+                    "text": "produce",
                     "checked": false,
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_nouny",
-                    "text": "Countess",
-                    "checked": true,
-                    "checkbox": true
+                    "pos": "QUANTIFIER",
+                    "text": "most",
+                    "checked": false,
+                    "checkbox": false
                 },
                 {
                     "pos": "FUNC_inner",
@@ -100,8 +101,45 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_oov",
-                    "text": "Lovelace",
+                    "pos": "ENTITY_pronoun",
+                    "text": "his",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "known",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [],
+                    "text": "work",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "between",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "1589",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_conjunction",
+                    "text": "and",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "1613",
                     "checked": true,
                     "checkbox": true
                 }

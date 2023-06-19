@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 """
-    Loki module for Person_Be
+    Loki module for Person_Receive
 
     Input:
         inputSTR      str,
@@ -17,7 +17,7 @@
 import json
 import os
 
-DEBUG_Person_Be = True
+DEBUG_Person_Receive = True
 try:
     userDefinedDICT = json.load(open(os.path.join(os.path.dirname(__file__), "USER_DEFINED.json"), encoding="utf-8"))
 except:
@@ -25,64 +25,36 @@ except:
 
 # Debug message
 def debugInfo(inputSTR, utterance):
-    if DEBUG_Person_Be:
-        print("[Person_Be] {} ===> {}".format(inputSTR, utterance))
+    if DEBUG_Person_Receive:
+        print("[Person_Receive] {} ===> {}".format(inputSTR, utterance))
 
 def getResult(inputSTR, utterance, args, resultDICT):
     debugInfo(inputSTR, utterance)
-    if utterance == "[Albert Camus] be an [Algerian-born] [French] [philosopher] , [author] , [dramatist] , and [journalist]":
+    if utterance == "[Dali] receive [his] [formal] [education] [in] [fine] [arts] [in] [Madrid]":
         # write your code here
         pass
 
-    if utterance == "[Albert Einstein] be a [German-born] [theoretical] [physicist]":
+    if utterance == "[He] receive a [Tony Award] [for] [Best Featured Actor in a Play] [nomination]":
         # write your code here
         pass
 
-    if utterance == "[Alexander Hamilton] be a [Nevisian-born] [American] [military] [officer]":
+    if utterance == "[He] receive the [1921] [Nobel Prize] [in] [Physics]":
         # write your code here
         pass
 
-    if utterance == "[Alexander III] [of] [Macedon] be a [king of] the [ancient] [Greek] [kingdom] [of] [Macedon]":
+    if utterance == "[He] receive the [BAFTA Fellowship] [in 1971]":
         # write your code here
         pass
 
-    if utterance == "[Alfred Hitchcock] be an [English] [filmmaker]":
+    if utterance == "[Obama] receive [national] [attention] [in 2004] [with] [his] [March] [Senate] [primary] win":
         # write your code here
         pass
 
-    if utterance == "[Amelia Mary Earhart] be an [American] [aviation] [pioneer] and [writer]":
+    if utterance == "[She] receive [critical] [acclaim] [for] her [performances] [in] the [drama]":
         # write your code here
         pass
 
-    if utterance == "[Aphrodite] be an [ancient] [Greek] [goddess]":
-        # write your code here
-        pass
-
-    if utterance == "[Ashoka] be the third [emperor] [of] the [Maurya] [Empire]":
-        # write your code here
-        pass
-
-    if utterance == "[Augusta Ada King] be [Countess] [of] [Lovelace]":
-        # write your code here
-        pass
-
-    if utterance == "[Augustus] be the first [Roman] [emperor]":
-        # write your code here
-        pass
-
-    if utterance == "[Aung San Suu Kyi] be a [Burmese] [politician] , [diplomat] , [author] , and a 1991 [Nobel Peace Prize] [laureate]":
-        # write your code here
-        pass
-
-    if utterance == "[Batman] be a [superhero]":
-        # write your code here
-        pass
-
-    if utterance == "[Voltaire] be [one] [of] the first [authors] [to] become [renowned] and [commercially] [successful] [internationally]":
-        # write your code here
-        pass
-
-    if utterance == "[Voltaire] be an [advocate of] [freedom] [of] [speech]":
+    if utterance == "[She] receive the [United States] [Distinguished Flying Cross] [for] this [accomplishment]":
         # write your code here
         pass
 

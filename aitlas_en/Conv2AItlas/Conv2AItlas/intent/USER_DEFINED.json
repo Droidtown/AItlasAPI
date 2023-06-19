@@ -20,15 +20,47 @@
         "Barack Obama",
         "George Herman Ruth",
         "Octavian",
-        "Suu Kyi"
+        "Suu Kyi",
+        "Obama",
+        "Osama bin Laden",
+        "William Shakespeare",
+        "Shakespeare",
+        "Voltaire",
+        "Van Gogh",
+        "Salvador Dali",
+        "Samuel Jackson",
+        "Jackson",
+        "Ronald Reagan"
     ],
     "_PersonAward": [
-        "Nobel Peace Prize"
+        "Nobel Peace Prize",
+        "Nobel Prize",
+        "BAFTA Fellowship",
+        "Distinguished Flying Cross",
+        "Tony Award",
+        "Best Featured Actor in a Play"
     ],
     "_PersonBirth": [
         "Algerian-born",
         "German-born",
         "Nevisian-born",
         "Scottish-born"
+    ],
+    "_PersonDisease": [
+        "nasopharyngeal cancer"
+    ],
+    "_PersonArtStyle": [
+        "Cubism",
+        "avant-garde",
+        "Impressionism",
+        "nuclear mysticism"
+    ],
+    "_PersonOrganization": [
+        "Praetorian Guard",
+        "Parthian Empire",
+        "Roman Empire",
+        "AL",
+        "American League",
+        "Mother Courage and her Children"
     ]
 }

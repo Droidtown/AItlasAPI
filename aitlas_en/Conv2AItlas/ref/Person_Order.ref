@@ -1,0 +1,203 @@
+{
+    "language": "en-us",
+    "type": "basic",
+    "version": {
+        "atk": "v100",
+        "intent": "1.0"
+    },
+    "user_defined": {
+        "_PersonName": [
+            "Albert Camus",
+            "Albert Einstein",
+            "Alexander Graham Bell",
+            "Alexander Hamilton",
+            "Alexander III",
+            "Alfred Hitchcock",
+            "Amelia Mary Earhart",
+            "Angelina Jolie",
+            "Anne Frank",
+            "Annelies Marie Frank",
+            "Aphrodite",
+            "Ashoka",
+            "Augusta Ada King",
+            "Augustus",
+            "Aung San Suu Kyi",
+            "Babe Ruth",
+            "Barack Hussein Obama II",
+            "Barack Obama",
+            "George Herman Ruth",
+            "Octavian",
+            "Suu Kyi",
+            "Obama",
+            "Osama bin Laden",
+            "William Shakespeare",
+            "Shakespeare",
+            "Voltaire",
+            "Van Gogh",
+            "Salvador Dali",
+            "Samuel Jackson",
+            "Jackson",
+            "Ronald Reagan"
+        ],
+        "_PersonAward": [
+            "Nobel Peace Prize",
+            "Nobel Prize",
+            "BAFTA Fellowship",
+            "Distinguished Flying Cross",
+            "Tony Award",
+            "Best Featured Actor in a Play"
+        ],
+        "_PersonBirth": [
+            "Algerian-born",
+            "German-born",
+            "Nevisian-born",
+            "Scottish-born"
+        ],
+        "_PersonDisease": [
+            "nasopharyngeal cancer"
+        ],
+        "_PersonArtStyle": [
+            "Cubism",
+            "avant-garde",
+            "Impressionism",
+            "nuclear mysticism"
+        ],
+        "_PersonOrganization": [
+            "Praetorian Guard",
+            "Parthian Empire",
+            "Roman Empire",
+            "AL",
+            "American League",
+            "Mother Courage and her Children"
+        ]
+    },
+    "utterance": {
+        "He ordered the invasion of Grenada in 1983": {
+            "id": "e8883340-ba40-4dc1-a4d5-67d6f026e76a",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "He",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "ordered",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_determiner",
+                    "text": "the",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "invasion",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "of",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "Grenada",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "TIME_year",
+                    "text": "in 1983",
+                    "checked": true,
+                    "checkbox": false
+                }
+            ]
+        },
+        "He ordered the counterterrorism raid which killed Osama bin Laden": {
+            "id": "a9f1b318-432c-4727-9be3-11bc709c8d61",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "He",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "ordered",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_determiner",
+                    "text": "the",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "counterterrorism",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "raid",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "which",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "slay",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "murder",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "destroy",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "butcher",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "assassinate",
+                            "level": "tier_2",
+                            "checked": false
+                        }
+                    ],
+                    "text": "kill",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "Osama bin Laden",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        }
+    }
+}

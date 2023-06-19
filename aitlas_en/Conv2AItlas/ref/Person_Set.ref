@@ -72,38 +72,46 @@
         ]
     },
     "utterance": {
-        "Augusta Ada King be Countess of Lovelace": {
-            "id": "c87435b9-04d8-438f-b591-b478ce257257",
+        "She set many other records": {
+            "id": "3d82591d-1425-4dcc-9eb6-cab2a3aeecf1",
             "argument": [
                 {
-                    "pos": "UserDefined",
-                    "text": "Augusta Ada King",
+                    "pos": "ENTITY_pronoun",
+                    "text": "She",
                     "checked": true,
-                    "checkbox": true
+                    "checkbox": false
                 },
                 {
-                    "pos": "AUX",
-                    "text": "be",
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "put",
+                            "level": "tier_2",
+                            "checked": false
+                        }
+                    ],
+                    "text": "set",
                     "checked": false,
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_nouny",
-                    "text": "Countess",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "FUNC_inner",
-                    "text": "of",
-                    "checked": true,
+                    "pos": "QUANTIFIER",
+                    "text": "many",
+                    "checked": false,
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_oov",
-                    "text": "Lovelace",
-                    "checked": true,
-                    "checkbox": true
+                    "pos": "MODIFIER",
+                    "text": "other",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [],
+                    "text": "record",
+                    "checked": false,
+                    "checkbox": false
                 }
             ]
         }

@@ -1,0 +1,705 @@
+{
+    "language": "en-us",
+    "type": "basic",
+    "version": {
+        "atk": "v100",
+        "intent": "1.0"
+    },
+    "user_defined": {
+        "_PersonName": [
+            "Albert Camus",
+            "Albert Einstein",
+            "Alexander Graham Bell",
+            "Alexander Hamilton",
+            "Alexander III",
+            "Alfred Hitchcock",
+            "Amelia Mary Earhart",
+            "Angelina Jolie",
+            "Anne Frank",
+            "Annelies Marie Frank",
+            "Aphrodite",
+            "Ashoka",
+            "Augusta Ada King",
+            "Augustus",
+            "Aung San Suu Kyi",
+            "Babe Ruth",
+            "Barack Hussein Obama II",
+            "Barack Obama",
+            "George Herman Ruth",
+            "Octavian",
+            "Suu Kyi",
+            "Obama",
+            "Osama bin Laden",
+            "William Shakespeare",
+            "Shakespeare",
+            "Voltaire",
+            "Van Gogh",
+            "Salvador Dali",
+            "Samuel Jackson",
+            "Jackson",
+            "Ronald Reagan"
+        ],
+        "_PersonAward": [
+            "Nobel Peace Prize",
+            "Nobel Prize",
+            "BAFTA Fellowship",
+            "Distinguished Flying Cross",
+            "Tony Award",
+            "Best Featured Actor in a Play"
+        ],
+        "_PersonBirth": [
+            "Algerian-born",
+            "German-born",
+            "Nevisian-born",
+            "Scottish-born"
+        ],
+        "_PersonDisease": [
+            "nasopharyngeal cancer"
+        ],
+        "_PersonArtStyle": [
+            "Cubism",
+            "avant-garde",
+            "Impressionism",
+            "nuclear mysticism"
+        ],
+        "_PersonOrganization": [
+            "Praetorian Guard",
+            "Parthian Empire",
+            "Roman Empire",
+            "AL",
+            "American League",
+            "Mother Courage and her Children"
+        ]
+    },
+    "utterance": {
+        "He received the BAFTA Fellowship in 1971": {
+            "id": "6b271ee2-cb05-4540-84c4-a3c74a0dde09",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "He",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "take",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "retain",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "hold",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "allow",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "admit",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "accept",
+                            "level": "tier_2",
+                            "checked": false
+                        }
+                    ],
+                    "text": "receive",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_determiner",
+                    "text": "the",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "BAFTA Fellowship",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "TIME_year",
+                    "text": "in 1971",
+                    "checked": true,
+                    "checkbox": false
+                }
+            ]
+        },
+        "He received the 1921 Nobel Prize in Physics": {
+            "id": "35202351-a227-404e-be80-ad659b3789e8",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "He",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "take",
+                            "level": "tier_2",
+                            "checked": true
+                        },
+                        {
+                            "text": "retain",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "hold",
+                            "level": "tier_2",
+                            "checked": true
+                        },
+                        {
+                            "text": "allow",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "admit",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "accept",
+                            "level": "tier_2",
+                            "checked": true
+                        }
+                    ],
+                    "text": "receive",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_determiner",
+                    "text": "the",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "1921",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "Nobel Prize",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "RANGE_locality",
+                    "text": "in",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "Physics",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "Dali received his formal education in fine arts in Madrid": {
+            "id": "d2f3bfef-5595-4338-87d3-3dc8dd02cecc",
+            "argument": [
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "Dali",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "take",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "retain",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "hold",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "allow",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "admit",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "accept",
+                            "level": "tier_2",
+                            "checked": false
+                        }
+                    ],
+                    "text": "receive",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "his",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "formal",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "education",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "RANGE_locality",
+                    "text": "in",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "fine",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "arts",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "RANGE_locality",
+                    "text": "in",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "Madrid",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "She received critical acclaim for her performances in the drama ": {
+            "id": "afdb680e-5597-4062-b3ee-4fa88ae57b16",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "She",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "take",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "retain",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "hold",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "allow",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "admit",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "accept",
+                            "level": "tier_2",
+                            "checked": false
+                        }
+                    ],
+                    "text": "receive",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "critical",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "acclaim",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "for",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_possessive",
+                    "text": "her",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "performances",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "RANGE_locality",
+                    "text": "in",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_determiner",
+                    "text": "the",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "drama",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "He received a Tony Award for Best Featured Actor in a Play nomination": {
+            "id": "60a590cc-02e7-40c6-80f8-df5be09b2965",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "He",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "take",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "retain",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "hold",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "allow",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "admit",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "accept",
+                            "level": "tier_2",
+                            "checked": false
+                        }
+                    ],
+                    "text": "receive",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_determiner",
+                    "text": "a",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "Tony Award",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "for",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "Best Featured Actor in a Play",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "nomination",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "Obama received national attention in 2004 with his March Senate primary win": {
+            "id": "9ec22c8d-6020-4e45-ac56-2407d86551a2",
+            "argument": [
+                {
+                    "pos": "UserDefined",
+                    "text": "Obama",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "take",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "retain",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "hold",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "allow",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "admit",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "accept",
+                            "level": "tier_2",
+                            "checked": false
+                        }
+                    ],
+                    "text": "receive",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "national",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "attention",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "TIME_year",
+                    "text": "in 2004",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "with",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "his",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "TIME_month",
+                    "text": "March",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "Senate",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "primary",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "procure",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "get",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "gain",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "earn",
+                            "level": "tier_2",
+                            "checked": false
+                        }
+                    ],
+                    "text": "win",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "She received the United States Distinguished Flying Cross for this accomplishment": {
+            "id": "c6a1d775-ffd7-49b1-9b86-72f2869aa4a2",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "She",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "take",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "retain",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "hold",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "allow",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "admit",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "accept",
+                            "level": "tier_2",
+                            "checked": false
+                        }
+                    ],
+                    "text": "receive",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_determiner",
+                    "text": "the",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "United States",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "Distinguished Flying Cross",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "for",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_determiner",
+                    "text": "this",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "accomplishment",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        }
+    }
+}
