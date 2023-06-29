@@ -37,7 +37,7 @@ def main(entryDIR):
 
 if __name__ == "__main__":
     personLIST = []
-    for init_s in os.listdir(dataDIR):
+    for init_s in os.listdir(dataDIR)[:3]:
         if init_s.startswith("._"):
             pass
         else:
