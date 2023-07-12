@@ -9,8 +9,8 @@ import re
 purgePat = re.compile("</?\w+(_+\w?)?>")
 pronounDropPat = re.compile("^<ENTITY_pronoun>[^<]+</ENTITY_pronoun>|^<ENTITY_person>[^<]+</ENTITY_person>")
 innerDropPat = re.compile("^<FUNC_inner>[^<]+</FUNC_inner>")
-username = "peter.w@droidtown.co" #這裡填入您在 https://api.droidtown.co 使用的帳號 email。若使用空字串，則預設使用每小時 2000 字的公用額度。
-apikey   = "EnVFPaXLkq-OwWkW2Rw-@yrrcfqWS-&" #這裡填入您在 https://api.droidtown.co 登入後取得的 api Key。若使用空字串，則預設使用每小時 2000 字的公用額度。
+username = "*********" #這裡填入您在 https://api.droidtown.co 使用的帳號 email。若使用空字串，則預設使用每小時 2000 字的公用額度。
+apikey   = "*********" #這裡填入您在 https://api.droidtown.co 登入後取得的 api Key。若使用空字串，則預設使用每小時 2000 字的公用額度。
 
 articut = Articut(username, apikey)
 topicNameLIST = []
@@ -37,8 +37,8 @@ url = "https://api.droidtown.co/Loki/Call/"
 
 # create intent
 payload = {
-    #"username" : "peter.w@droidtown.co", # 這裡填入您在 https://api.droidtown.co 使用的帳號 email。     Docker 版不需要此參數！
-    #"loki_key" : "_EWl=uo65G3k+=qcV#CmNLW7eORhS2G", # 這裡填入您在 https://api.droidtown.co 登入後取得的 loki_key。 Docker 版不需要此參數！
+    #"username" : "*********", # 這裡填入您在 https://api.droidtown.co 使用的帳號 email。     Docker 版不需要此參數！
+    #"loki_key" : "*********", # 這裡填入您在 https://api.droidtown.co 登入後取得的 loki_key。 Docker 版不需要此參數！
     "project": "myProj", #專案名稱
     "intent": "Lead_01", #意圖名稱
     "func": "create_intent",
@@ -67,8 +67,8 @@ response = post(url, json=payload).json()
 
 # insert utterance
 payload = {
-    #"username" : "peter.w@droidtown.co", # 這裡填入您在 https://api.droidtown.co 使用的帳號 email。     Docker 版不需要此參數！
-    #"loki_key" : "_EWl=uo65G3k+=qcV#CmNLW7eORhS2G", # 這裡填入您在 https://api.droidtown.co 登入後取得的 loki_key。 Docker 版不需要此參數！
+    #"username" : "*********", # 這裡填入您在 https://api.droidtown.co 使用的帳號 email。     Docker 版不需要此參數！
+    #"loki_key" : "*********", # 這裡填入您在 https://api.droidtown.co 登入後取得的 loki_key。 Docker 版不需要此參數！
     "project": "myProj", #專案名稱
     "intent": "Lead_01", #意圖名稱
     "func": "insert_utterance",
