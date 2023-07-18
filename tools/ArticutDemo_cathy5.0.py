@@ -12,7 +12,7 @@ purgePat = re.compile("</?\w+(_+\w?)?>")
 pronounDropPat = re.compile("^<ENTITY_pronoun>[^<]+</ENTITY_pronoun>|^<ENTITY_person>[^<]+</ENTITY_person>")
 innerDropPat = re.compile("^<FUNC_inner>[^<]+</FUNC_inner>")
 username = "anching.cathy@gmail.com" #這裡填入您在 https://api.droidtown.co 使用的帳號 email。若使用空字串，則預設使用每小時 2000 字的公用額度。
-apikey   = "uIESx@v2Z6o*Rq!Os-c=ew3e4IXQ+Hi" #這裡填入您在 https://api.droidtown.co 登入後取得的 api Key。若使用空字串，則預設使用每小時 2000 字的公用額度。
+apikey   = "******************" #這裡填入您在 https://api.droidtown.co 登入後取得的 api Key。若使用空字串，則預設使用每小時 2000 字的公用額度。
 
 
 #folder_path = "../data/People1607" #資料夾是中文字的檔名（即不包括表情符號.英文字.數字）
@@ -64,7 +64,7 @@ def get_verbs_from_abstracts(folder_path,s):  #s 代表要從第幾筆開始跑
                         ## create intent
                         #payload = {
                             #"username" : "anching.cathy@gmail.com", # 這裡填入您在 https://api.droidtown.co 使用的帳號 email。     Docker 版不需要此參數！
-                            #"loki_key" : "&SgMje@XLuKPjo_=okCi@p2uq9QbgmX", # 這裡填入您在 https://api.droidtown.co 登入後取得的 loki_key。 Docker 版不需要此參數！
+                            #"loki_key" : "**********************", # 這裡填入您在 https://api.droidtown.co 登入後取得的 loki_key。 Docker 版不需要此參數！
                             #"project": "JiouProj", #專案名稱
                             #"intent": "danlen", #意圖名稱
                             #"func": "create_intent",
@@ -75,7 +75,7 @@ def get_verbs_from_abstracts(folder_path,s):  #s 代表要從第幾筆開始跑
                         ## insert utterance
                         payload = {
                             "username" : "anching.cathy@gmail.com", # 這裡填入您在 https://api.droidtown.co 使用的帳號 email。     Docker 版不需要此參數！
-                            "loki_key" : "&SgMje@XLuKPjo_=okCi@p2uq9QbgmX", # 這裡填入您在 https://api.droidtown.co 登入後取得的 loki_key。 Docker 版不需要此參數！
+                            "loki_key" : "***********************", # 這裡填入您在 https://api.droidtown.co 登入後取得的 loki_key。 Docker 版不需要此參數！
                             "project": "JiouProj", #專案名稱
                             "intent": "danlen", #意圖名稱
                             "func": "insert_utterance",
