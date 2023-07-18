@@ -129,7 +129,7 @@ def run_get_verbs(start, end):
     print(f"跑了{end-start}共花了""{:.1f}秒".format(end_time - start_time)) 
 
 ### 調整
-run_get_verbs(23000, 23100)
+run_get_verbs(23000, 24000)
 
 os.system("say 'give me the next index'")
 
