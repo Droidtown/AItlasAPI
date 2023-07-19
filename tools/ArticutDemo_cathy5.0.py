@@ -15,7 +15,7 @@ username = "anching.cathy@gmail.com" #這裡填入您在 https://api.droidtown.c
 apikey   = "******************" #這裡填入您在 https://api.droidtown.co 登入後取得的 api Key。若使用空字串，則預設使用每小時 2000 字的公用額度。
 
 
-#folder_path = "../data/People1607" #資料夾是中文字的檔名（即不包括表情符號.英文字.數字）
+#folder_path = "../data/People1607" 
 articut = Articut(username, apikey)
 
 
@@ -24,42 +24,47 @@ def get_verbs_from_abstracts(folder_path,s):  #s 代表要從第幾筆開始跑
 
     start_time = time.time()  # 紀錄開始時間
     
-    end_index = s + 100    #每次跑1百筆
-
+    end_index = s + 100    #每次設定跑?筆(100)
+    
     for filename in os.listdir(folder_path)[s:end_index]:
+        
         file_path = os.path.join(folder_path, filename)
 
-        with open(file_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            abstract = data.get("abstract")
-
-            resultDICT = articut.parse(abstract, level="lv2")
+        with open(file_path, "r", encoding="utf-8") as f:      
+            
+            data = json.load(f)           
+            
+            abstract = data.get("abstract")    
+   
+            retry_delay = 0.3
 
             toAddLIST = []
-
+            
+            resultDICT = articut.parse(abstract, level="lv2")
+            
             for i in resultDICT["result_pos"]:
-
-                    if "<ACTION_verb>擔任</ACTION_verb>" in i:
-                        i = re.sub(pronounDropPat, "", i)
-                        i = re.sub(innerDropPat, "", i)
-                        toAddLIST.append(re.sub(purgePat, "", i))
-                        print(toAddLIST)
-                        
-                        existing_data = set()
-                        
-                        # read already there
-                        with open('../data/iu.txt', 'r', encoding='utf-8') as f:
-                            existing_data = set(line.strip() for line in f)
-                        
-                        # 写入新的数据，避免重复
-                        with open('../data/iu.txt', 'a', encoding='utf-8') as f:
-                            new_data = [item for item in toAddLIST if item not in existing_data]
-                            f.writelines(f"{item}\n" for item in new_data)                       
+                if "<ACTION_verb>擔任</ACTION_verb>" in i:
+                    i = re.sub(pronounDropPat, "", i)
+                    i = re.sub(innerDropPat, "", i)
+                    toAddLIST.append(re.sub(purgePat, "", i))
+                    print(toAddLIST) 
+                    #先把有“擔任“的存起來
+                    with open('../data/suspending.txt', 'a', encoding='utf-8') as f:
+                            suspending = [item for item in toAddLIST if item]
+                            f.writelines(f"{item}\n" for item in suspending)
                             
-                            print(f"recorded")
+                    time.sleep(retry_delay)
+                    break
 
+                 else: 
+                    print("Failed to get verbs")
+                    pass
+                    
+    end_time = time.time()
+    print(f"共花了""{:.1f}秒".format(end_time - start_time))   
+      
         
-                        url = "https://api.droidtown.co/Loki/Call/"
+                        #url = "https://api.droidtown.co/Loki/Call/"
                       
                         ## create intent
                         #payload = {
@@ -88,49 +93,10 @@ def get_verbs_from_abstracts(folder_path,s):  #s 代表要從第幾筆開始跑
                                 }
                                 
                         #response = post(url, json=payload).json()
-                       
-                        
-                        max_retries = 2
-                        retry_delay = 30
-                        
-                        for _ in range(max_retries):
-                            resultDICT = post(url, json=payload).json()
-                            #response = post(url, json=payload).json()
-                            pprint(resultDICT)
-                            if resultDICT ["status"] == True:
-                                #pprint(resultDICT)
-                                break
-                            else:
-                                time.sleep(retry_delay)
-                        
-                        # 仍然没有成功请求，则印出來
-                        else:
-                            print("Failed to get a successful response after multiple retries")                        
-                                               
-                        
-
-                    else:
-                        pass
 
 
-folder_path = "../data/People1607" #資料夾是中文字的檔名（即不包括表情符號.英文字.數字）                       
-#get_verbs_from_abstracts(folder_path, 22100) 
-
-def run_get_verbs(start, end):
-    start_time = time.time()  # 紀錄開始時間
-    for j in range(start, end, 100):        
-        try:
-            get_verbs_from_abstracts(folder_path, j)
-        except Exception as e:
-            print(f"Error occurred: {e}")
-            pass     
-    end_time = time.time()
-    #execution_time = end_time - start_time
-    print(f"跑了{end-start}共花了""{:.1f}秒".format(end_time - start_time)) 
-
-### 調整
-run_get_verbs(23000, 24000)
-
+#folder_path = "../data/People1607" #欲run的資料夾                     
+get_verbs_from_abstracts(folder_path, s) #s是從第幾筆開始
 os.system("say 'give me the next index'")
 
                         
