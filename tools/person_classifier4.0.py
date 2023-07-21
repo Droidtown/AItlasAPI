@@ -10,12 +10,9 @@ from pprint import pprint
 
 personPatLIST = ["^{}\s?（[^名又a-zA-Z]*）",
                  "^{}\s?\([^名又a-zA-Z]*\)",
-                 "^{}，[^a-zA-Z]+人\b"
+                 "^{}，[^a-zA-Z]+人",
+                 "^{}，{{0,1}}[^a-zA-Z。]+人\b"
                 ]
-
-
-dataDIR = "../data/zhwiki_abstract_1607"
-destination_dir = "../data/People_test"
 
 def main(entryDIR):
     """
@@ -37,19 +34,9 @@ def main(entryDIR):
             pass
     return personLIST
 
-
-#if __name__ == "__main__":
-    #personLIST = []
-    #for init_s in os.listdir(dataDIR)[:10]:
-        #if init_s.startswith("._"):
-            #pass
-        #else:
-            #personLIST.extend(main("{}/{}".format(dataDIR, init_s)))
-    #pprint(personLIST)
-if __name__ == "__main__":
-    personLIST = []
+def save(dataDIR):
     data_files = os.listdir(dataDIR)
-    num_files = len(data_files[:10])
+    num_files = len(data_files)
     batch_size = 10
 
     for i in range(0, num_files, batch_size):
@@ -60,12 +47,10 @@ if __name__ == "__main__":
                 continue
             else:
                 personLIST.extend(main("{}/{}".format(dataDIR, init_s)))
-
-        #pprint(personLIST)
         
-            ## check if there is a destination_dir
-                #if not os.path.exists(destination_dir):
-                    #os.makedirs(destination_dir)
+            #check if there is a destination_dir
+                if not os.path.exists(destination_dir):
+                    os.makedirs(destination_dir)
                     
         for root, dirs, files in os.walk(dataDIR):
             for file in files:
@@ -77,11 +62,18 @@ if __name__ == "__main__":
                             shutil.copy(source_path, destination_path)
                             print(f"檔案 {file} 已成功複製到 {destination_dir} 資料夾。")
     else:
-        pass
-                                            
-
-print("Finished processing part of the data files.")
+        pass    
     
+
+
+dataDIR = "../data/zhwiki_abstract_1607" # your source data path  
+destination_dir = "../data/People_test"  # your destination_dir path
+if __name__ == "__main__":
+    personLIST = []
+    save(dataDIR)
+    print("Finished processing all data files.")
+
+main(dataDIR)
     
     
     
