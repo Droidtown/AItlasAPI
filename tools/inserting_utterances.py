@@ -47,8 +47,6 @@ if __name__ == '__main__':
             s+=10
             time.sleep(retry_delay)
             
-        
-
 main(txt, s)
 
 os.system("say 'type the next start s'")
