@@ -72,6 +72,6 @@ if __name__ == '__main__':
     while s <= 30000:  #end to ?
         main(s)
         s += 100
-        break
+    
 main(s)
 os.system("say 'start from scratch and end to happiness'")
