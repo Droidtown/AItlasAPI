@@ -74,4 +74,4 @@ if __name__ == '__main__':
         s += 100   
 
 main(s)
-os.system("say 'Let's start from scratch and end to happiness")
+os.system("say 'start from scratch and end to happiness'")
