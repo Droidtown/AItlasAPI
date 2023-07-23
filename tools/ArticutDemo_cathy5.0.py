@@ -44,6 +44,7 @@ def main(folder_path,s):
                         i = re.sub(pronounDropPat, "", i)
                         i = re.sub(innerDropPat, "", i)
                         toAddLIST.append(re.sub(purgePat, "", i))
+                        time.sleep(retry_delay)
                         #print(toAddLIST) 
                     
                         with open('../data/suspending.txt', 'a', encoding='utf-8') as f:   #the file for saving the utterances with the assigned verb
@@ -55,18 +56,17 @@ def main(folder_path,s):
                         
                 except Exception as e:
                     print(f"{e}")
-                    time.sleep(retry_delay)
                     pass
     end_time = time.time()
     print(f"{s}到{end_index}共花了""{:.1f}秒".format(end_time - start_time))  
 
-#folder_path = "../data/People1607"                    
+folder_path = "../data/People1607"                    
 if __name__ == '__main__':
     folder_path = "../data/People1607"   
-    s = 40200   #start from?= end +200
+    s = 44000   #start from?= end +100
     while s <= 50000:  #end to ?
         main(folder_path, s)
         s += 100 
 
-main(folder_path,s)
+#main(folder_path,s)
 os.system("say 'start from next s'")
