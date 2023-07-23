@@ -13,22 +13,14 @@ pronounDropPat = re.compile("^<ENTITY_pronoun>[^<]+</ENTITY_pronoun>|^<ENTITY_pe
 innerDropPat = re.compile("^<FUNC_inner>[^<]+</FUNC_inner>")
 username = "********************" #這裡填入您在 https://api.droidtown.co 使用的帳號 email。若使用空字串，則預設使用每小時 2000 字的公用額度。
 apikey   = "******************" #這裡填入您在 https://api.droidtown.co 登入後取得的 api Key。若使用空字串，則預設使用每小時 2000 字的公用額度。
-
-
+                
 articut = Articut(username, apikey)
 
-folder_path = "../data/People1607" #place "your" path not mine
-
-def main(s):
-    start_time = time.time()  # for counting the time
-    get_verbs_from_abstracts(folder_path, s)
-    end_time = time.time()
-    print(f"共花了""{:.1f}秒".format(end_time - start_time))  
-    
 ## define the function to get the assgined verb from 1101536 abtstracts
-def get_verbs_from_abstracts(folder_path,s):  
-     
-    end_index = s + 100    # the number of running files for each
+def main(folder_path,s):  
+    
+    start_time = time.time()  # 紀錄開始時間
+    end_index = s + 100    # the number is running files for each
     
     for filename in os.listdir(folder_path)[s:end_index]:
         
@@ -59,19 +51,22 @@ def get_verbs_from_abstracts(folder_path,s):
                                 f.writelines(f"{item}\n" for item in suspending)
                     else:
                         #print("failed to get verb")
-                        time.sleep(retry_delay)
+                        pass
                         
-                                                                        
                 except Exception as e:
                     print(f"{e}")
                     time.sleep(retry_delay)
                     pass
-                    
+    end_time = time.time()
+    print(f"{s}到{end_index}共花了""{:.1f}秒".format(end_time - start_time))  
+
+#folder_path = "../data/People1607"                    
 if __name__ == '__main__':
-    s = 28900   #start from?   your progress 
-    while s <= 30000:  #end to ?
-        main(s)
-        s += 100
-    
-main(s)
-os.system("say 'start from scratch and end to happiness'")
+    folder_path = "../data/People1607"   
+    s = 40200   #start from?= end +200
+    while s <= 50000:  #end to ?
+        main(folder_path, s)
+        s += 100 
+
+main(folder_path,s)
+os.system("say 'start from next s'")
