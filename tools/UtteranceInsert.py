@@ -46,7 +46,6 @@ def createIntent(username, loki_key, targetVerb):
     response = post(url, json=payload).json()
     return (intentName, response)
 
-
 def insertUtterance(username, loki_key, targetVerb, utterance2AddLIST):
     global projectName
     intentName = "".join(articut.parse(targetVerb, level="lv3", pinyin="HANYU")["utterance"][0]).replace(" ", "")
@@ -74,8 +73,10 @@ if __name__ == "__main__":
     print(intentCreateResult)
 
     cadidateLIST = []
-    for dir_s in os.listdir("../People_Source")[:10]:
-        if dir_s.startswith("."):
+    for dir_s in os.listdir("../People_Source"):
+        if dir_s == ".DS_Store":
+            os.remove(dir_s)
+        elif dir_s.startswith("."):
             os.rmdir(dir_s)
         else:
             for j_file in os.listdir("../People_Source/{}".format(dir_s)):
