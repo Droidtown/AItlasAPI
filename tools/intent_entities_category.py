@@ -4,7 +4,7 @@ from requests import post
 import time
 
 
-username = "*******************" #這裡填入您在 https://api.droidtown.co 使用的帳號 email。若使用空字串，則預設使用每小時 2000 字的公用額度。
+username = "anching.cathy@gmail.com" #這裡填入您在 https://api.droidtown.co 使用的帳號 email。若使用空字串，則預設使用每小時 2000 字的公用額度。
 apikey   = "*******************" #這裡填入您在 https://api.droidtown.co 登入後取得的 api Key。若使用空字串，則預設使用每小時 2000 字的公用額度。
 
 url = "https://api.droidtown.co/Loki/Call/" 
@@ -14,7 +14,7 @@ articut = Articut(username, apikey)
 def insert_utt(y,index):
     name= ['danlen_0e','danlen_1e','danlen_2e','danlen_3e','danlen_4e']
     payload = {
-                "username" : "*******************", # 這裡填入您在 https://api.droidtown.co 使用的帳號 email。     Docker 版不需要此參數！
+                "username" : "anching.cathy@gmail.com", # 這裡填入您在 https://api.droidtown.co 使用的帳號 email。     Docker 版不需要此參數！
                 "loki_key" : "*******************", # 這裡填入您在 https://api.droidtown.co 登入後取得的 loki_key。 Docker 版不需要此參數！
                 "project": "JiouProj", #專案名稱
                 "intent": name[index], #意圖名稱
