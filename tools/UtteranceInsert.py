@@ -53,7 +53,7 @@ def insertUtterance(username, loki_key, targetVerb, utterance2AddLIST):
 
     url = "https://api.droidtown.co/Loki/Call/"
     batchSize = 20
-    for i in range(i, i+batchSize, batchSize):
+    for i in range(i, len(utterance2AddLIST), batchSize):
         payload = {
             "username" : username,
             "loki_key" : loki_key,
@@ -65,7 +65,6 @@ def insertUtterance(username, loki_key, targetVerb, utterance2AddLIST):
                 "checked_list": []
             }
         }
-
         response = post(url, json=payload).json()
     return response
 
