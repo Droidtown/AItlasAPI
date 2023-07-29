@@ -7,6 +7,7 @@ import os
 import re
 from requests import post
 
+projectName = "AItlas_Wiki_Demo"
 purgePat = re.compile("</?[a-zA-Z]+(_[a-zA-Z]+)?>")
 
 with open("./account.info", encoding="utf-8") as f:
@@ -26,13 +27,14 @@ def verbEntityChoper(inputLIST, targetVerb, purgePat):
     return resultLIST
 
 def createIntent(username, loki_key, targetVerb):
+    global projectName
     intentName = "".join(articut.parse(targetVerb, level="lv3", pinyin="HANYU")["utterance"][0]).replace(" ", "")
 
     url = "https://api.droidtown.co/Loki/Call/"
     payload = {
         "username" : username,
         "loki_key" : loki_key,
-        "project": "AItlas_Wiki_Demo",
+        "project": projectName,
         "intent": intentName,
         "func": "create_intent",
         "data": {
@@ -45,13 +47,14 @@ def createIntent(username, loki_key, targetVerb):
 
 
 def insertUtterance(username, loki_key, targetVerb, utterance2AddLIST):
+    global projectName
     intentName = "".join(articut.parse(targetVerb, level="lv3", pinyin="HANYU")["utterance"][0]).replace(" ", "")
 
     url = "https://api.droidtown.co/Loki/Call/"
     payload = {
         "username" : username,
         "loki_key" : loki_key,
-        "project": "AItlas_Wiki_Demo",
+        "project": projectName,
         "intent": intentName,
         "func": "insert_utterance",
         "func": "insert_utterance",
