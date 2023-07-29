@@ -52,19 +52,21 @@ def insertUtterance(username, loki_key, targetVerb, utterance2AddLIST):
     intentName = "".join(articut.parse(targetVerb, level="lv3", pinyin="HANYU")["utterance"][0]).replace(" ", "")
 
     url = "https://api.droidtown.co/Loki/Call/"
-    payload = {
-        "username" : username,
-        "loki_key" : loki_key,
-        "project": projectName,
-        "intent": intentName,
-        "func": "insert_utterance",
-        "data": {
-            "utterance": utterance2AddLIST,
-            "checked_list": []
+    batchSize = 20
+    for i in range(i, i+batchSize, batchSize):
+        payload = {
+            "username" : username,
+            "loki_key" : loki_key,
+            "project": projectName,
+            "intent": intentName,
+            "func": "insert_utterance",
+            "data": {
+                "utterance": utterance2AddLIST[i:i+batchSize],
+                "checked_list": []
+            }
         }
-    }
 
-    response = post(url, json=payload).json()
+        response = post(url, json=payload).json()
     return response
 
 
