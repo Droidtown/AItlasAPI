@@ -76,11 +76,11 @@ if __name__ == "__main__":
     cadidateLIST = []
     for dir_s in os.listdir("../People_Source")[:10]:
         if dir_s.startswith("."):
-            pass
+            os.rmdir(dir_s)
         else:
             for j_file in os.listdir("../People_Source/{}".format(dir_s)):
                 if j_file.startswith("."):
-                    pass
+                    os.remove("../People_Source/{}/{}".format(dir_s, j_file))
                 else:
                     with open("../People_Source/{}/{}".format(dir_s, j_file), encoding="utf-8") as f:
                         wikiDICT = json.load(f)
