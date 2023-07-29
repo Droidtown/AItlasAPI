@@ -8,6 +8,7 @@ import re
 from requests import post
 
 projectName = "AItlas_Wiki_Demo"
+targetVerb = "代表"
 purgePat = re.compile("</?[a-zA-Z]+(_[a-zA-Z]+)?>")
 
 with open("./account.info", encoding="utf-8") as f:
@@ -57,7 +58,6 @@ def insertUtterance(username, loki_key, targetVerb, utterance2AddLIST):
         "project": projectName,
         "intent": intentName,
         "func": "insert_utterance",
-        "func": "insert_utterance",
         "data": {
             "utterance": utterance2AddLIST,
             "checked_list": []
@@ -69,7 +69,6 @@ def insertUtterance(username, loki_key, targetVerb, utterance2AddLIST):
 
 
 if __name__ == "__main__":
-    targetVerb = "代表"
     intentCreateResult = createIntent(accountDICT["username"], accountDICT["loki_key"], targetVerb)
     print(intentCreateResult)
 
@@ -94,9 +93,9 @@ if __name__ == "__main__":
                                 cadidateLIST.append(re.sub(purgePat, "", s))
 
 
-    print(cadidateLIST)
+    print("建立意圖..", cadidateLIST)
     utterance2AddLIST = verbEntityChoper(cadidateLIST, targetVerb, purgePat)
     print(utterance2AddLIST)
 
     utteranceInsertResult = insertUtterance(accountDICT["username"], accountDICT["loki_key"], targetVerb, utterance2AddLIST)
-
+    print("新增語句...", utteranceInsertResult)
