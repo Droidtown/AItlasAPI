@@ -10,14 +10,15 @@ from pprint import pprint
 
 personPatLIST = ["^{}\s?（[^名又a-zA-Z]*）",
                  "^{}\s?\([^名又a-zA-Z]*\)",
-                 "^{}，[^a-zA-Z]+人",
-                 "^{}，{{0,1}}[^a-zA-Z。]+人\b"
+                 "^{}，[^a-zA-Z]+人\b"
                 ]
 
+
+dataDIR = "../data/zhwiki_abstract_1607"
+destination_dir = "../data/People_1607"
+
 def main(entryDIR):
-    """
-    分辨 fileLIST 中的每一個 json 檔，看它是不是屬於「人類」。如果是的話，就加入列表 [PersonLIST] 中
-    """
+
     personLIST = []
     for json_f in os.listdir(entryDIR):
         try:
@@ -34,9 +35,10 @@ def main(entryDIR):
             pass
     return personLIST
 
-def save(dataDIR):
+if __name__ == "__main__":
+    personLIST = []
     data_files = os.listdir(dataDIR)
-    num_files = len(data_files)
+    num_files = len(data_files)   
     batch_size = 10
 
     for i in range(0, num_files, batch_size):
@@ -47,10 +49,6 @@ def save(dataDIR):
                 continue
             else:
                 personLIST.extend(main("{}/{}".format(dataDIR, init_s)))
-        
-            #check if there is a destination_dir
-                if not os.path.exists(destination_dir):
-                    os.makedirs(destination_dir)
                     
         for root, dirs, files in os.walk(dataDIR):
             for file in files:
@@ -62,20 +60,8 @@ def save(dataDIR):
                             shutil.copy(source_path, destination_path)
                             print(f"檔案 {file} 已成功複製到 {destination_dir} 資料夾。")
     else:
-        pass    
-    
+        pass
+                                            
 
-
-dataDIR = "../data/zhwiki_abstract_1607" # your source data path  
-destination_dir = "../data/People_test"  # your destination_dir path
-if __name__ == "__main__":
-    personLIST = []
-    save(dataDIR)
-    print("Finished processing all data files.")
-
-main(dataDIR)
-    
-    
-    
-    
+    print("Finished processing part of the data files.")
     
