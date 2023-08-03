@@ -19,7 +19,7 @@ articut = Articut(username, apikey)
 
 projectName = "Fu4zhe2"  #填入專案名稱（順便copy loki_key)
 
-loki_key = "5UBX2l9O9hkhlgL#kxqQROjh^-l_#99" # 填入loki_key
+loki_key = "***************************9" # 填入loki_key
 
 txt="../data/suspending_fuzhe.txt"   #填入文本path
 
