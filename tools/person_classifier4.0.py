@@ -8,14 +8,14 @@ import shutil
 from pprint import pprint
 
 
-personPatLIST = ["^{}\s?（[^名又a-zA-Z]*）",
-                 "^{}\s?\([^名又a-zA-Z]*\)",
+personPatLIST = ["^{}\s?（[^名又a-zA-Z]+）",
+                 "^{}\s?\([^名又a-zA-Z]+\)",
                  "^{}，[^a-zA-Z]+人\b"
                 ]
 
 
-dataDIR = "../data/zhwiki_abstract_1607"
-destination_dir = "../data/People_1607"
+dataDIR = "../data/zhwiki_abstract"
+destination_dir = "../data/People"
 
 def main(entryDIR):
 
