@@ -5,17 +5,19 @@ import json
 import os
 import re
 import shutil
-from pprint import pprint
+#from pprint import pprint
 
 
 personPatLIST = ["^{}\s?（[^名又a-zA-Z]+）",
                  "^{}\s?\([^名又a-zA-Z]+\)",
-                 "^{}，[^a-zA-Z]+人\b"
+                 "^{}\s?（[^名又a-zA-Z]*）",
+                 "^{}，[^a-zA-Z]+人\b",
+                 "^{}，[^a-zA-Z]+人(?=[，。])"
                 ]
 
 
-dataDIR = "../data/zhwiki_abstract"
-destination_dir = "../data/People"
+dataDIR = "../data/zhwiki_abstract_2306"
+destination_dir = "../data/People/{}"
 
 def main(entryDIR):
 
@@ -29,6 +31,8 @@ def main(entryDIR):
                 pat = re.compile(p.format(topicSTR))
                 if len(list(re.finditer(pat, entrySTR))) > 0:
                     personLIST.append(topicSTR)
+                    if topicSTR == "麥人杰":
+                        print(pat)
                 else:
                     pass
         except IsADirectoryError:
@@ -38,7 +42,7 @@ def main(entryDIR):
 if __name__ == "__main__":
     personLIST = []
     data_files = os.listdir(dataDIR)
-    num_files = len(data_files)   
+    num_files = len(data_files)
     batch_size = 10
 
     for i in range(0, num_files, batch_size):
@@ -49,19 +53,23 @@ if __name__ == "__main__":
                 continue
             else:
                 personLIST.extend(main("{}/{}".format(dataDIR, init_s)))
-                    
-        for root, dirs, files in os.walk(dataDIR):
-            for file in files:
-                if file.endswith(".json"):
-                    for member in personLIST:
-                        if file.startswith(member):
-                            source_path = os.path.join(root, file)
-                            destination_path = os.path.join(destination_dir, file)
-                            shutil.copy(source_path, destination_path)
-                            print(f"檔案 {file} 已成功複製到 {destination_dir} 資料夾。")
-    else:
-        pass
-                                            
+
+    for root, dirs, files in os.walk(dataDIR):
+        for file in files:
+            if file.endswith(".json"):
+                for member in personLIST:
+                    if file.replace(".json", "") == member:
+                        source_path = os.path.join(root, file)
+
+                        if os.path.exists(destination_dir.format(file[0])):
+                            pass
+                        else:
+                            os.makedirs(destination_dir.format(file[0]))
+
+                        destination_path = os.path.join(destination_dir.format(file[0]), file)
+                        shutil.copy(source_path, destination_path)
+                        print(f"檔案 {file} 已成功複製到 {destination_path} 資料夾。")
+
+
 
     print("Finished processing part of the data files.")
-    
