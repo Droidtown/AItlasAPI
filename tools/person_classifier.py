@@ -31,11 +31,9 @@ def main(entryDIR):
                 pat = re.compile(p.format(topicSTR))
                 if len(list(re.finditer(pat, entrySTR))) > 0:
                     personLIST.append(topicSTR)
-                    if topicSTR == "麥人杰":
-                        print(pat)
                 else:
                     pass
-        except IsADirectoryError:
+        except:
             pass
     return personLIST
 
@@ -49,7 +47,7 @@ if __name__ == "__main__":
         batch_files = data_files[i:i+batch_size]
 
         for init_s in batch_files:
-            if init_s.startswith("._"):
+            if init_s.startswith("."):
                 continue
             else:
                 personLIST.extend(main("{}/{}".format(dataDIR, init_s)))
