@@ -24,7 +24,7 @@ purgePat = re.compile("</?\w+(_+\w?)?>")
 
 def verbExtractor(VERB):
     verbLIST = []
-    if verbLIST is None:
+    if VERB is None:
         pass
     else:
         for i in VERB:
@@ -129,14 +129,14 @@ def main(folder_path,s):
 folder_path = "../data/People_Source230730"          
  
 if __name__ == '__main__': 
-    s1 =  0 #填入起跑點
-    end = 2 #填入中（間）點或終點:6532
+    s1 =  1000 #填入起點資料夾
+    end = 2000 #填入中（間）點資料夾:6532
     print(f"從{s1}開始")
     start_time=time.time()
     while s1 <= end:  
         main(folder_path, s1)
         s1 += 1  # 填入each loop 跟上面一樣
-        print("\n", f"接下來從第{s1}資料夾開始",'\n') 
+        print("\n", f"接下來從第{end+1}資料夾開始",'\n') 
     
     os.system("say 'next round'")     
     
