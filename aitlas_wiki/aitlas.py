@@ -1,8 +1,25 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
 
-
+from AItlas_Wiki_Demo import execLoki
+from ArticutAPI import Articut
+import json
 from KG.people import action as actionDICT
+from typing import Union
+
+with open("account.info", encoding="utf-8") as f:
+    accountDICT = json.load(f)
+articut = Articut(username=accountDICT["username"], apikey=accountDICT["api_key"])
+
+class MaybePerson:
+    def __init__(self):
+        self.reasonLIST = []
+
+    def __repr__(self):
+        return "Maybe"
+
+IsPerson = Union[bool, MaybePerson] #True, False, "Maybe"
+
 peopleLIST = []
 for v_D in actionDICT:
     for obj in actionDICT[v_D]:
@@ -10,26 +27,52 @@ for v_D in actionDICT:
             pass
         else:
             for p_L in actionDICT[v_D][obj]:
-                peopleLIST.append(p_L[0])
+                peopleLIST.append(p_L["name"])
 peopleLIST = {e for e in peopleLIST}
 
-def is_person(personSTR, utteranceLIST=[]):
+def wordExtractor(inputLIST, unify=True):
     """
-    return
-    0: no
-    0.5: maybe
-    1: yes
+    配合 Articut() 的各種 .getXXXLIST() 只抽出詞彙。
     """
-    if person in peopleLIST:
-        return 1
-    #else:
+    resultLIST = []
+    for i in inputLIST:
+        if i == []:
+            pass
+        else:
+            for e in i:
+                resultLIST.append(e[-1])
+    if unify == True:
+        return sorted(list(set(resultLIST)))
+    else:
+        return sorted(resultLIST)
+
+
+def is_person(entity: str, utteranceLIST: list) -> IsPerson:
+    """
+    """
+    if entity in peopleLIST:
+        return True
+    else:
         #get verbs from utteranceLIST
-        #if a verb is listed in actionDICT, and the obj/entity matches:
-        #    return 0.5
-        #else:
-        #    return 0
+
+        for u_s in utteranceLIST:
+            resultDICT = articut.parse(u_s)
+            verbLIST = articut.getVerbStemLIST(resultDICT)
+            verbLIST = wordExtractor(verbLIST)
+
+        for v_s in verbLIST:
+            checkingUtteranceLIST = []
+            intentKey = articut.parse(v_s, level="lv3", pinyin="HANYU")["utterance"][0].replace(" ", "")
+            for u_s in utteranceLIST:
+                checkingUtteranceLIST.append(u_s[u_s.index(v_s):])
+            lokiResult = execLoki(checkingUtteranceLIST)
+            if intentKey in lokiResult:
+                return MaybePerson()
+        return False
 
 
 if __name__ == "__main__":
-    person = "末綱聰子"
-    is_person(person)
+    entity = "前田美順"
+    utteranceLIST = ["末綱聰子與前田美順的組合代表日本參加北京舉行的奧運會羽球女子雙打比賽"]
+    isPersonBool = is_person(entity, utteranceLIST)
+    print("{} 是 Person 嗎？{}".format(entity, isPersonBool))
