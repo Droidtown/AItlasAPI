@@ -1,0 +1,211 @@
+列出磁碟區 Acer 的資料夾 PATH
+磁碟區序號為 5644-003F
+C:.
+│  .gitignore
+│  LICENSE
+│  README.md
+│  tree.txt
+│  
+├─aitlas_en
+│  ├─Conv2AItlas
+│  │  ├─Conv2AItlas
+│  │  │  │  Conv2AItlas.py
+│  │  │  │  
+│  │  │  └─intent
+│  │  │          Loki_Person.py
+│  │  │          Loki_Person_Be.py
+│  │  │          Loki_Person_Became.py
+│  │  │          Loki_Person_Create.py
+│  │  │          Loki_Person_Credit.py
+│  │  │          Loki_Person_Develop.py
+│  │  │          Loki_Person_Direct.py
+│  │  │          Loki_Person_Establish.py
+│  │  │          Loki_Person_Lead.py
+│  │  │          Loki_Person_Make.py
+│  │  │          Loki_Person_Order.py
+│  │  │          Loki_Person_Produce.py
+│  │  │          Loki_Person_Publish.py
+│  │  │          Loki_Person_Receive.py
+│  │  │          Loki_Person_Reform.py
+│  │  │          Loki_Person_Secure.py
+│  │  │          Loki_Person_Set.py
+│  │  │          Loki_Person_Wrote.py
+│  │  │          Updater.py
+│  │  │          USER_DEFINED.json
+│  │  │          
+│  │  ├─Conv2AItlas_backup
+│  │  │  │  Conv2AItlas.py
+│  │  │  │  
+│  │  │  └─intent
+│  │  │          Loki_Person.py
+│  │  │          Loki_Person_Be.py
+│  │  │          Updater.py
+│  │  │          USER_DEFINED.json
+│  │  │          
+│  │  └─ref
+│  │          Person.ref
+│  │          Person_Be.ref
+│  │          Person_Became.ref
+│  │          Person_Create.ref
+│  │          Person_Credit.ref
+│  │          Person_Develop.ref
+│  │          Person_Direct.ref
+│  │          Person_Establish.ref
+│  │          Person_Lead.ref
+│  │          Person_Make.ref
+│  │          Person_Order.ref
+│  │          Person_Produce.ref
+│  │          Person_Publish.ref
+│  │          Person_Receive.ref
+│  │          Person_Reform.ref
+│  │          Person_Secure.ref
+│  │          Person_Set.ref
+│  │          Person_Wrote.ref
+│  │          
+│  └─Src2Preprocessed
+│      ├─ref
+│      │      Person_AddNameToInitial.ref
+│      │      Person_AddNameToInitial_adv.ref
+│      │      Person_ReplacePronounAtInitial.ref
+│      │      
+│      └─Src2Preprocessd
+│          │  Src2Preprocessd.py
+│          │  
+│          └─intent
+│                  Loki_Person_AddNameToInitial.py
+│                  Loki_Person_AddNameToInitial_adv.py
+│                  Loki_Person_ReplacePronounAtInitial.py
+│                  Updater.py
+│                  USER_DEFINED.json
+│                  
+├─aitlas_wiki
+│  │  account.info
+│  │  aitlas.py
+│  │  AItlas_Wiki_Demo.py
+│  │  jying1ying2_1e.ref
+│  │  jying1ying2_2e.ref
+│  │  jying1ying2_3e.ref
+│  │  jying1ying2_4e.ref
+│  │  
+│  ├─intent
+│  │      Loki_dai4byao3_1e.py
+│  │      Loki_dai4byao3_2e.py
+│  │      Loki_dai4byao3_3e.py
+│  │      Loki_dai4byao3_4e.py
+│  │      Loki_dai4byao3_5e.py
+│  │      Loki_dai4byao3_6e.py
+│  │      Loki_dai4byao3_7e.py
+│  │      Updater.py
+│  │      USER_DEFINED.json
+│  │      
+│  ├─KG
+│  │      people.py
+│  │      
+│  └─ref
+│          Be_V.ref
+│          chwang4zwo4_1e.ref
+│          chwang4zwo4_2e.ref
+│          chwang4zwo4_3e.ref
+│          chwang4zwo4_4e.ref
+│          dai4byao3_1e.ref
+│          dai4byao3_2e.ref
+│          dai4byao3_3e.ref
+│          dai4byao3_4e.ref
+│          dai4byao3_5e.ref
+│          dai4byao3_6e.ref
+│          dai4byao3_7e.ref
+│          dan1ren4_1e.ref
+│          dan1ren4_2e.ref
+│          dan1ren4_3e.ref
+│          dan1ren4_4e.ref
+│          fu4ze2_1e.ref
+│          fu4ze2_2e.ref
+│          fu4ze2_3e.ref
+│          fu4ze2_4e.ref
+│          jya1ru4_1e.ref
+│          jya1ru4_2e.ref
+│          jya1ru4_3e.ref
+│          jya1ru4_4e.ref
+│          jying1li4_1e.ref
+│          jying1li4_2e.ref
+│          jying1li4_3e.ref
+│          jying1li4_4e.ref
+│          jying1ying2_1e.ref
+│          jying1ying2_2e.ref
+│          jying1ying2_3e.ref
+│          jying1ying2_4e.ref
+│          
+├─data
+│  │  .gitignore
+│  │  
+│  └─demo_data
+│      │  ReadMe.md
+│      │  
+│      └─people
+│          ├─克
+│          │      克律塞伊斯.json
+│          │      
+│          ├─勒
+│          │      勒內·卡森.json
+│          │      
+│          ├─安
+│          │      安紹芸.json
+│          │      
+│          ├─薩
+│          │      薩提斯·庫瑪.json
+│          │      
+│          ├─馮
+│          │      薩提斯·庫瑪.json
+│          │      
+│          ├─高
+│          │      高倉照幸.json
+│          │      高博.json
+│          │      高拜石.json
+│          │      高歡.json
+│          │      高江明朝.json
+│          │      高泰宇.json
+│          │      高福頤.json
+│          │      高葉.json
+│          │      高阿那肱.json
+│          │      
+│          ├─魁
+│          │      魁輝薰秀.json
+│          │      
+│          ├─魏
+│          │      魏斯多夫.json
+│          │      魏根多夫.json
+│          │      魏根海姆.json
+│          │      魏森奧厄.json
+│          │      魏爾廷根.json
+│          │      
+│          ├─魯
+│          │      魯德內.json
+│          │      魯斯塔姆·薩朗格.json
+│          │      魯根多夫.json
+│          │      魯瓦桑.json
+│          │      魯舍.json
+│          │      
+│          └─鮑
+│                  鮑俊.json
+│                  鮑威爾巖.json
+│                  鮑渥共融.json
+│                  
+├─ref
+│  ├─Convert2AItlas
+│  │      ReadMe.md
+│  │      
+│  └─ProRecovery
+│          ReadMe.md
+│          
+└─tools
+        Aitlas-FactContest.py
+        AItlasCooker.py
+        extract.py
+        group_verb.py
+        person_classifier.py
+        titleJointer.py
+        topic.txt
+        UtteranceInsert.py
+        verbs_utterances.py
+        zhwiki_abstract.py
+        
