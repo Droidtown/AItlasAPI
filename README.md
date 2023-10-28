@@ -2,6 +2,8 @@
 
 AItlas is a knowledge graph designed to go with Loki NLU system.
 
+AItlas 是一個基於 Loki NLU 系統所設計的知識圖譜。
+
 
 
 ## 1.  Methodology
