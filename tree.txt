@@ -138,58 +138,65 @@ C:.
 ├─data
 │  │  .gitignore
 │  │  
-│  └─demo_data
-│      │  ReadMe.md
-│      │  
-│      └─people
-│          ├─克
-│          │      克律塞伊斯.json
-│          │      
-│          ├─勒
-│          │      勒內·卡森.json
-│          │      
-│          ├─安
-│          │      安紹芸.json
-│          │      
-│          ├─薩
-│          │      薩提斯·庫瑪.json
-│          │      
-│          ├─馮
-│          │      薩提斯·庫瑪.json
-│          │      
-│          ├─高
-│          │      高倉照幸.json
-│          │      高博.json
-│          │      高拜石.json
-│          │      高歡.json
-│          │      高江明朝.json
-│          │      高泰宇.json
-│          │      高福頤.json
-│          │      高葉.json
-│          │      高阿那肱.json
-│          │      
-│          ├─魁
-│          │      魁輝薰秀.json
-│          │      
-│          ├─魏
-│          │      魏斯多夫.json
-│          │      魏根多夫.json
-│          │      魏根海姆.json
-│          │      魏森奧厄.json
-│          │      魏爾廷根.json
-│          │      
-│          ├─魯
-│          │      魯德內.json
-│          │      魯斯塔姆·薩朗格.json
-│          │      魯根多夫.json
-│          │      魯瓦桑.json
-│          │      魯舍.json
-│          │      
-│          └─鮑
-│                  鮑俊.json
-│                  鮑威爾巖.json
-│                  鮑渥共融.json
-│                  
+│  ├─demo_data
+│  │  │  ReadMe.md
+│  │  │  
+│  │  └─people
+│  │      ├─克
+│  │      │      克律塞伊斯.json
+│  │      │      
+│  │      ├─勒
+│  │      │      勒內·卡森.json
+│  │      │      
+│  │      ├─安
+│  │      │      安紹芸.json
+│  │      │      
+│  │      ├─薩
+│  │      │      薩提斯·庫瑪.json
+│  │      │      
+│  │      ├─馮
+│  │      │      薩提斯·庫瑪.json
+│  │      │      
+│  │      ├─高
+│  │      │      高倉照幸.json
+│  │      │      高博.json
+│  │      │      高拜石.json
+│  │      │      高歡.json
+│  │      │      高江明朝.json
+│  │      │      高泰宇.json
+│  │      │      高福頤.json
+│  │      │      高葉.json
+│  │      │      高阿那肱.json
+│  │      │      
+│  │      ├─魁
+│  │      │      魁輝薰秀.json
+│  │      │      
+│  │      ├─魏
+│  │      │      魏斯多夫.json
+│  │      │      魏根多夫.json
+│  │      │      魏根海姆.json
+│  │      │      魏森奧厄.json
+│  │      │      魏爾廷根.json
+│  │      │      
+│  │      ├─魯
+│  │      │      魯德內.json
+│  │      │      魯斯塔姆·薩朗格.json
+│  │      │      魯根多夫.json
+│  │      │      魯瓦桑.json
+│  │      │      魯舍.json
+│  │      │      
+│  │      └─鮑
+│  │              鮑俊.json
+│  │              鮑威爾巖.json
+│  │              鮑渥共融.json
+│  │              
+│  └─local_data
+│          ReadMe.md
+│          
+├─media
+│      AItlas_Flowchart.drawio
+│      AItlas_Flowchart.png
+│      
 ├─ref
 │  ├─Convert2AItlas
 │  │      ReadMe.md
