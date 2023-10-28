@@ -6,19 +6,22 @@ from ArticutAPI import Articut
 import json
 from KG.people import action as actionDICT
 from typing import Union
+from functools import reduce
 
 with open("account.info", encoding="utf-8") as f:
     accountDICT = json.load(f)
 articut = Articut(username=accountDICT["username"], apikey=accountDICT["api_key"])
 
 class MaybePerson:
+    reasonLIST : list
+
     def __init__(self):
         self.reasonLIST = []
 
     def __repr__(self):
         return "Maybe"
 
-IsPerson = Union[bool, MaybePerson] #True, False, "Maybe"
+IsPersonJudgement = Union[bool, MaybePerson] #True, False, "Maybe"
 
 peopleLIST = []
 for v_D in actionDICT:
@@ -47,9 +50,21 @@ def wordExtractor(inputLIST, unify=True):
         return sorted(resultLIST)
 
 
-def is_person(entity: str, utteranceLIST: list) -> IsPerson:
+def is_person(entity: str, utteranceLIST: list[str]) -> IsPersonJudgement:
     """
+    Each utterance should contain the entity given.
     """
+    # Check the existence of the entity in every utterance.
+    checkList = list(map( lambda u: len(re.findall(entity,u))==0
+                    , utteranceLIST))
+    # Throws ValueError if any of the utterances doesn't satisfy the requirement.
+    if reduce(lambda x,y:x or y, checkList):
+        errorList = []
+        for k,v in enumerate(checkList):
+            if v:
+                errorList.append(k)
+        raise ValueError(f"In indexes:{errorList} of utteranceLIST, the entity doesn't show in the utterance.")
+
     if entity in peopleLIST:
         return True
     else:
