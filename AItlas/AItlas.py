@@ -95,8 +95,48 @@ class AItlas:
             return False
 
 
+    def is_location():
+        return None
+
+    def is_superset():
+        '''
+        inputArgs: "dog", "animal" => False
+        '''
+        return None
+
+    def is_subset():
+        """
+        inputArgs: "dog", "animal" => True
+        """
+        return None
+
+    def converTime():
+        """
+        """
+        return None
+
+    def find_EntyRelation():
+        """
+        inputArgs: "dog", "animal" => subset
+                                   => synonym ("k9", "dog") ("kids", "children")
+                                   => superset
+                                   => Unknown
+        """
+        return None
+
+    def what_is_this():
+        return None
+
+
+
 if __name__ == "__main__":
-    entity = "末綱聰子"
+    longText = """blah blah blah...末綱聰子(???)是一個羽球女子運動員(???)，
+    末綱聰子(???)與前田美順(???)的常常組隊參加比賽，
+    末綱聰子與前田美順的組合代表日本(???)參加北京(???)舉行的奧運會羽球女子雙打比賽"""
+
+    entity = "前田美順"
     utteranceLIST = ["末綱聰子與前田美順的組合代表日本參加北京舉行的奧運會羽球女子雙打比賽"]
-    isPersonBool = is_person(entity, utteranceLIST)
+    alias = AItlas()
+    isPersonBool = alias.is_person(entity, utteranceLIST) #=>Maybe
+    #isLocation = alias.is_location(entity, utteranceLIST)
     print("{} 是 Person 嗎？{}".format(entity, isPersonBool))
