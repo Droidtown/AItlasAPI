@@ -2,13 +2,16 @@
 # -*- coding:utf-8 -*-
 
 schema = {"verb_01":{"attribute":[],
-                     "entity_obj":[{"name":"entity_subj01", "time":["entity_02"]}]
+                     "entity_01":[{"name":"person_01", "time":["time_01"]}]
                      },
           "verb_02":{"attribute":[],
-                     "entity_obj":[{"name":"entity_subj01", "time":["entity_02"]}
+                     "entity_02":[{"name":"person_02", "time":["time_02"]}
                                   ]
                      },
           }
+# => person_01 DO verb_01 in/on/at/to/from entity_01 (at/in/on time_01)
+
+
 
 action = {"代表":{"attribute":[],
                  "日本":[{"name":"末綱聰子", "time":["2008"]},
