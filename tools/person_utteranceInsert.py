@@ -91,7 +91,7 @@ if __name__ == "__main__":
     projectSTR = "AItlas_wiki_people"
     dataDIR = "../data/local_data/People_2306_washed2401"
 
-    for d in os.listdir(dataDIR)[:2]:
+    for d in os.listdir(dataDIR):
         if d in "一二三四五六七八九十":
             pass
         else:
