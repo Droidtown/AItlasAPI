@@ -123,18 +123,18 @@ if __name__ == "__main__":
                             elif snt == entrySTR:  #避開「王小明是王小明」
                                 pass
                             elif lv2ResultDICT["result_pos"][sent_idx].startswith("<LOCATION>"):
-                                utteranceDICT["shi4"].append("{}是{}".format(entrySTR, snt))
+                                utteranceDICT["BeV"].append("{}是{}".format(entrySTR, snt))
                                 if nameBOOL:
-                                    utteranceDICT["shi4"].append("{}是{}".format("梅仁", snt))
+                                    utteranceDICT["BeV"].append("{}是{}".format("梅仁", snt))
                                 else:
-                                    utteranceDICT["shi4"].append("{}是{}".format("梅友仁", snt))
+                                    utteranceDICT["BeV"].append("{}是{}".format("梅友仁", snt))
 
                             else:
-                                utteranceDICT["shi4"].append("{}是{}".format(entrySTR, snt))
+                                utteranceDICT["BeV"].append("{}是{}".format(entrySTR, snt))
                                 if nameBOOL:
-                                    utteranceDICT["shi4"].append("{}是{}".format("梅仁", snt))
+                                    utteranceDICT["BeV"].append("{}是{}".format("梅仁", snt))
                                 else:
-                                    utteranceDICT["shi4"].append("{}是{}".format("梅友仁", snt))
+                                    utteranceDICT["BeV"].append("{}是{}".format("梅友仁", snt))
                         else:
                             try:
                                 lv3ResultDICT = articut.parse(verbLIST[sent_idx][0][-1], level="lv3", pinyin="HANYU")
