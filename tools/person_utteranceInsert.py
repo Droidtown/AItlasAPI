@@ -29,6 +29,24 @@ def _getInfo(accountDICT, projectSTR=""):
         response = post(lokiURL, json=payload).json()
     return response
 
+def _updateUserDefined(accountDICT, projectSTR="", userdefinedDICT={}):
+    payload = {
+        "username" : accountDICT["username"], # 這裡填入您在 https://api.droidtown.co 使用的帳號 email。     Docker 版不需要此參數！
+        "loki_key" : accountDICT["loki_key"], # 這裡填入您在 https://api.droidtown.co 登入後取得的 loki_key。 Docker 版不需要此參數！
+        "project": projectSTR,
+        "func": "update_userdefined",
+        "data": {
+            "user_defined": {
+            }
+        }
+    }
+    for k in userdefinedDICT:
+        userdefinedDICT[k] = list(set(userdefinedDICT[k]))
+    payload["data"]["user_defined"].update(userdefinedDICT)
+    response = post(lokiURL, json=payload).json()
+    print(response)
+    return response
+
 def _createLokiIntent(accountDICT, projectSTR="", intentSTR=""):
     if projectSTR == "" or intentSTR == "":
         response = {"status":"false",
@@ -88,7 +106,7 @@ def insertLokiUtterance(accountDICT, projectSTR="", intentSTR="", utteranceLIST=
 
 
 if __name__ == "__main__":
-    projectSTR = "AItlas_wiki_people"
+    projectSTR = "AItlas_wiki_people2"
     dataDIR = "../data/local_data/People_2306_washed2401"
 
     for d in os.listdir(dataDIR):
@@ -99,14 +117,20 @@ if __name__ == "__main__":
             for j in os.listdir(fileDIR): #j 就是檔名
                 entrySTR = j.replace(".json", "")
                 utteranceDICT = {"BeV":[]}
-
+                userdefinedDICT = {"_entryName":[]}
                 #取得條目內容
-                jContent = json.load(open(f"{fileDIR}/{j}", "r", encoding="utf-8"))
-                jContent["abstract"] = washPat.sub("", jContent["abstract"])
+                try:
+                    jContent = json.load(open(f"{fileDIR}/{j}", "r", encoding="utf-8"))
+                except Exception as e:
+                    with open("error.log", "a", encoding="utf-8") as log:
+                        log.write(f"{fileDIR}/{j} found error {e}\n")
+                    continue
+
+                jContent["abstract"] = washPat.sub("", jContent["abstract"]).replace("\n", "")
                 try:
                     lv2ResultDICT = articut.parse(jContent["abstract"])
                     #多驗一步，看這個條目是不是「人名」，若是，稍後要再加一份「非人名 (梅仁)」在句首位置；若否，則加一份「人名 (梅友仁)」在句首位置。
-                    nameBOOL = articut.parse(entrySTR)["result_pos"][0].startswith("<ENTITY_person>")
+                    nameBOOL = articut.parse(entrySTR)["result_pos"][0].startswith(f"<ENTITY_person>{entrySTR}")
                 except Exception as e:
                     print(f"lv2 Error at {d} with {e}")
 
@@ -122,18 +146,21 @@ if __name__ == "__main__":
                                 pass
                             elif snt == entrySTR:  #避開「王小明是王小明」
                                 pass
+                            elif lv2ResultDICT["result_pos"][sent_idx].startswith("<ENTITY_num>")  and lv2ResultDICT["result_pos"][sent_idx].endswith("</ENTITY_num>"):
+                                pass
                             elif lv2ResultDICT["result_pos"][sent_idx].startswith("<LOCATION>"):
                                 utteranceDICT["BeV"].append("{}是{}".format(entrySTR, snt))
                                 if nameBOOL:
                                     utteranceDICT["BeV"].append("{}是{}".format("梅仁", snt))
                                 else:
+                                    userdefinedDICT["_entryName"].append(entrySTR)
                                     utteranceDICT["BeV"].append("{}是{}".format("梅友仁", snt))
-
                             else:
                                 utteranceDICT["BeV"].append("{}是{}".format(entrySTR, snt))
                                 if nameBOOL:
                                     utteranceDICT["BeV"].append("{}是{}".format("梅仁", snt))
                                 else:
+                                    userdefinedDICT["_entryName"].append(entrySTR)
                                     utteranceDICT["BeV"].append("{}是{}".format("梅友仁", snt))
                         else:
                             try:
@@ -148,9 +175,11 @@ if __name__ == "__main__":
                                 if nameBOOL:
                                     utteranceDICT[intentSTR].append("{}{}".format("梅仁", snt))
                                 else:
+                                    userdefinedDICT["_entryName"].append(entrySTR)
                                     utteranceDICT[intentSTR].append("{}{}".format("梅友仁", snt))
                             else:
                                 print(f"lv3 Pinyin Error with {d}")
+                updateResult = _updateUserDefined(accountDICT, projectSTR=projectSTR, userdefinedDICT=userdefinedDICT)
                 print(utteranceDICT)
                 for k in utteranceDICT:
                     insertResult = insertLokiUtterance(accountDICT, projectSTR=projectSTR, intentSTR=k, utteranceLIST=utteranceDICT[k])
