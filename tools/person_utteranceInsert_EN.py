@@ -9,6 +9,8 @@ import re
 purgePat = re.compile("</?[a-zA-Z]+(_[a-zA-Z]+)?>")
 washPat = re.compile("\(\)|《.+?》")
 
+import unidecode
+
 import json
 accountDICT = json.load(open("account.info", encoding="utf-8"))
 
@@ -154,6 +156,11 @@ if __name__ == "__main__":
                                     break
                                 else:
                                     pass
+
+                            #pass any strings with accented chars
+                            #check if original str is different from decoded str
+                            elif unidecode(snt[0]) != snt[0]:
+                                pass
                                 
                             #make assumption that all caps cannot be real EN name
                             elif snt[0].isupper():
@@ -186,23 +193,25 @@ if __name__ == "__main__":
                                 else:
                                     userdefinedDICT["_entryName"].append(entrySTR)
                                     utteranceDICT["BeV"].append("{}is{}".format("John Doe", snt))
-                        '''else:
+                        else:
                             try:
-                                lv3ResultDICT = articut.parse(verbLIST[sent_idx][0][-1], level="lv3", pinyin="HANYU")
+                                EN_ResultDICT = articut.parse(verbLIST[sent_idx][0][-1])
                             except Exception as e:
-                                print(f"lv3 Error at {d} with {e}")
-                            if lv3ResultDICT["status"]:
-                                intentSTR = lv3ResultDICT["utterance"][0].replace(" ", "")
+                                print(f"Error at {d} with {e}")
+                            if EN_ResultDICT["status"]:
+                                #will need to modify this line, so as to take the first verb of sentence
+                                intentSTR = EN_ResultDICT["utterance"][0].replace(" ", "")
                                 if intentSTR not in utteranceDICT:
                                     utteranceDICT[intentSTR] = []
                                 utteranceDICT[intentSTR].append("{}{}".format(entrySTR, snt))
                                 if nameBOOL:
-                                    utteranceDICT[intentSTR].append("{}{}".format("梅仁", snt))
+                                    utteranceDICT[intentSTR].append("{}{}".format("abcde", snt))
                                 else:
                                     userdefinedDICT["_entryName"].append(entrySTR)
-                                    utteranceDICT[intentSTR].append("{}{}".format("梅友仁", snt))
+                                    utteranceDICT[intentSTR].append("{}{}".format("John Doe", snt))
                             else:
-                                print(f"lv3 Pinyin Error with {d}")'''
+                                print(f"EN error with {d}")
+
                 updateResult = _updateUserDefined(accountDICT, projectSTR=projectSTR, userdefinedDICT=userdefinedDICT)
                 print(utteranceDICT)
                 for k in utteranceDICT:
