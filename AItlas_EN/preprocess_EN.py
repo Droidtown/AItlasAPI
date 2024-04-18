@@ -40,7 +40,7 @@ def runArticutENBulk(inputLIST, level="lv1", userDefinedDICT={}):
     return resultDICT
 
 #split sentences given wikipedia json entry summary, which is one line of huge text
-def splitSentences(text: str) -ʡ list[str]:
+def splitSentences(text: str) -> list[str]:
     text = " " + text + "  "
     text = text.replace("\n"," ")
     text = re.sub(prefixes,"\\1ʢprdʡ",text)
