@@ -113,7 +113,7 @@ if __name__ == "__main__":
 
     for d in os.listdir(dataDIR):
         #filter out directories without EN suffix
-        if not d.contains("EN"):
+        if not d.contains("_EN/"):
             pass
         else:
             fileDIR = f"{dataDIR}/{d}"

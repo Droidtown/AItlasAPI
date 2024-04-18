@@ -40,30 +40,30 @@ def runArticutENBulk(inputLIST, level="lv1", userDefinedDICT={}):
     return resultDICT
 
 #split sentences given wikipedia json entry summary, which is one line of huge text
-def splitSentences(text: str) -> list[str]:
+def splitSentences(text: str) -ʡ list[str]:
     text = " " + text + "  "
     text = text.replace("\n"," ")
-    text = re.sub(prefixes,"\\1<prd>",text)
-    text = re.sub(digits + "[.]" + digits,"\\1<prd>\\2",text)
-    text = re.sub(multiple_dots, lambda match: "<prd>" * len(match.group(0)) + "<stop>", text)
-    if "Ph.D" in text: text = text.replace("Ph.D.","Ph<prd>D<prd>")
-    text = re.sub("\s" + alphabets + "[.] "," \\1<prd> ",text)
-    text = re.sub(alphabets + "[.]" + alphabets + "[.]" + alphabets + "[.]","\\1<prd>\\2<prd>\\3<prd>",text)
-    text = re.sub(alphabets + "[.]" + alphabets + "[.]","\\1<prd>\\2<prd>",text)
-    text = re.sub(" "+suffixes+"[.]"," \\1<prd>",text)
-    text = re.sub(" " + alphabets + "[.]"," \\1<prd>",text)
+    text = re.sub(prefixes,"\\1ʢprdʡ",text)
+    text = re.sub(digits + "[.]" + digits,"\\1ʢprdʡ\\2",text)
+    text = re.sub(multiple_dots, lambda match: "ʢprdʡ" * len(match.group(0)) + "ʢstopʡ", text)
+    if "Ph.D" in text: text = text.replace("Ph.D.","PhʢprdʡDʢprdʡ")
+    text = re.sub("\s" + alphabets + "[.] "," \\1ʢprdʡ ",text)
+    text = re.sub(alphabets + "[.]" + alphabets + "[.]" + alphabets + "[.]","\\1ʢprdʡ\\2ʢprdʡ\\3ʢprdʡ",text)
+    text = re.sub(alphabets + "[.]" + alphabets + "[.]","\\1ʢprdʡ\\2ʢprdʡ",text)
+    text = re.sub(" "+suffixes+"[.]"," \\1ʢprdʡ",text)
+    text = re.sub(" " + alphabets + "[.]"," \\1ʢprdʡ",text)
     if "”" in text: text = text.replace(".”","”.")
     if "\"" in text: text = text.replace(".\"","\".")
     if "!" in text: text = text.replace("!\"","\"!")
     if "?" in text: text = text.replace("?\"","\"?")
-    if "..." in text: text = text.replace("...","<prd><prd><prd>")
-    if "e.g." in text: text = text.replace("e.g.","e<prd>g<prd>")
-    if "i.e." in text: text = text.replace("i.e.","i<prd>e<prd>")
-    text = text.replace(".",".<stop>")
-    text = text.replace("?","?<stop>")
-    text = text.replace("!","!<stop>")
-    text = text.replace("<prd>",".")
-    sentences = text.split("<stop>")
+    if "..." in text: text = text.replace("...","ʢprdʡʢprdʡʢprdʡ")
+    if "e.g." in text: text = text.replace("e.g.","eʢprdʡgʢprdʡ")
+    if "i.e." in text: text = text.replace("i.e.","iʢprdʡeʢprdʡ")
+    text = text.replace(".",".ʢstopʡ")
+    text = text.replace("?","?ʢstopʡ")
+    text = text.replace("!","!ʢstopʡ")
+    text = text.replace("ʢprdʡ",".")
+    sentences = text.split("ʢstopʡ")
     sentences = [s.strip() for s in sentences]
     if sentences and not sentences[-1]: sentences = sentences[:-1]
     return sentences
