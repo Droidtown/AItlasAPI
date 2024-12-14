@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Wolf
+    given-names: Peter
+    orcid: 
+title: "AItlas"
+version: 0.0.1
+date-released: 
