@@ -7,6 +7,60 @@
     },
     "user_defined": {
         "_asNoun": [
+            "後代",
+            "白領",
+            "研究",
+            "第一人",
+            "新中國民",
+            "辦教育",
+            "福建幫",
+            "大醒",
+            "門下",
+            "四大金剛",
+            "刑法",
+            "哲學",
+            "藥學",
+            "麾下",
+            "盈利",
+            "南朝",
+            "紅十字會",
+            "蘇德布列斯特",
+            "國王",
+            "廣州起義",
+            "太平天國運動",
+            "內地會",
+            "國際足總",
+            "個人",
+            "越野跑",
+            "德意志",
+            "丁丑科",
+            "殿試",
+            "跳高",
+            "大英國協",
+            "運動會",
+            "奧林匹克",
+            "網絡",
+            "後來",
+            "無線",
+            "無綫",
+            "音像",
+            "礦業",
+            "六十家小說",
+            "共立",
+            "省立",
+            "政教",
+            "立教",
+            "小字",
+            "洪水滅世",
+            "阿爾戈號",
+            "按察司",
+            "頭等",
+            "按察使",
+            "公安知縣",
+            "愛禮王后",
+            "內禮夫人",
+            "愛禮夫人",
+            "愛月主人",
             "劇作家",
             "劇院",
             "動力學",
@@ -53,9 +107,44 @@
             "金牌",
             "銀牌",
             "銅牌",
-            "鑲黃旗"
+            "鑲黃旗",
+            "祗摩王"
         ],
         "_entryName": [
+            "譚叫天",
+            "董巨",
+            "小夏侯",
+            "孔峭凡",
+            "米尼安",
+            "樂正子",
+            "長西瑛",
+            "阿喲諾",
+            "里西瑛",
+            "孔峭凡",
+            "廖五經",
+            "駕頭拔",
+            "夏扎",
+            "南八",
+            "夏德全",
+            "譚照華",
+            "夏書章",
+            "夏延軍",
+            "夏穎",
+            "石金峰",
+            "夏駿",
+            "廖振鵬",
+            "梅仁",
+            "紅紅",
+            "孔幼孫",
+            "伊阿宋",
+            "盛洪",
+            "夏開權",
+            "洪祖烈易",
+            "安邦彥",
+            "祗摩尼師今",
+            "提歐斯",
+            "愛不花",
+            "愛新覺羅氏",
             "丁一匯",
             "丁丙",
             "丁中江",
@@ -4356,7 +4445,37 @@
             "鬍子昭",
             "鬍子玫"
         ],
+        "_schoolName": [
+            "中南礦治學院",
+            "工學院",
+            "農學院",
+            "藥科",
+            "礦治學院",
+            "藥科大學",
+            "師範大學",
+            "佛羅里達˙大學",
+            "清華大學",
+            "浙江大學",
+            "台灣大學",
+            "哈爾濱工業大學",
+            "北京大學",
+            "南京大學",
+            "河南大學",
+            "南京大學",
+            "北京廣播學院",
+            "外語",
+            "外文"
+        ],
         "_ancientPlaceName": [
+            "哈爾濱",
+            "阜新",
+            "華中",
+            "陽和道",
+            "科爾基斯",
+            "湖廣",
+            "印地安納州保利",
+            "安化縣",
+            "愛奧尼亞",
             "仁和縣",
             "信陽",
             "儀徵",
@@ -4400,625 +4519,17 @@
             "長洲縣",
             "長興縣",
             "順義縣",
-            "黃縣"
+            "黃縣",
+            "小亞細亞"
         ]
     },
     "utterance": {
         "梅友仁表示GCHQ沒有研發監控全英網絡和電話的技術": {
-            "id": "76547dcb-b90d-41d7-b5d9-a3ecae9e2dce",
-            "argument": [
-                {
-                    "pos": "ENTITY_person",
-                    "text": "梅友仁",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "展示",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "指示",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "揭示",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "明示",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "昭示",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "演示",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "示意",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "示範",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "表態",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "表明",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "表演",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "表現",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "表白",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "表述",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "表達",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "表露",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "預示",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "顯示",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "默示",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "亂說",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "亂講",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "交談",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "勾劃",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "勾畫",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "卑怯",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "口述",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "叨嘮",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "商量",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "啟奏",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "報告",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "宣告",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "對談",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "引領",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "念叨",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "意指",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "意謂",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "扯談",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "招呼",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "指出",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "指到",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "指引",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "描寫",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "描述",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "明訂",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "暗含",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "暗指",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "暢談",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "涵蓋",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "演出",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "牽扯",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "牽涉",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "瞎扯",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "瞎說",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "稱說",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "聲稱",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "胡說",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "解說",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "訴說",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "詳述",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "說到",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "說服",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "談到",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "講到",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "講解",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "講述",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "象徵",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "賣弄",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "辯護",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "述說",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "開導",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "關說",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "陳述",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "露出",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "坦言",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "強調",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "提到",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "表示了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "透露",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "宣稱",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "表示",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_oov",
-                    "text": "GCHQ",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "FUNC_negation",
-                    "text": "沒有",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "研析",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "研究",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "研習",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "研製",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "打造",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "開發",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "試製",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "開發出",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "開發了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "製造",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "生產",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "選育",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "量產",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "研發了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "開發",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "研發",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "監測",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "監視",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "管控",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "追蹤",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "監看",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "偵蒐",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "控管",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "控制",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "偵測",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "量測",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "監控",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "QUANTIFIER",
-                    "text": "全",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "英網",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "絡",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "FUNC_conjunction",
-                    "text": "和",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_noun",
-                    "text": "電話",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "FUNC_inner",
-                    "text": "的",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_noun",
-                    "text": "技術",
-                    "checked": true,
-                    "checkbox": true
-                }
-            ]
-        },
-        "掌控網際網路表示GCHQ沒有研發監控全英網絡和電話的技術": {
-            "id": "174556f3-b44a-4cdc-9eae-ce0585034f7b",
+            "id": "6d6156cc-b642-4bd4-97f6-732955061cd8",
             "argument": [
                 {
                     "pos": "UserDefined",
-                    "text": "掌控網際網路",
+                    "text": "梅友仁",
                     "checked": true,
                     "checkbox": true
                 },
@@ -5579,20 +5090,14 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "QUANTIFIER",
-                    "text": "全",
+                    "pos": "MODIFIER",
+                    "text": "全英",
                     "checked": false,
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_nouny",
-                    "text": "英網",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "絡",
+                    "pos": "UserDefined",
+                    "text": "網絡",
                     "checked": true,
                     "checkbox": true
                 },

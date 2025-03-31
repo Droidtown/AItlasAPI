@@ -7,6 +7,60 @@
     },
     "user_defined": {
         "_asNoun": [
+            "後代",
+            "白領",
+            "研究",
+            "第一人",
+            "新中國民",
+            "辦教育",
+            "福建幫",
+            "大醒",
+            "門下",
+            "四大金剛",
+            "刑法",
+            "哲學",
+            "藥學",
+            "麾下",
+            "盈利",
+            "南朝",
+            "紅十字會",
+            "蘇德布列斯特",
+            "國王",
+            "廣州起義",
+            "太平天國運動",
+            "內地會",
+            "國際足總",
+            "個人",
+            "越野跑",
+            "德意志",
+            "丁丑科",
+            "殿試",
+            "跳高",
+            "大英國協",
+            "運動會",
+            "奧林匹克",
+            "網絡",
+            "後來",
+            "無線",
+            "無綫",
+            "音像",
+            "礦業",
+            "六十家小說",
+            "共立",
+            "省立",
+            "政教",
+            "立教",
+            "小字",
+            "洪水滅世",
+            "阿爾戈號",
+            "按察司",
+            "頭等",
+            "按察使",
+            "公安知縣",
+            "愛禮王后",
+            "內禮夫人",
+            "愛禮夫人",
+            "愛月主人",
             "劇作家",
             "劇院",
             "動力學",
@@ -53,9 +107,44 @@
             "金牌",
             "銀牌",
             "銅牌",
-            "鑲黃旗"
+            "鑲黃旗",
+            "祗摩王"
         ],
         "_entryName": [
+            "譚叫天",
+            "董巨",
+            "小夏侯",
+            "孔峭凡",
+            "米尼安",
+            "樂正子",
+            "長西瑛",
+            "阿喲諾",
+            "里西瑛",
+            "孔峭凡",
+            "廖五經",
+            "駕頭拔",
+            "夏扎",
+            "南八",
+            "夏德全",
+            "譚照華",
+            "夏書章",
+            "夏延軍",
+            "夏穎",
+            "石金峰",
+            "夏駿",
+            "廖振鵬",
+            "梅仁",
+            "紅紅",
+            "孔幼孫",
+            "伊阿宋",
+            "盛洪",
+            "夏開權",
+            "洪祖烈易",
+            "安邦彥",
+            "祗摩尼師今",
+            "提歐斯",
+            "愛不花",
+            "愛新覺羅氏",
             "丁一匯",
             "丁丙",
             "丁中江",
@@ -4356,7 +4445,37 @@
             "鬍子昭",
             "鬍子玫"
         ],
+        "_schoolName": [
+            "中南礦治學院",
+            "工學院",
+            "農學院",
+            "藥科",
+            "礦治學院",
+            "藥科大學",
+            "師範大學",
+            "佛羅里達˙大學",
+            "清華大學",
+            "浙江大學",
+            "台灣大學",
+            "哈爾濱工業大學",
+            "北京大學",
+            "南京大學",
+            "河南大學",
+            "南京大學",
+            "北京廣播學院",
+            "外語",
+            "外文"
+        ],
         "_ancientPlaceName": [
+            "哈爾濱",
+            "阜新",
+            "華中",
+            "陽和道",
+            "科爾基斯",
+            "湖廣",
+            "印地安納州保利",
+            "安化縣",
+            "愛奧尼亞",
             "仁和縣",
             "信陽",
             "儀徵",
@@ -4400,7 +4519,8 @@
             "長洲縣",
             "長興縣",
             "順義縣",
-            "黃縣"
+            "黃縣",
+            "小亞細亞"
         ]
     },
     "utterance": {
@@ -5158,1240 +5278,6 @@
                 }
             ]
         },
-        "梅仁後參與庾亮的北伐行動": {
-            "id": "086994b0-04df-4de4-827d-57bc2a088ef6",
-            "argument": [
-                {
-                    "pos": "ENTITY_oov",
-                    "text": "梅仁",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "RANGE_locality",
-                    "text": "後",
-                    "checked": true,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "參加",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "與會",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "加入",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "投入",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參與過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參與了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "發起",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "進行",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "出席",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "從事",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "參與",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "庾",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "MODIFIER",
-                    "text": "亮",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "FUNC_inner",
-                    "text": "的",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "北",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "伐木",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "採伐",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "砍伐",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "中斷",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "分割",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "切割",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "切斷",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "切除",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "刪剪",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "刪減",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "削減",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "剪掉",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "剪接",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "剪斷",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "割斷",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "劃破",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "截斷",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "斬斷",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "橫斷",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "裁剪",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "裁汰",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "裁減",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "親征",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "伐降",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "征伐",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "西征",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "南征",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "東征",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "親徵",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "伐到",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "徵討",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "討伐",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "伐",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "MODIFIER",
-                    "text": "行動",
-                    "checked": false,
-                    "checkbox": false
-                }
-            ]
-        },
-        "毛寶後參與庾亮的北伐行動": {
-            "id": "cc5d7697-18a0-41a1-bcb2-f45a3e70e771",
-            "argument": [
-                {
-                    "pos": "ENTITY_person",
-                    "text": "毛寶",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "RANGE_locality",
-                    "text": "後",
-                    "checked": true,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "參加",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "與會",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "加入",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "投入",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "參與過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "進行",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "從事",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "發起",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參與了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "出席",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "參與",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "庾",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "MODIFIER",
-                    "text": "亮",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "FUNC_inner",
-                    "text": "的",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "北",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "伐木",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "採伐",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "砍伐",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "中斷",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "分割",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "切割",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "切斷",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "切除",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "刪剪",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "刪減",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "削減",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "剪掉",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "剪接",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "剪斷",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "割斷",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "劃破",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "截斷",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "斬斷",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "橫斷",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "裁剪",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "裁汰",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "裁減",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "親征",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "徵討",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "伐到",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "南征",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "東征",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "西征",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "征伐",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "討伐",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "伐降",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "親徵",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "伐",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "MODIFIER",
-                    "text": "行動",
-                    "checked": false,
-                    "checkbox": false
-                }
-            ]
-        },
-        "梅仁曾經參與過小基隆福成宮": {
-            "id": "74c816b2-b994-409a-b298-ef68fcacb7bb",
-            "argument": [
-                {
-                    "pos": "ENTITY_oov",
-                    "text": "梅仁",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ASPECT",
-                    "text": "曾經",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "VerbP",
-                    "lexy": [
-                        {
-                            "text": "參加",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "與會",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "加入",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "投入",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "加入過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "做過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "嘗試過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參與了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "出席過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "演出過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "舉辦過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "辦過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參與",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "辦",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "舉辦",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "出席",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "嘗試",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "演出",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "做",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "加入",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "參與過",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "MODIFIER",
-                    "text": "小",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "LOCATION",
-                    "text": "基隆",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ENTITY_oov",
-                    "text": "福成宮",
-                    "checked": true,
-                    "checkbox": true
-                }
-            ]
-        },
-        "塔德曾參與黃河1921年宮家決口": {
-            "id": "346e9b70-eefe-4cd3-8949-ee2ab2445821",
-            "argument": [
-                {
-                    "pos": "UserDefined",
-                    "text": "塔德",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ASPECT",
-                    "text": "曾",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "參加",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "與會",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "加入",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "投入",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "參與過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "進行",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "從事",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "發起",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參與了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "出席",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "參與",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "LOCATION",
-                    "text": "黃河",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "TIME_year",
-                    "text": "1921年",
-                    "checked": true,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "宮家決口",
-                    "checked": true,
-                    "checkbox": true
-                }
-            ]
-        },
-        "廖石成曾經參與過小基隆福成宮": {
-            "id": "6ddbd305-b8fb-4e60-9874-7c61eee889fe",
-            "argument": [
-                {
-                    "pos": "ENTITY_person",
-                    "text": "廖石成",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ASPECT",
-                    "text": "曾經",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "VerbP",
-                    "lexy": [
-                        {
-                            "text": "參加",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "與會",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "加入",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "投入",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參與了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "做過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "辦過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "加入過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "出席過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "舉辦過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "演出過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "嘗試過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參與",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "辦",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "舉辦",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "出席",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "嘗試",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "演出",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "做",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "加入",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "參與過",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "MODIFIER",
-                    "text": "小",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "LOCATION",
-                    "text": "基隆",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ENTITY_oov",
-                    "text": "福成宮",
-                    "checked": true,
-                    "checkbox": true
-                }
-            ]
-        },
-        "梅友仁他們也參與內地會的行政": {
-            "id": "25e386d5-e506-47f6-bc3b-9fdf693e39cd",
-            "argument": [
-                {
-                    "pos": "ENTITY_person",
-                    "text": "梅友仁",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_pronoun",
-                    "text": "他們",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "MODIFIER",
-                    "text": "也",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "參加",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "與會",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "加入",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "投入",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參與過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參與了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "發起",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "進行",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "出席",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "從事",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "參與",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "RANGE_locality",
-                    "text": "內",
-                    "checked": true,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_oov",
-                    "text": "地",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "MODAL",
-                    "text": "會",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "FUNC_inner",
-                    "text": "的",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_noun",
-                    "text": "行政",
-                    "checked": true,
-                    "checkbox": true
-                }
-            ]
-        },
-        "梅友仁曾參與黃河1921年宮家決口": {
-            "id": "7abc6866-0bfe-4f8e-89b2-8701427243c8",
-            "argument": [
-                {
-                    "pos": "ENTITY_person",
-                    "text": "梅友仁",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ASPECT",
-                    "text": "曾",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "參加",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "與會",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "加入",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "投入",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參與過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參與了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "發起",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "進行",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "出席",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "從事",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "參與",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "LOCATION",
-                    "text": "黃河",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "TIME_year",
-                    "text": "1921年",
-                    "checked": true,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "宮家決口",
-                    "checked": true,
-                    "checkbox": true
-                }
-            ]
-        },
         "廖春波此外他還參與過的編纂工作": {
             "id": "6ee3de6e-eafa-48c5-8e43-11e6d3406848",
             "argument": [
@@ -6903,10 +5789,10 @@
             ]
         },
         "梅仁曾參與太平天國運動及廣州起義": {
-            "id": "6d922b02-8c54-465c-9ec0-c2a5f67c42eb",
+            "id": "a580aa1e-1ce9-47de-8566-25f5ab0f717e",
             "argument": [
                 {
-                    "pos": "ENTITY_oov",
+                    "pos": "UserDefined",
                     "text": "梅仁",
                     "checked": true,
                     "checkbox": true
@@ -6991,44 +5877,10 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "DegreeP",
-                    "text": "太平",
+                    "pos": "UserDefined",
+                    "text": "太平天國運動",
                     "checked": true,
                     "checkbox": true
-                },
-                {
-                    "pos": "ENTITY_noun",
-                    "text": "天國",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "溜冰",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "鬥爭",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "舉重",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "慢跑",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "運動",
-                    "checked": false,
-                    "checkbox": false
                 },
                 {
                     "pos": "FUNC_conjunction",
@@ -7037,79 +5889,21 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "LOCATION",
-                    "text": "廣州",
+                    "pos": "UserDefined",
+                    "text": "廣州起義",
                     "checked": true,
                     "checkbox": true
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "暴動",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "起事",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "抗清",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "舉事",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "反叛",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "東征",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "討袁",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "西征",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "舉義",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "革命",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "起義",
-                    "checked": false,
-                    "checkbox": false
                 }
             ]
         },
         "梅友仁曾參與審判英國國王查理一世": {
-            "id": "4cb953c9-8f36-4c80-988a-8edf460fe8cb",
+            "id": "36dae488-f103-4e85-a134-2a6212f6cad2",
             "argument": [
                 {
-                    "pos": "ENTITY_person",
+                    "pos": "UserDefined",
                     "text": "梅友仁",
-                    "checked": false,
-                    "checkbox": false
+                    "checked": true,
+                    "checkbox": true
                 },
                 {
                     "pos": "ASPECT",
@@ -7249,14 +6043,14 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_nouny",
-                    "text": "英國國",
-                    "checked": true,
+                    "pos": "LOCATION",
+                    "text": "英國",
+                    "checked": false,
                     "checkbox": true
                 },
                 {
-                    "pos": "ENTITY_oov",
-                    "text": "王",
+                    "pos": "UserDefined",
+                    "text": "國王",
                     "checked": true,
                     "checkbox": true
                 },
@@ -7270,7 +6064,7 @@
                 {
                     "pos": "ENTITY_num",
                     "text": "一",
-                    "checked": true,
+                    "checked": false,
                     "checkbox": true
                 },
                 {
@@ -8210,7 +7004,7 @@
             ]
         },
         "石明理夫婦他們也參與內地會的行政": {
-            "id": "dc030e2b-514d-4599-bc58-4b2e89f42d5b",
+            "id": "9faabfe7-34f1-40cd-a0cf-c951254cf898",
             "argument": [
                 {
                     "pos": "UserDefined",
@@ -8304,22 +7098,10 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "RANGE_locality",
-                    "text": "內",
-                    "checked": true,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_oov",
-                    "text": "地",
+                    "pos": "UserDefined",
+                    "text": "內地會",
                     "checked": true,
                     "checkbox": true
-                },
-                {
-                    "pos": "MODAL",
-                    "text": "會",
-                    "checked": false,
-                    "checkbox": false
                 },
                 {
                     "pos": "FUNC_inner",
@@ -8336,7 +7118,7 @@
             ]
         },
         "洪全福曾參與太平天國運動及廣州起義": {
-            "id": "d11d7979-69cd-449a-9f85-1d7fa492ed31",
+            "id": "8c53b9b6-c710-4d78-82f4-7869cd2e7024",
             "argument": [
                 {
                     "pos": "ENTITY_person",
@@ -8424,44 +7206,10 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "DegreeP",
-                    "text": "太平",
+                    "pos": "UserDefined",
+                    "text": "太平天國運動",
                     "checked": true,
                     "checkbox": true
-                },
-                {
-                    "pos": "ENTITY_noun",
-                    "text": "天國",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "溜冰",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "鬥爭",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "舉重",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "慢跑",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "運動",
-                    "checked": false,
-                    "checkbox": false
                 },
                 {
                     "pos": "FUNC_conjunction",
@@ -8470,68 +7218,10 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "LOCATION",
-                    "text": "廣州",
+                    "pos": "UserDefined",
+                    "text": "廣州起義",
                     "checked": true,
                     "checkbox": true
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "暴動",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "起事",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "抗清",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "舉事",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "反叛",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "東征",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "討袁",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "西征",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "舉義",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "革命",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "起義",
-                    "checked": false,
-                    "checkbox": false
                 }
             ]
         },
@@ -8661,14 +7351,14 @@
                 }
             ]
         },
-        "梅友仁曾參與第二次世界大戰蘇德布列斯特": {
-            "id": "186f22e8-fc47-433b-a119-87a48a6cb2b9",
+        "塔德曾參與黃河1921年宮家決口的堵口工程": {
+            "id": "a0f8a33d-2c1f-4a86-9aef-dc0d56b6a045",
             "argument": [
                 {
-                    "pos": "ENTITY_person",
-                    "text": "梅友仁",
-                    "checked": false,
-                    "checkbox": false
+                    "pos": "UserDefined",
+                    "text": "塔德",
+                    "checked": true,
+                    "checkbox": true
                 },
                 {
                     "pos": "ASPECT",
@@ -8750,6 +7440,126 @@
                     "checkbox": false
                 },
                 {
+                    "pos": "LOCATION",
+                    "text": "黃河",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "TIME_year",
+                    "text": "1921年",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "宮家決口",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "堵口工程",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "梅友仁曾參與第二次世界大戰蘇德布列斯特": {
+            "id": "f89b578f-b8e4-41c0-bbf5-d4361ceb7eb0",
+            "argument": [
+                {
+                    "pos": "UserDefined",
+                    "text": "梅友仁",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ASPECT",
+                    "text": "曾",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "參加",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "與會",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "加入",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "投入",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "參與過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "進行",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "從事",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "發起",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "參加了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "參加過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "參與了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "出席",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "參加",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "參與",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
                     "pos": "ENTITY_DetPhrase",
                     "text": "第二次",
                     "checked": false,
@@ -8758,7 +7568,7 @@
                 {
                     "pos": "LOCATION",
                     "text": "世界",
-                    "checked": true,
+                    "checked": false,
                     "checkbox": true
                 },
                 {
@@ -8768,22 +7578,10 @@
                     "checkbox": true
                 },
                 {
-                    "pos": "ENTITY_person",
-                    "text": "蘇德布",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "列斯",
+                    "pos": "UserDefined",
+                    "text": "蘇德布列斯特",
                     "checked": true,
                     "checkbox": true
-                },
-                {
-                    "pos": "MODIFIER",
-                    "text": "特",
-                    "checked": false,
-                    "checkbox": false
                 }
             ]
         },
@@ -9459,7 +8257,7 @@
             ]
         },
         "阿瑟·本特利第一次世界大戰期間參與紅十字會": {
-            "id": "7a998bfc-11ad-48f1-a0f7-35ff4991b045",
+            "id": "f7820a84-330c-477b-98a5-82863a91b10a",
             "argument": [
                 {
                     "pos": "UserDefined",
@@ -9476,7 +8274,7 @@
                 {
                     "pos": "LOCATION",
                     "text": "世界",
-                    "checked": true,
+                    "checked": false,
                     "checkbox": true
                 },
                 {
@@ -9565,22 +8363,10 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "MODIFIER_color",
-                    "text": "紅",
+                    "pos": "UserDefined",
+                    "text": "紅十字會",
                     "checked": true,
                     "checkbox": true
-                },
-                {
-                    "pos": "MODIFIER",
-                    "text": "十字",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "MODAL",
-                    "text": "會",
-                    "checked": false,
-                    "checkbox": false
                 }
             ]
         },
@@ -10419,13 +9205,13 @@
             ]
         },
         "梅友仁強森少將麾下以個人助理身分參與七年戰爭": {
-            "id": "93675788-504b-470e-8501-5f9a13d8f4bb",
+            "id": "7cecf2b4-3b20-4d77-ba9e-1336e2ff432b",
             "argument": [
                 {
-                    "pos": "ENTITY_person",
+                    "pos": "UserDefined",
                     "text": "梅友仁",
-                    "checked": false,
-                    "checkbox": false
+                    "checked": true,
+                    "checkbox": true
                 },
                 {
                     "pos": "ENTITY_person",
@@ -10434,16 +9220,16 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_nouny",
-                    "text": "少將麾",
+                    "pos": "ENTITY_noun",
+                    "text": "少將",
                     "checked": true,
                     "checkbox": true
                 },
                 {
-                    "pos": "RANGE_locality",
-                    "text": "下",
+                    "pos": "UserDefined",
+                    "text": "麾下",
                     "checked": true,
-                    "checkbox": false
+                    "checkbox": true
                 },
                 {
                     "pos": "FUNC_inner",
@@ -10452,7 +9238,7 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_noun",
+                    "pos": "UserDefined",
                     "text": "個人",
                     "checked": true,
                     "checkbox": true
@@ -10683,13 +9469,13 @@
             ]
         },
         "梅友仁是一家以參與型經濟模式運作的非盈利圖書出版商": {
-            "id": "d3ce54c0-cd02-48d9-9e9a-234d86ce6424",
+            "id": "050b1401-5b87-483e-bae6-ba0be2382e64",
             "argument": [
                 {
-                    "pos": "ENTITY_person",
+                    "pos": "UserDefined",
                     "text": "梅友仁",
-                    "checked": false,
-                    "checkbox": false
+                    "checked": true,
+                    "checkbox": true
                 },
                 {
                     "pos": "AUX",
@@ -10733,17 +9519,17 @@
                             "checked": false
                         },
                         {
-                            "text": "參加過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
                             "text": "參與過",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "參與了",
+                            "text": "進行",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "從事",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -10758,17 +9544,17 @@
                             "checked": false
                         },
                         {
-                            "text": "進行",
+                            "text": "參加過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "參與了",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
                             "text": "出席",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "從事",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -10808,12 +9594,7 @@
                             "checked": false
                         },
                         {
-                            "text": "運營",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "調度",
+                            "text": "供電",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -10823,12 +9604,12 @@
                             "checked": false
                         },
                         {
-                            "text": "供電",
+                            "text": "營運",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "經營",
+                            "text": "調度",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -10843,7 +9624,12 @@
                             "checked": false
                         },
                         {
-                            "text": "營運",
+                            "text": "運營",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "經營",
                             "level": "word2vec",
                             "checked": false
                         }
@@ -10865,14 +9651,14 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_nouny",
-                    "text": "盈",
+                    "pos": "UserDefined",
+                    "text": "盈利",
                     "checked": true,
                     "checkbox": true
                 },
                 {
-                    "pos": "ENTITY_nouny",
-                    "text": "利圖書",
+                    "pos": "ENTITY_noun",
+                    "text": "圖書",
                     "checked": true,
                     "checkbox": true
                 },
@@ -11493,7 +10279,7 @@
             ]
         },
         "南端出版社是一家以參與型經濟模式運作的非盈利圖書出版商": {
-            "id": "c67e73d7-b698-49dc-bc3b-38bdea1f8066",
+            "id": "64d0ee66-82ff-463c-a843-a507e68d798a",
             "argument": [
                 {
                     "pos": "UserDefined",
@@ -11543,17 +10329,17 @@
                             "checked": false
                         },
                         {
+                            "text": "參加過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
                             "text": "參與過",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "進行",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "從事",
+                            "text": "參與了",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -11568,17 +10354,17 @@
                             "checked": false
                         },
                         {
-                            "text": "參加過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參與了",
+                            "text": "進行",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
                             "text": "出席",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "從事",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -11618,7 +10404,12 @@
                             "checked": false
                         },
                         {
-                            "text": "供電",
+                            "text": "運營",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "調度",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -11628,12 +10419,12 @@
                             "checked": false
                         },
                         {
-                            "text": "營運",
+                            "text": "供電",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "調度",
+                            "text": "經營",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -11648,12 +10439,7 @@
                             "checked": false
                         },
                         {
-                            "text": "運營",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "經營",
+                            "text": "營運",
                             "level": "word2vec",
                             "checked": false
                         }
@@ -11675,14 +10461,14 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_nouny",
-                    "text": "盈",
+                    "pos": "UserDefined",
+                    "text": "盈利",
                     "checked": true,
                     "checkbox": true
                 },
                 {
-                    "pos": "ENTITY_nouny",
-                    "text": "利圖書",
+                    "pos": "ENTITY_noun",
+                    "text": "圖書",
                     "checked": true,
                     "checkbox": true
                 },
@@ -11695,10 +10481,10 @@
             ]
         },
         "梅仁孔伯恭曾參與迎降南朝宋彭城及相關抵抗宋軍進攻的戰事": {
-            "id": "fa7be5f7-d61c-49e4-8bab-fcc96ffddfe0",
+            "id": "8e17303c-615d-48bc-b1b7-b217081a1938",
             "argument": [
                 {
-                    "pos": "ENTITY_oov",
+                    "pos": "UserDefined",
                     "text": "梅仁",
                     "checked": true,
                     "checkbox": true
@@ -11847,68 +10633,10 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_nouny",
-                    "text": "南",
+                    "pos": "UserDefined",
+                    "text": "南朝",
                     "checked": true,
                     "checkbox": true
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "朝朝",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "拜佔",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "朝亦",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "指朝",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "小朝",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "在朝",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "到朝",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "受朝",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "見朝",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "獲朝",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "朝",
-                    "checked": false,
-                    "checkbox": false
                 },
                 {
                     "pos": "ENTITY_person",
@@ -12617,7 +11345,7 @@
             ]
         },
         "孔伯恭孔伯恭曾參與迎降南朝宋彭城及相關抵抗宋軍進攻的戰事": {
-            "id": "502b2fc7-8d6f-477e-90f3-b54df5a371db",
+            "id": "101fe4d2-1f87-44df-8fbe-c282813ba3ed",
             "argument": [
                 {
                     "pos": "ENTITY_person",
@@ -12769,68 +11497,10 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_nouny",
-                    "text": "南",
+                    "pos": "UserDefined",
+                    "text": "南朝",
                     "checked": true,
                     "checkbox": true
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "朝朝",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "拜佔",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "朝亦",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "指朝",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "小朝",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "在朝",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "到朝",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "受朝",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "見朝",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "獲朝",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "朝",
-                    "checked": false,
-                    "checkbox": false
                 },
                 {
                     "pos": "ENTITY_person",

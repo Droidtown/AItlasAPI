@@ -7,6 +7,60 @@
     },
     "user_defined": {
         "_asNoun": [
+            "後代",
+            "白領",
+            "研究",
+            "第一人",
+            "新中國民",
+            "辦教育",
+            "福建幫",
+            "大醒",
+            "門下",
+            "四大金剛",
+            "刑法",
+            "哲學",
+            "藥學",
+            "麾下",
+            "盈利",
+            "南朝",
+            "紅十字會",
+            "蘇德布列斯特",
+            "國王",
+            "廣州起義",
+            "太平天國運動",
+            "內地會",
+            "國際足總",
+            "個人",
+            "越野跑",
+            "德意志",
+            "丁丑科",
+            "殿試",
+            "跳高",
+            "大英國協",
+            "運動會",
+            "奧林匹克",
+            "網絡",
+            "後來",
+            "無線",
+            "無綫",
+            "音像",
+            "礦業",
+            "六十家小說",
+            "共立",
+            "省立",
+            "政教",
+            "立教",
+            "小字",
+            "洪水滅世",
+            "阿爾戈號",
+            "按察司",
+            "頭等",
+            "按察使",
+            "公安知縣",
+            "愛禮王后",
+            "內禮夫人",
+            "愛禮夫人",
+            "愛月主人",
             "劇作家",
             "劇院",
             "動力學",
@@ -53,9 +107,44 @@
             "金牌",
             "銀牌",
             "銅牌",
-            "鑲黃旗"
+            "鑲黃旗",
+            "祗摩王"
         ],
         "_entryName": [
+            "譚叫天",
+            "董巨",
+            "小夏侯",
+            "孔峭凡",
+            "米尼安",
+            "樂正子",
+            "長西瑛",
+            "阿喲諾",
+            "里西瑛",
+            "孔峭凡",
+            "廖五經",
+            "駕頭拔",
+            "夏扎",
+            "南八",
+            "夏德全",
+            "譚照華",
+            "夏書章",
+            "夏延軍",
+            "夏穎",
+            "石金峰",
+            "夏駿",
+            "廖振鵬",
+            "梅仁",
+            "紅紅",
+            "孔幼孫",
+            "伊阿宋",
+            "盛洪",
+            "夏開權",
+            "洪祖烈易",
+            "安邦彥",
+            "祗摩尼師今",
+            "提歐斯",
+            "愛不花",
+            "愛新覺羅氏",
             "丁一匯",
             "丁丙",
             "丁中江",
@@ -4356,7 +4445,37 @@
             "鬍子昭",
             "鬍子玫"
         ],
+        "_schoolName": [
+            "中南礦治學院",
+            "工學院",
+            "農學院",
+            "藥科",
+            "礦治學院",
+            "藥科大學",
+            "師範大學",
+            "佛羅里達˙大學",
+            "清華大學",
+            "浙江大學",
+            "台灣大學",
+            "哈爾濱工業大學",
+            "北京大學",
+            "南京大學",
+            "河南大學",
+            "南京大學",
+            "北京廣播學院",
+            "外語",
+            "外文"
+        ],
         "_ancientPlaceName": [
+            "哈爾濱",
+            "阜新",
+            "華中",
+            "陽和道",
+            "科爾基斯",
+            "湖廣",
+            "印地安納州保利",
+            "安化縣",
+            "愛奧尼亞",
             "仁和縣",
             "信陽",
             "儀徵",
@@ -4400,728 +4519,29 @@
             "長洲縣",
             "長興縣",
             "順義縣",
-            "黃縣"
+            "黃縣",
+            "小亞細亞"
         ]
     },
     "utterance": {
-        "含姆避過洪水滅世": {
-            "id": "7c78abd5-b4cb-46ed-a481-a5dcc483cbea",
+        "梅友仁小字虎生因避李淵祖父李虎名諱而作武生": {
+            "id": "be169754-8acf-40ae-b8f0-afea8dc89769",
             "argument": [
                 {
                     "pos": "UserDefined",
-                    "text": "含姆",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "VerbP",
-                    "lexy": [
-                        {
-                            "text": "躲過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "逃過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "逃脫了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "避開了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "逃脫",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "躲開",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "免於",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "騙過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "躲開了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "瞞過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "躲",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "逃",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "避開",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "騙",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "瞞",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "避過",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_noun",
-                    "text": "洪水",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "VerbP",
-                    "lexy": [
-                        {
-                            "text": "毀滅",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "吞噬",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "煉獄",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "降臨",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "毀天",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "毀滅了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "巨大化",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "墮落",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "甦醒",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "滅世",
-                    "checked": false,
-                    "checkbox": false
-                }
-            ]
-        },
-        "梅仁夜則閉戸讀書": {
-            "id": "0036e799-7f56-4562-8b41-4921fd75ac9c",
-            "argument": [
-                {
-                    "pos": "ENTITY_person",
-                    "text": "梅仁夜",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "FUNC_inter",
-                    "text": "則",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "VerbP",
-                    "lexy": [],
-                    "text": "閉戸",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "啃書",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "宣讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "攻讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "朗讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "熟讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "略讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "研讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "精讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "試讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "誦讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "讀出",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "讀懂",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "閱讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "飽讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "默讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "上學",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "就學",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "求學",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "留學",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "研判",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "考查",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "聽講",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "評閱",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "遊學",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "默念",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "教書",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "聽課",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "就讀",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "唸書",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "讀",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "打球",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "講學",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "學習",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "讀書",
-                    "checked": false,
-                    "checkbox": false
-                }
-            ]
-        },
-        "梅友仁避過洪水滅世": {
-            "id": "daa6088a-3425-4145-81f4-2756851ed55d",
-            "argument": [
-                {
-                    "pos": "ENTITY_person",
                     "text": "梅友仁",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "VerbP",
-                    "lexy": [
-                        {
-                            "text": "躲過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "逃過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "逃脫了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "避開了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "逃脫",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "躲開",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "免於",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "騙過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "躲開了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "瞞過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "躲",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "逃",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "避開",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "騙",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "瞞",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "避過",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_noun",
-                    "text": "洪水",
                     "checked": true,
                     "checkbox": true
                 },
                 {
-                    "pos": "VerbP",
-                    "lexy": [
-                        {
-                            "text": "毀滅",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "吞噬",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "煉獄",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "降臨",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "毀天",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "毀滅了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "巨大化",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "墮落",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "甦醒",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "滅世",
-                    "checked": false,
-                    "checkbox": false
-                }
-            ]
-        },
-        "毛紹濂夜則閉戸讀書": {
-            "id": "1117a9fb-16da-43cb-9871-7427ba73f13f",
-            "argument": [
-                {
-                    "pos": "ENTITY_person",
-                    "text": "毛紹濂",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "TIME_day",
-                    "text": "夜",
+                    "pos": "UserDefined",
+                    "text": "小字",
                     "checked": true,
-                    "checkbox": false
+                    "checkbox": true
                 },
                 {
-                    "pos": "FUNC_inter",
-                    "text": "則",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "VerbP",
-                    "lexy": [],
-                    "text": "閉戸",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "啃書",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "宣讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "攻讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "朗讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "熟讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "略讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "研讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "精讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "試讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "誦讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "讀出",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "讀懂",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "閱讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "飽讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "默讀",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "上學",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "就學",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "求學",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "留學",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "研判",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "考查",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "聽講",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "評閱",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "遊學",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "默念",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "唸書",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "讀",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "就讀",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "教書",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "講學",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "打球",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "聽課",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "學習",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "讀書",
-                    "checked": false,
-                    "checkbox": false
-                }
-            ]
-        },
-        "梅友仁小字虎生因避李淵祖父李虎名諱而作武生": {
-            "id": "5dca028a-bb6c-4c91-8524-ba137bdc2fa6",
-            "argument": [
-                {
-                    "pos": "ENTITY_person",
-                    "text": "梅友仁",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "小字虎生",
+                    "pos": "ENTITY_oov",
+                    "text": "虎生",
                     "checked": true,
                     "checkbox": true
                 },
@@ -5521,7 +4941,7 @@
             ]
         },
         "毛穆之小字虎生因避李淵祖父李虎名諱而作武生": {
-            "id": "09089bc6-d59a-45e4-91c1-024f1d1b041e",
+            "id": "eebc8aa9-4b11-4ea3-8810-fa9fdb983961",
             "argument": [
                 {
                     "pos": "UserDefined",
@@ -5530,8 +4950,14 @@
                     "checkbox": true
                 },
                 {
-                    "pos": "ENTITY_nouny",
-                    "text": "小字虎生",
+                    "pos": "UserDefined",
+                    "text": "小字",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "虎生",
                     "checked": true,
                     "checkbox": true
                 },

@@ -7,6 +7,60 @@
     },
     "user_defined": {
         "_asNoun": [
+            "後代",
+            "白領",
+            "研究",
+            "第一人",
+            "新中國民",
+            "辦教育",
+            "福建幫",
+            "大醒",
+            "門下",
+            "四大金剛",
+            "刑法",
+            "哲學",
+            "藥學",
+            "麾下",
+            "盈利",
+            "南朝",
+            "紅十字會",
+            "蘇德布列斯特",
+            "國王",
+            "廣州起義",
+            "太平天國運動",
+            "內地會",
+            "國際足總",
+            "個人",
+            "越野跑",
+            "德意志",
+            "丁丑科",
+            "殿試",
+            "跳高",
+            "大英國協",
+            "運動會",
+            "奧林匹克",
+            "網絡",
+            "後來",
+            "無線",
+            "無綫",
+            "音像",
+            "礦業",
+            "六十家小說",
+            "共立",
+            "省立",
+            "政教",
+            "立教",
+            "小字",
+            "洪水滅世",
+            "阿爾戈號",
+            "按察司",
+            "頭等",
+            "按察使",
+            "公安知縣",
+            "愛禮王后",
+            "內禮夫人",
+            "愛禮夫人",
+            "愛月主人",
             "劇作家",
             "劇院",
             "動力學",
@@ -53,9 +107,44 @@
             "金牌",
             "銀牌",
             "銅牌",
-            "鑲黃旗"
+            "鑲黃旗",
+            "祗摩王"
         ],
         "_entryName": [
+            "譚叫天",
+            "董巨",
+            "小夏侯",
+            "孔峭凡",
+            "米尼安",
+            "樂正子",
+            "長西瑛",
+            "阿喲諾",
+            "里西瑛",
+            "孔峭凡",
+            "廖五經",
+            "駕頭拔",
+            "夏扎",
+            "南八",
+            "夏德全",
+            "譚照華",
+            "夏書章",
+            "夏延軍",
+            "夏穎",
+            "石金峰",
+            "夏駿",
+            "廖振鵬",
+            "梅仁",
+            "紅紅",
+            "孔幼孫",
+            "伊阿宋",
+            "盛洪",
+            "夏開權",
+            "洪祖烈易",
+            "安邦彥",
+            "祗摩尼師今",
+            "提歐斯",
+            "愛不花",
+            "愛新覺羅氏",
             "丁一匯",
             "丁丙",
             "丁中江",
@@ -4356,7 +4445,37 @@
             "鬍子昭",
             "鬍子玫"
         ],
+        "_schoolName": [
+            "中南礦治學院",
+            "工學院",
+            "農學院",
+            "藥科",
+            "礦治學院",
+            "藥科大學",
+            "師範大學",
+            "佛羅里達˙大學",
+            "清華大學",
+            "浙江大學",
+            "台灣大學",
+            "哈爾濱工業大學",
+            "北京大學",
+            "南京大學",
+            "河南大學",
+            "南京大學",
+            "北京廣播學院",
+            "外語",
+            "外文"
+        ],
         "_ancientPlaceName": [
+            "哈爾濱",
+            "阜新",
+            "華中",
+            "陽和道",
+            "科爾基斯",
+            "湖廣",
+            "印地安納州保利",
+            "安化縣",
+            "愛奧尼亞",
             "仁和縣",
             "信陽",
             "儀徵",
@@ -4400,304 +4519,13 @@
             "長洲縣",
             "長興縣",
             "順義縣",
-            "黃縣"
+            "黃縣",
+            "小亞細亞"
         ]
     },
     "utterance": {
-        "孔均為王莽避諱": {
-            "id": "fa916590-2c06-4be2-a3fe-4b40b25b1896",
-            "argument": [
-                {
-                    "pos": "UserDefined",
-                    "text": "孔均",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "AUX",
-                    "text": "為",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "王莽",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "走避",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "躲避",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "迴避",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "逃避",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "避世",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "避免",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "避嫌",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "避讓",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "避開",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "避險",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "免除",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "推卸",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "繞過",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "躲開",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "忤逆",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "察",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "介意",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "敢言",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "遷就",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "守信用",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "受寵",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "袒護",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "屑",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "避諱",
-                    "checked": false,
-                    "checkbox": false
-                }
-            ]
-        },
-        "梅友仁為王莽避諱": {
-            "id": "e9872f52-d251-4595-91c2-1460d09f13f6",
-            "argument": [
-                {
-                    "pos": "ENTITY_person",
-                    "text": "梅友仁",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "AUX",
-                    "text": "為",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "王莽",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "走避",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "躲避",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "迴避",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "逃避",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "避世",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "避免",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "避嫌",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "避讓",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "避開",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "避險",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "免除",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "推卸",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "繞過",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "躲開",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "介意",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "忤逆",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "敢言",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "屑",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "守信用",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "袒護",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "遷就",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "察",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "受寵",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "避諱",
-                    "checked": false,
-                    "checkbox": false
-                }
-            ]
-        },
         "孔稚孫因避諱又稱孔幼孫": {
-            "id": "ff204ea9-9ab0-4996-b454-843130cae3f7",
+            "id": "888d24c6-5b8e-4093-b238-708b494a52e1",
             "argument": [
                 {
                     "pos": "UserDefined",
@@ -4785,37 +4613,7 @@
                             "checked": false
                         },
                         {
-                            "text": "介意",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
                             "text": "忤逆",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "敢言",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "屑",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "守信用",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "袒護",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "遷就",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -4825,7 +4623,37 @@
                             "checked": false
                         },
                         {
+                            "text": "介意",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "敢言",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "遷就",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "守信用",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
                             "text": "受寵",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "袒護",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "屑",
                             "level": "word2vec",
                             "checked": false
                         }
@@ -4837,68 +4665,6 @@
                 {
                     "pos": "FUNC_inner",
                     "text": "又",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "VerbP",
-                    "lexy": [
-                        {
-                            "text": "查烏",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "識彎",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "得寫了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "得苦",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "得寫",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "稱孔",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "MODIFIER",
-                    "text": "幼",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_pronoun",
-                    "text": "孫",
-                    "checked": false,
-                    "checkbox": false
-                }
-            ]
-        },
-        "梅友仁因避諱又稱孔幼孫": {
-            "id": "537b2aa2-7d93-4714-abd1-5625c4204a67",
-            "argument": [
-                {
-                    "pos": "ENTITY_person",
-                    "text": "梅友仁",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "FUNC_inter",
-                    "text": "因",
                     "checked": false,
                     "checkbox": false
                 },
@@ -4906,175 +4672,65 @@
                     "pos": "ACTION_verb",
                     "lexy": [
                         {
-                            "text": "走避",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "躲避",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "迴避",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "逃避",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "避世",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "避免",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "避嫌",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "避讓",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "避開",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "避險",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "免除",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "推卸",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "繞過",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "躲開",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "忤逆",
+                            "text": "常稱",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "察",
+                            "text": "自稱",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "介意",
+                            "text": "形容",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "敢言",
+                            "text": "稱作",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "遷就",
+                            "text": "稱呼",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "守信用",
+                            "text": "戲稱",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "受寵",
+                            "text": "更稱",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "袒護",
+                            "text": "尊稱",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "屑",
+                            "text": "聲稱",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "指稱",
                             "level": "word2vec",
                             "checked": false
                         }
                     ],
-                    "text": "避諱",
+                    "text": "稱",
                     "checked": false,
                     "checkbox": false
                 },
                 {
-                    "pos": "FUNC_inner",
-                    "text": "又",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "VerbP",
-                    "lexy": [
-                        {
-                            "text": "查烏",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "識彎",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "得寫了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "得苦",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "得寫",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "稱孔",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "MODIFIER",
-                    "text": "幼",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_pronoun",
-                    "text": "孫",
-                    "checked": false,
-                    "checkbox": false
+                    "pos": "UserDefined",
+                    "text": "孔幼孫",
+                    "checked": true,
+                    "checkbox": true
                 }
             ]
         }

@@ -7,6 +7,60 @@
     },
     "user_defined": {
         "_asNoun": [
+            "後代",
+            "白領",
+            "研究",
+            "第一人",
+            "新中國民",
+            "辦教育",
+            "福建幫",
+            "大醒",
+            "門下",
+            "四大金剛",
+            "刑法",
+            "哲學",
+            "藥學",
+            "麾下",
+            "盈利",
+            "南朝",
+            "紅十字會",
+            "蘇德布列斯特",
+            "國王",
+            "廣州起義",
+            "太平天國運動",
+            "內地會",
+            "國際足總",
+            "個人",
+            "越野跑",
+            "德意志",
+            "丁丑科",
+            "殿試",
+            "跳高",
+            "大英國協",
+            "運動會",
+            "奧林匹克",
+            "網絡",
+            "後來",
+            "無線",
+            "無綫",
+            "音像",
+            "礦業",
+            "六十家小說",
+            "共立",
+            "省立",
+            "政教",
+            "立教",
+            "小字",
+            "洪水滅世",
+            "阿爾戈號",
+            "按察司",
+            "頭等",
+            "按察使",
+            "公安知縣",
+            "愛禮王后",
+            "內禮夫人",
+            "愛禮夫人",
+            "愛月主人",
             "劇作家",
             "劇院",
             "動力學",
@@ -53,9 +107,44 @@
             "金牌",
             "銀牌",
             "銅牌",
-            "鑲黃旗"
+            "鑲黃旗",
+            "祗摩王"
         ],
         "_entryName": [
+            "譚叫天",
+            "董巨",
+            "小夏侯",
+            "孔峭凡",
+            "米尼安",
+            "樂正子",
+            "長西瑛",
+            "阿喲諾",
+            "里西瑛",
+            "孔峭凡",
+            "廖五經",
+            "駕頭拔",
+            "夏扎",
+            "南八",
+            "夏德全",
+            "譚照華",
+            "夏書章",
+            "夏延軍",
+            "夏穎",
+            "石金峰",
+            "夏駿",
+            "廖振鵬",
+            "梅仁",
+            "紅紅",
+            "孔幼孫",
+            "伊阿宋",
+            "盛洪",
+            "夏開權",
+            "洪祖烈易",
+            "安邦彥",
+            "祗摩尼師今",
+            "提歐斯",
+            "愛不花",
+            "愛新覺羅氏",
             "丁一匯",
             "丁丙",
             "丁中江",
@@ -4356,7 +4445,37 @@
             "鬍子昭",
             "鬍子玫"
         ],
+        "_schoolName": [
+            "中南礦治學院",
+            "工學院",
+            "農學院",
+            "藥科",
+            "礦治學院",
+            "藥科大學",
+            "師範大學",
+            "佛羅里達˙大學",
+            "清華大學",
+            "浙江大學",
+            "台灣大學",
+            "哈爾濱工業大學",
+            "北京大學",
+            "南京大學",
+            "河南大學",
+            "南京大學",
+            "北京廣播學院",
+            "外語",
+            "外文"
+        ],
         "_ancientPlaceName": [
+            "哈爾濱",
+            "阜新",
+            "華中",
+            "陽和道",
+            "科爾基斯",
+            "湖廣",
+            "印地安納州保利",
+            "安化縣",
+            "愛奧尼亞",
             "仁和縣",
             "信陽",
             "儀徵",
@@ -4400,12 +4519,13 @@
             "長洲縣",
             "長興縣",
             "順義縣",
-            "黃縣"
+            "黃縣",
+            "小亞細亞"
         ]
     },
     "utterance": {
         "仙克謹保留陽和道": {
-            "id": "baa5e3b5-f990-4999-8ad9-ce7393b53f84",
+            "id": "e9e2fd90-8108-465d-8820-fca94324a766",
             "argument": [
                 {
                     "pos": "UserDefined",
@@ -4547,182 +4667,8 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_nouny",
-                    "text": "陽",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "FUNC_conjunction",
-                    "text": "和",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "道",
-                    "checked": true,
-                    "checkbox": true
-                }
-            ]
-        },
-        "梅友仁保留陽和道": {
-            "id": "d22f84ae-6585-4bc3-950d-3211bebd2343",
-            "argument": [
-                {
-                    "pos": "ENTITY_person",
-                    "text": "梅友仁",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "保存",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "保有",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "保管",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "保藏",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "留給",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "預留",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "候補",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "備用",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "具有",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "囤積",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "存有",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "帶有",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "懷有",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "持有",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "擁有",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "預訂",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "留存",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "保存了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "維持",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "保留著",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "保持",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "存留",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "沿用",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "保留了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "保存",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "保留",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "陽",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "FUNC_conjunction",
-                    "text": "和",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "道",
+                    "pos": "UserDefined",
+                    "text": "陽和道",
                     "checked": true,
                     "checkbox": true
                 }

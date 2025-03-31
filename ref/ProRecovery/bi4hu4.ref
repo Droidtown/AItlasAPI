@@ -7,6 +7,60 @@
     },
     "user_defined": {
         "_asNoun": [
+            "後代",
+            "白領",
+            "研究",
+            "第一人",
+            "新中國民",
+            "辦教育",
+            "福建幫",
+            "大醒",
+            "門下",
+            "四大金剛",
+            "刑法",
+            "哲學",
+            "藥學",
+            "麾下",
+            "盈利",
+            "南朝",
+            "紅十字會",
+            "蘇德布列斯特",
+            "國王",
+            "廣州起義",
+            "太平天國運動",
+            "內地會",
+            "國際足總",
+            "個人",
+            "越野跑",
+            "德意志",
+            "丁丑科",
+            "殿試",
+            "跳高",
+            "大英國協",
+            "運動會",
+            "奧林匹克",
+            "網絡",
+            "後來",
+            "無線",
+            "無綫",
+            "音像",
+            "礦業",
+            "六十家小說",
+            "共立",
+            "省立",
+            "政教",
+            "立教",
+            "小字",
+            "洪水滅世",
+            "阿爾戈號",
+            "按察司",
+            "頭等",
+            "按察使",
+            "公安知縣",
+            "愛禮王后",
+            "內禮夫人",
+            "愛禮夫人",
+            "愛月主人",
             "劇作家",
             "劇院",
             "動力學",
@@ -53,9 +107,44 @@
             "金牌",
             "銀牌",
             "銅牌",
-            "鑲黃旗"
+            "鑲黃旗",
+            "祗摩王"
         ],
         "_entryName": [
+            "譚叫天",
+            "董巨",
+            "小夏侯",
+            "孔峭凡",
+            "米尼安",
+            "樂正子",
+            "長西瑛",
+            "阿喲諾",
+            "里西瑛",
+            "孔峭凡",
+            "廖五經",
+            "駕頭拔",
+            "夏扎",
+            "南八",
+            "夏德全",
+            "譚照華",
+            "夏書章",
+            "夏延軍",
+            "夏穎",
+            "石金峰",
+            "夏駿",
+            "廖振鵬",
+            "梅仁",
+            "紅紅",
+            "孔幼孫",
+            "伊阿宋",
+            "盛洪",
+            "夏開權",
+            "洪祖烈易",
+            "安邦彥",
+            "祗摩尼師今",
+            "提歐斯",
+            "愛不花",
+            "愛新覺羅氏",
             "丁一匯",
             "丁丙",
             "丁中江",
@@ -4356,7 +4445,37 @@
             "鬍子昭",
             "鬍子玫"
         ],
+        "_schoolName": [
+            "中南礦治學院",
+            "工學院",
+            "農學院",
+            "藥科",
+            "礦治學院",
+            "藥科大學",
+            "師範大學",
+            "佛羅里達˙大學",
+            "清華大學",
+            "浙江大學",
+            "台灣大學",
+            "哈爾濱工業大學",
+            "北京大學",
+            "南京大學",
+            "河南大學",
+            "南京大學",
+            "北京廣播學院",
+            "外語",
+            "外文"
+        ],
         "_ancientPlaceName": [
+            "哈爾濱",
+            "阜新",
+            "華中",
+            "陽和道",
+            "科爾基斯",
+            "湖廣",
+            "印地安納州保利",
+            "安化縣",
+            "愛奧尼亞",
             "仁和縣",
             "信陽",
             "儀徵",
@@ -4400,23 +4519,36 @@
             "長洲縣",
             "長興縣",
             "順義縣",
-            "黃縣"
+            "黃縣",
+            "小亞細亞"
         ]
     },
     "utterance": {
-        "洪順發除剪黏外": {
-            "id": "1a20b471-4b1f-47a0-b9cf-bdbbef0ef33f",
+        "梅仁夜則閉戸讀書": {
+            "id": "21317d8f-cbc9-4ad1-8822-12107b0c8310",
             "argument": [
                 {
                     "pos": "UserDefined",
-                    "text": "洪順",
+                    "text": "梅仁",
                     "checked": true,
                     "checkbox": true
                 },
                 {
-                    "pos": "ACTION_verb",
+                    "pos": "TIME_day",
+                    "text": "夜",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inter",
+                    "text": "則",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "VerbP",
                     "lexy": [],
-                    "text": "發除",
+                    "text": "閉戸",
                     "checked": false,
                     "checkbox": false
                 },
@@ -4424,1003 +4556,375 @@
                     "pos": "ACTION_verb",
                     "lexy": [
                         {
-                            "text": "雕飾",
+                            "text": "啃書",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "宣讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "攻讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "朗讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "熟讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "略讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "研讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "精讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "試讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "誦讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "讀出",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "讀懂",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "閱讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "飽讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "默讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "上學",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "就學",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "求學",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "留學",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "研判",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "考查",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "聽講",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "評閱",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "遊學",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "默念",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "唸書",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "雕花",
+                            "text": "讀",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "圓雕",
+                            "text": "就讀",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "雕刻",
+                            "text": "教書",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "抱鼓",
+                            "text": "講學",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "裝飾",
+                            "text": "打球",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "浮雕",
+                            "text": "聽課",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "剪紙",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "仿古",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "裝裱",
+                            "text": "學習",
                             "level": "word2vec",
                             "checked": false
                         }
                     ],
-                    "text": "剪黏",
+                    "text": "讀書",
                     "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "RANGE_locality",
-                    "text": "外",
-                    "checked": true,
                     "checkbox": false
                 }
             ]
         },
-        "夏日昌康熙甲辰除廣東海康令": {
-            "id": "7cd60f0e-111b-414e-aeac-9d6cd431bb09",
-            "argument": [
-                {
-                    "pos": "UserDefined",
-                    "text": "夏日昌",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ENTITY_person",
-                    "text": "康熙甲",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "辰",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "除原",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "指除",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "除主",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "賣郎",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "除此",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "除",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "LOCATION",
-                    "text": "廣東",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ENTITY_oov",
-                    "text": "海康令",
-                    "checked": true,
-                    "checkbox": true
-                }
-            ]
-        },
-        "梅友仁康熙甲辰除廣東海康令": {
-            "id": "70b2014a-9ea4-4959-b4e2-0549f32b0c7e",
+        "毛紹濂夜則閉戸讀書": {
+            "id": "4f92da40-c0d5-4489-ba51-12e77c8f2072",
             "argument": [
                 {
                     "pos": "ENTITY_person",
-                    "text": "梅友仁",
+                    "text": "毛紹濂",
                     "checked": false,
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_person",
-                    "text": "康熙甲",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "辰",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "除原",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "指除",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "除主",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "賣郎",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "除此",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "除",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "LOCATION",
-                    "text": "廣東",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ENTITY_oov",
-                    "text": "海康令",
-                    "checked": true,
-                    "checkbox": true
-                }
-            ]
-        },
-        "梅友仁除其中16人以外的其他所有人都加入了拿破崙": {
-            "id": "25fa5111-eb39-400f-b665-6afece665f91",
-            "argument": [
-                {
-                    "pos": "ENTITY_person",
-                    "text": "梅友仁",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "除原",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "指除",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "除主",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "賣郎",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "除此",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "除",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "FUNC_inner",
-                    "text": "其中",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_num",
-                    "text": "16",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ENTITY_noun",
-                    "text": "人",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "RANGE_locality",
-                    "text": "以外",
+                    "pos": "TIME_day",
+                    "text": "夜",
                     "checked": true,
                     "checkbox": false
                 },
                 {
-                    "pos": "FUNC_inner",
-                    "text": "的",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "MODIFIER",
-                    "text": "其他",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "QUANTIFIER",
-                    "text": "所有",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_noun",
-                    "text": "人",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "QUANTIFIER",
-                    "text": "都",
+                    "pos": "FUNC_inter",
+                    "text": "則",
                     "checked": false,
                     "checkbox": false
                 },
                 {
                     "pos": "VerbP",
-                    "lexy": [
-                        {
-                            "text": "加上",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "加添",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "加盟",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "加總",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "加進",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "添加",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "交結",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "交融",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "併吞",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "侵吞",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "兼併",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "合併",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "吞併",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "吸取",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "吸收",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "團結",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "增添",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "增補",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "投入",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "拼接",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "接合",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "搭接",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "搭配",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "攙兌",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "攙合",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "攝取",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "攪混",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "新增",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "歸併",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "混合",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "混搭",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "相接",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "積聚",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "總合",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "聯合",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "融入",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "連接",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "銜接",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "參與了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "招募了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "組成了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "創立了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "引入了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "解散了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "退出了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "加入",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "重組了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "引入",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "退出",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "創立",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參與",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "解散",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "招募",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "組成",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "重組",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "加入了",
+                    "lexy": [],
+                    "text": "閉戸",
                     "checked": false,
                     "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_person",
-                    "text": "拿破崙",
-                    "checked": false,
-                    "checkbox": false
-                }
-            ]
-        },
-        "科學與藝術委員會除其中16人以外的其他所有人都加入了拿破崙": {
-            "id": "825d7bdf-ea14-4365-9bc9-28d8e2ca67fb",
-            "argument": [
-                {
-                    "pos": "UserDefined",
-                    "text": "科學與藝術委員會",
-                    "checked": true,
-                    "checkbox": true
                 },
                 {
                     "pos": "ACTION_verb",
                     "lexy": [
                         {
-                            "text": "除原",
+                            "text": "啃書",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "宣讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "攻讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "朗讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "熟讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "略讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "研讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "精讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "試讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "誦讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "讀出",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "讀懂",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "閱讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "飽讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "默讀",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "上學",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "就學",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "求學",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "留學",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "研判",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "考查",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "聽講",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "評閱",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "遊學",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "默念",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "教書",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "指除",
+                            "text": "聽課",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "除主",
+                            "text": "就讀",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "賣郎",
+                            "text": "唸書",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "除此",
+                            "text": "讀",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "打球",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "講學",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "學習",
                             "level": "word2vec",
                             "checked": false
                         }
                     ],
-                    "text": "除",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "FUNC_inner",
-                    "text": "其中",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_num",
-                    "text": "16",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ENTITY_noun",
-                    "text": "人",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "RANGE_locality",
-                    "text": "以外",
-                    "checked": true,
-                    "checkbox": false
-                },
-                {
-                    "pos": "FUNC_inner",
-                    "text": "的",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "MODIFIER",
-                    "text": "其他",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "QUANTIFIER",
-                    "text": "所有",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_noun",
-                    "text": "人",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "QUANTIFIER",
-                    "text": "都",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "VerbP",
-                    "lexy": [
-                        {
-                            "text": "加上",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "加添",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "加盟",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "加總",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "加進",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "添加",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "交結",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "交融",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "併吞",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "侵吞",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "兼併",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "合併",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "吞併",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "吸取",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "吸收",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "團結",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "增添",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "增補",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "投入",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "拼接",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "接合",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "搭接",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "搭配",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "攙兌",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "攙合",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "攝取",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "攪混",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "新增",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "歸併",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "混合",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "混搭",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "相接",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "積聚",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "總合",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "聯合",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "融入",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "連接",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "銜接",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "組成了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "創立了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "引入了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "重組了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "解散了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "招募了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "加入",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "退出了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參與了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "引入",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "退出",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "創立",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參與",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "解散",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "招募",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "組成",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "重組",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "加入了",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_person",
-                    "text": "拿破崙",
+                    "text": "讀書",
                     "checked": false,
                     "checkbox": false
                 }

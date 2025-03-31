@@ -7,6 +7,60 @@
     },
     "user_defined": {
         "_asNoun": [
+            "後代",
+            "白領",
+            "研究",
+            "第一人",
+            "新中國民",
+            "辦教育",
+            "福建幫",
+            "大醒",
+            "門下",
+            "四大金剛",
+            "刑法",
+            "哲學",
+            "藥學",
+            "麾下",
+            "盈利",
+            "南朝",
+            "紅十字會",
+            "蘇德布列斯特",
+            "國王",
+            "廣州起義",
+            "太平天國運動",
+            "內地會",
+            "國際足總",
+            "個人",
+            "越野跑",
+            "德意志",
+            "丁丑科",
+            "殿試",
+            "跳高",
+            "大英國協",
+            "運動會",
+            "奧林匹克",
+            "網絡",
+            "後來",
+            "無線",
+            "無綫",
+            "音像",
+            "礦業",
+            "六十家小說",
+            "共立",
+            "省立",
+            "政教",
+            "立教",
+            "小字",
+            "洪水滅世",
+            "阿爾戈號",
+            "按察司",
+            "頭等",
+            "按察使",
+            "公安知縣",
+            "愛禮王后",
+            "內禮夫人",
+            "愛禮夫人",
+            "愛月主人",
             "劇作家",
             "劇院",
             "動力學",
@@ -53,9 +107,44 @@
             "金牌",
             "銀牌",
             "銅牌",
-            "鑲黃旗"
+            "鑲黃旗",
+            "祗摩王"
         ],
         "_entryName": [
+            "譚叫天",
+            "董巨",
+            "小夏侯",
+            "孔峭凡",
+            "米尼安",
+            "樂正子",
+            "長西瑛",
+            "阿喲諾",
+            "里西瑛",
+            "孔峭凡",
+            "廖五經",
+            "駕頭拔",
+            "夏扎",
+            "南八",
+            "夏德全",
+            "譚照華",
+            "夏書章",
+            "夏延軍",
+            "夏穎",
+            "石金峰",
+            "夏駿",
+            "廖振鵬",
+            "梅仁",
+            "紅紅",
+            "孔幼孫",
+            "伊阿宋",
+            "盛洪",
+            "夏開權",
+            "洪祖烈易",
+            "安邦彥",
+            "祗摩尼師今",
+            "提歐斯",
+            "愛不花",
+            "愛新覺羅氏",
             "丁一匯",
             "丁丙",
             "丁中江",
@@ -4356,7 +4445,37 @@
             "鬍子昭",
             "鬍子玫"
         ],
+        "_schoolName": [
+            "中南礦治學院",
+            "工學院",
+            "農學院",
+            "藥科",
+            "礦治學院",
+            "藥科大學",
+            "師範大學",
+            "佛羅里達˙大學",
+            "清華大學",
+            "浙江大學",
+            "台灣大學",
+            "哈爾濱工業大學",
+            "北京大學",
+            "南京大學",
+            "河南大學",
+            "南京大學",
+            "北京廣播學院",
+            "外語",
+            "外文"
+        ],
         "_ancientPlaceName": [
+            "哈爾濱",
+            "阜新",
+            "華中",
+            "陽和道",
+            "科爾基斯",
+            "湖廣",
+            "印地安納州保利",
+            "安化縣",
+            "愛奧尼亞",
             "仁和縣",
             "信陽",
             "儀徵",
@@ -4400,429 +4519,13 @@
             "長洲縣",
             "長興縣",
             "順義縣",
-            "黃縣"
+            "黃縣",
+            "小亞細亞"
         ]
     },
     "utterance": {
-        "梅友仁他們伴隨伊阿宋乘阿爾戈號到科爾基斯": {
-            "id": "07c2435a-d3a2-45e6-a33a-885c7da06323",
-            "argument": [
-                {
-                    "pos": "ENTITY_person",
-                    "text": "梅友仁",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_pronoun",
-                    "text": "他們",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "伴奏",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "伴舞",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "作伴",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "做伴",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "尾隨",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "相伴",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "結伴",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "跟隨",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "追隨",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "陪伴",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "隨伴",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "隨順",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "侍奉",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "依循",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "借讀",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "傾聽",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "參加",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "因襲",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "定期去",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "承襲",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "沿襲",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "照看",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "照辦",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "照顧",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "監聽",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "看護",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "細聽",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "經常去",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "聆聽",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "跟進",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "踏襲",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "遵循",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "遵照",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "陪護",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "陪送",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "引致",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "隨著",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "預示著",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "伴隨著",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "誘發",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "導致了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "導致",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "抑制了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "造成",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "隨",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "預示",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "抑制",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "伴隨",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_pronoun",
-                    "text": "伊",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "阿宋",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "乘坐",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "搭乘",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "改乘",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "搭",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "同乘",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "乘搭",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "乘船",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "轉搭",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "載",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "載運",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "乘",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "阿爾",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "戈號",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "到了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "到約",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "到受",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "到離",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "到包",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "到經過",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "到回",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "到隨",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "到死",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "到愛",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "到經",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "到",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_person",
-                    "text": "科爾",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_person",
-                    "text": "基斯",
-                    "checked": false,
-                    "checkbox": false
-                }
-            ]
-        },
         "阿爾戈英雄他們伴隨伊阿宋乘阿爾戈號到科爾基斯": {
-            "id": "dddec67b-8406-4fbf-b458-30d30b058a1c",
+            "id": "10bc5325-e6b8-4c76-b6b5-94e23d14c910",
             "argument": [
                 {
                     "pos": "UserDefined",
@@ -5080,14 +4783,8 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_pronoun",
-                    "text": "伊",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "阿宋",
+                    "pos": "UserDefined",
+                    "text": "伊阿宋",
                     "checked": true,
                     "checkbox": true
                 },
@@ -5150,14 +4847,8 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_nouny",
-                    "text": "阿爾",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "戈號",
+                    "pos": "UserDefined",
+                    "text": "阿爾戈號",
                     "checked": true,
                     "checkbox": true
                 },
@@ -5225,16 +4916,10 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_person",
-                    "text": "科爾",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_person",
-                    "text": "基斯",
-                    "checked": false,
-                    "checkbox": false
+                    "pos": "UserDefined",
+                    "text": "科爾基斯",
+                    "checked": true,
+                    "checkbox": true
                 }
             ]
         }

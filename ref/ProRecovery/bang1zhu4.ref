@@ -7,6 +7,60 @@
     },
     "user_defined": {
         "_asNoun": [
+            "後代",
+            "白領",
+            "研究",
+            "第一人",
+            "新中國民",
+            "辦教育",
+            "福建幫",
+            "大醒",
+            "門下",
+            "四大金剛",
+            "刑法",
+            "哲學",
+            "藥學",
+            "麾下",
+            "盈利",
+            "南朝",
+            "紅十字會",
+            "蘇德布列斯特",
+            "國王",
+            "廣州起義",
+            "太平天國運動",
+            "內地會",
+            "國際足總",
+            "個人",
+            "越野跑",
+            "德意志",
+            "丁丑科",
+            "殿試",
+            "跳高",
+            "大英國協",
+            "運動會",
+            "奧林匹克",
+            "網絡",
+            "後來",
+            "無線",
+            "無綫",
+            "音像",
+            "礦業",
+            "六十家小說",
+            "共立",
+            "省立",
+            "政教",
+            "立教",
+            "小字",
+            "洪水滅世",
+            "阿爾戈號",
+            "按察司",
+            "頭等",
+            "按察使",
+            "公安知縣",
+            "愛禮王后",
+            "內禮夫人",
+            "愛禮夫人",
+            "愛月主人",
             "劇作家",
             "劇院",
             "動力學",
@@ -53,9 +107,44 @@
             "金牌",
             "銀牌",
             "銅牌",
-            "鑲黃旗"
+            "鑲黃旗",
+            "祗摩王"
         ],
         "_entryName": [
+            "譚叫天",
+            "董巨",
+            "小夏侯",
+            "孔峭凡",
+            "米尼安",
+            "樂正子",
+            "長西瑛",
+            "阿喲諾",
+            "里西瑛",
+            "孔峭凡",
+            "廖五經",
+            "駕頭拔",
+            "夏扎",
+            "南八",
+            "夏德全",
+            "譚照華",
+            "夏書章",
+            "夏延軍",
+            "夏穎",
+            "石金峰",
+            "夏駿",
+            "廖振鵬",
+            "梅仁",
+            "紅紅",
+            "孔幼孫",
+            "伊阿宋",
+            "盛洪",
+            "夏開權",
+            "洪祖烈易",
+            "安邦彥",
+            "祗摩尼師今",
+            "提歐斯",
+            "愛不花",
+            "愛新覺羅氏",
             "丁一匯",
             "丁丙",
             "丁中江",
@@ -4356,7 +4445,37 @@
             "鬍子昭",
             "鬍子玫"
         ],
+        "_schoolName": [
+            "中南礦治學院",
+            "工學院",
+            "農學院",
+            "藥科",
+            "礦治學院",
+            "藥科大學",
+            "師範大學",
+            "佛羅里達˙大學",
+            "清華大學",
+            "浙江大學",
+            "台灣大學",
+            "哈爾濱工業大學",
+            "北京大學",
+            "南京大學",
+            "河南大學",
+            "南京大學",
+            "北京廣播學院",
+            "外語",
+            "外文"
+        ],
         "_ancientPlaceName": [
+            "哈爾濱",
+            "阜新",
+            "華中",
+            "陽和道",
+            "科爾基斯",
+            "湖廣",
+            "印地安納州保利",
+            "安化縣",
+            "愛奧尼亞",
             "仁和縣",
             "信陽",
             "儀徵",
@@ -4400,12 +4519,13 @@
             "長洲縣",
             "長興縣",
             "順義縣",
-            "黃縣"
+            "黃縣",
+            "小亞細亞"
         ]
     },
     "utterance": {
-        "沮授幫助袁紹奪取青": {
-            "id": "c2727244-4fa1-4933-ae6b-57ebc0feeee5",
+        "沮授幫助袁紹奪取青州": {
+            "id": "f156ff20-1ba5-43c7-918f-aae27457350a",
             "argument": [
                 {
                     "pos": "UserDefined",
@@ -4537,310 +4657,6 @@
                             "checked": false
                         },
                         {
-                            "text": "陪伴",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "替",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "幫",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "鼓勵",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "幫助",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "袁紹",
-                    "checked": true,
-                    "checkbox": true
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "僭取",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "奪得",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "擷取",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "篡奪",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "俘獲",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "抓住",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "拿獲",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "捉獲",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "捕獲",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "搜獲",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "擄獲",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "擒獲",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "收繳",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "竊據",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "繳獲",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "誘捕",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "奪回",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "搶奪",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "奪取了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "重奪",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "取回",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "收復",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "奪回了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "搶回",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "消滅",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "奪取",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "MODIFIER_color",
-                    "text": "青",
-                    "checked": true,
-                    "checkbox": true
-                }
-            ]
-        },
-        "梅友仁幫助袁紹奪取青": {
-            "id": "c09838a1-e3cf-414a-b252-9380b2c9afd4",
-            "argument": [
-                {
-                    "pos": "ENTITY_person",
-                    "text": "梅友仁",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "互助",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "助長",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "協助",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "幫忙",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "幫辦",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "扶助",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "援助",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "救助",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "有助",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "濟助",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "相助",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "贊助",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "輔助",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "力挺",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "協辦",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "扶持",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "援救",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "擁護",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "支持",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "支撐",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "紓解",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "緩解",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "解救",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "輔佐",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
                             "text": "幫",
                             "level": "word2vec",
                             "checked": false
@@ -5005,8 +4821,8 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "MODIFIER_color",
-                    "text": "青",
+                    "pos": "LOCATION",
+                    "text": "青州",
                     "checked": true,
                     "checkbox": true
                 }
