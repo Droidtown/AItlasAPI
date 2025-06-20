@@ -2,28 +2,6 @@ import json
 from django.core.management.base import BaseCommand
 from main.models import People, PeopleAttribute
 
-# FIELD_NAME_MAP = {
-#     "別名": "alias",
-#     "地址": "address",
-#     "機構": "organizations",
-#     "獎項": "award",
-#     "生日": "birthday",
-#     "出生地": "birthPlace",
-#     "忌日": "deathday",
-#     "長眠之地": "burialPlace",
-#     "生理性別": "gender",
-#     "身高": "height",
-#     "體重": "weight",
-#     "職稱": "title",
-#     "國家": "nationality",
-#     "父母": "parent",
-#     "兄弟姊妹": "sibling",
-#     "子女": "children",
-#     "配偶": "spouse",
-#     "技能": "skill",
-#     "學歷": "education",
-#     "事件": "event",
-# }
 
 class Command(BaseCommand):
     help = "Import people data from a JSON file"
