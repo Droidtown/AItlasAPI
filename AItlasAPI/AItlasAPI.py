@@ -9,7 +9,7 @@ import json
     #from AItlas_TW.aitlas_wiki.KG.people import action as actionDICT
 #except:
     #pass
-
+from AItlasView import view
 import sqlite3
 from typing import Union
 from functools import reduce
@@ -76,7 +76,8 @@ class AItlas:
                          }
 
 
-    def view(self):
+    def view(self, topicSTR, args):
+        view(topicSTR, args)
         #啟動 Django, 跳轉到 Browser
         return None
 
@@ -193,7 +194,7 @@ class AItlas:
                     viewDICT["person"][person][translateDICT[key]] = self._listPacker(translateDICT[key], self.AITLASKG["person"][person][key])
         return viewDICT
 
-
+#<Please Ignroe createKG for now. 2025.06.20>
     def createKG(self, inputSTR, KG_FilePath=None, KG_FileName="default.ait", userDefinedDICT=None):
         #conn =sqlite3.connect(KG_FileName)
         #cursor = conn.cursor()
@@ -449,7 +450,7 @@ if __name__ == "__main__":
 
     #entity = "前田美順"
     #utteranceLIST = ["末綱聰子與前田美順的組合代表日本參加北京舉行的奧運會羽球女子雙打比賽"]
-    aitlas = AItlas()
+    #aitlas = AItlas()
     #aitlas.createKG(inputSTR=longText, KG_FilePath="./aitlas.kg")
 
     longText = """民眾黨前主席柯文哲的父親柯承發今天辭世。民眾黨代理黨主席黃國昌說，請柯家人放心，民眾黨會做他們最堅強的後盾；所有後事，都要尊重柯家人的意願跟想法，希望能尊重他們的隱私。
@@ -457,6 +458,7 @@ if __name__ == "__main__":
 
     longText = """中東夙敵以色列和伊朗空戰進入第8天。以色列總理尼坦雅胡今天矢言「消除」伊朗構成的核子和彈道飛彈威脅。
 法新社報導，尼坦雅胡（Benjamin Netanyahu）在南部城巿俾什巴（Beersheba）告訴記者：「我們致力於信守摧毀核威脅的承諾、針對以色列的核滅絕威脅。」伊朗今天的飛彈攻勢擊中當地一間醫院。"""
+    aitlas = AItlas()
     KG = aitlas.scan(longText)
     pprint(KG)
     view = aitlas.aitlasViewPacker()
