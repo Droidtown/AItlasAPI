@@ -37,6 +37,9 @@ BASEPATH = os.path.dirname(os.path.abspath(__file__))
 actualDIR: Path = Path(__file__).resolve()
 kgDIR: Path = actualDIR / "aitlasDEMO" / "rawData"
 
+actualDIR: Path = Path(__file__).resolve()
+kgDIR: Path = actualDIR / "aitlasDEMO" / "rawData"
+
 try:
     with open("{}/AItlasAPI/account.info".format(BASEPATH), encoding="utf-8") as f:
         accountDICT = json.load(f)
@@ -455,9 +458,13 @@ if __name__ == "__main__":
 
     #entity = "前田美順"
     #utteranceLIST = ["末綱聰子與前田美順的組合代表日本參加北京舉行的奧運會羽球女子雙打比賽"]
+
     #aitlas = AItlas()
     #aitlas.createKG(inputSTR=longText, KG_FilePath="./aitlas.kg")
 
+    #aitlas.createKG(inputSTR=longText, KG_FilePath= "aitlas.kg")
+
+    aitlas = AItlas()
     longText = """民眾黨前主席柯文哲的父親柯承發今天辭世。民眾黨代理黨主席黃國昌說，請柯家人放心，民眾黨會做他們最堅強的後盾；所有後事，都要尊重柯家人的意願跟想法，希望能尊重他們的隱私。
 國民黨主席朱立倫也透過聲明表示，對於柯文哲的父親柯承發過世，深表哀悼，希望柯文哲以及其家人節哀珍重。"""
 
@@ -466,9 +473,9 @@ if __name__ == "__main__":
     aitlas = AItlas()
     KG = aitlas.scan(longText)
     pprint(KG)
+
     view = aitlas.aitlasViewPacker()
     #view = aitlas.aitlasViewPacker(topicSTR="以色列伊朗戰爭2025", filePath= kgDIR/ "aitlas.kg")
-
     pprint(view)
     aitlas.view()
     #isPersonBool = alias.is_person(entity, utteranceLIST) #=>Maybe
