@@ -10,6 +10,8 @@ import json
 #except:
     #pass
 from AItlasView import view
+
+from pathlib import Path
 import sqlite3
 from typing import Union
 from functools import reduce
@@ -31,6 +33,9 @@ from pprint import pprint
 
 import os
 BASEPATH = os.path.dirname(os.path.abspath(__file__))
+
+actualDIR: Path = Path(__file__).resolve()
+kgDIR: Path = actualDIR / "aitlasDEMO" / "rawData"
 
 try:
     with open("{}/AItlasAPI/account.info".format(BASEPATH), encoding="utf-8") as f:
@@ -462,6 +467,8 @@ if __name__ == "__main__":
     KG = aitlas.scan(longText)
     pprint(KG)
     view = aitlas.aitlasViewPacker()
+    #view = aitlas.aitlasViewPacker(topicSTR="以色列伊朗戰爭2025", filePath= kgDIR/ "aitlas.kg")
+
     pprint(view)
     aitlas.view()
     #isPersonBool = alias.is_person(entity, utteranceLIST) #=>Maybe
