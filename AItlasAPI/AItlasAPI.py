@@ -37,8 +37,6 @@ BASEPATH = os.path.dirname(os.path.abspath(__file__))
 actualDIR: Path = Path(__file__).resolve()
 kgDIR: Path = actualDIR / "aitlasDEMO" / "rawData"
 
-actualDIR: Path = Path(__file__).resolve()
-kgDIR: Path = actualDIR / "aitlasDEMO" / "rawData"
 
 try:
     with open("{}/AItlasAPI/account.info".format(BASEPATH), encoding="utf-8") as f:
