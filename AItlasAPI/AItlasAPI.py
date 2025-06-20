@@ -30,7 +30,7 @@ from requests import post
 from pprint import pprint
 
 import os
-BASEPATH = "/".join(os.path.dirname(os.path.abspath(__file__)).split("/")[:-1])
+BASEPATH = os.path.dirname(os.path.abspath(__file__))
 
 try:
     with open("{}/AItlasAPI/account.info".format(BASEPATH), encoding="utf-8") as f:
@@ -456,7 +456,7 @@ if __name__ == "__main__":
 法新社報導，尼坦雅胡（Benjamin Netanyahu）在南部城巿俾什巴（Beersheba）告訴記者：「我們致力於信守摧毀核威脅的承諾、針對以色列的核滅絕威脅。」伊朗今天的飛彈攻勢擊中當地一間醫院。"""
     KG = aitlas.scan(longText)
     pprint(KG)
-    view = aitlas.aitlasViewPacker(topicSTR="以色列伊朗戰爭2025", filePath="/tmp_view/")
+    view = aitlas.aitlasViewPacker()
     pprint(view)
     aitlas.view()
     #isPersonBool = alias.is_person(entity, utteranceLIST) #=>Maybe
