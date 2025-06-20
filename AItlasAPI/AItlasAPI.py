@@ -75,17 +75,20 @@ class AItlas:
                          "event":[]
                          }
 
+
     def view(self):
         #啟動 Django, 跳轉到 Browser
         return None
 
+
     def _matchAItlas(self, lang):
         personDICT = {}
         if lang.lower() == "tw":
-            personDICT = json.load(open(f"{BASEPATH}/AItlas_TW/wikipedia/AItlas_wiki_person.json", "r", encoding="utf-8"))
+            personDICT = json.load(open(f"{BASEPATH}/AItlasAPI/AItlas_TW/wikipedia/AItlas_wiki_person.json", "r", encoding="utf-8"))
         #elif lang.lower() == "en":
             #personDICT = json.load(open("AItlas_EN/wikipedia/AItlas_wiki_person.json", "r", encoding="utf-8"))
         return personDICT
+
 
     def scan(self, inputSTR):
         for person in self.wikipedia_TW["person"].keys():
@@ -93,6 +96,7 @@ class AItlas:
                 #print(f"person:{person}")
                 self.AITLASKG["person"][person]=self.wikipedia_TW["person"][person]
         return self.AITLASKG
+
 
     def _listPacker(self, datatype, inputSTR):
         if datatype == "生日":
@@ -123,7 +127,6 @@ class AItlas:
         while None in resultLIST:
             resultLIST.remove(None)
         return resultLIST
-
 
 
     def aitlasViewPacker(self):
@@ -191,9 +194,6 @@ class AItlas:
         return viewDICT
 
 
-
-
-
     def createKG(self, inputSTR, KG_FilePath=None, KG_FileName="default.ait", userDefinedDICT=None):
         #conn =sqlite3.connect(KG_FileName)
         #cursor = conn.cursor()
@@ -234,6 +234,7 @@ class AItlas:
         self.extract_person()
         #self._getPersonKG(inputSTR)
         return None
+
 
     def extract_person(self):
         self.personDICT = {}
@@ -314,8 +315,11 @@ class AItlas:
                         #self.personDICT[person][k_s].append(value)
         ##pprint(self.personDICT)
         #return None
+
+
     def person_alias(self):
         return None
+
 
     def aitlas_get_all(self, inputSTR, keySTR):
         aitlasURL = "https://api.droidtown.co/aitlas/api/"
@@ -365,7 +369,6 @@ class AItlas:
                 }
             }
             response = post(url, json=payload).json()
-
 
 
     #def is_person(self, entity: str, utteranceLIST: list[str]) -> IsPersonJudgement:
