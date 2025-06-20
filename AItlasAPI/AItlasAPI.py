@@ -82,7 +82,7 @@ class AItlas:
     def _matchAItlas(self, lang):
         personDICT = {}
         if lang.lower() == "tw":
-            personDICT = json.load(open(f"{BASEPATH}/AItlas_TW/wikipedia/AItlas_wiki_person.json", "r", encoding="utf-8"))
+            personDICT = json.load(open(f"{BASEPATH}/AItlasAPI/AItlas_TW/wikipedia/AItlas_wiki_person.json", "r", encoding="utf-8"))
         #elif lang.lower() == "en":
             #personDICT = json.load(open("AItlas_EN/wikipedia/AItlas_wiki_person.json", "r", encoding="utf-8"))
         return personDICT
