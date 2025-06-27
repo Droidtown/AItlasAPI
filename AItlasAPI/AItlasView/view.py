@@ -1,20 +1,13 @@
 import os
+import sys
 from pathlib import Path
 from pprint import pprint
 
-
-
 def view(
-    articleFileName: str = "article.json",
-    kgPeopleFileName: str = "knowledge_people.json",
-    kgNerFileName: str = "knowledge_NER.json",
-    kgPlaceFileName: str = "knowledge_place.json"
+    directoryNameSTR: str
 ):
     djangoDIR: Path = Path(__file__).parent
-    articlePATH: Path = djangoDIR / "rawData" / articleFileName
-    kgPeoplePATH: Path = djangoDIR / "rawData" / kgPeopleFileName
-    kgNerPATH: Path = djangoDIR / "rawData" / kgNerFileName
-    kgPlacePATH: Path = djangoDIR / "rawData" / kgPlaceFileName
+    kgPATH: Path = djangoDIR / "rawData" / directoryNameSTR
     sqlPATH: Path = djangoDIR / "db.sqlite3"
 
 
@@ -37,21 +30,22 @@ def view(
     pprint("已建立新資料庫")
 
     # 匯入資料
-    call_command("import_news", str(articlePATH))
-    pprint("已匯入所需「文章」資料")
+    call_command("importData", str(kgPATH))
+    # call_command("import_news", str(kgPATH / "article.json"))
+    # pprint("已匯入所需「文章」資料")
 
-    call_command("import_people", str(kgPeoplePATH))
-    pprint("已匯入所需「人物」資料")
+    # call_command("import_people", str(kgPATH / "people.json"))
+    # pprint("已匯入所需「人物」資料")
 
-    call_command("import_place", str(kgPlacePATH))
-    pprint("已匯入所需「地點」資料")
+    # call_command("import_place", str(kgPATH / "place.json"))
+    # pprint("已匯入所需「地點」資料")
 
-    call_command("import_NER", str(kgNerPATH))
-    pprint("已匯入所需「實體」資料")
+    # call_command("import_NER", str(kgPATH / "ner.json"))
+    # pprint("已匯入所需「實體」資料")
 
     # 啟動伺服器
-    pprint("🚀 啟動 Django Server")
     call_command("runserver", "127.0.0.1:8000")
+    pprint("🚀 啟動 Django Server 成功")
 
 if __name__ == "__main__":
-    view()
+    view("以色列伊朗戰爭2025")
