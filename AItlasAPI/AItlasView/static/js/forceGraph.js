@@ -4,7 +4,7 @@
  */
 function initForceGraph() {
     if (!G_EventMap || Object.keys(G_EventMap).length === 0) {
-        alert('尚未取得資料，無法初始化圖表');
+        alert('圖表 api 建置尚未完成');
         return;
     }
     const elem = document.getElementById('graph');

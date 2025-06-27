@@ -50,7 +50,7 @@ function initMermaid() {
     G_FilterEvent_LIST = _buildFilterEventLIST(G_Event_LIST, G_SelectedEntity_LIST)
 
     if (G_FilterEvent_LIST.length === 0) {
-        alert("無法渲染圖片，因為沒有符合的事件。");
+        alert("渲染圖片 api 建置尚未完成");
         return;
     }
     G_MermaidGraphData = _genMermaidData(G_FilterEvent_LIST);
