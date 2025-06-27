@@ -51,7 +51,7 @@
               {% for article in articles %}
                 <label>
                   <input type="checkbox" class="article-checkbox" value="{{ article.id }}">
-                  <a href="{{ article.url }}">{{ article.title }}</a>
+                  {{ article.title }}
                 </label>
                 <br>
               {% endfor %}

@@ -125,9 +125,8 @@ function getArticleByAjax() {
                     // 組合文章
                     html += `
                     <div class="articleBlock">
-                    <h3>${article.title}</h3>
-                    <div class="content">${article.content}</div>
-                    <div class="leftText">${article.published_at}</div>
+                        <h3>${article.title}</h3>
+                        <div class="content">${article.content}</div>
                     </div>
                 `;
                 });

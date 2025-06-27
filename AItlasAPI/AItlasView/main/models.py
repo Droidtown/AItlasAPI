@@ -2,9 +2,9 @@ from django.db import models
 
 # Create your models here.
 class NewsArticle(models.Model):
-    title = models.CharField(max_length=255)  # 新聞標題
+    title = models.CharField(blank=True, max_length=255)  # 新聞標題
     content = models.TextField(unique=True)              # 新聞內容
-    published_at = models.DateTimeField()     # 發布時間
+    published_at = models.DateTimeField(blank=True, null=True)     # 發布時間
     url = models.URLField(blank=True, null=True)  # 原始新聞連結
     created_at = models.DateTimeField(auto_now_add=True)  # 新聞被存入系統的時間
     updated_at = models.DateTimeField(auto_now=True) #新聞在系統中被更新的時間
@@ -13,7 +13,7 @@ class NewsArticle(models.Model):
     result_obj = models.JSONField(blank=True, null=True)
 
     def __str__(self):
-        return self.title
+        return self.content
 
 class Event(models.Model):
     entityid = models.ForeignKey(NewsArticle, on_delete=models.CASCADE, related_name='events') # 關聯到新聞
