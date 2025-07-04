@@ -96,8 +96,10 @@ class AItlas:
         self.raw_dataPAT = []
         self.wikipedia_TW: dict[str, dict] = {}
         self.wikipedia_EN: dict[str, dict] = {}
-        self.wikipedia_TW["person"] = self._matchAItlas("tw")
+        self.wikipedia_TW["person"] = self._matchAItlasPerson("tw")
         # self.wikipedia_EN["person"] = self._matchAItlas("en")
+        self.wikipedia_TW["location"] = self._matchAItlasLocation("tw")
+        # self.wikipedia_EN["location"] = self._matchAItlas("en")
         self.AITLASKG = {
             "person": {},
             "location": {},
@@ -112,7 +114,7 @@ class AItlas:
         # 啟動 Django, 跳轉到 Browser
         return None
 
-    def _matchAItlas(self, lang):
+    def _matchAItlasPerson(self, lang):
         personDICT = {}
         if lang.lower() == "tw":
             personDICT = json.load(
@@ -125,13 +127,37 @@ class AItlas:
         # elif lang.lower() == "en":
         # personDICT = json.load(open("AItlas_EN/wikipedia/AItlas_wiki_person.json", "r", encoding="utf-8"))
         return personDICT
+    
+    def _matchAItlasLocation(self, lang):
+        locataionDICT = {}
+        if lang.lower() == "tw":
+            locationDICT = json.load(
+                open(
+                    f"{BASEPATH}/AItlas_TW/wikipedia/AItlas_wiki_location.json",
+                    "r",
+                    encoding="utf-8"
+                )
+            )
+        # elif lang.lower() == "en":
+        # locationDICT = json.load(open("AItlas_EN/wikipedia/AItlas_wiki_location.json", "r", encoding="utf-8"))
+        return locationDICT
 
     def scan(self, inputSTR):
+        # article
         self.AITLASKG["article"] = inputSTR
-        for person in self.wikipedia_TW["person"].keys():
-            if person in inputSTR:
-                # print(f"person:{person}")
-                self.AITLASKG["person"][person] = self.wikipedia_TW["person"][person]
+
+        # person
+        for personSTR in self.wikipedia_TW["person"].keys():
+            if personSTR in inputSTR:
+                # print(f"person:{personSTR}")
+                self.AITLASKG["person"][personSTR] = self.wikipedia_TW["person"][personSTR]
+
+        # location
+        for originLocationSTR, dataDICT in self.wikipedia_TW["location"].items():
+            locationSTR: str = dataDICT["location_name"]
+            if locationSTR in inputSTR:
+                self.AITLASKG["location"][locationSTR] = self.wikipedia_TW["location"][originLocationSTR]
+
         return self.AITLASKG
 
     def _listPacker(self, datatype, inputSTR):
@@ -231,7 +257,7 @@ class AItlas:
             "honours": "獎項",
             "獲獎": "獎項",
         }
-        # Person
+
         viewDICT = {
             "article": [{
                 "title": directoryNameSTR,
@@ -241,33 +267,47 @@ class AItlas:
                 "url": "",
                 "event": [] # 之後如果改 django 那邊的樣式，得跟著改。
             }],
-            "person": {}
+            "person": {},
+            "location": {}
         }
+        # Person
         for person in self.AITLASKG["person"]:
             viewDICT["person"][person] = {}
             for key in self.AITLASKG["person"][person]:
                 if key in translateDICT.keys():
                     # viewDICT["person"][person][translateDICT[key]] = self.AITLASKG["person"][person][key]
-                    viewDICT["person"][person][translateDICT[key]] = self._listPacker(
-                        translateDICT[key], self.AITLASKG["person"][person][key]
-                    )
+                    valueSET: set = set()
+                    for itemSTR in self.AITLASKG["person"][person][key]:
+                        for x in self._listPacker(translateDICT[key], itemSTR):
+                            valueSET.add(x)
 
+                    viewDICT["person"][person][translateDICT[key]] = list(valueSET)
+
+        # Location
+        for locationSTR in self.AITLASKG["location"]:
+            viewDICT["location"][locationSTR] = {}
+            pprint(self.AITLASKG["location"][locationSTR])
+            for keySTR, dataSTR in self.AITLASKG["location"][locationSTR].items():
+                viewDICT["location"][locationSTR].update({
+                    keySTR: [dataSTR]
+                })
+
+
+        # 建立 AItlasKG 存檔 PATH
         newAItlasKgPATH: Path = kgDIR / directoryNameSTR
-        try:
-            newAItlasKgPATH.mkdir(exist_ok=False, parents=False)
-        except FileExistsError:
-            print("目錄已經存在")
-            return
+        newAItlasKgPATH.mkdir(exist_ok=True, parents=False)
 
-        # 寫 people.json
-        with open(newAItlasKgPATH / "people.json", "w", encoding="utf-8") as f:
+        # 寫 person.json
+        with open(newAItlasKgPATH / "person.json", "w", encoding="utf-8") as f:
             json.dump(viewDICT["person"], f, ensure_ascii=False, indent=4)
 
         # 寫 article.json
         with open(newAItlasKgPATH / "article.json", "w", encoding="utf-8") as f:
             json.dump(viewDICT["article"], f, ensure_ascii=False, indent=4)
 
-        # 寫 place.json
+        # 寫 location.json
+        with open(newAItlasKgPATH / "location.json", "w", encoding="utf-8") as f:
+            json.dump(viewDICT["location"], f, ensure_ascii=False, indent=4)
 
         # 寫 ner.json
 
@@ -388,8 +428,6 @@ class AItlas:
                     self.personDICT[jobtitle[0][-1]]["spouse"].append(
                         purgePat.sub("", spouse[0][2])
                     )
-
-        pprint(self.personDICT)
 
     # def _getPersonKG(self, inputSTR):
 
@@ -552,13 +590,13 @@ if __name__ == "__main__":
     # aitlas.createKG(inputSTR=longText, KG_FilePath= "aitlas.kg")
 
     #     aitlas = AItlas()
-    #     longText = """民眾黨前主席柯文哲的父親柯承發今天辭世。民眾黨代理黨主席黃國昌說，請柯家人放心，民眾黨會做他們最堅強的後盾；所有後事，都要尊重柯家人的意願跟想法，希望能尊重他們的隱私。
-    # 國民黨主席朱立倫也透過聲明表示，對於柯文哲的父親柯承發過世，深表哀悼，希望柯文哲以及其家人節哀珍重。"""
+    longText = """民眾黨前主席柯文哲的父親柯承發今天於新竹市辭世。民眾黨代理黨主席黃國昌說，請柯家人放心，民眾黨會做他們最堅強的後盾；所有後事，都要尊重柯家人的意願跟想法，希望能尊重他們的隱私。
+    國民黨主席朱立倫也透過聲明表示，對於柯文哲的父親柯承發過世，深表哀悼，希望柯文哲以及其家人節哀珍重。"""
 
-    longText = """中東夙敵以色列和伊朗空戰進入第8天。以色列總理尼坦雅胡今天矢言「消除」伊朗構成的核子和彈道飛彈威脅。
-法新社報導，尼坦雅胡（Benjamin Netanyahu）在南部城巿俾什巴（Beersheba）告訴記者：「我們致力於信守摧毀核威脅的承諾、針對以色列的核滅絕威脅。」伊朗今天的飛彈攻勢擊中當地一間醫院。"""
+#     longText = """中東夙敵以色列和伊朗空戰進入第8天。以色列總理尼坦雅胡今天矢言「消除」伊朗構成的核子和彈道飛彈威脅。
+# 法新社報導，尼坦雅胡（Benjamin Netanyahu）在南部城巿俾什巴（Beersheba）告訴記者：「我們致力於信守摧毀核威脅的承諾、針對以色列的核滅絕威脅。」伊朗今天的飛彈攻勢擊中當地一間醫院。"""
     aitlas = AItlas()
-    topicSTR: str = "以色列伊朗戰爭2025"
+    topicSTR: str = "京華城案"
     KG = aitlas.scan(longText)
     # pprint(KG)
 

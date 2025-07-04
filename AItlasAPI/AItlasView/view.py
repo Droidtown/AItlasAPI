@@ -31,17 +31,6 @@ def view(
 
     # 匯入資料
     call_command("importData", str(kgPATH))
-    # call_command("import_news", str(kgPATH / "article.json"))
-    # pprint("已匯入所需「文章」資料")
-
-    # call_command("import_people", str(kgPATH / "people.json"))
-    # pprint("已匯入所需「人物」資料")
-
-    # call_command("import_place", str(kgPATH / "place.json"))
-    # pprint("已匯入所需「地點」資料")
-
-    # call_command("import_NER", str(kgPATH / "ner.json"))
-    # pprint("已匯入所需「實體」資料")
 
     # 啟動伺服器
     call_command("runserver", "127.0.0.1:8000")

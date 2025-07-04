@@ -55,7 +55,7 @@ class Command(BaseCommand):
 
     def importPeople(self):
         try:
-            PeoplePATH: Path = Path(self.filePATH) / "people.json"
+            PeoplePATH: Path = Path(self.filePATH) / "person.json"
             with open(PeoplePATH, 'r', encoding='utf-8') as f:
                 data = json.load(f)
 
@@ -74,6 +74,32 @@ class Command(BaseCommand):
                                 value=str(v)
                             )
                 self.stdout.write(self.style.SUCCESS(f'Imported: {person}'))
+
+        except Exception as e:
+            self.stderr.write(self.style.ERROR(f'Error: {str(e)}'))
+
+    def importLocation(self):
+        try:
+            locationPATH: Path = Path(self.filePATH) / "location.json"
+            with open(locationPATH, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+
+            for location_name, attributes in data.items():
+                # 建立 Location 物件
+                location = People.objects.create(name=location_name)
+                print(location)
+
+                for key, values in attributes.items():
+                    # values 是 list
+                    for v in values:
+                        if v:  # 跳過空值
+                            # engKey = FIELD_NAME_MAP.get(key, key)
+                            PeopleAttribute.objects.create(
+                                entityid=location,
+                                type=key,
+                                value=str(v)
+                            )
+                self.stdout.write(self.style.SUCCESS(f'Imported: {location}'))
 
         except Exception as e:
             self.stderr.write(self.style.ERROR(f'Error: {str(e)}'))
