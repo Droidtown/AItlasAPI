@@ -6,7 +6,7 @@ from django.db import IntegrityError
 from django.utils import timezone
 from django.utils.dateparse import parse_datetime
 from django.utils.timezone import make_aware
-from main.models import Event, NewsArticle, People, PeopleAttribute
+from main.models import Event, NewsArticle, People, PeopleAttribute, Place, PlaceAttribute
 
 actualDIR: Path = Path(__file__).resolve().parent
 
@@ -84,22 +84,20 @@ class Command(BaseCommand):
             with open(locationPATH, 'r', encoding='utf-8') as f:
                 data = json.load(f)
 
-            for location_name, attributes in data.items():
-                # 建立 Location 物件
-                location = People.objects.create(name=location_name)
-                print(location)
+            for placeName, attributes in data.items():
+                # 建立 location 物件
+                place = Place.objects.create(name=placeName)
 
                 for key, values in attributes.items():
                     # values 是 list
                     for v in values:
                         if v:  # 跳過空值
-                            # engKey = FIELD_NAME_MAP.get(key, key)
-                            PeopleAttribute.objects.create(
-                                entityid=location,
+                            PlaceAttribute.objects.create(
+                                entityid=place,
                                 type=key,
                                 value=str(v)
                             )
-                self.stdout.write(self.style.SUCCESS(f'Imported: {location}'))
+                self.stdout.write(self.style.SUCCESS(f'Imported: {place}'))
 
         except Exception as e:
             self.stderr.write(self.style.ERROR(f'Error: {str(e)}'))
@@ -108,3 +106,4 @@ class Command(BaseCommand):
         self.filePATH = options["directory"]
         self.importArticle()
         self.importPeople()
+        self.importLocation()
