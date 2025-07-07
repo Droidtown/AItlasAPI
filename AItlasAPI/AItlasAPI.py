@@ -154,7 +154,7 @@ class AItlas:
 
         # location
         for originLocationSTR, dataDICT in self.wikipedia_TW["location"].items():
-            locationSTR: str = dataDICT["location_name"]
+            locationSTR: str = dataDICT["locationName"]
             if locationSTR in inputSTR:
                 self.AITLASKG["location"][locationSTR] = self.wikipedia_TW["location"][originLocationSTR]
 
