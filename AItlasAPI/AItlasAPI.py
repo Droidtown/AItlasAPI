@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
+
 # 把 AItlasView 加進 path
 import sys
 from pathlib import Path
 
-sys.path.append(str(Path(__file__).parent / "AItlasView"))
+#sys.path.append(str(Path(__file__).parent / "AItlasView"))
+#sys.path.insert(0, "..")
 
 # from .AItlas.main import askLoki
 from ArticutAPI import Articut
@@ -15,7 +17,10 @@ import json
 # from AItlas_TW.aitlas_wiki.KG.people import action as actionDICT
 # except:
 # pass
+#try:
 from AItlasView.view import view as aitlasView
+#except:
+    #from AItlasView.view import view as aitlasView
 
 import sqlite3
 from typing import Union
@@ -127,7 +132,7 @@ class AItlas:
         # elif lang.lower() == "en":
         # personDICT = json.load(open("AItlas_EN/wikipedia/AItlas_wiki_person.json", "r", encoding="utf-8"))
         return personDICT
-    
+
     def _matchAItlasLocation(self, lang):
         locataionDICT = {}
         if lang.lower() == "tw":
@@ -294,8 +299,8 @@ class AItlas:
 
 
         # 建立 AItlasKG 存檔 PATH
-        newAItlasKgPATH: Path = kgDIR / directoryNameSTR
-        newAItlasKgPATH.mkdir(exist_ok=True, parents=False)
+        newAItlasKgPATH: Path = kgDIR / directoryNameSTR / "data"
+        newAItlasKgPATH.mkdir(exist_ok=True, parents=True)
 
         # 寫 person.json
         with open(newAItlasKgPATH / "person.json", "w", encoding="utf-8") as f:
@@ -321,24 +326,6 @@ class AItlas:
         KG_FileName="default.ait",
         userDefinedDICT=None,
     ):
-        # conn =sqlite3.connect(KG_FileName)
-        # cursor = conn.cursor()
-        # cursor.execute("DROP TABLE IF EXISTS person;")
-        # cursor.execute("DROP TABLE IF EXISTS entity;")
-        # conn.commit()
-        # cursor.execute('''CREATE TABLE IF NOT EXISTS away
-        # (id INT PRIMARY KEY NOT NULL,
-        # alias JSONB,
-        # address JSONB,
-        # affiliation JSONB,
-        # award JSONB,
-        # birth_date DATETIME,
-        # birth_place JSONB,
-        # ;''')
-
-        # cursor.close()
-        # conn.close()
-
         if KG_FilePath == None:
             print("[AItlas]: KG_FilePath is needed!")
             return None
@@ -429,30 +416,7 @@ class AItlas:
                         purgePat.sub("", spouse[0][2])
                     )
 
-    # def _getPersonKG(self, inputSTR):
 
-    # refDICT = {}
-    # keyLIST = ["alias", "address", "affiliation", "award", "birth_date", "birth_place", "death_date","death_place",
-    # "biological_gender", "body_height", "body_weight", "job_title", "nationality", "parent", "sibling",
-    # "child", "spouse", "skills", "education", "event_log", "description", "raw_data"]
-    # for k in keyLIST:
-    # refDICT[k] = []
-
-    # self.personDICT = {}
-    # for i in self.posLIST:
-    # for person in self.personNamePAT.findall(i):
-    # self.personDICT[person] = {}
-    # for k in keyLIST:
-    # self.personDICT[person][k] = deepcopy(refDICT[k])
-
-    # resultDICT = askLoki(inputSTR, refDICT=refDICT, splitLIST=self.splitLIST)
-    # for k_s in resultDICT.keys():
-    # for i in  resultDICT[k_s]:
-    # for person, value in i.items():
-    # if value not in self.personDICT[person][k_s]:
-    # self.personDICT[person][k_s].append(value)
-    ##pprint(self.personDICT)
-    # return None
 
     def person_alias(self):
         return None
@@ -507,96 +471,16 @@ class AItlas:
             }
             response = post(url, json=payload).json()
 
-    # def is_person(self, entity: str, utteranceLIST: list[str]) -> IsPersonJudgement:
-    # """
-    # Check if 'entity' is a person according to the evidences listed in utteranceLIST.
-    # Each utterance should contain the entity given.
-    # """
-    ## Check the existence of the entity in every utterance.
-    # checkList = list(map( lambda u: len(re.findall(entity,u))==0
-    # , utteranceLIST))
-    ## Throws ValueError if any of the utterances doesn't satisfy the requirement.
-    # if reduce(lambda x,y:x or y, checkList):
-    # errorList = []
-    # for k,v in enumerate(checkList):
-    # if v:
-    # errorList.append(k)
-    # raise ValueError(f"In indexes:{errorList} of utteranceLIST, the entity doesn't show in the utterance.")
-
-    # if entity in peopleLIST:
-    # return True
-    # else:
-    ##get verbs from utteranceLIST
-
-    # for u_s in utteranceLIST:
-    # resultDICT = articut.parse(u_s)
-    # verbLIST = articut.getVerbStemLIST(resultDICT)
-    # verbLIST = wordExtractor(verbLIST)
-
-    # for v_s in verbLIST:
-    # checkingUtteranceLIST = []
-    # intentKey = articut.parse(v_s, level="lv3", pinyin="HANYU")["utterance"][0].replace(" ", "")
-    # for u_s in utteranceLIST:
-    # checkingUtteranceLIST.append(u_s[u_s.index(v_s):])
-    # lokiResult = execLoki(checkingUtteranceLIST)
-    # if intentKey in lokiResult:
-    # return MaybePerson()
-    # return False
-
-    # def is_location():
-    # return None
-
-    # def is_superset():
-    #'''
-    # inputArgs: "dog", "animal" => False
-    #'''
-    # return None
-
-    # def is_subset():
-    # """
-    # inputArgs: "dog", "animal" => True
-    # """
-    # return None
-
-    # def converTime():
-    # """
-    # """
-    # return None
-
-    # def find_EntyRelation():
-    # """
-    # inputArgs: "dog", "animal" => subset
-    # => synonym ("k9", "dog") ("kids", "children")
-    # => superset
-    # => Unknown
-    # """
-    # return None
-
-    # def what_is_this():
-    # return None
-
 
 if __name__ == "__main__":
-    # longText = """blah blah blah...末綱聰子是一個羽球女子運動員，
-    # 末綱聰子(???)與前田美順(???)的常常組隊參加比賽，
-    # 末綱聰子與前田美順的組合代表日本(???)參加北京(???)舉行的奧運會羽球女子雙打比賽"""
 
-    # entity = "前田美順"
-    # utteranceLIST = ["末綱聰子與前田美順的組合代表日本參加北京舉行的奧運會羽球女子雙打比賽"]
-
-    # aitlas = AItlas()
-    # aitlas.createKG(inputSTR=longText, KG_FilePath="./aitlas.kg")
-
-    # aitlas.createKG(inputSTR=longText, KG_FilePath= "aitlas.kg")
-
-    #     aitlas = AItlas()
     longText = """民眾黨前主席柯文哲的父親柯承發今天於新竹市辭世。民眾黨代理黨主席黃國昌說，請柯家人放心，民眾黨會做他們最堅強的後盾；所有後事，都要尊重柯家人的意願跟想法，希望能尊重他們的隱私。
     國民黨主席朱立倫也透過聲明表示，對於柯文哲的父親柯承發過世，深表哀悼，希望柯文哲以及其家人節哀珍重。"""
 
 #     longText = """中東夙敵以色列和伊朗空戰進入第8天。以色列總理尼坦雅胡今天矢言「消除」伊朗構成的核子和彈道飛彈威脅。
 # 法新社報導，尼坦雅胡（Benjamin Netanyahu）在南部城巿俾什巴（Beersheba）告訴記者：「我們致力於信守摧毀核威脅的承諾、針對以色列的核滅絕威脅。」伊朗今天的飛彈攻勢擊中當地一間醫院。"""
     aitlas = AItlas()
-    topicSTR: str = "京華城案"
+    topicSTR: str = "柯父辭世"
     KG = aitlas.scan(longText)
     # pprint(KG)
 

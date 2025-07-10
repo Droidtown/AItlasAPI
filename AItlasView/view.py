@@ -3,15 +3,13 @@ import sys
 from pathlib import Path
 from pprint import pprint
 
-def view(
-    directoryNameSTR: str
-):
+def view(directoryNameSTR: str):
     djangoDIR: Path = Path(__file__).parent
-    kgPATH: Path = djangoDIR / "rawData" / directoryNameSTR
+    kgPATH: Path = djangoDIR / "rawData" / directoryNameSTR / "data"
     sqlPATH: Path = djangoDIR / "db.sqlite3"
 
 
-    # 設定 django 環境
+    #設定 django 環境
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "aitlasDEMO.settings")
 
     import django
@@ -37,4 +35,4 @@ def view(
     pprint("🚀 啟動 Django Server 成功")
 
 if __name__ == "__main__":
-    view("以色列伊朗戰爭2025")
+    view("柯父辭世")
