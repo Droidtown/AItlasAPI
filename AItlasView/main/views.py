@@ -1,4 +1,5 @@
 import json
+import logging
 import re
 from datetime import datetime
 from pathlib import Path
@@ -7,11 +8,34 @@ from typing import Any
 
 from django.http import JsonResponse
 from django.shortcuts import get_object_or_404, render
+from django.views.decorators.csrf import csrf_exempt
 
-from .models import NER, Event, NewsArticle, People, Place
+from .models import Event, NER, NERAttribute, NewsArticle, People, PeopleAttribute, Place, PlaceAttribute
 
+logFORMAT = "%(name)s:%(funcName)s>>%(message)s"
+logging.basicConfig(level=logging.INFO, format=logFORMAT)
 
-# Create your views here.
+@csrf_exempt
+def clearData(request):
+    if request.method == "POST":
+        try:
+            dataDICT = json.loads(request.body.decode("utf-8"))
+            if "article" in dataDICT and dataDICT["article"]:
+                status = _clearArticle()
+            if "location" in dataDICT and dataDICT["location"]:
+                status = _clearLocation()
+            if "ner" in dataDICT and dataDICT["ner"]:
+                status = _clearNER()
+            if "people" in dataDICT and dataDICT["people"]:
+                status = _clearPeople()
+
+            return JsonResponse({"stauts": True, "msg": "Task completed."})
+
+        except Exception as e:
+            return JsonResponse({"status": False, "message": f"Invalid request data: {str(e)}"})
+
+    return JsonResponse({"status": False, "msg": "Bad Request"})
+
 def getArticleByIDs(request):
     # 解析 ids
     try:
@@ -149,7 +173,6 @@ def getArticleByIDs(request):
         }
     )
 
-
 def homepage(request):
     articles = NewsArticle.objects.all()
 
@@ -158,11 +181,81 @@ def homepage(request):
     }
     return render(request, "index.html", context=context)
 
+@csrf_exempt
+def importData(request):
+    if request.method == "POST":
+        try:
+            dataDICT = json.loads(request.body.decode("utf-8"))
+            if "article" in dataDICT and dataDICT["article"]:
+                status = _importArticle(dataDICT["article"])
+            if "location" in dataDICT and dataDICT["location"]:
+                status = _importLocation(dataDICT["location"])
+            if "ner" in dataDICT and dataDICT["ner"]:
+                status = _importNER(dataDICT["ner"])
+            if "people" in dataDICT and dataDICT["people"]:
+                status = _importPeople(dataDICT["people"])
 
-def _parse2Date(isoSTR: str):
-    dt = datetime.fromisoformat(isoSTR)
-    return dt.strftime("%Y-%m-%d")
+            return JsonResponse({"stauts": True, "msg": "Task completed."})
 
+        except Exception as e:
+            return JsonResponse({"status": False, "message": f"Invalid request data: {str(e)}"})
+
+    return JsonResponse({"status": False, "msg": "Bad Request"})
+
+##############################################################################
+def _clearArticle():
+    try:
+        NewsArticle.objects.all().delete()
+        logging.info("[INFO] Delete NewsArticle successful.")
+    except Exception as e:
+        logging.error(f"[ERROR] Delete NewsArticle failed. => {str(e)}")
+
+    return True
+
+def _clearLocation():
+    try:
+        PlaceAttribute.objects.all().delete()
+        logging.info("[INFO] Delete PlaceAttribute successful.")
+    except Exception as e:
+        logging.error(f"[ERROR] Delete PlaceAttribute failed. => {str(e)}")
+
+    try:
+        Place.objects.all().delete()
+        logging.info("[INFO] Delete Place successful.")
+    except Exception as e:
+        logging.error(f"[ERROR] Delete Place failed. => {str(e)}")
+
+    return True
+
+def _clearNER():
+    try:
+        NERAttribute.objects.all().delete()
+        logging.info("[INFO] Delete NERAttribute successful.")
+    except Exception as e:
+        logging.error(f"[ERROR] Delete NERAttribute failed. => {str(e)}")
+
+    try:
+        NER.objects.all().delete()
+        logging.info("[INFO] Delete NER successful.")
+    except Exception as e:
+        logging.error(f"[ERROR] Delete NER failed. => {str(e)}")
+
+    return True
+
+def _clearPeople():
+    try:
+        PeopleAttribute.objects.all().delete()
+        logging.info("[INFO] Delete PeopleAttribute successful.")
+    except Exception as e:
+        logging.error(f"[ERROR] Delete PeopleAttribute failed. => {str(e)}")
+
+    try:
+        People.objects.all().delete()
+        logging.info("[INFO] Delete People successful.")
+    except Exception as e:
+        logging.error(f"[ERROR] Delete People failed. => {str(e)}")
+
+    return True
 
 def _highlightArticles(article, peopleDICT=None, placeDICT=None, nerDICT=None):
     """
@@ -192,3 +285,101 @@ def _highlightArticles(article, peopleDICT=None, placeDICT=None, nerDICT=None):
         )
 
     return highlightedContent
+
+def _importArticle(dataLIST):
+    for d_d in dataLIST:
+        content = d_d["content"].strip()  # 去除前後空白
+        try:
+            article, created = NewsArticle.objects.get_or_create(
+                content=content,
+                defaults={
+                    "title": d_d.get("title", ""),
+                },
+            )
+            if created:
+                logging.info(f"[INFO] Create NewsArticle successful. => {article}")
+
+        except Exception as e:
+            logging.error(f"[ERROR] Create NewsArticle failed. => {item.get('title', '')}, {str(e)}")
+            continue
+
+    return True
+
+def _importLocation(dataDICT):
+    for place_s, place_d in dataDICT.items():
+        # 建立 Place 物件
+        place, created = Place.objects.get_or_create(name=place_s)
+        if created:
+            logging.info(f"[INFO] Create Place successful. => {place}")
+
+        for k_s, v_l in place_d.items():
+            for v_s in v_l:
+                if v_s:
+                    try:
+                        placeAttribute, created = PlaceAttribute.objects.get_or_create(
+                            entityid=place,
+                            type=k_s,
+                            value=str(v_s)
+                        )
+                        if created:
+                            logging.info(f"[INFO] Create PlaceAttribute successful. => {place}, {k_s}, {v_s}")
+
+                    except Exception as e:
+                        logging.error(f"[ERROR] Create PlaceAttribute failed. => {place}, {k_s}, {v_s}, {str(e)}")
+                        continue
+
+    return True
+
+def _importNER(dataDICT):
+    for ner_s, ner_d in dataDICT.items():
+        # 建立 NER 物件
+        ner, created = NER.objects.get_or_create(name=ner_s)
+        if created:
+            logging.info(f"[INFO] Create NER successful. => {ner}")
+
+        for k_s, v_l in ner_d.items():
+            for v_s in v_l:
+                if v_s:
+                    try:
+                        nerAttribute, created = NERAttribute.objects.get_or_create(
+                            entityid=ner,
+                            type=k_s,
+                            value=str(v_s)
+                        )
+                        if created:
+                            logging.info(f"[INFO] Create NERAttribute successful. => {ner}, {k_s}, {v_s}")
+
+                    except Exception as e:
+                        logging.error(f"[ERROR] Create NERAttribute failed. => {ner}, {k_s}, {v_s}, {str(e)}")
+                        continue
+
+    return True
+
+def _importPeople(dataDICT):
+    for person_s, person_d in dataDICT.items():
+        # 建立 People 物件
+        person, created = People.objects.get_or_create(name=person_s)
+        if created:
+            logging.info(f"[INFO] Create People successful. => {person}")
+
+        for k_s, v_l in person_d.items():
+            for v_s in v_l:
+                if v_s:
+                    try:
+                        peopleAttribute, created = PeopleAttribute.objects.get_or_create(
+                            entityid=person,
+                            type=k_s,
+                            value=str(v_s)
+                        )
+                        if created:
+                            logging.info(f"[INFO] Create PeopleAttribute successful. => {person}, {k_s}, {v_s}")
+
+                    except Exception as e:
+                        logging.error(f"[ERROR] Create PeopleAttribute failed. => {person}, {k_s}, {v_s}, {str(e)}")
+                        continue
+
+    return True
+
+def _parse2Date(isoSTR: str):
+    dt = datetime.fromisoformat(isoSTR)
+    return dt.strftime("%Y-%m-%d")
