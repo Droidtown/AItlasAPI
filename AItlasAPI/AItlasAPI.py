@@ -97,12 +97,15 @@ class AItlas:
         self.wikipedia_TW: dict[str, dict] = {}
         self.wikipedia_EN: dict[str, dict] = {}
         self.wikipedia_TW["person"] = self._matchAItlasPerson("tw")
-        # self.wikipedia_EN["person"] = self._matchAItlas("en")
+        # self.wikipedia_EN["person"] = self._matchAItlasPerson("en")
         self.wikipedia_TW["location"] = self._matchAItlasLocation("tw")
-        # self.wikipedia_EN["location"] = self._matchAItlas("en")
+        # self.wikipedia_EN["location"] = self._matchAItlasLocation("en")
+        self.wikipedia_TW["ner"] =  self._matchAItlasNer("tw")
+        # self.wikipedia_EN["ner"] = self._matchAItlasNer("en")
         self.AITLASKG = {
             "person": {},
             "location": {},
+            "ner": {},
             "entity": {},
             "interaction": [],
             "event": [],
@@ -127,9 +130,9 @@ class AItlas:
         # elif lang.lower() == "en":
         # personDICT = json.load(open("AItlas_EN/wikipedia/AItlas_wiki_person.json", "r", encoding="utf-8"))
         return personDICT
-    
+
     def _matchAItlasLocation(self, lang):
-        locataionDICT = {}
+        locationDICT = {}
         if lang.lower() == "tw":
             locationDICT = json.load(
                 open(
@@ -141,6 +144,20 @@ class AItlas:
         # elif lang.lower() == "en":
         # locationDICT = json.load(open("AItlas_EN/wikipedia/AItlas_wiki_location.json", "r", encoding="utf-8"))
         return locationDICT
+
+    def _matchAItlasNer(self, lang):
+        nerDICT = {}
+        if lang.lower() == "tw":
+            nerDICT = json.load(
+                open(
+                    f"{BASEPATH}/AItlas_TW/wikipedia/AItlas_wiki_ner.json",
+                    "r",
+                    encoding="utf-8"
+                )
+            )
+        # elif lang.lower() == "en":
+        # locationDICT = json.load(open("AItlas_EN/wikipedia/AItlas_wiki_location.json", "r", encoding="utf-8"))
+        return nerDICT
 
     def scan(self, inputSTR):
         # article
@@ -157,6 +174,13 @@ class AItlas:
             locationSTR: str = dataDICT["locationName"]
             if locationSTR in inputSTR:
                 self.AITLASKG["location"][locationSTR] = self.wikipedia_TW["location"][originLocationSTR]
+
+        # ner
+        for originNerSTR, dataDICT in self.wikipedia_TW["ner"].items():
+            nerSTR: str = dataDICT["nerName"]
+            if nerSTR in inputSTR:
+                self.AITLASKG["ner"][nerSTR] = self.wikipedia_TW["ner"][originNerSTR]
+
 
         return self.AITLASKG
 
@@ -204,7 +228,7 @@ class AItlas:
         return resultLIST
 
     def aitlasViewPacker(self, directoryNameSTR: str):
-        translateDICT = {
+        translatePersonDICT = {
             "name": "全名",
             "本名": "全名",
             "姓名": "全名",
@@ -268,30 +292,37 @@ class AItlas:
                 "event": [] # 之後如果改 django 那邊的樣式，得跟著改。
             }],
             "person": {},
-            "location": {}
+            "location": {},
+            "ner": {},
         }
         # Person
         for person in self.AITLASKG["person"]:
             viewDICT["person"][person] = {}
             for key in self.AITLASKG["person"][person]:
-                if key in translateDICT.keys():
+                if key in translatePersonDICT.keys():
                     # viewDICT["person"][person][translateDICT[key]] = self.AITLASKG["person"][person][key]
                     valueSET: set = set()
                     for itemSTR in self.AITLASKG["person"][person][key]:
-                        for x in self._listPacker(translateDICT[key], itemSTR):
+                        for x in self._listPacker(translatePersonDICT[key], itemSTR):
                             valueSET.add(x)
 
-                    viewDICT["person"][person][translateDICT[key]] = list(valueSET)
+                    viewDICT["person"][person][translatePersonDICT[key]] = list(valueSET)
 
         # Location
         for locationSTR in self.AITLASKG["location"]:
             viewDICT["location"][locationSTR] = {}
-            pprint(self.AITLASKG["location"][locationSTR])
             for keySTR, dataSTR in self.AITLASKG["location"][locationSTR].items():
                 viewDICT["location"][locationSTR].update({
                     keySTR: [dataSTR]
                 })
 
+        # Ner
+        for nerSTR in self.AITLASKG["ner"]:
+            viewDICT["ner"][nerSTR] = {}
+            for keySTR, dataSTR in self.AITLASKG["ner"][nerSTR].items():
+                viewDICT["ner"][nerSTR].update({
+                    keySTR: [dataSTR],
+                })
 
         # 建立 AItlasKG 存檔 PATH
         newAItlasKgPATH: Path = kgDIR / directoryNameSTR
@@ -310,6 +341,8 @@ class AItlas:
             json.dump(viewDICT["location"], f, ensure_ascii=False, indent=4)
 
         # 寫 ner.json
+        with open(newAItlasKgPATH / "ner.json",  "w", encoding="utf-8") as f:
+            json.dump(viewDICT["ner"], f, ensure_ascii=False, indent=4)
 
         return viewDICT
 
@@ -590,13 +623,17 @@ if __name__ == "__main__":
     # aitlas.createKG(inputSTR=longText, KG_FilePath= "aitlas.kg")
 
     #     aitlas = AItlas()
-    longText = """民眾黨前主席柯文哲的父親柯承發今天於新竹市辭世。民眾黨代理黨主席黃國昌說，請柯家人放心，民眾黨會做他們最堅強的後盾；所有後事，都要尊重柯家人的意願跟想法，希望能尊重他們的隱私。
-    國民黨主席朱立倫也透過聲明表示，對於柯文哲的父親柯承發過世，深表哀悼，希望柯文哲以及其家人節哀珍重。"""
+    # longText = """民眾黨前主席柯文哲的父親柯承發今天於新竹市辭世。民眾黨代理黨主席黃國昌說，請柯家人放心，民眾黨會做他們最堅強的後盾；所有後事，都要尊重柯家人的意願跟想法，希望能尊重他們的隱私。
+    # 國民黨主席朱立倫也透過聲明表示，對於柯文哲的父親柯承發過世，深表哀悼，希望柯文哲以及其家人節哀珍重。"""
 
-#     longText = """中東夙敵以色列和伊朗空戰進入第8天。以色列總理尼坦雅胡今天矢言「消除」伊朗構成的核子和彈道飛彈威脅。
-# 法新社報導，尼坦雅胡（Benjamin Netanyahu）在南部城巿俾什巴（Beersheba）告訴記者：「我們致力於信守摧毀核威脅的承諾、針對以色列的核滅絕威脅。」伊朗今天的飛彈攻勢擊中當地一間醫院。"""
+    # longText = """中東夙敵以色列和伊朗空戰進入第8天。以色列總理尼坦雅胡今天矢言「消除」伊朗構成的核子和彈道飛彈威脅。
+    # 法新社報導，尼坦雅胡（Benjamin Netanyahu）在南部城巿俾什巴（Beersheba）告訴記者：「我們致力於信守摧毀核威脅的承諾、針對以色列的核滅絕威脅。」伊朗今天的飛彈攻勢擊中當地一間醫院。"""
     aitlas = AItlas()
-    topicSTR: str = "京華城案"
+    longText =  """中選會委員會議審定並公告24件國民黨立委罷免案及新竹市長高虹安罷免案成案，進入第3階段，投票日訂於7月26日。國民黨立委及黨團發表聲明，呼籲選民投下不同意罷免票，並批評罷免案為政治鬥爭。多個客家社團宣布組成全國客家支持大罷免行動聯盟，表態支持罷免行動。
+    國民黨台東立委黃建賓罷免案進入投票階段，罷免團體與民進黨公職人員上街宣講，黃建賓則設立不同意罷免看板。國民黨主席朱立倫拜託台中市長盧秀燕協助支持被罷免立委，並出席李彥秀「反惡罷 戰獨裁」政策說明會。民進黨立委郭昱晴於桃園宣講，呼籲民眾投票罷免不適任立委。花蓮罷免傅崐萁行動發起車掃，民進黨秘書長林右昌參與支援。中選會公布罷免票樣式，澄清網路誤解。
+    國民黨主席朱立倫強調支持者需投下不同意罷免票，否則每一席驚奇隊長都很危險，並啟動反罷免造勢活動。 民團「微光花蓮拔傅總部」舉行開幕茶會，呼籲外縣市遊子返鄉投罷免票，多位民進黨立委及地方議員出席支持。發言人W指出罷免第三階段策略推動將是關鍵，持續透過公民培力與宣講推動罷免傅崐萁。傅崐萁則與妻子出席宗教活動，感謝佛教界守護社會，並號召大眾為國家祈福。
+    國民黨組發會主委許宇甄宣布已舉辦百場「反惡罷、戰獨裁」說明會，並將與民眾黨合作催出年輕票。國民黨團質疑罷免二階連署涉偽造文書，並指控中選會未審查重複連署，國民黨立委分赴地檢署提出告發。民進黨立委林俊憲等人組「台南隊」支援罷免藍委。罷免民進黨立委李坤城、陳俊宇案皆因未達門檻或造冊問題宣布不送件。中選會與9縣市選委會聯合聲明，7月26日無原住民立委罷免案投票。"""
+    topicSTR: str = "測試"
     KG = aitlas.scan(longText)
     # pprint(KG)
 
