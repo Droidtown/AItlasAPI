@@ -1,0 +1,64 @@
+{
+    "新竹市": {
+        "locationName": [
+            "新竹市"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "City/CountyName": [
+            "新竹市"
+        ],
+        "DivName": [
+            "香山區"
+        ],
+        "Village/LiName": [
+            "海山"
+        ],
+        "Village/Li": [
+            "裡"
+        ],
+        "OldName": [
+            "AreaTotal"
+        ],
+        "HouseholdTotal": [
+            "773"
+        ],
+        "PopTotal": [
+            "2,721"
+        ],
+        "YearMonth": [
+            "2006年8月"
+        ],
+        "Male": [
+            "1,415"
+        ],
+        "Female": [
+            "1,306"
+        ],
+        "Head": [
+            "陳文賢"
+        ],
+        "Sub": [
+            "20"
+        ],
+        "Website": [
+            "Neighbors"
+        ],
+        "Address": [
+            "林森路116號"
+        ],
+        "Phone": [
+            "3-5377260"
+        ],
+        "DataSource": [
+            "戶口資料：[http://dep-civil.hccg.gov.tw/web66/_file/2890/upload/22763/s16.html 新竹市民政局]"
+        ],
+        "AreaTotal": [
+            "4.4"
+        ],
+        "MapLocation": [
+            "Address"
+        ]
+    }
+}

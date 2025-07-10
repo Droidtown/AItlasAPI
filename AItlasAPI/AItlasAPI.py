@@ -18,7 +18,7 @@ import json
 # except:
 # pass
 #try:
-from AItlasView.view import view as aitlasView
+from AItlasView.DjangoTest import importData as importData
 #except:
     #from AItlasView.view import view as aitlasView
 
@@ -116,10 +116,11 @@ class AItlas:
             "event": [],
             "article": "",
         }
+        self.viewDICT =  {}
 
     def view(self, directoryNameSTR: str):
-        aitlasView(directoryNameSTR= directoryNameSTR)
-        # 啟動 Django, 跳轉到 Browser
+        # post Django
+        importData(article=self.viewDICT["article"], location=self.viewDICT["location"], ner=self.viewDICT["ner"], people=self.viewDICT["person"])
         return None
 
     def _matchAItlasPerson(self, lang):
@@ -328,6 +329,8 @@ class AItlas:
                 viewDICT["ner"][nerSTR].update({
                     keySTR: [dataSTR],
                 })
+
+        self.viewDICT = viewDICT
 
         # 建立 AItlasKG 存檔 PATH
         newAItlasKgPATH: Path = kgDIR / directoryNameSTR / "data"

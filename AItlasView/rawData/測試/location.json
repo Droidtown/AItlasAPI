@@ -1,0 +1,194 @@
+{
+    "上街": {
+        "locationName": [
+            "上街"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "上街"
+        ],
+        "eng_name": [
+            "Shangjie"
+        ],
+        "type": [
+            "[[福州地鐵]]車站"
+        ],
+        "linecolour": [
+            "{{福州地鐵顏色|2|s}}"
+        ],
+        "country": [
+            "{{PRC}}"
+        ],
+        "borough": [
+            "[[福建省]][[福州市]][[閩侯縣]][[上街鎮]]"
+        ],
+        "address": [
+            "國賓大道與邱陽路交叉口"
+        ],
+        "owned": [
+            "operator"
+        ],
+        "lines": [
+            "{{福州地鐵線路名|2|full}}"
+        ],
+        "platforms": [
+            "1個[[島式站臺]]"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "code": [
+            "colour"
+        ],
+        "connections": [
+            "[[福州公交|公交]]鑾浦(省第三人民醫院)"
+        ],
+        "structure": [
+            "地下車站"
+        ],
+        "hall": [
+            "地下站廳"
+        ],
+        "levels": [
+            "2層"
+        ],
+        "interchange": [
+            "exits"
+        ],
+        "status": [
+            "運營中"
+        ],
+        "opened": [
+            "{{Start date|2019|04|26|df"
+        ],
+        "services": [
+            "{{Adjacent stations|system"
+        ],
+        "route_map": [
+            "first"
+        ]
+    },
+    "桃園": {
+        "locationName": [
+            "桃園"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "桃園"
+        ],
+        "eng_name": [
+            "Taoyuan"
+        ],
+        "livery": [
+            "white"
+        ],
+        "namecolour": [
+            "black"
+        ],
+        "linecolour": [
+            "{{深圳地鐵色彩|1}}"
+        ],
+        "linecolour2": [
+            "{{深圳地鐵色彩|12}}"
+        ],
+        "country": [
+            "{{PRC}}"
+        ],
+        "borough": [
+            "[[廣東省]][[深圳市]][[南山區 (深圳市)|南山區]][[南山街道 (深圳市)|南山街道]]"
+        ],
+        "address": [
+            "[[桃園路]]與[[南山大道]]交叉路口"
+        ],
+        "line": [
+            "{{深圳地鐵路線標誌|1|sl}}&lt;br/&gt;{{深圳地鐵路線標誌|12|sl}}"
+        ],
+        "connections": [
+            "[[公共汽車]]"
+        ],
+        "structure": [
+            "地下車站"
+        ],
+        "hall": [
+            "地下站廳"
+        ],
+        "levels": [
+            "4"
+        ],
+        "exits": [
+            "6"
+        ],
+        "elevator": [
+            "4（出口2，付費區2）"
+        ],
+        "architect": [
+            "colour"
+        ]
+    },
+    "新竹市": {
+        "locationName": [
+            "新竹市"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "City/CountyName": [
+            "新竹市"
+        ],
+        "DivName": [
+            "香山區"
+        ],
+        "Village/LiName": [
+            "海山"
+        ],
+        "Village/Li": [
+            "裡"
+        ],
+        "OldName": [
+            "AreaTotal"
+        ],
+        "HouseholdTotal": [
+            "773"
+        ],
+        "PopTotal": [
+            "2,721"
+        ],
+        "YearMonth": [
+            "2006年8月"
+        ],
+        "Male": [
+            "1,415"
+        ],
+        "Female": [
+            "1,306"
+        ],
+        "Head": [
+            "陳文賢"
+        ],
+        "Sub": [
+            "20"
+        ],
+        "Website": [
+            "Neighbors"
+        ],
+        "Address": [
+            "林森路116號"
+        ],
+        "Phone": [
+            "3-5377260"
+        ],
+        "DataSource": [
+            "戶口資料：[http://dep-civil.hccg.gov.tw/web66/_file/2890/upload/22763/s16.html 新竹市民政局]"
+        ],
+        "AreaTotal": [
+            "4.4"
+        ],
+        "MapLocation": [
+            "Address"
+        ]
+    }
+}
