@@ -114,15 +114,19 @@ personPatLIST = ["^{}\s?（[^名又a-zA-Z]+）",
 
 ## 3. Usage
 
+a. 先到`AItlasAPI/AItlasAPI/AItlasView`執行`python3.10 manage.py runserver`後先不理它
+b. 打開`AItlasAPI.py`，在程式進入點能夠看到使用範例如下方，可以直接執行。
+c. 在`http://127.0.0.1:8000/`觀察結果
+
 ```python
 if __name__ == "__main__":
-  longText = """中東夙敵以色列和伊朗空戰進入第8天。以色列總理尼坦雅胡今天矢言「消除」伊朗構成的核子和彈道飛彈威脅。法新社報導，尼坦雅胡（Benjamin Netanyahu）在南部城巿俾什巴（Beersheba）告訴記者：「我們致力於信守摧毀核威脅的承諾、針對以色列的核滅絕威脅。」伊朗今天的飛彈攻勢擊中當地一間醫院。"""
+    longText = """中東夙敵以色列和伊朗空戰進入第8天。以色列總理尼坦雅胡今天矢言「消除」伊朗構成的核子和彈道飛彈威脅。法新社報導，尼坦雅胡（Benjamin Netanyahu）在南部城巿俾什巴（Beersheba）告訴記者：「我們致力於信守摧毀核威脅的承諾、針對以色列的核滅絕威脅。」伊朗今天的飛彈攻勢擊中當地一間醫院。"""
     aitlas = AItlas()
+    topicSTR: str = "中東"
     KG = aitlas.scan(longText)
-    pprint(KG)
 
-    view = aitlas.aitlasViewPacker()
-    aitlas.view()
+    view = aitlas.aitlasViewPacker(directoryNameSTR=topicSTR)
+    aitlas.view(directoryNameSTR=topicSTR)
 ```
 
 ### scan
@@ -135,5 +139,5 @@ if __name__ == "__main__":
 - output：生成 django 專案呈現所需的檔案
 
 ### view
-- 喚醒 django
+- 對 django 寫入須呈現的資料
 
