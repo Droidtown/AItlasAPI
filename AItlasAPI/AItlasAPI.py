@@ -102,12 +102,15 @@ class AItlas:
         self.wikipedia_TW: dict[str, dict] = {}
         self.wikipedia_EN: dict[str, dict] = {}
         self.wikipedia_TW["person"] = self._matchAItlasPerson("tw")
-        # self.wikipedia_EN["person"] = self._matchAItlas("en")
+        # self.wikipedia_EN["person"] = self._matchAItlasPerson("en")
         self.wikipedia_TW["location"] = self._matchAItlasLocation("tw")
-        # self.wikipedia_EN["location"] = self._matchAItlas("en")
+        # self.wikipedia_EN["location"] = self._matchAItlasLocation("en")
+        self.wikipedia_TW["ner"] =  self._matchAItlasNer("tw")
+        # self.wikipedia_EN["ner"] = self._matchAItlasNer("en")
         self.AITLASKG = {
             "person": {},
             "location": {},
+            "ner": {},
             "entity": {},
             "interaction": [],
             "event": [],
@@ -134,7 +137,7 @@ class AItlas:
         return personDICT
 
     def _matchAItlasLocation(self, lang):
-        locataionDICT = {}
+        locationDICT = {}
         if lang.lower() == "tw":
             locationDICT = json.load(
                 open(
@@ -146,6 +149,20 @@ class AItlas:
         # elif lang.lower() == "en":
         # locationDICT = json.load(open("AItlas_EN/wikipedia/AItlas_wiki_location.json", "r", encoding="utf-8"))
         return locationDICT
+
+    def _matchAItlasNer(self, lang):
+        nerDICT = {}
+        if lang.lower() == "tw":
+            nerDICT = json.load(
+                open(
+                    f"{BASEPATH}/AItlas_TW/wikipedia/AItlas_wiki_ner.json",
+                    "r",
+                    encoding="utf-8"
+                )
+            )
+        # elif lang.lower() == "en":
+        # locationDICT = json.load(open("AItlas_EN/wikipedia/AItlas_wiki_location.json", "r", encoding="utf-8"))
+        return nerDICT
 
     def scan(self, inputSTR):
         # article
@@ -162,6 +179,13 @@ class AItlas:
             locationSTR: str = dataDICT["locationName"]
             if locationSTR in inputSTR:
                 self.AITLASKG["location"][locationSTR] = self.wikipedia_TW["location"][originLocationSTR]
+
+        # ner
+        for originNerSTR, dataDICT in self.wikipedia_TW["ner"].items():
+            nerSTR: str = dataDICT["nerName"]
+            if nerSTR in inputSTR:
+                self.AITLASKG["ner"][nerSTR] = self.wikipedia_TW["ner"][originNerSTR]
+
 
         return self.AITLASKG
 
@@ -209,7 +233,7 @@ class AItlas:
         return resultLIST
 
     def aitlasViewPacker(self, directoryNameSTR: str):
-        translateDICT = {
+        translatePersonDICT = {
             "name": "全名",
             "本名": "全名",
             "姓名": "全名",
@@ -273,30 +297,37 @@ class AItlas:
                 "event": [] # 之後如果改 django 那邊的樣式，得跟著改。
             }],
             "person": {},
-            "location": {}
+            "location": {},
+            "ner": {},
         }
         # Person
         for person in self.AITLASKG["person"]:
             viewDICT["person"][person] = {}
             for key in self.AITLASKG["person"][person]:
-                if key in translateDICT.keys():
+                if key in translatePersonDICT.keys():
                     # viewDICT["person"][person][translateDICT[key]] = self.AITLASKG["person"][person][key]
                     valueSET: set = set()
                     for itemSTR in self.AITLASKG["person"][person][key]:
-                        for x in self._listPacker(translateDICT[key], itemSTR):
+                        for x in self._listPacker(translatePersonDICT[key], itemSTR):
                             valueSET.add(x)
 
-                    viewDICT["person"][person][translateDICT[key]] = list(valueSET)
+                    viewDICT["person"][person][translatePersonDICT[key]] = list(valueSET)
 
         # Location
         for locationSTR in self.AITLASKG["location"]:
             viewDICT["location"][locationSTR] = {}
-            pprint(self.AITLASKG["location"][locationSTR])
             for keySTR, dataSTR in self.AITLASKG["location"][locationSTR].items():
                 viewDICT["location"][locationSTR].update({
                     keySTR: [dataSTR]
                 })
 
+        # Ner
+        for nerSTR in self.AITLASKG["ner"]:
+            viewDICT["ner"][nerSTR] = {}
+            for keySTR, dataSTR in self.AITLASKG["ner"][nerSTR].items():
+                viewDICT["ner"][nerSTR].update({
+                    keySTR: [dataSTR],
+                })
 
         # 建立 AItlasKG 存檔 PATH
         newAItlasKgPATH: Path = kgDIR / directoryNameSTR / "data"
@@ -315,6 +346,8 @@ class AItlas:
             json.dump(viewDICT["location"], f, ensure_ascii=False, indent=4)
 
         # 寫 ner.json
+        with open(newAItlasKgPATH / "ner.json",  "w", encoding="utf-8") as f:
+            json.dump(viewDICT["ner"], f, ensure_ascii=False, indent=4)
 
         return viewDICT
 
@@ -473,14 +506,16 @@ class AItlas:
 
 
 if __name__ == "__main__":
-
     longText = """民眾黨前主席柯文哲的父親柯承發今天於新竹市辭世。民眾黨代理黨主席黃國昌說，請柯家人放心，民眾黨會做他們最堅強的後盾；所有後事，都要尊重柯家人的意願跟想法，希望能尊重他們的隱私。
     國民黨主席朱立倫也透過聲明表示，對於柯文哲的父親柯承發過世，深表哀悼，希望柯文哲以及其家人節哀珍重。"""
 
-#     longText = """中東夙敵以色列和伊朗空戰進入第8天。以色列總理尼坦雅胡今天矢言「消除」伊朗構成的核子和彈道飛彈威脅。
-# 法新社報導，尼坦雅胡（Benjamin Netanyahu）在南部城巿俾什巴（Beersheba）告訴記者：「我們致力於信守摧毀核威脅的承諾、針對以色列的核滅絕威脅。」伊朗今天的飛彈攻勢擊中當地一間醫院。"""
+
+    # longText = """中東夙敵以色列和伊朗空戰進入第8天。以色列總理尼坦雅胡今天矢言「消除」伊朗構成的核子和彈道飛彈威脅。
+    # 法新社報導，尼坦雅胡（Benjamin Netanyahu）在南部城巿俾什巴（Beersheba）告訴記者：「我們致力於信守摧毀核威脅的承諾、針對以色列的核滅絕威脅。」伊朗今天的飛彈攻勢擊中當地一間醫院。"""
     aitlas = AItlas()
+
     topicSTR: str = "柯父辭世"
+
     KG = aitlas.scan(longText)
     # pprint(KG)
 

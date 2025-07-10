@@ -2,11 +2,10 @@ import json
 from pathlib import Path
 
 from django.core.management.base import BaseCommand
-from django.db import IntegrityError
 from django.utils import timezone
 from django.utils.dateparse import parse_datetime
 from django.utils.timezone import make_aware
-from main.models import Event, NewsArticle, People, PeopleAttribute, Place, PlaceAttribute
+from main.models import Event, NewsArticle, People, PeopleAttribute, Place, PlaceAttribute, NER, NERAttribute
 
 actualDIR: Path = Path(__file__).resolve().parent
 
@@ -102,8 +101,33 @@ class Command(BaseCommand):
         except Exception as e:
             self.stderr.write(self.style.ERROR(f'Error: {str(e)}'))
 
+    def importNer(self):
+        try:
+            nerPATH: Path = Path(self.filePATH) / "ner.json"
+            dataDICT: dict[str, list[str]] = {}
+            with open(nerPATH, 'r', encoding="utf-8") as f:
+                dataDICT = json.load(f)
+
+            for nerName, attributes in dataDICT.items():
+                # 建立 ner 物件
+                ner = NER.objects.create(name=nerName)
+                for key, values in  attributes.items():
+                    # values 是 list
+                    for v in  values:
+                        NERAttribute.objects.create(
+                            entityid=ner,
+                            type=key,
+                            value=str(v)
+                        )
+                self.stdout.write(self.style.SUCCESS(f'Imported: {place}'))
+
+        except Exception as e:
+            self.stderr.write(self.style.ERROR(f'Error: {str(e)}'))
+
+
     def handle(self, *args, **options):
         self.filePATH = options["directory"]
         self.importArticle()
         self.importPeople()
         self.importLocation()
+        self.importNer()
