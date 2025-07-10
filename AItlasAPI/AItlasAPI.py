@@ -120,7 +120,7 @@ class AItlas:
 
     def view(self, directoryNameSTR: str):
         # post Django
-        importData(article=self.viewDICT["article"], location=self.viewDICT["location"], ner=self.viewDICT["ner"], people=self.viewDICT["person"])
+        importData(article=self.viewDICT["article"], location=self.viewDICT["location"], ner=self.viewDICT["entity"], people=self.viewDICT["person"])
         return None
 
     def _matchAItlasPerson(self, lang):
