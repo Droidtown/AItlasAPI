@@ -107,11 +107,11 @@ class AItlas:
         # self.wikipedia_EN["location"] = self._matchAItlasLocation("en")
         self.wikipedia_TW["entity"] =  self._matchAItlasNer("tw")
         # self.wikipedia_EN["ner"] = self._matchAItlasNer("en")
+
         self.AITLASKG = {
             "person": {},
             "location": {},
             "entity": {},
-            #"entity": {},
             "interaction": [],
             "event": [],
             "article": "",
@@ -120,7 +120,7 @@ class AItlas:
 
     def view(self, directoryNameSTR: str):
         # post Django
-        importData(article=self.viewDICT["article"], location=self.viewDICT["location"], ner=self.viewDICT["entity"], people=self.viewDICT["person"])
+        importData(article=self.viewDICT["article"], location=self.viewDICT["location"], ner=self.viewDICT["entity"], people=self.viewDICT["person"], event=self.viewDICT["event"])
         return None
 
     def _matchAItlasPerson(self, lang):
@@ -295,11 +295,11 @@ class AItlas:
                 "articut_content": {},
                 "published_at": "",
                 "url": "",
-                "event": [] # 之後如果改 django 那邊的樣式，得跟著改。
             }],
             "person": {},
             "location": {},
             "entity": {},
+            "event": []
         }
         # Person
         for person in self.AITLASKG["person"]:
@@ -330,26 +330,36 @@ class AItlas:
                     keySTR: [dataSTR],
                 })
 
+        # event
+        # 等peter
+        # 先用假資料串
+        with open(kgDIR / "event.json", "r", encoding="utf-8") as f:
+            viewDICT["event"] = json.load(f)
+
         self.viewDICT = viewDICT
 
-        # 建立 AItlasKG 存檔 PATH
+        # 存 AItlasKG
         newAItlasKgPATH: Path = kgDIR / directoryNameSTR / "data"
         newAItlasKgPATH.mkdir(exist_ok=True, parents=True)
 
-        # 寫 person.json
+        ## 寫 person.json
         with open(newAItlasKgPATH / "person.json", "w", encoding="utf-8") as f:
             json.dump(viewDICT["person"], f, ensure_ascii=False, indent=4)
 
-        # 寫 article.json
+        ## 寫 article.json
         with open(newAItlasKgPATH / "article.json", "w", encoding="utf-8") as f:
             json.dump(viewDICT["article"], f, ensure_ascii=False, indent=4)
 
-        # 寫 location.json
+        ## 寫 location.json
         with open(newAItlasKgPATH / "location.json", "w", encoding="utf-8") as f:
             json.dump(viewDICT["location"], f, ensure_ascii=False, indent=4)
 
-        # 寫 ner.json
+        ## 寫 ner.json
         with open(newAItlasKgPATH / "entity.json",  "w", encoding="utf-8") as f:
+            json.dump(viewDICT["entity"], f, ensure_ascii=False, indent=4)
+
+        ## 寫 event.json
+        with  open(newAItlasKgPATH / "event.json", "w", encoding="utf-8") as f:
             json.dump(viewDICT["entity"], f, ensure_ascii=False, indent=4)
 
         return viewDICT
@@ -602,7 +612,7 @@ if __name__ == "__main__":
     # 法新社報導，尼坦雅胡（Benjamin Netanyahu）在南部城巿俾什巴（Beersheba）告訴記者：「我們致力於信守摧毀核威脅的承諾、針對以色列的核滅絕威脅。」伊朗今天的飛彈攻勢擊中當地一間醫院。"""
     aitlas = AItlas()
 
-    topicSTR: str = "京華城案"
+    topicSTR: str = "柯文哲"
 
     KG = aitlas.scan(longText)
     # pprint(KG)
