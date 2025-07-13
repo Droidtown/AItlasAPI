@@ -109,7 +109,6 @@ def getArticleByIDs(request):
     allPlaceSet: set = set()
 
     for article in articles:
-        events = Event.objects.filter(entityid=article)
         # 針對每篇文章，只留下它實際提到的人、地點、實體
         peopleAttributeDICT: dict[str, list[dict]] = {
             name: attr_list
@@ -128,10 +127,21 @@ def getArticleByIDs(request):
             for name, attr_list in globalNERAttributeMap.items()
             if name in article.content
         }
-
         highlightContent = _highlightArticles(
             article, peopleAttributeDICT, placeAttributeDICT, nersAttributeDICT
         )
+
+        eventLIST: list[str] = []
+        for event in article.events.all():
+            eventLIST.append({
+                "source": event.source,
+                "target": event.target,
+                "label": event.label,
+                "metaData": event.metaData,
+                "encounter_time": event.encounter_time.isoformat() if event.encounter_time else "",
+                "date_only": event.encounter_time.date().isoformat() if event.encounter_time else ""
+            })
+
         resultLIST.append(
             {
                 "id": article.id,
@@ -139,23 +149,13 @@ def getArticleByIDs(request):
                 "content": highlightContent,
                 "published_at": article.published_at,
                 "url": article.url,
-                "events": [
-                    {
-                        "source": e.source,
-                        "target": e.target,
-                        "label": e.label,
-                        "meta_data": e.metaData,
-                        "encounter_time": e.encounter_time,
-                        "date_only": _parse2Date(str(e.encounter_time)),
-                        "url": e.url,
-                    }
-                    for e in events
-                ],
+                "events": eventLIST,
                 "peoples": peopleAttributeDICT,
                 "places": placeAttributeDICT,
                 "ners": nersAttributeDICT,
             }
         )
+        pprint(eventLIST)
         allPeopleSet.update(peopleAttributeDICT.keys())
         allPlaceSet.update(placeAttributeDICT.keys())
         allNerSet.update(nersAttributeDICT.keys())
@@ -187,7 +187,8 @@ def importData(request):
         try:
             dataDICT = json.loads(request.body.decode("utf-8"))
             if "article" in dataDICT and dataDICT["article"]:
-                status = _importArticle(dataDICT["article"])
+                if "event" in  dataDICT:
+                    status = _importArticleAndEvent(articleLIST=dataDICT["article"], eventLIST=dataDICT["event"])
             if "location" in dataDICT and dataDICT["location"]:
                 status = _importLocation(dataDICT["location"])
             if "ner" in dataDICT and dataDICT["ner"]:
@@ -195,6 +196,7 @@ def importData(request):
             if "people" in dataDICT and dataDICT["people"]:
                 status = _importPeople(dataDICT["people"])
 
+            pprint({"stauts": True, "msg": "Task completed."})
             return JsonResponse({"stauts": True, "msg": "Task completed."})
 
         except Exception as e:
@@ -286,10 +288,20 @@ def _highlightArticles(article, peopleDICT=None, placeDICT=None, nerDICT=None):
 
     return highlightedContent
 
-def _importArticle(dataLIST):
-    for d_d in dataLIST:
+def parse_datetime(dt_str: str | None):
+    """解析 ISO 格式字串為 datetime 物件"""
+    if not dt_str:
+        return None
+    try:
+        return datetime.fromisoformat(dt_str)
+    except Exception:
+        return None
+
+def _importArticleAndEvent(articleLIST: list[str], eventLIST: list[str]):
+    for d_d in articleLIST:
         content = d_d["content"].strip()  # 去除前後空白
         try:
+            # 匯入article
             article, created = NewsArticle.objects.get_or_create(
                 content=content,
                 defaults={
@@ -297,10 +309,24 @@ def _importArticle(dataLIST):
                 },
             )
             if created:
-                logging.info(f"[INFO] Create NewsArticle successful. => {article}")
+                pprint(f"[INFO] Create NewsArticle successful. => {article}")
+
+            # 匯入event
+            for event_d in  eventLIST:
+                event, created = Event.objects.get_or_create(
+                    entityid=article,
+                    source=event_d["source"],
+                    target=event_d["target"],
+                    label=event_d["label"],
+                    encounter_time=parse_datetime(event_d["encounter_time"]),
+                    metaData=event_d["metaData"],
+                    url=article.url
+                )
+                if created:
+                    pprint(f"[INFO] Create event successful. => {event}")
 
         except Exception as e:
-            logging.error(f"[ERROR] Create NewsArticle failed. => {item.get('title', '')}, {str(e)}")
+            pprint(f"[ERROR] Create NewsArticle failed. => {item.get('title', '')}, {str(e)}")
             continue
 
     return True

@@ -114,7 +114,16 @@ personPatLIST = ["^{}\s?（[^名又a-zA-Z]+）",
 
 ## 3. Usage
 
-a. 先到`AItlasAPI/AItlasAPI/AItlasView`執行`python3.10 manage.py runserver`後先不理它
+a. 先到`AItlasAPI/AItlasAPI/AItlasView`執行`python3 manage.py runserver`後直到出現
+
+> Django version 3+都可以
+
+```md
+Django version 5.2.4, using settings 'aitlasDEMO.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+```
+
 b. 打開`AItlasAPI.py`，在程式進入點能夠看到使用範例如下方，可以直接執行。
 c. 在`http://127.0.0.1:8000/`觀察結果
 

@@ -1,5 +1,7 @@
 from pathlib import Path
 from pprint import pprint
+
+from django.utils import encoding
 from requests import post
 import json
 
@@ -21,12 +23,13 @@ def clearData(article=False, location=False, ner=False, people=False):
     else:
         return {"status": False, "msg": f"Request clearData failed => {response.status_code}"}
 
-def importData(article=[], location={}, ner={}, people={}):
+def importData(article=[], location={}, ner={}, people={}, event=[]):
     response = post(f"{SERVER_URL}/importData/", json={
         "article": article,
         "location": location,
         "ner": ner,
-        "people": people
+        "people": people,
+        "event":  event,
     })
     if response.status_code == 200:
         try:
@@ -62,6 +65,11 @@ if __name__ == "__main__":
         dataDICT["people"] = json.load(open(dataPATH / "knowledge_people.json", encoding="utf-8"))
     except:
         dataDICT["people"] = {}
+    try:
+        dataDICT["entity"] = json.load(open(BASE_PATH/"rawData/event.json", encoding="utf-8"))
+    except:
+        dataDICT["entity"] = {}
+
     #pprint(dataDICT)
 
     status = importData(dataDICT["article"], dataDICT["location"], dataDICT["ner"], dataDICT["people"])
