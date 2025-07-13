@@ -23,6 +23,7 @@ from AItlasView.DjangoTest import importData as importData
     #from AItlasView.view import view as aitlasView
 
 import sqlite3
+import tempfile
 from typing import Union
 from functools import reduce
 from pprint import pprint
@@ -300,6 +301,8 @@ class AItlas:
             "person": {},
             "location": {},
             "entity": {},
+            "person2person":[], #關聯圖
+            "entity-time":[]    #時序圖
         }
         # Person
         for person in self.AITLASKG["person"]:
@@ -311,7 +314,6 @@ class AItlas:
                     for itemSTR in self.AITLASKG["person"][person][key]:
                         for x in self._listPacker(translatePersonDICT[key], itemSTR):
                             valueSET.add(x)
-
                     viewDICT["person"][person][translatePersonDICT[key]] = list(valueSET)
 
         # Location
@@ -329,6 +331,17 @@ class AItlas:
                 viewDICT["entity"][nerSTR].update({
                     keySTR: [dataSTR],
                 })
+
+        #關聯圖
+        #tempDICT = tempfile.NamedTemporaryFile(mode="w+")
+        #udLIST = [e for e in viewDICT["entity"].keys()]
+        #json.dump({"_Entity":udLIST}, tempDICT, ensure_ascii=False)
+        #tempDICT.flush()
+        #resultDICT = articut.parse(self.AITLASKG["article"], userDefinedDictFILE=tempDICT.name)
+        #print(resultDICT["result_pos"])
+        #p2pPatLIST = [re.compile(r"<ENTITY_person>[^<]+</ENTITY_person>.+<ACTION_verb>[^<]+</ACTION_verb>.+<ENTITY_person>[^<]+</ENTITY_person>"),
+
+        #              ]
 
         self.viewDICT = viewDICT
 
@@ -351,6 +364,14 @@ class AItlas:
         # 寫 ner.json
         with open(newAItlasKgPATH / "entity.json",  "w", encoding="utf-8") as f:
             json.dump(viewDICT["entity"], f, ensure_ascii=False, indent=4)
+
+        ##寫 人物圖 person2person.json
+        #with open(newAItlasKgPATH / "person2person.json",  "w", encoding="utf-8") as f:
+            #json.dump(viewDICT["person2person"], f, ensure_ascii=False, indent=4)
+
+        ##寫 時序圖 entity-time.json
+        #with open(newAItlasKgPATH / "entity-time.json",  "w", encoding="utf-8") as f:
+            #json.dump(viewDICT["entity-time"], f, ensure_ascii=False, indent=4)
 
         return viewDICT
 
@@ -579,7 +600,7 @@ if __name__ == "__main__":
 
 檢察官複訊後，認為戴男涉犯恐嚇危害安全及違反個人資料保護法非法蒐集及利用個人資料等罪嫌，犯罪嫌疑重大，有勾串共犯、證人之虞和反覆實施恐嚇行為，向法院聲請羈押禁見。
 
-警調另查出，有網友把戴男上網原圖加工合成後轉傳社群平台，警調鎖定住台中市的41歲周姓男子與林姓女子，2人為情侶，警方昨晚前往台中將2人帶返北市偵訊，並於今天下午依恐嚇危安罪嫌將2人移送北檢偵辦。法界人士指出，網路上散布仇恨、恐嚇的合成照片圖文涉犯刑法第305條恐嚇危害安全及違反個人資料保護法第20條第1項而犯同法第41條非法蒐集及利用個人資料等罪嫌。
+警調另查出，有網友把戴男上網原圖加工合成後轉傳社群平台，警調鎖定住台中市的41歲周姓男子與林姓女子，2人為情侶，警方昨晚前往台中將2人帶返北市偵訊，並在今天下午依恐嚇危安罪嫌將2人移送北檢偵辦。法界人士指出，網路上散布仇恨、恐嚇的合成照片圖文涉犯刑法第305條恐嚇危害安全及違反個人資料保護法第20條第1項而犯同法第41條非法蒐集及利用個人資料等罪嫌。
 
 法界人士表示，刑法第305條明定，以加害生命、身體、自由、名譽、財產之事恐嚇他人，致生危害於安全者，可處2年以下有期徒刑；若意圖為自己或第三人不法之利益或損害他人之利益，違法揭露個資，也可能構成個人資料保護法第41條之罪，最重可處5年有期徒刑。（編輯：張銘坤）1140704"
 "（中央社記者劉建邦台北4日電）臉書「迷因台式民主」版主戴姓男子涉上網公開承辦京華城案的11名檢察官姓名與照片，台北市警方逮人送辦。警方今天另將合成恐嚇照的周姓情侶檔，依恐嚇危安罪嫌移送北檢偵辦。
@@ -588,7 +609,7 @@ if __name__ == "__main__":
 
 此外，臉書（Facebook）粉專「迷因台式民主」則發文「把司法官的照片找出來公布是我一個人幹的，跟民眾黨、鬼針草都沒關係。望周知。」台北市警察局刑事警察大隊偵辦此案，並通知版主、39歲戴姓男資訊工程師到案說明。據悉，戴男坦承自行搜索檢察官照片並上網公布，但否認有合成血跡並進行恐嚇情事。警詢後依涉恐嚇危安罪將他移送台北地檢署複訊。檢方今晨聲請羈押禁見。
 
-另警方調查發現，有網友把戴男上網原圖加工合成後轉傳社群平台，警調鎖定住台中市的41歲周姓男子與林姓女子，2人為情侶，警方昨晚前往台中將2人帶返北市偵訊，並於今天下午依恐嚇危安罪嫌將其移送北檢偵辦。（編輯：黃世雅）1140704"
+另警方調查發現，有網友把戴男上網原圖加工合成後轉傳社群平台，警調鎖定住台中市的41歲周姓男子與林姓女子，2人為情侶，警方昨晚前往台中將2人帶返北市偵訊，並在今天下午依恐嚇危安罪嫌將其移送北檢偵辦。（編輯：黃世雅）1140704"
 "（中央社記者林長順台北4日電）網路出現針對京華城案檢察官的仇恨性圖文，台北地檢署指揮台北市刑警大隊、調查局偵辦。檢警昨天傳喚臉書粉專「迷因台式民主」版主、戴姓工程師到案，今天凌晨聲請羈押禁見。
 
 另外，有網友將戴男上網原圖加工合成再轉貼社群平台，警調鎖定是住在台中市的周姓男子、林姓女子情侶檔所為，昨天晚間前往台中，將2人帶回台北偵訊，預計今天移送北檢複訊。近日有特定人士在網路社群平台張貼承辦京華城案11名檢察官姓名、照片，甚至合成潑灑血跡的畫面，並搭配「命債命還」、「記住他們的名字跟臉」等仇恨、威嚇性圖文。另有張貼包括北院、高院法官等照片的相關仇恨性圖文被張貼在社群平台。
