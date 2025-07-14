@@ -5610,28 +5610,6 @@
             "TED大會有限責任公司&lt;br&gt;TED Conference LLC"
         ]
     },
-    "Tudou": {
-        "nerName": "Tudou",
-        "alias_name": "",
-        "name": "Tudou, Inc.",
-        "foundation": "{{Start date|2005|02|15}}",
-        "location_city": "[[上海]]",
-        "location_country": "[[中國大陸]]",
-        "key_people": "[[王微 (創業家)|王微]], [[執行長|CEO]] &lt;br/&gt; [[山姆·賴]], [[首席財務官|CFO]]&lt;br/&gt; [[格雷斯錢]], [[管理總監|CAO]] &lt;br/&gt; [[莎拉·江]], [[內容總監|CCO]] &lt;br/&gt;[[Evelyn Wang (Tudou)|Evelyn Wang]], [[銷售總監|CSO]] &lt;br/&gt; Deng Wei, [[華北銷售|VP]] &lt;br/&gt; [[安妮塔黃]], [[副總裁產品社群和營銷|VP]] &lt;br/&gt;  [[宋永柱]], [[工程副總裁|VP]] &lt;br/&gt;  Yu Bin, [[財務副總裁|VP]]",
-        "homepage": "{{url|www.tudou.com}}",
-        "collapsible": "yes",
-        "collapsetext": "截圖",
-        "parent": "[[優酷網]]",
-        "alexa": "{{DecreasePositive}} 2,292 ({{as of|2018|11|10|alt",
-        "registration": "可選",
-        "launch_date": "2005年2月15日",
-        "current_status": "活躍的",
-        "language": "[[漢語]]",
-        "website_type": "[[影片分享網站]]",
-        "wiki_origin_name_list": [
-            "Tudou, Inc."
-        ]
-    },
     "IGN Entertainment": {
         "nerName": "IGN Entertainment",
         "alias_name": "",
@@ -6311,30 +6289,6 @@
         "followed_by": "[[第64屆坎城影展|第64屆]]",
         "wiki_origin_name_list": [
             "第63屆坎城影展"
-        ]
-    },
-    "電視臺": {
-        "nerName": "電視臺",
-        "alias_name": "",
-        "name": "RTL電視臺",
-        "launch date": "{{Start date|1984|1|2}}",
-        "picture format": "2160p [[4K解析度]]",
-        "owner": "[[盧森堡廣播電視集團]]",
-        "parent": "{{tsl|en|RTL Deutschland||RTL Deutschland}}",
-        "country": "[[德國]]",
-        "language": "[[德語]]",
-        "broadcast area": "德國&lt;br/&gt;其他國家：&lt;br/&gt;[[奧地利]]&lt;br/&gt;[[瑞士]]&lt;br/&gt;[[法國]]&lt;br/&gt;[[義大利]]&lt;br/&gt;[[比利時]]&lt;br/&gt;[[盧森堡]]&lt;br/&gt;[[列支敦斯登]]&lt;br/&gt;[[荷蘭]]&lt;br/&gt;[[土耳其]]&lt;br/&gt;[[波蘭]]&lt;br/&gt;[[羅馬尼亞]]",
-        "headquarters": "{{GER}}[[科隆]]",
-        "former names": "RTL plus{{small|（1984－1992年）}}&lt;br&gt;RTL電視臺{{small|（1992－2004年）}}",
-        "sister channels": "{{tsl|en|RTL Zwei|RTL Zwei}}&lt;br&gt;{{tsl|en|VOX (German TV channel)|VOX (德國電影片道)|VOX}}&lt;br&gt;{{tsl|en|Super RTL|Super RTL}}&lt;br&gt;[[N-tv]]&lt;br&gt;{{tsl|en|RTL Crime (Germany)|RTL Crime (德國)|RTL Crime}}&lt;br&gt;{{tsl|en|RTL Living|RTL Living}}&lt;br&gt;{{tsl|en|RTL Passion|RTL Passion}}&lt;br&gt;{{tsl|en|Nitro (German TV channel)|Nitro (德國電影片道)|Nitro}}&lt;br&gt;{{tsl|en|RTL Up|RTL Up}}",
-        "website": "{{url|http://www.rtl.de/}}",
-        "terr serv 1": "[[地面數位電視]]",
-        "online serv 1": "{{tsl|en|Ziggo|Ziggo GO}} &lt;small&gt;（[[荷蘭]]）&lt;/small&gt;",
-        "online chan 1": "[https://www.ziggogo.tv/nl/tv/channel-asset.html/lgi-nl-prod-master%3ANL_000038_019063/location/65535.html#action",
-        "online serv 2": "RTL LIVE",
-        "online chan 2": "[https://www.tvnow.de/live-tv/rtl RTL]&lt;br&gt;[https://www.tvnow.de/live-tv/rtlplus RTL Up]&lt;br&gt;[https://www.tvnow.de/live-tv/rtlcrime RTL Crime]&lt;br&gt;[https://www.tvnow.de/live-tv/rtlpassion RTL Passion]&lt;br&gt;[https://www.tvnow.de/live-tv/rtlliving RTL Living]",
-        "wiki_origin_name_list": [
-            "RTL電視臺"
         ]
     },
     "青海衛視": {
@@ -7067,23 +7021,6 @@
             "多米尼克國旗"
         ]
     },
-    "國旗": {
-        "nerName": "國旗",
-        "alias_name": "",
-        "Name": "{{flag|Madagascar}}國旗",
-        "Alt": "Use",
-        "Proportion": "2:3",
-        "Adoption": "1958年10月14日",
-        "Proportion2": "2:3",
-        "Adoption2": "Design2",
-        "Designer2": "}}",
-        "wiki_origin_name_list": [
-            "{{flag|Saint Vincent and the Grenadines}}國旗",
-            "{{flag|Madagascar}}國旗"
-        ],
-        "Use": "111111",
-        "Use2": "101010"
-    },
     "東加國旗": {
         "nerName": "東加國旗",
         "alias_name": "",
@@ -7486,16 +7423,6 @@
             "聖赫勒拿"
         ]
     },
-    "紅旗": {
-        "nerName": "紅旗",
-        "alias_name": "",
-        "Name": "紅旗",
-        "Nickname": "紅旗（{{lang-fr|Drapeau rouge}}）&lt;br&gt;勞動者旗幟（{{lang-de|Arbeiterfahne}}）",
-        "Use": "Symbol",
-        "wiki_origin_name_list": [
-            "紅旗"
-        ]
-    },
     "密西西比州州旗": {
         "nerName": "密西西比州州旗",
         "alias_name": "",
@@ -7559,15 +7486,6 @@
         "Design": "由黃、藍、紅三條橫條組成的旗幟",
         "wiki_origin_name_list": [
             "米蘭達旗"
-        ]
-    },
-    "雪人": {
-        "nerName": "雪人",
-        "alias_name": "",
-        "name": "雪人&lt;br&gt;Yeti",
-        "Folklore": "Country",
-        "wiki_origin_name_list": [
-            "雪人&lt;br&gt;Yeti"
         ]
     },
     "大腳怪": {
@@ -8034,13 +7952,6 @@
             "宇宙巡航艦Ⅱ：高弗的野望"
         ]
     },
-    "新年": {
-        "nerName": "新年",
-        "alias_name": "",
-        "wiki_origin_name_list": [
-            "新年"
-        ]
-    },
     "雙面情人": {
         "nerName": "雙面情人",
         "alias_name": "",
@@ -8456,20 +8367,6 @@
             "胡志明主席陵"
         ]
     },
-    "註釋": {
-        "nerName": "註釋",
-        "alias_name": "",
-        "character_name": "綠惡魔&lt;br&gt;{{lang|en|Green Goblin}}",
-        "full name": "諾曼·維吉爾·奧斯本（Norman Virgil Osborn）",
-        "publisher": "[[漫威漫畫]]",
-        "debut": "《驚奇蜘蛛人》#14（1964年7月）",
-        "creators": "[[史丹·李]]&lt;br&gt;[[史蒂夫·迪特科]]",
-        "aliases": "Goblin Lord、Overlord、Scrier、Iron Patriot",
-        "powers": "}}",
-        "wiki_origin_name_list": [
-            "&lt;!-- 註釋: [[File:Green Goblin (Norman Osborn).jpg|250px]] --&gt;"
-        ]
-    },
     "小丑": {
         "nerName": "小丑",
         "alias_name": "",
@@ -8531,18 +8428,6 @@
         "powers": "外星動力盔甲",
         "wiki_origin_name_list": [
             "藍甲蟲&lt;br /&gt;海梅·雷耶斯"
-        ]
-    },
-    "檔案": {
-        "nerName": "檔案",
-        "alias_name": "",
-        "character_name": "柯南",
-        "publisher": "[[漫威漫畫]]",
-        "debut": "《[[野蠻人柯南]] #1》",
-        "creators": "[[羅伯特·歐文·霍華德]]",
-        "alliances": "aliases",
-        "wiki_origin_name_list": [
-            "[[檔案:Conan the Savage 6.jpg|225px]]"
         ]
     },
     "丁丁": {
@@ -9146,31 +9031,6 @@
             "採玉勳章"
         ]
     },
-    "Order": {
-        "nerName": "Order",
-        "alias_name": "",
-        "name": "Order&lt;br&gt;of Saints Maurice and Lazarus",
-        "awarded_by": "{{flagicon|Italy|1861}} [[House of Savoy]]",
-        "type": "[[Dynastic order|Dynastic]] [[order of chivalry]]",
-        "house": "[[House of Savoy]]",
-        "religion": "[[Catholic Church|Catholic]]",
-        "motto": "[[FERT]]",
-        "eligibility": "[[Military]], [[civilian]]",
-        "criteria": "Distinguished merits",
-        "status": "Active in [[exile]]",
-        "founder": "[[Emmanuel Philibert, Duke of Savoy]] (1528–1580)",
-        "head_title": "[[Grand Master (order)|Grand Master]]",
-        "head": "[[Vittorio Emanuele, Prince of Naples]]&lt;br&gt;[[Line of succession to the former Italian throne|Disputed]]: [[Prince Amedeo, Duke of Aosta (b. 1943)|Prince Amedeo, Duke of Aosta]]",
-        "head2_title": "head2",
-        "post-nominals": "former_grades",
-        "first_induction": "last_induction",
-        "higher": "[[Supreme Order of the Most Holy Annunciation]]",
-        "same": "lower",
-        "related": "individual",
-        "wiki_origin_name_list": [
-            "Order&lt;br&gt;of Saints Maurice and Lazarus"
-        ]
-    },
     "最古老與最高貴的薊花勳章": {
         "nerName": "最古老與最高貴的薊花勳章",
         "alias_name": "",
@@ -9290,22 +9150,6 @@
         "alias_name": "",
         "wiki_origin_name_list": [
             "秀逗魔導士"
-        ]
-    },
-    "HIMA": {
-        "nerName": "HIMA",
-        "alias_name": "",
-        "wiki_origin_name_list": [
-            "[[HIMA]]"
-        ]
-    },
-    "autocollapse": {
-        "nerName": "autocollapse",
-        "alias_name": "",
-        "漫畫|state": "autocollapse}}",
-        "state": "autocollapse}}",
-        "wiki_origin_name_list": [
-            "autocollapse}}"
         ]
     },
     "遙遠時空3": {
@@ -9693,14 +9537,6 @@
         "repair": "",
         "wiki_origin_name_list": [
             "湖口服務區"
-        ]
-    },
-    "範例": {
-        "nerName": "範例",
-        "alias_name": "",
-        "name": "範例}}",
-        "wiki_origin_name_list": [
-            "範例}}"
         ]
     },
     "福特EcoBoost引擎": {
@@ -10108,22 +9944,6 @@
         "next": "[[2025年亞洲冬季運動會競速滑冰比賽|2025]]",
         "wiki_origin_name_list": [
             "競速滑冰"
-        ]
-    },
-    "室內": {
-        "nerName": "室內",
-        "alias_name": "",
-        "edition": "室內",
-        "year": "2007",
-        "NOC": "HKG",
-        "competitors": "136",
-        "sports": "14",
-        "gold": "15",
-        "silver": "9",
-        "bronze": "11",
-        "rank": "3",
-        "wiki_origin_name_list": [
-            "室內"
         ]
     },
     "靈犬萊西": {
@@ -10599,13 +10419,6 @@
             "California Golden Bears&lt;br&gt;加利福尼亞金熊"
         ]
     },
-    "月刊": {
-        "nerName": "月刊",
-        "alias_name": "",
-        "wiki_origin_name_list": [
-            "月刊Comic Zenon"
-        ]
-    },
     "Kyojin no Hoshi (manga)": {
         "nerName": "Kyojin no Hoshi (manga)",
         "alias_name": "",
@@ -10614,23 +10427,6 @@
         "wiki_origin_name_list": [
             "Kyojin no Hoshi (manga)|url"
         ]
-    },
-    "https": {
-        "nerName": "https",
-        "alias_name": "",
-        "ヤング ブラック・ジャック}}，{{lang-en|Young Black Jack}}）是[[手塚治蟲]]原作、[[田畑由秋]]創作劇本、[[大熊由護]]繪畫的[[日本]][[漫畫]]作品，[[手塚製作公司]]負責協助、後藤伸正擔任醫學編審。《青年黑傑克》是《[[怪醫黑傑克]]》的前傳，於2011年開始在[[秋田書店]][[漫畫雜誌]]《[[Young Champion]]》連載，2015年第11號上發表動畫化訊息&lt;ref&gt;{{cite news|url": "https://www.animenewsnetwork.com/news/2015-05-08/young-black-jack-manga-gets-tv-anime-series/.87949|title",
-        "": "",
-        "wiki_origin_name_list": [
-            "https://www.animenewsnetwork.com/news/2015-05-08/young-black-jack-manga-gets-tv-anime-series/.87949|title",
-            "https://www.facebook.com/K.R.T.GIRLS/posts/1659419684288670 |title",
-            "https://shonenjumpplus.com/episode/10833497643049550135|title",
-            "https://twitter.com/yugioh_anime/status/809982779886686208 |title",
-            "https://myanimelist.net/manga/78065/Koi_to_Uso |title",
-            "https://animeanime.jp/article/2017/05/20/33934.html|title"
-        ],
-        "url": "https://www.facebook.com/K.R.T.GIRLS/posts/1659419684288670 |title",
-        "戀と噓}}）是一部由{{lang|ja|ムサヲ}}創作的[[日本漫畫]]作品，於2014年8月開始在[[DeNA]]的手機應用程式「Manga Box」上分別以日文、中文及英文連載&lt;ref&gt;{{Cite web |url": "https://myanimelist.net/manga/78065/Koi_to_Uso |title",
-        "本作在推出第一話後的一個月，總閱覽者數超越350萬人，成為了Manga Box人氣作品第一位&lt;ref&gt;{{Cite web |url": "http://dena.com/jp/press/2015/01/09/1/ |title"
     },
     "DeNA、ニュースアプリ『ハッカドール』が累計100萬DLを達成　月間1億PVを越えるサービスに成長": {
         "nerName": "DeNA、ニュースアプリ『ハッカドール』が累計100萬DLを達成　月間1億PVを越えるサービスに成長",
@@ -10715,14 +10511,6 @@
             "[[荒木飛呂彥]]"
         ]
     },
-    "返回": {
-        "nerName": "返回",
-        "alias_name": "",
-        "text": "返回[[學校]]的行為}}",
-        "wiki_origin_name_list": [
-            "返回[[學校]]的行為}}"
-        ]
-    },
     "電視動畫": {
         "nerName": "電視動畫",
         "alias_name": "",
@@ -10753,22 +10541,6 @@
             "貓頭鷹法庭&lt;br&gt;Court of Owls"
         ]
     },
-    "http": {
-        "nerName": "http",
-        "alias_name": "",
-        "ハンドシェイカー}}）是[[GoHands]]、[[Frontier Works]]、[[KADOKAWA]]共同製作，[[安利美特|Animate]]創業30週年紀唸的[[日本]]原創[[電視動畫]]&lt;ref&gt;{{Cite web|url": "http://anime.eiga.com/news/102272/|title",
-        "": "",
-        "wiki_origin_name_list": [
-            "http://anime.eiga.com/news/102272/|title",
-            "http://animeanime.jp/article/2017/01/17/32195.html|script-title",
-            "http://www.animenewsnetwork.com/daily-briefs/2016-05-26/armed-girl-machiavellism-manga-will-have-important-announcement-next-month/.102514|script-title",
-            "http://www.mangaspider.net/ |title",
-            "http://www.animatetimes.com/news/details.php?id"
-        ],
-        "武裝少女マキャヴェリズム}}）是黑神遊夜原作、神崎{{lang|ja|かるな}}負責作畫的[[日本]][[漫畫]]作品。於2014年3月發售的《[[月刊少年Ace]]》（[[KADOKAWA]]）2014年5月號開始連載&lt;ref&gt;{{cite web|url": "http://www.animenewsnetwork.com/daily-briefs/2016-05-26/armed-girl-machiavellism-manga-will-have-important-announcement-next-month/.102514|script-title",
-        "IS〜男でも女でもない性〜}}）是[[日本漫畫家]][[六花千代]]的[[日本漫畫]]作品，[[單行本]]全17卷。講述主人公星野春因出生時生為IS（[[雙性人|性別分化症]]）在其成長中所經歷的故事，包含肯定自己的存在及在求學過程的種種故事。2007年本作品獲得第31屆[[講談社漫畫賞]]少女部門賞。&lt;ref&gt;{{Cite web |url": "http://www.mangaspider.net/ |title",
-        "3DCG]][[電視動畫]]作品，由[[谷口悟朗]]擔任導演、[[黑田洋介]]擔任編劇、[[三次元 (動畫製作公司)|三次元]]負責動畫製作&lt;ref&gt;{{Cite web|url": "http://www.animatetimes.com/news/details.php?id"
-    },
     "《黑白來看守所》首部正式宣傳影片釋出，一齣搞笑監獄物語即將在今年秋季上演！": {
         "nerName": "《黑白來看守所》首部正式宣傳影片釋出，一齣搞笑監獄物語即將在今年秋季上演！",
         "alias_name": "",
@@ -10784,15 +10556,6 @@
         "型別為解謎逃脫動畫。其動畫工作室位於[[立川市]]{{tsl|ja|曙町 (立川市)||曙町}}，動畫中亦以立川市為舞臺&lt;ref&gt;{{Cite web|url": "http://tachikawa.keizai.biz/headline/2270/|script-title",
         "wiki_origin_name_list": [
             "ナゾトキネ}}）是於2016年10月至12月播放的短篇[[日本電視動畫]]，每話10分鐘。"
-        ]
-    },
-    "灼熱": {
-        "nerName": "灼熱",
-        "alias_name": "",
-        "j": "灼熱の卓球娘}}）是[[日本]]漫畫家[[朝野櫓]]的[[漫畫]]作品。在《{{tsl|ja|ジャンプSQ.19|JUMP SQ.19}}》（[[集英社]]）2014年1月號至2015年3月號連載後，由於該雜誌的休刊而移轉至《[[週刊YOUNG JUMP]]》的[[網路漫畫]]發布站《隔壁的YOUNG JUMP》繼續刊行。",
-        "": "",
-        "wiki_origin_name_list": [
-            "灼熱の卓球娘}}）是[[日本]]漫畫家[[朝野櫓]]的[[漫畫]]作品。在《{{tsl|ja|ジャンプSQ.19|JUMP SQ.19}}》（[[集英社]]）2014年1月號至2015年3月號連載後，由於該雜誌的休刊而移轉至《[[週刊YOUNG JUMP]]》的[[網路漫畫]]發布站《隔壁的YOUNG JUMP》繼續刊行。"
         ]
     },
     "魔法少女": {
@@ -10830,37 +10593,11 @@
             "Chris Beveridge|title"
         ]
     },
-    "下劃線": {
-        "nerName": "下劃線",
-        "alias_name": "",
-        "": "",
-        "wiki_origin_name_list": [
-            "下劃線|1"
-        ]
-    },
-    "雷鳴": {
-        "nerName": "雷鳴",
-        "alias_name": "",
-        "wiki_origin_name_list": [
-            "雷鳴のZAJI　特別編　～はるか彼方～"
-        ]
-    },
     "とめきち": {
         "nerName": "とめきち",
         "alias_name": "",
         "wiki_origin_name_list": [
             "とめきち}}創作的日本[[四格漫畫]]作品。於[[芳文社]]雜誌《[[Manga Time Kirara Carat]]》2014年10月號至12月號客串連載，2015年3月號正式連載至2019年4月號。[[單行本]]全4冊。"
-        ]
-    },
-    "ja": {
-        "nerName": "ja",
-        "alias_name": "",
-        "-{zh:初代超人;zh-hk:初代超人（超人吉田）;zh-tw:初代超人力霸王;zh-cn:初代奧特曼;zh-sg:初代鹹蛋超人;}-]]的續篇漫畫，[[小學館]]出版，2011年12月開始在《[[月刊Hero's]]》創刊號連載&lt;ref&gt;{{cite web|script-title": "ja:「ULTRAMAN」清水栄一＆下口智裕と石黒英雄がファン同士の鼎談、最新刊も|url",
-        "漫畫於2017年被製作為有聲漫畫公開，並於2019年動畫化，共十三話；第二季於2022年4月播出&lt;ref&gt;{{Cite news|work": "コミックナタリー|url",
-        "": "",
-        "wiki_origin_name_list": [
-            "ja:「ULTRAMAN」清水栄一＆下口智裕と石黒英雄がファン同士の鼎談、最新刊も|url",
-            "ja:「刃牙」25週年でアニメ化企畫始動ッッッ!!「刃牙道」14巻はOAD付きも発売|url"
         ]
     },
     "《世界足球 勝利十一人2010》在東京電玩展上的宣傳模特": {
@@ -10901,14 +10638,6 @@
             "渡鴉"
         ]
     },
-    "監禁": {
-        "nerName": "監禁",
-        "alias_name": "",
-        "ja|レクイエムハーツ〜監禁〜}}）是日本[[ILLUSION]]在2001年6月29日發售的[[三維計算機圖形|3D立體]][[日本成人遊戲|成人遊戲]]&lt;ref&gt;{{cite web|title": "レクイエムハーツ～監禁～|url",
-        "wiki_origin_name_list": [
-            "レクイエムハーツ～監禁～|url"
-        ]
-    },
     "夜王": {
         "nerName": "夜王",
         "alias_name": "",
@@ -10929,27 +10658,6 @@
         "alias_name": "",
         "wiki_origin_name_list": [
             "原田千栄}}"
-        ]
-    },
-    "訪問者": {
-        "nerName": "訪問者",
-        "alias_name": "",
-        "wiki_origin_name_list": [
-            "の}}訪問者*{{lang"
-        ]
-    },
-    "突然": {
-        "nerName": "突然",
-        "alias_name": "",
-        "wiki_origin_name_list": [
-            "ベースボールは}}突然{{lang"
-        ]
-    },
-    "prof": {
-        "nerName": "prof",
-        "alias_name": "",
-        "wiki_origin_name_list": [
-            "prof}}"
         ]
     }
 }
