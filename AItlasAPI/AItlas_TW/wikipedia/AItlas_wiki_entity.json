@@ -733,51 +733,6 @@
             "中華人民共和國第十一屆全國人民代表大會常務委員會"
         ]
     },
-    "darkgreen": {
-        "nerName": "darkgreen",
-        "alias_name": "",
-        "中共機構名稱": "中共中央辦公廳警衛局",
-        "標誌1說明": "",
-        "機構名稱": "中國人民解放軍軍事科學院",
-        "業務上級": "[[中共中央辦公廳]]",
-        "組織上級": "[[中共中央辦公廳]]",
-        "機構型別": "中央軍委直屬單位",
-        "軍事級別": "副戰區級|nocat",
-        "成立時間": "2017年",
-        "地址1": "[[北京市]][[海淀區]]廂紅旗東門外甲1號",
-        "職位1": "院長",
-        "人員1": "[[楊學軍]]",
-        "銜級1": "[[中國人民解放軍上將|上將]]",
-        "職位2": "政治委員",
-        "人員2": "[[凌煥新]]",
-        "銜級2": "[[中國人民解放軍中將|上將]]",
-        "上級機構": "[[中央軍事委員會|中國共產黨中央軍事委員會",
-        "撤銷時間": "2016年1月",
-        "接替者": "[[中央軍事委員會政治工作部|中央軍委政治工作部]]&lt;br&gt;[[中央軍事委員會紀律檢查委員會|中央軍委紀律檢查委員會（監察委員會）]]&lt;br&gt;[[中央軍事委員會政法委員會|中央軍委政法委員會]]",
-        "標誌2寬度": "250px",
-        "職位3": "",
-        "人員3": "",
-        "職位4": "",
-        "人員4": "",
-        "場所2": "",
-        "地址2": "",
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "",
-        "E": "",
-        "e": "",
-        "標誌2": "",
-        "標誌2說明": "",
-        "前身": "",
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": "",
-        "wiki_origin_name_list": [
-            "darkgreen"
-        ]
-    },
     "國家市場監督管理總局競爭政策協調司": {
         "nerName": "國家市場監督管理總局競爭政策協調司",
         "alias_name": "",
@@ -2178,92 +2133,6 @@
             "藍嶺公路&lt;br /&gt;Blue Ridge Parkway"
         ]
     },
-    "Yosemite National Park": {
-        "nerName": "Yosemite National Park",
-        "alias_name": "",
-        "name": "Yosemite National Park",
-        "iucn_category": "Ib",
-        "locator_x": "20",
-        "locator_y": "84",
-        "location": "[[California]], [[United States]]",
-        "nearest_city": "[[Mariposa, California|Mariposa]]",
-        "lat_d": "37.8499232",
-        "long_d": "-119.5676663",
-        "region": "US-CA",
-        "scale": "300000",
-        "area": "{{convert|761266|acres|km2}}",
-        "established": "October 1, 1890",
-        "visitation_num": "3,280,911",
-        "visitation_year": "2004",
-        "governing_body": "[[National Park Service]]",
-        "world_heritage_site": "1984",
-        "url": "http://www.nps.gov/yose/",
-        "display": "inline",
-        "wiki_origin_name_list": [
-            "Yosemite National Park"
-        ]
-    },
-    "Dry Island Buffalo Jump Provincial Park": {
-        "nerName": "Dry Island Buffalo Jump Provincial Park",
-        "alias_name": "",
-        "name": "Dry Island Buffalo Jump Provincial Park",
-        "iucn_category": "III",
-        "map": "Canada Alberta",
-        "location": "[[Alberta, Canada|Alberta]], [[Canada]]",
-        "nearest_city": "[[Three Hills, Alberta|Three Hills]]",
-        "lat_d": "51.9438889",
-        "long_d": "-112.9636110",
-        "region": "CA",
-        "area": "{{convert|34.5|km2|sqmi|abbr",
-        "established": "December 15, 1970",
-        "governing_body": "[[Alberta Tourism, Parks, Recreation and Culture]]",
-        "display": "inline",
-        "coords_ref": "&lt;ref name",
-        "wiki_origin_name_list": [
-            "Dry Island Buffalo Jump Provincial Park"
-        ]
-    },
-    "Ku-ring-gai Chase National Park": {
-        "nerName": "Ku-ring-gai Chase National Park",
-        "alias_name": "",
-        "name": "Ku-ring-gai Chase National Park",
-        "iucn_category": "II",
-        "map": "Australia",
-        "location": "[[New South Wales]]. [[Australia]]",
-        "nearest_city": "[[Sydney]]",
-        "lat_d": "33",
-        "lat_m": "39",
-        "lat_s": "3.6",
-        "lat_NS": "S",
-        "long_d": "151",
-        "long_m": "12",
-        "long_s": "3.6",
-        "long_EW": "E",
-        "region": "AU",
-        "display": "inline",
-        "area": "{{convert|154|km2|acre|abbr",
-        "established": "October 1, 1967",
-        "visitation_num": "2 Million",
-        "visitation_year": "2001",
-        "governing_body": "[[Department of Environment and Climate Change (New South Wales)|Department of Environment and Climate Change]]",
-        "wiki_origin_name_list": [
-            "Ku-ring-gai Chase National Park"
-        ]
-    },
-    "Harz National Park": {
-        "nerName": "Harz National Park",
-        "alias_name": "",
-        "name": "Harz National Park",
-        "native_name": "Nationalparkverwaltung Harz",
-        "iucn_category": "II",
-        "location": "[[Lower Saxony]] and [[Saxony-Anhalt]], [[Germany]]",
-        "area": "{{convert|8900|ha|acre}}",
-        "established": "1990, 1994, 2006",
-        "visitation_num": "visitation_year",
-        "wiki_origin_name_list": [
-            "Harz National Park"
-        ]
-    },
     "四川亞丁國家級自然保護區": {
         "nerName": "四川亞丁國家級自然保護區",
         "alias_name": "",
@@ -2405,19 +2274,6 @@
         "designation1_free2value": "{{start date|2011}}－至今",
         "wiki_origin_name_list": [
             "葛林芝塞布拉國家公園"
-        ]
-    },
-    "Lake Shkodra National Park": {
-        "nerName": "Lake Shkodra National Park",
-        "alias_name": "",
-        "name": "Lake Shkodra National Park",
-        "iucn_category": "II",
-        "location": "{{ALB}}、{{flag|Montenegro}}",
-        "nearest_city": "lat_d",
-        "established": "1983年",
-        "visitation_num": "visitation_year",
-        "wiki_origin_name_list": [
-            "Lake Shkodra National Park"
         ]
     },
     "迪納利國家公園和保留區": {
@@ -3563,113 +3419,6 @@
             "8×22mm南部彈"
         ]
     },
-    "14.5x114mm": {
-        "nerName": "14.5x114mm",
-        "alias_name": "",
-        "name": "14.5x114mm",
-        "type": "[[反坦克步槍]]、[[重機槍]]",
-        "service": "1941年—",
-        "used_by": "蘇聯及其他國家",
-        "wars": "自[[二戰]]以來的多場武裝衝突",
-        "designer": "",
-        "design_date": "1939年",
-        "manufacturer": "",
-        "is_SI_specs": "yes",
-        "parent": "",
-        "case type": "",
-        "bullet": "14.88",
-        "neck": "16.5",
-        "shoulder": "25.50",
-        "base": "26.95",
-        "rim_dia": "26.95",
-        "rim_thick": "2.5",
-        "case_length": "114",
-        "length": "155.80",
-        "case_capacity": "42.53",
-        "rifling": "455毫米",
-        "primer": "",
-        "max_pressure": "360",
-        "is_SI_ballistics": "yes",
-        "bwunit": "gram",
-        "bw1": "59.6",
-        "btype1": "BZT API-T",
-        "vel1": "1000",
-        "en1": "29800",
-        "bw2": "59.7",
-        "btype2": "MDZ HEI",
-        "vel2": "1000",
-        "en2": "29850",
-        "bw3": "60",
-        "btype3": "ZP Inc.-T",
-        "vel3": "1000",
-        "en3": "30000",
-        "bw4": "64",
-        "btype4": "B-32 API",
-        "vel4": "1000",
-        "en4": "32000",
-        "bw5": "64.4",
-        "btype5": "BS AP",
-        "vel5": "1000",
-        "en5": "32200",
-        "test_barrel_length": "",
-        "balsrc": "[http://www.geocities.com/Pentagon/Base/1852/145mm.html#4 Post WWII Ammunition Russian Ammunition Page]",
-        "wiki_origin_name_list": [
-            "14.5x114mm"
-        ]
-    },
-    ".45 ACP": {
-        "nerName": ".45 ACP",
-        "alias_name": "",
-        "name": ".45 ACP",
-        "origin": "{{flag|USA|1896}}",
-        "type": "手槍",
-        "designer": "[[約翰·勃朗寧]]",
-        "service": "1911年—",
-        "manufacturer": "",
-        "parent": "",
-        "variants": ".45 ACP +P、[[.45 Super]]",
-        "used_by": "",
-        "wars": "",
-        "case_type": "無底緣、直筒",
-        "bullet": ".452",
-        "neck": ".473",
-        "shoulder": "",
-        "base": ".476",
-        "rim_dia": ".480",
-        "rim_thick": "",
-        "case_length": ".898",
-        "length": "1.260",
-        "case_capacity": "25",
-        "rifling": "1:16吋（406毫米）",
-        "primer": "大型[[手槍]]",
-        "max_pressure": "21000",
-        "velocity": "",
-        "energy": "",
-        "bw1": "165",
-        "btype1": "Federal Premium Low Recoil JHP",
-        "vel1": "1060",
-        "en1": "412",
-        "bw2": "185",
-        "btype2": "Speer Gold Dot JHP",
-        "vel2": "1050",
-        "en2": "435",
-        "btype3": "Corbon DPX",
-        "vel3": "1075",
-        "en3": "475",
-        "bw4": "200",
-        "btype4": "Speer Gold Dot JHP +P",
-        "vel4": "1080",
-        "en4": "518",
-        "bw5": "230",
-        "btype5": "Speer Lawman FMJ",
-        "vel5": "830",
-        "en5": "352",
-        "test_barrel_length": "5吋",
-        "balsrc": "Midway USA",
-        "wiki_origin_name_list": [
-            ".45 ACP"
-        ]
-    },
     "有坂": {
         "nerName": "有坂",
         "alias_name": "",
@@ -3708,56 +3457,6 @@
         "balsrc": "Winchester",
         "wiki_origin_name_list": [
             "6.5×50mm有坂"
-        ]
-    },
-    "10mm Auto": {
-        "nerName": "10mm Auto",
-        "alias_name": "",
-        "name": "10mm Auto",
-        "origin": "{{flagcountry|Sweden}}&lt;br&gt;{{flagcountry|United States}}",
-        "type": "手槍",
-        "designer": "[[諾瑪公司]]",
-        "design_date": "1984年",
-        "manufacturer": "",
-        "production_date": "1984年—",
-        "parent": "[[.30 Remington]]",
-        "case_type": "無底緣，直筒",
-        "is_SI_specs": "yes",
-        "bullet": "10.16",
-        "neck": "10.70",
-        "base": "10.81",
-        "rim_dia": "10.85",
-        "rim_thick": "1.40",
-        "case_length": "25.20",
-        "length": "32.00",
-        "case_capacity": "1.53",
-        "primer": "Large Pistol",
-        "max_pressure": "258.55",
-        "velocity": "",
-        "energy": "",
-        "bw1": "150",
-        "btype1": "Nosler JHP",
-        "vel1": "1475",
-        "en1": "725",
-        "bw2": "165",
-        "btype2": "Golden Saber HP",
-        "vel2": "1425",
-        "en2": "744",
-        "bw3": "180",
-        "btype3": "Hornady XTP",
-        "vel3": "1350",
-        "en3": "728",
-        "bw4": "200",
-        "btype4": "WFNGC HC",
-        "vel4": "1300",
-        "en4": "750",
-        "bw5": "230",
-        "btype5": "WFNGC HC",
-        "vel5": "1120",
-        "en5": "641",
-        "test_barrel_length": "4.6 in. For 6 inch barrel, add ~100 FPS",
-        "wiki_origin_name_list": [
-            "10mm Auto"
         ]
     },
     "廣州人": {
@@ -4266,13 +3965,6 @@
             "科普特"
         ]
     },
-    "Dancing Queen": {
-        "nerName": "Dancing Queen",
-        "alias_name": "",
-        "wiki_origin_name_list": [
-            "Dancing Queen"
-        ]
-    },
     "茨瓦納人": {
         "nerName": "茨瓦納人",
         "alias_name": "",
@@ -4546,22 +4238,6 @@
             "波士尼亞克人&lt;br/&gt;Bošnjaci"
         ]
     },
-    "Aleut": {
-        "nerName": "Aleut",
-        "alias_name": "",
-        "group": "Aleut",
-        "pop": "17,000 - 18,000",
-        "region1": "{{flagcountry|United States}}",
-        "pop1": "17,000",
-        "ref1": "region2",
-        "pop2": "700",
-        "ref2": "languages",
-        "religions": "[[基督教]]、[[薩滿教]]",
-        "related-c": "[[因紐特人]]}}",
-        "wiki_origin_name_list": [
-            "Aleut"
-        ]
-    },
     "新加坡華人": {
         "nerName": "新加坡華人",
         "alias_name": "",
@@ -4592,14 +4268,6 @@
         "group": "波蘭人",
         "wiki_origin_name_list": [
             "波蘭人&lt;br /&gt; Polacy"
-        ]
-    },
-    "Hrvati": {
-        "nerName": "Hrvati",
-        "alias_name": "",
-        "group": "Hrvati",
-        "wiki_origin_name_list": [
-            "Hrvati"
         ]
     },
     "愛爾蘭裔美國人": {
@@ -5869,24 +5537,6 @@
             "江行初雪圖"
         ]
     },
-    "Bliss": {
-        "nerName": "Bliss",
-        "alias_name": "",
-        "title": "Bliss",
-        "alt": "Windows XP中的Bliss (攝於1996年11月)",
-        "artist": "[[查爾斯·歐裡爾]]",
-        "year": "1996年",
-        "city": "{{US}}[[加利福尼亞州]][[索諾馬縣 (加利福尼亞州)|索諾馬縣]]",
-        "owner": "[[微軟]]",
-        "《'''Bliss'''》（意譯為「極樂」、「極樂世界」）是[[Windows XP]]的預設[[桌布 (使用者介面)|桌面背景]]，1996年於[[美國]][[加利福尼亞州]][[索諾馬縣 (加利福尼亞州)|索諾馬縣]][[索諾馬谷]]攝影。《Bliss》的山丘位於索諾馬谷南部[[納帕]]附近，靠近乳品公司克羅夫斯當那特（Clover Stornetta）的舊址&lt;ref name": "&quot;bliss1&quot;&gt;{{cite news |url",
-        "": "",
-        "微軟於2001年12月12日釋出了Bliss的螢幕保護程式，並提供免費下載資源&lt;ref name": "&quot;BlissSaver&quot;&gt;{{cite web|title",
-        "歐裡爾的攝影作品啟發了耗資2億美元的微軟XP作業系統推廣活動，名為“是的，你行的”（Yes you can）。此活動由紐約市聖弗朗西斯科地區的廣告公司[[麥肯廣告]]主辦，由[[美國廣播公司|ABC電視臺]]發起。在美國ABC電視臺上，此推廣活動的播放時間夾在ABC電視臺的體育節目“週一足球之夜”中，還播放了[[瑪丹娜|-{zh-hk:麥當娜; zh-tw:瑪丹娜;zh-cn:麥當娜;}-]]的“[[光芒萬丈 (歌曲)|光芒萬丈]]”（Ray of Light）作為廣告歌曲，而微軟公司在購買此歌曲的電視轉播權時投資了1,400萬[[美元]]&lt;ref&gt;{{cite web|url": "http://www.clickz.com/showPage.html?page",
-        "2006年11月，藝術家聯合會“戈爾丁+史耐比”參觀了《Bliss》照片的拍攝所在地索諾馬谷，並重新拍攝了《Bliss》10年後的外貌。《Bliss》10年後的照片名為《繼微軟之後》（After Microsoft）&lt;ref&gt;{{cite web|url": "http://www.goldinsenneby.com/gs/?p",
-        "wiki_origin_name_list": [
-            "Bliss"
-        ]
-    },
     "Tsunami by hokusai 19th century.jpg": {
         "nerName": "Tsunami by hokusai 19th century.jpg",
         "alias_name": "",
@@ -6027,27 +5677,6 @@
             "Link-{}-edIn Corporation&lt;br&gt;領英"
         ]
     },
-    "GoDaddy Inc.": {
-        "nerName": "GoDaddy Inc.",
-        "alias_name": "",
-        "name": "GoDaddy Inc.",
-        "company_type": "[[上市公司]]",
-        "traded_as": "{{Nasdaq|GDDY}}（A級）&lt;br&gt;[[羅素1000指數]]",
-        "foundation": "{{start date and age|1997}}（永務科技，Jomax Technologies）",
-        "location": "[[坦佩 (亞利桑那州)]], [[亞利桑那州]], U.S.",
-        "founder": "[[鮑伯·帕森斯]]",
-        "key_people": "industry",
-        "revenue": "{{up}} {{CurrencyConvert|22.319|USD}}億元（2017）&lt;ref name",
-        "net_income": "{{up}} {{CurrencyConvert|1.398|USD}}億元（2017）&lt;ref name",
-        "num_employees": "5,990 (2017) &lt;ref name",
-        "alexa": "{{increase}} 187 ({{as of|2017|10|12|alt",
-        "homepage": "{{URL|https://www.godaddy.com/}}",
-        "CEO": "{{tsl|en|Scott W. Wagner|斯科特·W·瓦格納}}",
-        "chairman": "查爾斯·羅貝爾（Charles Robel）",
-        "wiki_origin_name_list": [
-            "GoDaddy Inc."
-        ]
-    },
     "Zynga Inc.": {
         "nerName": "Zynga Inc.",
         "alias_name": "",
@@ -6072,31 +5701,6 @@
         "language": "launch_date",
         "wiki_origin_name_list": [
             "Zynga Inc.&lt;br&gt;Zynga Game Network, Inc"
-        ]
-    },
-    "GitHub": {
-        "nerName": "GitHub",
-        "alias_name": "",
-        "name": "GitHub",
-        "company_type": "[[子公司]]",
-        "url": "{{URL|https://github.com}}",
-        "founder": "{{plainlist",
-        "wiki_origin_name_list": [
-            "GitHub"
-        ]
-    },
-    "Popmart Tour": {
-        "nerName": "Popmart Tour",
-        "alias_name": "",
-        "concert_name": "Popmart Tour",
-        "artist": "[[U2]]",
-        "type": "Charity",
-        "album": "''[[Pop (U2 album)|Pop]]''",
-        "last_concert": "[[Zoo TV Tour]]&lt;br&gt;(1992-1993)",
-        "this_concert": "Popmart Tour&lt;br&gt;(1997-1998)",
-        "next_concert": "[[Elevation Tour]]&lt;br&gt;(2001)",
-        "wiki_origin_name_list": [
-            "Popmart Tour"
         ]
     },
     "線上演唱會": {
@@ -6295,25 +5899,6 @@
         "dimensions": "115 x 75 碼",
         "wiki_origin_name_list": [
             "山下球場"
-        ]
-    },
-    "Linnahall": {
-        "nerName": "Linnahall",
-        "alias_name": "",
-        "name": "Linnahall",
-        "fullname": "former names",
-        "address": "Sadama 1&lt;br&gt;10111[[Tallinn]]&lt;br&gt;[[Estonia]]",
-        "location": "[[Kalamaja]]",
-        "broke_ground": "1975",
-        "built": "opened",
-        "demolished": "owner",
-        "operator": "Tallinna Linnahalli Aktsiaselts",
-        "cost": "architect",
-        "builder": "project_manager",
-        "embedded": "website",
-        "publictransit": "}}",
-        "wiki_origin_name_list": [
-            "Linnahall"
         ]
     },
     "安聯競技場": {
@@ -6787,46 +6372,11 @@
             "青海衛視"
         ]
     },
-    "CMT": {
-        "nerName": "CMT",
-        "alias_name": "",
-        "name": "CMT",
-        "launch_date": "{{Start date and age|1983|3|5}}",
-        "picture_format": "[[1080i]] [[HDTV]]",
-        "country": "[[美國]]",
-        "area": "owner",
-        "parent": "[[MTV Entertainment Group]]",
-        "headquarters": "[[美國]][[紐約州]][[紐約]]",
-        "language": "[[英語]]",
-        "former_names": "CMTV (1983)",
-        "sister_channels": "{{collapsible list",
-        "wiki_origin_name_list": [
-            "CMT"
-        ]
-    },
     "歐洲研究型大學聯盟": {
         "nerName": "歐洲研究型大學聯盟",
         "alias_name": "",
         "wiki_origin_name_list": [
             "歐洲研究型大學聯盟&lt;br&gt;League of European Research Universities"
-        ]
-    },
-    "Adult Swim": {
-        "nerName": "Adult Swim",
-        "alias_name": "",
-        "name": "Adult Swim",
-        "launch": "2001年9月2日",
-        "owner": "[[華納媒體]]",
-        "sister names": "[[卡通頻道]], [[Boomerang]]",
-        "web": "[http://www.adultswim.com/ www.adultswim.com]",
-        "headquarters": "[[亞特蘭大]]",
-        "sat serv 1": "[[DirecTV]]",
-        "sat chan 1": "Channel 296 (east)",
-        "sat serv 2": "[[Dish Network]]",
-        "sat chan 2": "Channel 176 (east) ",
-        "cable serv 1": "[[Comcast]]",
-        "wiki_origin_name_list": [
-            "Adult Swim"
         ]
     },
     "第一頻道": {
@@ -6885,42 +6435,6 @@
             "卡通頻道"
         ]
     },
-    "tv series": {
-        "nerName": "tv series",
-        "alias_name": "",
-        "type": "tv series",
-        "episode_list": "}}",
-        "wiki_origin_name_list": [
-            "tv series"
-        ]
-    },
-    "tv film": {
-        "nerName": "tv film",
-        "alias_name": "",
-        "type": "tv film",
-        "title": "director",
-        "wiki_origin_name_list": [
-            "tv film"
-        ]
-    },
-    "drama": {
-        "nerName": "drama",
-        "alias_name": "",
-        "type": "drama",
-        "title": "director",
-        "wiki_origin_name_list": [
-            "drama"
-        ]
-    },
-    "live tv film": {
-        "nerName": "live tv film",
-        "alias_name": "",
-        "type": "live tv film",
-        "title": "director",
-        "wiki_origin_name_list": [
-            "live tv film"
-        ]
-    },
     "ova/ona": {
         "nerName": "ova/ona",
         "alias_name": "",
@@ -6930,15 +6444,6 @@
         "last": "runtime",
         "wiki_origin_name_list": [
             "ova/ona"
-        ]
-    },
-    "live video": {
-        "nerName": "live video",
-        "alias_name": "",
-        "type": "live video",
-        "title": "director",
-        "wiki_origin_name_list": [
-            "live video"
         ]
     },
     "film/film series": {
@@ -6951,15 +6456,6 @@
         "film_list": "}}",
         "wiki_origin_name_list": [
             "film/film series"
-        ]
-    },
-    "live film": {
-        "nerName": "live film",
-        "alias_name": "",
-        "type": "live film",
-        "title": "director",
-        "wiki_origin_name_list": [
-            "live film"
         ]
     },
     "ruble transnistrene ": {
@@ -7007,60 +6503,6 @@
             "紙馬克"
         ]
     },
-    "AOA": {
-        "nerName": "AOA",
-        "alias_name": "",
-        "iso_code": "AOA",
-        "cns_name": "匡撒",
-        "gb_name": "寬扎",
-        "using_countries": "{{flag|Angola}}",
-        "inflation_rate": "13.1%",
-        "inflation_source_date": "''[https://www.cia.gov/library/publications/the-world-factbook/fields/2092.html The World Factbook]'', 2009 est.",
-        "subunit_ratio_1": "1/100",
-        "subunit_name_1": "[[céntimo|cêntimo]]",
-        "symbol": "Kz",
-        "frequently_used_coins": "1, 2, 5, 10 kwanzas",
-        "rarely_used_coins": "10, 50 cêntimos",
-        "used_banknotes": "10, 50, 100, 200, 500, 1,000, 2,000, 5,000 kwanzas",
-        "issuing_authority": "[[Banco Nacional de Angola]]",
-        "issuing_authority_website": "{{URL|www.bna.ao}}",
-        "wiki_origin_name_list": [
-            "AOA"
-        ]
-    },
-    "franc congolais": {
-        "nerName": "franc congolais",
-        "alias_name": "",
-        "local_name": "franc congolais",
-        "local_name_lang": "fr",
-        "iso_code": "CDF",
-        "using_countries": "{{flag|Democratic Republic of the Congo}}&lt;br/&gt;''歷史上:''&lt;br/&gt;{{flagicon|Democratic Republic of the Congo|1963}} [[剛果共和國（利奧波德維爾）]]&lt;br&gt;{{flagicon|Belgium}} [[盧安達-烏隆地]]&lt;br/&gt;{{flag|Belgian Congo}}&lt;br/&gt;{{flag|Congo Free State}}",
-        "inflation_rate": "9.27%",
-        "inflation_source_date": "''[https://www.statista.com/statistics/1044541/inflation-rate-in-democratic-republic-of-the-congo/]'', 2022",
-        "subunit_ratio_1": "{{frac|1|100}}",
-        "subunit_name_1": "[[生丁]]",
-        "symbol": "FC",
-        "used_banknotes": "(1, 5, 10, 20, 50 centimes, 1, 5, 10, ''obsolete'')",
-        "wiki_origin_name_list": [
-            "franc congolais"
-        ]
-    },
-    "XEU": {
-        "nerName": "XEU",
-        "alias_name": "",
-        "iso_code": "XEU",
-        "using_countries": "[[歐共體]]",
-        "pegged_with": "歐洲貨幣單位屬一籃子貨幣",
-        "symbol": "₠ (少見)，ECU 或 XEU",
-        "plural": "通常寫作 ECUs",
-        "used_coins": "不作自由流通，但發行過相關紀念幣及實體模型。在1989年[[荷蘭]]政府發行一系列可在[[海牙]]的商店使用的 ECU 幣（由 ₠2½ 至 ₠200），時值慶祝[[歐洲文化之都]]活動。",
-        "used_banknotes": "沒有，但出現過[[假幣|臆造幣]]",
-        "issuing_authority": "沒有",
-        "obsolete_notice": "2001 年 12 月 31 日",
-        "wiki_origin_name_list": [
-            "XEU"
-        ]
-    },
     "konvertibilna marka": {
         "nerName": "konvertibilna marka",
         "alias_name": "",
@@ -7069,23 +6511,6 @@
         "using_countries": "{{flag|Bosnia and Herzegovina}}&lt;br&gt;",
         "wiki_origin_name_list": [
             "konvertibilna marka&lt;br /&gt;конвертибилна марка"
-        ]
-    },
-    "Zimbabwean dollar": {
-        "nerName": "Zimbabwean dollar",
-        "alias_name": "",
-        "currency_name_in_local": "Zimbabwean dollar",
-        "using_countries": "{{flag|辛巴威}}",
-        "inflation_rate": "255% (stock-ai)",
-        "inflation_source_date": "[[stock-ai]]，2022年11月",
-        "subunit_ratio_1": "1/100",
-        "subunit_name_1": "分",
-        "symbol": "$",
-        "plural_slavic": "used_banknotes",
-        "issuing_authority": "辛巴威儲備銀行",
-        "issuing_authority_website": "https://www.rbz.co.zw/",
-        "wiki_origin_name_list": [
-            "Zimbabwean dollar"
         ]
     },
     "德意志民主共和國馬克": {
@@ -8257,26 +7682,6 @@
             "Kosmos-3M&lt;br&gt;(R-14 11K65M)"
         ]
     },
-    "X-33": {
-        "nerName": "X-33",
-        "alias_name": "",
-        "name": "發動機引數",
-        "function": "無人可重複利用技術驗證[[太空飛機]]",
-        "manufacturer": "[[洛克希德馬丁]]",
-        "country-origin": "{{USA}}",
-        "pcost": "922百萬美元 NASA + 357百萬美元洛克希德馬丁&lt;ref name",
-        "height": "{{cvt|20|m}}&lt;ref name",
-        "mass": "{{cvt|285000|lb|order",
-        "stages": "1",
-        "status": "已取消",
-        "stagedata": "{{Infobox rocket/stage",
-        "engines": "2臺XRS-2200[[氣尖引擎]]&lt;ref name",
-        "thrust": "{{cvt|410000|lbf|kN|order",
-        "fuel": "[[液氧]]/[[液氫]]",
-        "wiki_origin_name_list": [
-            "X-33"
-        ]
-    },
     "亞利安1號運載火箭": {
         "nerName": "亞利安1號運載火箭",
         "alias_name": "",
@@ -8585,28 +7990,6 @@
             "[[天水圍飛馬]]"
         ]
     },
-    "Footy Town F.C.": {
-        "nerName": "Footy Town F.C.",
-        "alias_name": "",
-        "club": "Footy Town F.C.",
-        "season": "2019-20",
-        "manager": "[[Lucas Boss]]",
-        "chairman": "[[Alan Money]]",
-        "league": "[[超級聯賽]]",
-        "league result": "7th (UEFA Intertoto Cup)",
-        "cup1": "[[足總盃]] | cup1 result",
-        "cup2": "[[聯賽盃]] | cup2 result",
-        "league topscorer": "[[Patrick Scorer]] (17)",
-        "season topscorer": "[[Patrick Scorer]] (20)",
-        "highest attendance": "16,044 (vs [[曼聯足球俱樂部]], 16 March 2020)",
-        "lowest attendance": "166 (vs [[卡迪夫城足球俱樂部]], 14 November 2019)",
-        "average attendance": "10,121",
-        "prevseason": "[[Footy Town F.C. 2018-19|2018-19]]",
-        "nextseason": "[[Footy Town F.C. 2020-21|2020-21]]",
-        "wiki_origin_name_list": [
-            "Footy Town F.C."
-        ]
-    },
     "''Preston North End''": {
         "nerName": "''Preston North End''",
         "alias_name": "",
@@ -8658,25 +8041,11 @@
             "新年"
         ]
     },
-    "PukiWiki": {
-        "nerName": "PukiWiki",
-        "alias_name": "",
-        "wiki_origin_name_list": [
-            "PukiWiki"
-        ]
-    },
     "雙面情人": {
         "nerName": "雙面情人",
         "alias_name": "",
         "wiki_origin_name_list": [
             "雙面情人"
-        ]
-    },
-    "HTC Desire": {
-        "nerName": "HTC Desire",
-        "alias_name": "",
-        "wiki_origin_name_list": [
-            "HTC Desire"
         ]
     },
     "天使鐵路（西奈及橄欖）": {
@@ -8691,13 +8060,6 @@
         "alias_name": "",
         "wiki_origin_name_list": [
             "珠海公交65路線"
-        ]
-    },
-    "B.B.QUEENS": {
-        "nerName": "B.B.QUEENS",
-        "alias_name": "",
-        "wiki_origin_name_list": [
-            "B.B.QUEENS"
         ]
     },
     "大青島海戰": {
@@ -8719,13 +8081,6 @@
         "alias_name": "",
         "wiki_origin_name_list": [
             "馬克·普拉努斯&lt;br&gt;Marc Planus"
-        ]
-    },
-    "Border Break Scramble": {
-        "nerName": "Border Break Scramble",
-        "alias_name": "",
-        "wiki_origin_name_list": [
-            "Border Break Scramble"
         ]
     },
     "四水六崗衛教志願軍": {
@@ -9281,20 +8636,6 @@
             "美國偶像"
         ]
     },
-    "인민대학습당": {
-        "nerName": "인민대학습당",
-        "alias_name": "",
-        "native_name": "인민대학습당",
-        "native_name_lang": "kor",
-        "name": "人民大學習堂",
-        "country": "{{nowrap|{{DPRK-PRK}}}}",
-        "location": "[[平壤直轄市]][[中區域]]",
-        "type": "[[公共圖書館]]、[[國家圖書館]]",
-        "num_branches": "established",
-        "wiki_origin_name_list": [
-            "인민대학습당"
-        ]
-    },
     "亞歷山卓圖書館": {
         "nerName": "亞歷山卓圖書館",
         "alias_name": "",
@@ -9559,13 +8900,6 @@
             "成功時代廣場&lt;br /&gt;Berjaya Times Square"
         ]
     },
-    "Yes": {
-        "nerName": "Yes",
-        "alias_name": "",
-        "wiki_origin_name_list": [
-            "Yes"
-        ]
-    },
     "天河城": {
         "nerName": "天河城",
         "alias_name": "",
@@ -9701,19 +9035,6 @@
             "京站時尚廣場臺北店"
         ]
     },
-    "Mikiki": {
-        "nerName": "Mikiki",
-        "alias_name": "",
-        "shopping_mall_name": "Mikiki",
-        "location": "[[香港]][[九龍]][[新蒲崗]][[太子道|太子道東]]638號",
-        "opening_date": "2011年7月",
-        "manager": "owner",
-        "number_of_stores": "floor_area",
-        "floors": "website",
-        "wiki_origin_name_list": [
-            "Mikiki"
-        ]
-    },
     "長發廣場": {
         "nerName": "長發廣場",
         "alias_name": "",
@@ -9733,34 +9054,6 @@
             "長發廣場&lt;br /&gt;Cheung Fat Plaza"
         ]
     },
-    "Super Socket 7": {
-        "nerName": "Super Socket 7",
-        "alias_name": "",
-        "name": "Super Socket 7",
-        "type": "[[ZIF]]",
-        "formfactors": "[[SPGA]]",
-        "contacts": "321",
-        "protocol": "[[Intel P5|P5]]",
-        "fsb": "95, 97, 100 MHz System Clock",
-        "voltage": "2.0V - 2.4V",
-        "processors": "[[AMD]] [[K6-2]]（300 MHz - 550 MHz）",
-        "wiki_origin_name_list": [
-            "Super Socket 7"
-        ]
-    },
-    "LGA 1366": {
-        "nerName": "LGA 1366",
-        "alias_name": "",
-        "name": "LGA 1366",
-        "formfactors": "[[覆晶技術|Flip chip]] land grid array",
-        "contacts": "1366",
-        "type": "LGA",
-        "protocol": "Intel QPI",
-        "core bus": "fsb",
-        "wiki_origin_name_list": [
-            "LGA 1366"
-        ]
-    },
     "Socket G34 / LGA 1944 / LGA 1974": {
         "nerName": "Socket G34 / LGA 1944 / LGA 1974",
         "alias_name": "",
@@ -9773,21 +9066,6 @@
         "voltage": "processors",
         "wiki_origin_name_list": [
             "Socket G34 / LGA 1944 / LGA 1974"
-        ]
-    },
-    "Socket AM3": {
-        "nerName": "Socket AM3",
-        "alias_name": "",
-        "name": "Socket AM3",
-        "formfactors": "陶瓷/有機物[[插針網格陣列封裝]]",
-        "type": "PGA-[[零插拔力插座|ZIF]]",
-        "contacts": "941 &lt;small&gt;(插座)&lt;/small&gt;",
-        "protocol": "HyperTransport 3.0",
-        "fsb": "系統匯流排：200MHz",
-        "voltage": "0.7V至2.0V",
-        "processors": "[[Phenom II]]&lt;small&gt;（920、940除外）&lt;/small&gt;",
-        "wiki_origin_name_list": [
-            "Socket AM3"
         ]
     },
     "寶冠章": {
@@ -9986,17 +9264,6 @@
             "魔法陣都市QD"
         ]
     },
-    "autocollapse": {
-        "nerName": "autocollapse",
-        "alias_name": "",
-        "其他遊戲|state": "autocollapse",
-        "漫畫|state": "autocollapse}}",
-        "wiki_origin_name_list": [
-            "autocollapse",
-            "autocollapse}}"
-        ],
-        "state": "autocollapse}}"
-    },
     "Fate/kaleid liner 魔法少女☆伊莉雅 3rei": {
         "nerName": "Fate/kaleid liner 魔法少女☆伊莉雅 3rei",
         "alias_name": "",
@@ -10032,18 +9299,20 @@
             "[[HIMA]]"
         ]
     },
+    "autocollapse": {
+        "nerName": "autocollapse",
+        "alias_name": "",
+        "漫畫|state": "autocollapse}}",
+        "state": "autocollapse}}",
+        "wiki_origin_name_list": [
+            "autocollapse}}"
+        ]
+    },
     "遙遠時空3": {
         "nerName": "遙遠時空3",
         "alias_name": "",
         "wiki_origin_name_list": [
             "遙遠時空3&lt;br /&gt;遙遠時空3 十六夜記&lt;br /&gt;遙遠時空3 命運迷宮"
-        ]
-    },
-    "COBRA OVER THE RAINBOW": {
-        "nerName": "COBRA OVER THE RAINBOW",
-        "alias_name": "",
-        "wiki_origin_name_list": [
-            "COBRA OVER THE RAINBOW"
         ]
     },
     "幻影籃球王": {
@@ -10058,203 +9327,6 @@
         "alias_name": "",
         "wiki_origin_name_list": [
             "英雄傳說 碧之軌跡"
-        ]
-    },
-    "調查局":{"nerName":"調查局"},
-    "法務部":{"nerName":"法務部"},
-    "司法院":{"nerName":"司法院"},
-    "法官協會":{"nerName":"法官協會"},
-    "威京集團":{"nerName":"威京集團"},
-    "台北看守所":{"nerName":"台北看守所"},
-    "台大醫院":{"nerName":"台大醫院"},
-    "台北醫院":{"nerName":"台北醫院"},
-    "總統府":{"nerName":"總統府"},
-    "立法院":{"nerName":"立法院"},
-    "女法官協會":{"nerName":"女法官協會"},
-    "劍青檢改":{"nerName":"劍青檢改"},
-    "高雄地方法院":{"alias_name":["高院"], "nerName":"高雄地方法院"},
-    "台北市警察局刑事警察大隊":{"alias_name":["市刑大"], "nerName":"台北市警察局刑事警察大隊"},
-    "民眾黨":{"nerName":"民眾黨"},
-    "台北市都委會":{"nerName":"台北市都委會"},
-    "調查局資訊安全工作站":{"alias_name":["調查局資安站"],"nerName":"調查局資訊安全工作站"},
-    "國土交通部":{"nerName":"國土交通部"},
-    "中央社":{"nerName":"中央社"},
-    "國際民航組織":{"nerName":"國際民航組織"},
-    "務安國際機場":{"alias_name":["務安機場"], "nerName":"務安國際機場"},
-    "美國國家運輸安全委員會":{"nerName":"美國國家運輸安全委員會"},
-    "法國民航安全調查分析局":{"nerName":"法國民航安全調查分析局"},
-    "全美航空":{"nerName":"全美航空"},
-    "烏拉爾航空":{"nerName":"烏拉爾航空"},
-    "路透社":{"nerName":"路透社"},
-    "波音737-800":{"alias_name":["波音737-800型客機"], "nerName":"波音737-800"},
-    "紐約時報":{"nerName":"紐約時報"},
-    "韓國航空安全協會":{"nerName":"韓國航空安全協會"},
-    "濟州航空":{
-        "nerName":"濟州航空",
-        "start_date":"2005年1月，​20年前",
-        "reword_plan":"Refresh Point",
-        "alliance":"價值聯盟",
-        "fleet_size":"42",
-        "destinations":"35",
-        "headquarters":"南韓濟州道濟州市 連洞301-7, 2012年新式門牌：濟州市 新大路72號",
-        "CEO": "金乙裴",
-        "website":"http://www.jejuair.net/"
-    },
-    "台北地方法院":{
-        "nerName":"台北地方法院",
-        "alias_name":["北院", "台北地院"],
-        "start_date":"1896年7月15日（日治時期）、1945年（中華民國）",
-        "jurisdiction":"中華民國（臺灣）臺北市：中山區、大安區、中正區、萬華區、信義區、松山區、文山區 新北市：新店區、烏來區、石碇區、深坑區、坪林區",
-        "location":"院本部：臺北市中正區博愛路131號 寶慶院區：臺北市中正區長沙街一段27號 新店辦公大樓：新北市新店區中興路一段248號",
-        "nation": "中華民國（臺灣）",
-        "latitude_and_longitude":"25.036781°N 121.511075°E",
-        "appellate_court":"臺灣高等法院 智慧財產及商業法院（智慧財產案件）",
-        "procuratorate":"臺灣臺北地方檢察署",
-        "website":"tpd.judicial.gov.tw"
-    },
-    "台北地檢署":{
-        "nerName":"台北地檢署",
-        "start_date":"1945年",
-        "alias_name":["北檢"],
-        "jurisdiction":	"中華民國",
-        "location":	"本署：臺北市中正區博愛路131號 第二辦公室： 臺北市中正區博愛路172-1號 第三辦公室：臺北市中正區桃源街21號",
-        "appointee": "法務部部長、法務部檢察官人事審議委員會",
-        "superior_department":"法務部臺灣高等檢察署",
-        "internal_units":"書記處、人事室、會計室、統計室、政風室、資訊室、法警室、觀護人室、法醫室 書記處之下並設紀錄科、執行科、文書科、研究考核科、總務科、資料科、訴訟輔導科等7科",
-        "website":	"https://www.tpc.moj.gov.tw/"
-    },
-    "TPE": {
-        "nerName": "TPE",
-        "alias_name": "",
-        "NPC": "TPE",
-        "games": "2008年夏季",
-        "competitors": "",
-        "competitors_men": "10",
-        "competitors_women": "7",
-        "sports": "32",
-        "flagbearer": "[[陳天文]]（[[田徑]]）",
-        "gold": "10",
-        "silver": "17",
-        "bronze": "25",
-        "rank": "7",
-        "NOC": "TPE",
-        "year": "2002",
-        "location": "[[釜山]]",
-        "start_date": "{{Start date|2002|09|29}}",
-        "end_date": "{{End date|2002|10|14}}",
-        "total": "52",
-        "previous": "[[1998年亞洲運動會中華臺北代表團|1998]]",
-        "next": "[[2006年亞洲運動會中華臺北代表團|2006]]",
-        "wiki_origin_name_list": [
-            "TPE"
-        ]
-    },
-    "KOR": {
-        "nerName": "KOR",
-        "alias_name": "",
-        "NPC": "KOR",
-        "games": "2008年夏季",
-        "competitors": "79",
-        "sports": "",
-        "flagbearer": "",
-        "gold": "10",
-        "silver": "8",
-        "bronze": "13",
-        "total": "31",
-        "rank": "13",
-        "officials": "",
-        "wiki_origin_name_list": [
-            "KOR"
-        ]
-    },
-    "SIN": {
-        "nerName": "SIN",
-        "alias_name": "",
-        "NPC": "SIN",
-        "games": "2008年夏季",
-        "competitors": "6",
-        "sports": "4",
-        "flagbearer": "吳蕊思（開幕式）",
-        "gold": "1",
-        "silver": "1",
-        "bronze": "2",
-        "total": "4",
-        "rank": "46",
-        "officials": "",
-        "wiki_origin_name_list": [
-            "SIN"
-        ]
-    },
-    "MGL": {
-        "nerName": "MGL",
-        "alias_name": "",
-        "NPC": "MGL",
-        "games": "2008年夏季",
-        "competitors": "6",
-        "sports": "4",
-        "flagbearer": "",
-        "gold": "1",
-        "silver": "",
-        "bronze": "",
-        "total": "1",
-        "rank": "52",
-        "officials": "",
-        "wiki_origin_name_list": [
-            "MGL"
-        ]
-    },
-    "IRL": {
-        "nerName": "IRL",
-        "alias_name": "",
-        "NPC": "IRL",
-        "games": "2008年夏季",
-        "competitors": "45",
-        "sports": "9",
-        "flagbearer": "",
-        "gold": "3",
-        "silver": "1",
-        "bronze": "1",
-        "total": "5",
-        "rank": "36",
-        "officials": "",
-        "wiki_origin_name_list": [
-            "IRL"
-        ]
-    },
-    "NOR": {
-        "nerName": "NOR",
-        "alias_name": "",
-        "NPC": "NOR",
-        "games": "2008年夏季",
-        "competitors": "24",
-        "sports": "9",
-        "NOCname": "",
-        "flagbearer": "",
-        "gold": "1",
-        "silver": "3",
-        "bronze": "3",
-        "total": "7",
-        "rank": "43",
-        "officials": "",
-        "wiki_origin_name_list": [
-            "NOR"
-        ]
-    },
-    "CHN": {
-        "nerName": "CHN",
-        "alias_name": "",
-        "NPC": "CHN",
-        "games": "2010年冬季",
-        "competitors": "7",
-        "sports": "1",
-        "flagbearer": "[[程世帥]]",
-        "officials": "",
-        "gold": "",
-        "silver": "",
-        "bronze": "",
-        "rank": "",
-        "wiki_origin_name_list": [
-            "CHN"
         ]
     },
     "信使號": {
@@ -10517,28 +9589,6 @@
             "測量員7號"
         ]
     },
-    "LCROSS": {
-        "nerName": "LCROSS",
-        "alias_name": "",
-        "Name": "LCROSS",
-        "Caption": "LCROSS和半人馬座火箭航行藝術想象圖",
-        "Organization": "[[NASA]]/{{link-en|艾密斯研究中心|Ames Research Center}}",
-        "Major_Contractors": "Bus",
-        "Flyby_Of": "Satellite_Of",
-        "Launch_Vehicle": "[[宇宙神5號]] 401",
-        "Carrier_Rocket": "Launch_Site",
-        "Mission_Duration": "2009年6月18日 – 2009年10月9日",
-        "NSSDC_ID": "2009-031B",
-        "Mass": "LCROSS Shepherding Spacecraft: 621 kg (1,369 lb) (min.); Centaur at impact: 2,249 kg (4,958 lb) (min.)&lt;ref name",
-        "Power": "Batteries",
-        "Orbit_regime": "[[高地球軌道]]",
-        "orbit_altitude": "Longitude",
-        "Apoapsis": "Periapsis",
-        "'''月球觀測和感測衛星'''（'''Lunar Crater Observation and Sensing Satellite'''，簡稱'''LCROSS'''）是2009年6月18日[[美國國家航空暨太空總署]]（[[NASA]]）發射的一顆[[月球]]探測衛星。該任務被認為是一種低成本手段，用於確定在月球極地地區檢測到的[[氫]]的性質。&lt;ref name": "NASA&gt;{{cite journal |author1",
-        "wiki_origin_name_list": [
-            "LCROSS"
-        ]
-    },
     "小獵犬2號": {
         "nerName": "小獵犬2號",
         "alias_name": "",
@@ -10586,27 +9636,6 @@
         "LunarLiftoffDate": "Instruments",
         "wiki_origin_name_list": [
             "月球探勘者"
-        ]
-    },
-    "Pioneer 5": {
-        "nerName": "Pioneer 5",
-        "alias_name": "",
-        "Name": "Pioneer 5",
-        "Caption": "發射前的先驅者5號",
-        "Organization": "[[NASA]]",
-        "Mission_Type": "宇宙空間探測",
-        "Satellite_Of": "[[太陽]]",
-        "Launch": "1960年3月11日 13:00:00 UTC",
-        "Launch_Vehicle": "[[德爾塔系列運載火箭]]",
-        "NSSDC_ID": "1960-001A",
-        "Mass": "43 kg",
-        "Eccentricity": "0.1689",
-        "Inclination": "3.35°",
-        "Orbital_Period": "311.6 days",
-        "Apoapsis": "0.9931 [[天文單位]]",
-        "Periapsis": "0.7061 [[天文單位]]",
-        "wiki_origin_name_list": [
-            "Pioneer 5"
         ]
     },
     "泰雷茲阿萊尼亞宇航公司": {
@@ -11081,29 +10110,6 @@
             "競速滑冰"
         ]
     },
-    "MacBook Air": {
-        "nerName": "MacBook Air",
-        "alias_name": "",
-        "name": "MacBook Air",
-        "developer": "[[蘋果公司]]",
-        "type": "[[筆記型電腦]]",
-        "os": "[[macOS]]",
-        "wiki_origin_name_list": [
-            "MacBook Air"
-        ]
-    },
-    "AirPort Time Capsule": {
-        "nerName": "AirPort Time Capsule",
-        "alias_name": "",
-        "name": "AirPort Time Capsule",
-        "developer": "[[蘋果公司]]",
-        "type": "[[網路儲存裝置]]",
-        "first_release_date": "2008年2月29日（初代）",
-        "website": "[https://www.apple.com/ph/airport-time-capsule/specs/ AirPort Time Capsule]",
-        "wiki_origin_name_list": [
-            "AirPort Time Capsule"
-        ]
-    },
     "室內": {
         "nerName": "室內",
         "alias_name": "",
@@ -11136,40 +10142,6 @@
             "靈犬萊西"
         ]
     },
-    "Ymaha FZR150": {
-        "nerName": "Ymaha FZR150",
-        "alias_name": "",
-        "name": "Ymaha FZR150",
-        "production": "1990年~1998年",
-        "wheelbase": "1,345mm",
-        "length": "1,960mm",
-        "height": "1,060mm",
-        "seat_height": "745 mm",
-        "dry_weight": "137 KG（乾重）",
-        "fuel_capacity": "10 L",
-        "oil_capacity": "2.25 L",
-        "fuel_consumption": "約30~50 km/L(平均油耗與定速油耗)",
-        "top_speed": "engine",
-        "Exhaust": "149cc",
-        "engine number": "3KW",
-        "carburetor": "Mikuki DBS 26mm",
-        "engine specs": "單頂上凸輪軸(Single Overhead Camshaft，SOHC) &lt;br&gt;四行程氣冷式引擎(Four-stroke Air-cooled engine)",
-        "number of cylinders": "V Twin",
-        "bore_stroke": "45mm x 47mm",
-        "compression": "10.7：1",
-        "power": "17.4ps/11000r.p.m&lt;br&gt;",
-        "torque": "1.22kgm/8500r.p.m",
-        "ignition": "TIIC CDI點火&lt;br/&gt;火星塞：NGK C7HSA*2",
-        "transmission": "六段常嚙合齒輪式 /濕式多板離合器",
-        "frame": "方管鐵質鑽石型車架(twin spar frame)",
-        "suspension": "{{ubl|前懸吊：33mm油壓筒式前避震器&lt;br&gt;|後懸吊：mono中置六連桿單槍}}",
-        "brakes": "{{ubl|前：245mm雙碟對向雙活塞卡鉗&lt;br&gt;|後：210mm單碟對向雙活塞卡鉗}}",
-        "tires": "{{ubl|前輪：17&quot;X2.15&quot; 90/80-17 46S|後輪：17&quot;X2.5&quot; 110/80-17 57S}}",
-        "rake_trail": "89mm",
-        "wiki_origin_name_list": [
-            "Ymaha FZR150"
-        ]
-    },
     "ジャンピングフラッシュ! アロハ男爵ファンキー大作戦の巻": {
         "nerName": "ジャンピングフラッシュ! アロハ男爵ファンキー大作戦の巻",
         "alias_name": "",
@@ -11187,27 +10159,6 @@
         "purpose": "[[會議室]]和情報管理中心",
         "wiki_origin_name_list": [
             "白宮戰情室"
-        ]
-    },
-    "Semipalatinsk Test Site": {
-        "nerName": "Semipalatinsk Test Site",
-        "alias_name": "",
-        "name": "Semipalatinsk Test Site",
-        "map": "",
-        "type": "核武試驗場",
-        "site_area": "{{convert|6,950|sqmi|km2|abbr",
-        "nearest_town": "庫爾恰托夫（Kurchatov）",
-        "operator": "{{USSR}}",
-        "country": "{{KAZ}}",
-        "status": "退役",
-        "dates": "1949 &amp;ndash; 1991",
-        "nuclear_tests": "456 （340次地下實驗，116次地面實驗）&lt;ref name",
-        "subcritical_tests": "}}",
-        "'''塞米巴拉金斯克基地'''（STS或Semipalatinsk-21），曾是前[[蘇聯]]一處主要的核武器試驗基地。位於[[哈薩克|哈薩克共和國]]（時為[[哈薩克蘇維埃社會主義共和國]]）東北部的[[乾草原]]，及額爾齊斯河南部河谷地帶。基地的主要科研建築坐落在塞米巴拉金斯克（現名[[塞米伊]]）以西約{{convert|150|km|abbr": "on}}裡處，近[[阿拜州]]",
-        "": "",
-        "1947年，時任[[蘇聯原子彈計劃]]首腦的[[拉夫連季·帕夫洛維奇·貝利亞]]選擇此處作為[[原子彈]]試驗場&lt;ref&gt;{{Cite book|title": "Kazakhstan|url",
-        "wiki_origin_name_list": [
-            "Semipalatinsk Test Site"
         ]
     },
     "薩雷·沙甘基地": {
@@ -11648,15 +10599,6 @@
             "California Golden Bears&lt;br&gt;加利福尼亞金熊"
         ]
     },
-    "light novel": {
-        "nerName": "light novel",
-        "alias_name": "",
-        "type": "light novel",
-        "title": "author",
-        "wiki_origin_name_list": [
-            "light novel"
-        ]
-    },
     "月刊": {
         "nerName": "月刊",
         "alias_name": "",
@@ -11903,23 +10845,22 @@
             "雷鳴のZAJI　特別編　～はるか彼方～"
         ]
     },
-    "ja": {
-        "nerName": "ja",
-        "alias_name": "",
-        "wiki_origin_name_list": [
-            "ja",
-            "ja:「ULTRAMAN」清水栄一＆下口智裕と石黒英雄がファン同士の鼎談、最新刊も|url",
-            "ja:「刃牙」25週年でアニメ化企畫始動ッッッ!!「刃牙道」14巻はOAD付きも発売|url"
-        ],
-        "-{zh:初代超人;zh-hk:初代超人（超人吉田）;zh-tw:初代超人力霸王;zh-cn:初代奧特曼;zh-sg:初代鹹蛋超人;}-]]的續篇漫畫，[[小學館]]出版，2011年12月開始在《[[月刊Hero's]]》創刊號連載&lt;ref&gt;{{cite web|script-title": "ja:「ULTRAMAN」清水栄一＆下口智裕と石黒英雄がファン同士の鼎談、最新刊も|url",
-        "漫畫於2017年被製作為有聲漫畫公開，並於2019年動畫化，共十三話；第二季於2022年4月播出&lt;ref&gt;{{Cite news|work": "コミックナタリー|url",
-        "": ""
-    },
     "とめきち": {
         "nerName": "とめきち",
         "alias_name": "",
         "wiki_origin_name_list": [
             "とめきち}}創作的日本[[四格漫畫]]作品。於[[芳文社]]雜誌《[[Manga Time Kirara Carat]]》2014年10月號至12月號客串連載，2015年3月號正式連載至2019年4月號。[[單行本]]全4冊。"
+        ]
+    },
+    "ja": {
+        "nerName": "ja",
+        "alias_name": "",
+        "-{zh:初代超人;zh-hk:初代超人（超人吉田）;zh-tw:初代超人力霸王;zh-cn:初代奧特曼;zh-sg:初代鹹蛋超人;}-]]的續篇漫畫，[[小學館]]出版，2011年12月開始在《[[月刊Hero's]]》創刊號連載&lt;ref&gt;{{cite web|script-title": "ja:「ULTRAMAN」清水栄一＆下口智裕と石黒英雄がファン同士の鼎談、最新刊も|url",
+        "漫畫於2017年被製作為有聲漫畫公開，並於2019年動畫化，共十三話；第二季於2022年4月播出&lt;ref&gt;{{Cite news|work": "コミックナタリー|url",
+        "": "",
+        "wiki_origin_name_list": [
+            "ja:「ULTRAMAN」清水栄一＆下口智裕と石黒英雄がファン同士の鼎談、最新刊も|url",
+            "ja:「刃牙」25週年でアニメ化企畫始動ッッッ!!「刃牙道」14巻はOAD付きも発売|url"
         ]
     },
     "《世界足球 勝利十一人2010》在東京電玩展上的宣傳模特": {
@@ -11944,13 +10885,6 @@
         "瑪姬]]」&lt;ref&gt;{{cite news|language": "zh-tw|url",
         "wiki_origin_name_list": [
             "zh-tw|url"
-        ]
-    },
-    "de": {
-        "nerName": "de",
-        "alias_name": "",
-        "wiki_origin_name_list": [
-            "de"
         ]
     },
     "渡鴉": {
