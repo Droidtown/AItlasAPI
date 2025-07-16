@@ -73,91 +73,70 @@ function showLinkInfo(x, y, link) {
 }
 
 /**
- * 向後端請求使用者勾選的文章 ID，
- * 並處理回傳的文章資料與實體資料（人名、地點、NER、事件）。
+ * 讀文章資料與實體資料（人名、地點、Entity、事件）。
  * 同時渲染文章內容、實體資訊表格，以及更新事件地圖。
  * 其中會將內容存入：G_EventMap、G_MermaidGraphData
  */
-function getArticleByAjax() {
-    // 收集所有勾選的 checkbox 的 value（文章 ID）
-    let selectedIDs = [];
-    $(".article-checkbox:checked").each(function () {
-        selectedIDs.push($(this).val());
-    });
+function getData() {
+    // dataDICT 在 data.js
+    
+    // 顯示文章
+    let html = "";
+    let peopleList = [];          // 最後要輸出的 list[dict]
+    let peopleSet = new Set();    // 用來記錄每個 JSON 字串，防止重複
+    let placeLIST = [];
+    let placeSet = new Set();      // 用來記錄每個 JSON 字串，防止重複
+    let entityLIST = [];          // 用來記錄所有 Entity 的結果
+    let entitySet = new Set();    // 用來記錄每個 JSON 字串，防止重複
+    let eventLIST = [];          // 用來記錄所有事件的結果
+    let eventSet = new Set();    // 用來記錄每個 JSON 字串，防止重複
 
-    // 發送 AJAX 請求
-    $.post({
-        url: "/getArticleByIDs/",
-        dataType: "json",
-        contentType: "application/json; charset=UTF-8",
-        data: JSON.stringify({ ids: selectedIDs }),
-        success: function (resp) {
-            if (resp.status) {
-                // 顯示文章
-                let html = "";
-                let peopleList = [];          // 最後要輸出的 list[dict]
-                let peopleSet = new Set();    // 用來記錄每個 JSON 字串，防止重複
-                let placeLIST = [];
-                let placeSet = new Set();      // 用來記錄每個 JSON 字串，防止重複
-                let nerLIST = [];          // 用來記錄所有 NER 的結果
-                let nerSet = new Set();    // 用來記錄每個 JSON 字串，防止重複
-                let eventLIST = [];          // 用來記錄所有事件的結果
-                let eventSet = new Set();    // 用來記錄每個 JSON 字串，防止重複
-
-                resp.articles.forEach(function (article) {
-                    // 收集人物
-                    _collectEntities(article.peoples, peopleSet, peopleList, 'peoples');
-                    // 收集地點
-                    _collectEntities(article.places, placeSet, placeLIST, 'places');
-                    // 收集 NER
-                    _collectEntities(article.ners, nerSet, nerLIST, 'ners');
-                    // 收集 event
-                    const events = article.events || [];
-                    events.forEach(function (event) {
-                        // 去重
-                        const hash = JSON.stringify(event);
-                        if (!eventSet.has(hash)) {
-                            eventSet.add(hash);
-                            eventLIST.push(event);
-                        }
-                    });
-
-                    // 組合文章
-                    html += `
-                    <div class="articleBlock">
-                        <h3>${article.title}</h3>
-                        <div class="content">${article.content}</div>
-                    </div>
-                `;
-                });
-
-                $("#articlePresent").html(html);
-                eventLIST.sort((a, b) => new Date(a.date_only) - new Date(b.date_only));
-                const eventMap = {};
-                eventLIST.forEach(event => {
-                    const date = event.date_only;
-                    if (!eventMap[date]) {
-                        eventMap[date] = [];
-                    }
-                    eventMap[date].push(event);
-                });
-
-                // 更新知識
-                _renderEntityList(peopleList, '#peopleTable');
-                _renderEntityList(placeLIST, '#placeTable');
-                _renderEntityList(nerLIST, '#nerTable');
-
-                // 更新全域變數
-                _renderGlobalEntities(resp.global_entities);
-                _onEventMapReceived(eventMap);
-            } else {
-                $("#articlePresent").text("讀取失敗：" + resp.msg);
+    dataDICT.articles.forEach(function (article) {
+        // 收集人物
+        _collectEntities(article.peoples, peopleSet, peopleList, 'peoples');
+        // 收集地點
+        _collectEntities(article.places, placeSet, placeLIST, 'places');
+        // 收集Entity
+        _collectEntities(article.entities, entitySet, entityLIST, 'entities');
+        // 收集 event
+        const events = article.events || [];
+        events.forEach(function (event) {
+            // 去重
+            const hash = JSON.stringify(event);
+            if (!eventSet.has(hash)) {
+                eventSet.add(hash);
+                eventLIST.push(event);
             }
-        },
-        error: function () {
-            $("#articlePresent").text("伺服器錯誤");
-        }
+        });
+
+        // 組合文章
+        html += `
+        <div class="articleBlock">
+            <h3>${article.title}</h3>
+            <div class="content">${article.content}</div>
+        </div>
+    `;
     });
+
+    $("#articlePresent").html(html);
+    eventLIST.sort((a, b) => new Date(a.date_only) - new Date(b.date_only));
+    const eventMap = {};
+    eventLIST.forEach(event => {
+        const date = event.date_only;
+        if (!eventMap[date]) {
+            eventMap[date] = [];
+        }
+        eventMap[date].push(event);
+    });
+
+    // 更新知識
+    _renderEntityList(peopleList, '#peopleTable');
+    _renderEntityList(placeLIST, '#placeTable');
+    _renderEntityList(entityLIST, '#entityTable');
+
+    // 更新全域變數
+    _renderGlobalEntities(dataDICT.global_entities);
+    _onEventMapReceived(eventMap);
 }
 
 /**
@@ -190,13 +169,13 @@ function _renderGlobalEntities(entities) {
   `).join("");
 
     // 填寫 實體
-    const nerLIST = entities.ners || []
+    const entityLIST = entities.entities || []
 
-    const nerHTML = nerLIST.map(ner => `
+    const entityHTML = entityLIST.map(entity => `
     <label style="display:inline-block; margin-right:10px;">
-        <input type="checkbox" class="entity-checkbox" value="${ner}" checked>
+        <input type="checkbox" class="entity-checkbox" value="${entity}" checked>
         <label class="form-check-label highlight_blue" for="flexCheckChecked">
-            ${ner}
+            ${entity}
         </label>
     </label>
   `).join("");
@@ -219,9 +198,9 @@ function _renderGlobalEntities(entities) {
         `<strong>地點</strong><br>無`
     }
 
-    if (nerLIST.length > 0) {
+    if (entityLIST.length > 0) {
         document.getElementById("entityCheckboxContainer").innerHTML +=
-            `<strong>實體</strong><br>` + nerHTML;
+            `<strong>實體</strong><br>` + entityHTML;
     }
     else {
         document.getElementById("entityCheckboxContainer").innerHTML =
@@ -266,7 +245,7 @@ function isElementInViewport(el) {
 }
 
 /**
- * 收集並去除重複的實體資料（人物、地點、NER）。
+ * 收集並去除重複的實體資料（人物、地點、entity）。
  * 每筆資料用 JSON 字串比較，避免重複加入結果清單。
  *
  * @param {Object} source - 原始實體資料，格式為 { name: [record, ...] }。
@@ -276,15 +255,13 @@ function isElementInViewport(el) {
  */
 function _collectEntities(source, set, list, label) {
     const entries = source || {};
-    Object.entries(entries).forEach(function ([name, records]) {
-        records.forEach(function (record) {
-            let fullObject = { name: name, data: record };
-            let hash = JSON.stringify(fullObject);
-            if (!set.has(hash)) {
-                set.add(hash);
-                list.push(fullObject);
-            }
-        });
+    Object.entries(entries).forEach(function ([name, record]) {
+        let fullObject = { name: name, data: record };
+        let hash = JSON.stringify(fullObject);
+        if (!set.has(hash)) {
+            set.add(hash);
+            list.push(fullObject);
+        }
     });
 }
 
@@ -296,9 +273,10 @@ function _collectEntities(source, set, list, label) {
  */
 function _renderEntityList(myList, containerSelector) {
     let html = '';
+    const typeSTR = containerSelector.replace("#", "");
 
-    myList.forEach((item, index) => {
-        const collapseId = `collapseItem${index}`;
+    myList.forEach((item, index) => {        
+        const collapseId = `${typeSTR}collapseItem${index}`;
 
         // 按鈕 + 內容 包在一個有 margin 的區塊中
         html += `

@@ -1,4 +1,3 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="zh-Hant">
   <head>
@@ -10,8 +9,12 @@
           rel="stylesheet"
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
           crossorigin="anonymous" />
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <link rel="stylesheet" href="{% static 'css/idSelector.css' %}">
+    <link href="static/css/idSelector.css"
+          rel="stylesheet"
+          type="text/css" />
+    <link href="static/css/style.css"
+          rel="stylesheet"
+          type="text/css" />  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>
@@ -26,10 +29,16 @@
     }
     </style>
     <title>Aitlas KG View</title>
-    <script src="{% static 'js/config.js' %}"></script>
-    <script src="{% static 'js/forceGraph.js' %}"></script>
-    <script src="{% static 'js/mermaid.js' %}"></script>
-    <script src="{% static 'js/modal.js' %}"></script>
+    <script src="static/js/config.js"></script>
+    <script src="static/js/forceGraph.js"></script>
+    <script src="static/js/mermaid.js"></script>
+    <script src="static/js/modal.js"></script>
+    <script src="static/js/data.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        getData();
+      });
+    </script>
   </head>
   <body>
     <div class="container">
@@ -37,30 +46,6 @@
     </div>
     <div class="text-box">
       <div class="left-content">
-        <p>
-          <button class="btn btn-primary"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseExample"
-                  aria-expanded="false"
-                  aria-controls="collapseExample">選取文章</button>
-        </p>
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body">
-            <form id="article-form">
-              {% for article in articles %}
-                <label>
-                  <input type="checkbox" class="article-checkbox" value="{{ article.id }}">
-                  {{ article.title }}
-                </label>
-                <br>
-              {% endfor %}
-            </form>
-            <button class="btn btn-primary"
-                    id="submit-selection"
-                    onclick="getArticleByAjax()">渲染文章</button>
-          </div>
-        </div>
         <p id="articlePresent"></p>
       </div>
       <div class="right-content">
@@ -162,7 +147,7 @@
                id="entity"
                role="tabpanel"
                aria-labelledby="entity-tab">
-            <div class="stroke-text" id="nerTable"></div>
+            <div class="stroke-text" id="entityTable"></div>
           </div>
         </div>
       </div>
