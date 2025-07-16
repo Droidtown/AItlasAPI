@@ -17,10 +17,6 @@ import json
 # from AItlas_TW.aitlas_wiki.KG.people import action as actionDICT
 # except:
 # pass
-#try:
-from AItlasView.DjangoTest import importData as importData
-#except:
-    #from AItlasView.view import view as aitlasView
 
 import sqlite3
 import tempfile
@@ -28,8 +24,6 @@ from typing import Union
 from functools import reduce
 from pprint import pprint
 import re
-
-import AItlasView.view
 
 purgePat = re.compile("</?[a-zA-Z]+(_[a-zA-Z]+)?>")
 
@@ -52,10 +46,7 @@ from pprint import pprint
 import os
 
 BASEPATH = os.path.dirname(os.path.abspath(__file__))
-
 actualDIR: Path = Path(__file__).resolve().parent
-kgDIR: Path = actualDIR / "AItlasView" / "rawData"
-
 
 try:
     with open("{}/AItlasAPI/account.info".format(BASEPATH), encoding="utf-8") as f:
@@ -63,6 +54,7 @@ try:
     articut = Articut(username=accountDICT["username"], apikey=accountDICT["api_key"])
 except:
     articut = Articut()
+
 
 
 class AItlas:
@@ -119,10 +111,90 @@ class AItlas:
         }
         self.viewDICT =  {}
 
+    def _getAvailableFolder(self, parentDirPATH: Path, folderNameSTR: str) -> Path:
+        """
+        判斷 folder_name 是否已存在於 parent_folder 中
+        若已存在，回傳 folder_name_1、folder_name_2 等不重複資料夾名稱
+        """
+        parentDirPATH = Path(parentDirPATH)
+        target_folder = parentDirPATH / folderNameSTR
+
+        if not target_folder.exists():
+            return target_folder
+
+        counter = 1
+        while True:
+            new_name = f"{folderNameSTR}_{counter}"
+            new_folder = parentDirPATH / new_name
+            if not new_folder.exists():
+                return new_folder
+            counter += 1
+
     def view(self, directoryNameSTR: str):
-        # post Django
-        importData(article=self.viewDICT["article"], location=self.viewDICT["location"], ner=self.viewDICT["entity"], people=self.viewDICT["person"], event=self.viewDICT["event"])
+        directoryNameSTR = self._getAvailableFolder(Path("../"), directoryNameSTR)
+        newAItlasDirPATH: Path = Path("../AItlasResult")
+        # 存 AItlasKG
+        newAItlasKgPATH: Path = newAItlasDirPATH / directoryNameSTR / "data"
+        newAItlasKgPATH.mkdir(exist_ok=True, parents=True)
+
+        ## 存 static/css 跟 static/js 跟 static/{directoryNameSTR}.html
+        ### static/css
+        sourceCssDirPATH: Path = actualDIR.parent / "AItlasView" / "static" / "css"
+        targetCssDirPATH: Path = newAItlasDirPATH / directoryNameSTR / "static" / "css"
+        targetCssDirPATH.mkdir(exist_ok=True, parents=True)
+        
+        for filePATH in sourceCssDirPATH.glob("*.css"):
+            # 取內容
+            contentSTR: str = filePATH.read_text(encoding="utf-8")
+
+            # 在目標資料夾建立檔案
+            newFilePATH: Path = targetCssDirPATH / filePATH.name
+            newFilePATH.write_text(contentSTR, encoding="utf-8")
+
+        ### static/js
+        sourceJsDirPATH: Path = actualDIR.parent / "AItlasView" / "static" / "js"
+        targetJsDirPATH: Path = newAItlasDirPATH / directoryNameSTR / "static" / "js"
+        targetJsDirPATH.mkdir(exist_ok=True, parents=True)
+
+        for filePATH in sourceJsDirPATH.glob("*.js"):
+            # 取內容
+            contentSTR: str = filePATH.read_text(encoding="utf-8")
+
+            # 在目標資料夾建立檔案
+            newFilePATH: Path = targetJsDirPATH / filePATH.name
+            newFilePATH.write_text(contentSTR, encoding="utf-8")
+
+        ### static/index.html
+        sourceHtmlPATH: Path = actualDIR.parent / "AItlasView" / "static" / "index.html"
+        contentSTR: str = sourceHtmlPATH.read_text(encoding="utf-8")
+        targetHtmlPATH: Path = newAItlasDirPATH / directoryNameSTR / "static" / f"{directoryNameSTR}.html"
+        targetHtmlPATH.write_text(contentSTR)
+
+        ## 寫 person.json
+        with open(newAItlasKgPATH / "person.json", "w", encoding="utf-8") as f:
+            json.dump(self.viewDICT["person"], f, ensure_ascii=False, indent=4)
+
+        ## 寫 article.json
+        with open(newAItlasKgPATH / "article.json", "w", encoding="utf-8") as f:
+            json.dump(self.viewDICT["article"], f, ensure_ascii=False, indent=4)
+
+        ## 寫 location.json
+        with open(newAItlasKgPATH / "location.json", "w", encoding="utf-8") as f:
+            json.dump(self.viewDICT["location"], f, ensure_ascii=False, indent=4)
+
+        ## 寫 ner.json
+        with open(newAItlasKgPATH / "entity.json",  "w", encoding="utf-8") as f:
+            json.dump(self.viewDICT["entity"], f, ensure_ascii=False, indent=4)
+
+        ##寫 人物圖 person2person.json
+        #with open(newAItlasKgPATH / "person2person.json",  "w", encoding="utf-8") as f:
+            #json.dump(viewDICT["person2person"], f, ensure_ascii=False, indent=4)
+
+        ## 寫 event.json
+        #with  open(newAItlasKgPATH / "event.json", "w", encoding="utf-8") as f:
+            #json.dump(viewDICT["entity"], f, ensure_ascii=False, indent=4)
         return None
+
 
     def _matchAItlasPerson(self, lang):
         personDICT = {}
@@ -346,34 +418,6 @@ class AItlas:
         # event
         # 等peter
         self.viewDICT = viewDICT
-
-        # 存 AItlasKG
-        newAItlasKgPATH: Path = kgDIR / directoryNameSTR / "data"
-        newAItlasKgPATH.mkdir(exist_ok=True, parents=True)
-
-        ## 寫 person.json
-        with open(newAItlasKgPATH / "person.json", "w", encoding="utf-8") as f:
-            json.dump(viewDICT["person"], f, ensure_ascii=False, indent=4)
-
-        ## 寫 article.json
-        with open(newAItlasKgPATH / "article.json", "w", encoding="utf-8") as f:
-            json.dump(viewDICT["article"], f, ensure_ascii=False, indent=4)
-
-        ## 寫 location.json
-        with open(newAItlasKgPATH / "location.json", "w", encoding="utf-8") as f:
-            json.dump(viewDICT["location"], f, ensure_ascii=False, indent=4)
-
-        ## 寫 ner.json
-        with open(newAItlasKgPATH / "entity.json",  "w", encoding="utf-8") as f:
-            json.dump(viewDICT["entity"], f, ensure_ascii=False, indent=4)
-
-        ##寫 人物圖 person2person.json
-        #with open(newAItlasKgPATH / "person2person.json",  "w", encoding="utf-8") as f:
-            #json.dump(viewDICT["person2person"], f, ensure_ascii=False, indent=4)
-
-        ## 寫 event.json
-        #with  open(newAItlasKgPATH / "event.json", "w", encoding="utf-8") as f:
-            #json.dump(viewDICT["entity"], f, ensure_ascii=False, indent=4)
 
         return viewDICT
 
