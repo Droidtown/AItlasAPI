@@ -61,8 +61,8 @@ except:
 
 
 class AItlas:
-    def __init__(self, username="", apikey=""):
-        self.articut = Articut(username=username, apikey=apikey)
+    def __init__(self, username="", apikey="", url=""):
+        self.articut = Articut(username=username, apikey=apikey, url=url)
 
         self.personNamePAT = re.compile(
             "(?<=<ENTITY_person>)([^<]+)(?=</ENTITY_person>)"
