@@ -47,8 +47,8 @@ from pprint import pprint
 import os
 
 BASEPATH = os.path.dirname(os.path.abspath(__file__))
-actualDIR: Path = Path(__file__).resolve().parent
-newAItlasDirPATH = actualDIR / "AItlasResult"
+BaseDIR: Path = Path(__file__).resolve().parent
+newAItlasDirPATH = Path.cwd() / "AItlasResult"
 newAItlasDirPATH.mkdir(exist_ok=True, parents=True)
 
 try:
@@ -133,7 +133,6 @@ class AItlas:
                 return newName
             counter += 1
 
-
     def _highlightArticles(self, articleSTR, peopleDICT=None, placeDICT=None, entityDICT=None):
         """
         將文章中的人名、地名、NER hightlight 顯示
@@ -169,7 +168,7 @@ class AItlas:
         # 存 AItlasKG
         ## 存 static/css 跟 static/js 跟 static/{directoryNameSTR}.html
         ### static/css
-        sourceCssDirPATH: Path = actualDIR.parent / "AItlasView" / "static" / "css"
+        sourceCssDirPATH: Path = BaseDIR.parent / "AItlasView" / "static" / "css"
         targetCssDirPATH: Path = newAItlasDirPATH / directoryNameSTR / "static" / "css"
         targetCssDirPATH.mkdir(exist_ok=True, parents=True)
         
@@ -182,7 +181,7 @@ class AItlas:
             newFilePATH.write_text(contentSTR, encoding="utf-8")
 
         ### static/js
-        sourceJsDirPATH: Path = actualDIR.parent / "AItlasView" / "static" / "js"
+        sourceJsDirPATH: Path = BaseDIR.parent / "AItlasView" / "static" / "js"
         targetJsDirPATH: Path = newAItlasDirPATH / directoryNameSTR / "static" / "js"
         targetJsDirPATH.mkdir(exist_ok=True, parents=True)
 
@@ -219,7 +218,7 @@ class AItlas:
             f.write(dataJsSTR)
 
         ### static/index.html
-        sourceHtmlPATH: Path = actualDIR.parent / "AItlasView" / "static" / "index.html"
+        sourceHtmlPATH: Path = BaseDIR.parent / "AItlasView" / "static" / "index.html"
         contentSTR: str = sourceHtmlPATH.read_text(encoding="utf-8")
         targetHtmlPATH: Path = newAItlasDirPATH / directoryNameSTR / f"{directoryNameSTR}.html"
         targetHtmlPATH.write_text(contentSTR)
@@ -253,13 +252,13 @@ class AItlas:
             #json.dump(viewDICT["event"], f, ensure_ascii=False, indent=4)
         return None
 
-
     def _matchAItlasPerson(self, lang):
         personDICT = {}
         if lang.lower() == "tw":
+            BaseDIR: Path = Path(__file__).resolve().parent
             personDICT = json.load(
                 open(
-                    f"{BASEPATH}/AItlas_TW/wikipedia/AItlas_wiki_person.json",
+                    BaseDIR/"AItlas_TW/wikipedia/AItlas_wiki_person.json",
                     "r",
                     encoding="utf-8",
                 )
@@ -273,7 +272,7 @@ class AItlas:
         if lang.lower() == "tw":
             locationDICT = json.load(
                 open(
-                    f"{BASEPATH}/AItlas_TW/wikipedia/AItlas_wiki_location.json",
+                    BaseDIR/"AItlas_TW/wikipedia/AItlas_wiki_location.json",
                     "r",
                     encoding="utf-8"
                 )
@@ -287,13 +286,13 @@ class AItlas:
         if lang.lower() == "tw":
             nerDICT = json.load(
                 open(
-                    f"{BASEPATH}/AItlas_TW/wikipedia/AItlas_wiki_entity.json",
+                    BaseDIR/"AItlas_TW/wikipedia/AItlas_wiki_entity.json",
                     "r",
                     encoding="utf-8"
                 )
             )
         # elif lang.lower() == "en":
-        # locationDICT = json.load(open("AItlas_EN/wikipedia/AItlas_wiki_location.json", "r", encoding="utf-8"))
+        # locationDICT = json.load(open("AItlas_EN/wikipedia/AItlas_wiki_entity.json", "r", encoding="utf-8"))
         return nerDICT
 
     def scan(self, inputSTR):
