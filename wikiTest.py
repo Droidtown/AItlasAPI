@@ -8,7 +8,8 @@ if __name__ == "__main__":
     applePaperDIR: Path = Path.cwd() / "applePaper"
 
     for topicDIR in applePaperDIR.iterdir():
-        for jsonPATH in topicDIR.glob("*.json"):
+        tmp: str = "headline"
+        for jsonPATH in topicDIR.glob(f"{tmp}*.json"):
             nameSTR: str = jsonPATH.name.replace(".json", "")
             contentSTR: str = json.load(open(jsonPATH, "r", encoding="utf-8"))
 
