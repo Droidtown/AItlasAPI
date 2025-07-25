@@ -1,0 +1,1239 @@
+{
+    "卡龍": {
+        "locationName": [
+            "卡龍"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "卡龍"
+        ],
+        "native name": [
+            "Caromb"
+        ],
+        "arrondissement": [
+            "[[卡龐特拉區]]"
+        ],
+        "official_name": [
+            "卡龍"
+        ],
+        "native_name": [
+            "Charon"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[路易斯安那州行政區劃|堂區]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[路易斯安那州]]"
+        ],
+        "subdivision_name2": [
+            "[[弗米利恩堂區 (路易斯安那州)|弗米利恩堂區]]"
+        ],
+        "elevation_ft": [
+            "16"
+        ],
+        "elevation_m": [
+            "5"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美中部時區|CST]]"
+        ],
+        "utc_offset": [
+            "-6"
+        ],
+        "utc_offset_DST": [
+            "-5"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "533884&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "卡龍"
+            ]
+        ]
+    },
+    "湖區": {
+        "locationName": [
+            "湖區"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "湖區"
+        ],
+        "native_name": [
+            "Озёрная"
+        ],
+        "native_name_lang": [
+            "ru"
+        ],
+        "type": [
+            "{{STPETERSBURGMETRO type}}"
+        ],
+        "borough": [
+            "[[聖彼得堡]]"
+        ],
+        "country": [
+            "[[俄羅斯]]"
+        ],
+        "line": [
+            "{{STPETERSBURGMETRO-line2}}"
+        ],
+        "other": [
+            "structure"
+        ],
+        "structure": [
+            "{{link-en|淺層列柱車站|Shallow column station|雙跨徑淺層列柱車站}}"
+        ],
+        "platform": [
+            "1個[[島式月臺]]"
+        ],
+        "depth": [
+            "levels"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "parking": [
+            "bicycle"
+        ],
+        "closed": [
+            "rebuilt"
+        ],
+        "zone": [
+            "smartcardname"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "湖區",
+                "湖區&lt;br /&gt;{{lang|ru|Озерки́}}"
+            ]
+        ],
+        "address": [
+            "[[維堡區 (聖彼得堡)|維堡區]]"
+        ]
+    },
+    "新造": {
+        "locationName": [
+            "新造"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "新造"
+        ],
+        "eng_name": [
+            "Xinzao"
+        ],
+        "type": [
+            "[[地鐵車站]]"
+        ],
+        "linecolour": [
+            "{{廣州地鐵顏色|4}}"
+        ],
+        "country": [
+            "[[中華人民共和國]]"
+        ],
+        "borough": [
+            "[[廣東省]][[廣州市]][[番禺區]][[新造鎮]]"
+        ],
+        "address": [
+            "廣醫南路"
+        ],
+        "owned": [
+            "[[廣州地鐵集團有限公司]]"
+        ],
+        "operator": [
+            "廣州地鐵集團運營事業總部運營二中心"
+        ],
+        "lines": [
+            "{{廣州地鐵路線連結|4|SL}}"
+        ],
+        "platforms": [
+            "1個[[島式月臺]]"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "code": [
+            "{{廣州地鐵車站編號|4|17}}"
+        ],
+        "connections": [
+            "structure"
+        ],
+        "hall": [
+            "地底站廳"
+        ],
+        "levels": [
+            "2層"
+        ],
+        "interchange": [
+            "exits"
+        ],
+        "status": [
+            "正常運營"
+        ],
+        "opened": [
+            "2005年12月26日"
+        ],
+        "station_hours": [
+            "05:55－23:39"
+        ],
+        "first": [
+            "{{廣州地鐵路線連結|4|S}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "新造"
+            ]
+        ]
+    },
+    "松江路": {
+        "locationName": [
+            "松江路"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "松江路"
+        ],
+        "eng_name": [
+            "Songjiang Road"
+        ],
+        "other_name": [
+            "symbol_location"
+        ],
+        "linecolour2": [
+            "{{大連地鐵顏色|4}}"
+        ],
+        "borough": [
+            "[[遼寧省]][[大連市]][[甘井子區]]"
+        ],
+        "address": [
+            "山東路與松江路交叉口"
+        ],
+        "platforms": [
+            "1個[[島式站臺]]"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "owned": [
+            "大連公共交通建設投資集團"
+        ],
+        "operator": [
+            "大連地鐵運營有限公司"
+        ],
+        "connections": [
+            "公交站"
+        ],
+        "status": [
+            "運營中"
+        ],
+        "former": [
+            "structure"
+        ],
+        "hall": [
+            "地下站廳"
+        ],
+        "exits": [
+            "3"
+        ],
+        "opened": [
+            "2015年10月30日"
+        ],
+        "first": [
+            "往{{大連地鐵起訖站|1|L}}：05:44"
+        ],
+        "last": [
+            "往{{大連地鐵起訖站|1|L}}：22:44"
+        ],
+        "adjacent": [
+            "{{Adjacent stations|system"
+        ],
+        "route_map": [
+            "{{Routemap|inline"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "松江路"
+            ]
+        ]
+    },
+    "鼓山": {
+        "locationName": [
+            "鼓山"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "鼓山"
+        ],
+        "eng_name": [
+            "Gushan"
+        ],
+        "type": [
+            "[[福州地鐵]]車站"
+        ],
+        "linecolour": [
+            "{{福州地鐵顏色|2|s}}"
+        ],
+        "country": [
+            "{{PRC}}"
+        ],
+        "borough": [
+            "[[福建省]][[福州市]][[晉安區]][[鼓山鎮]]"
+        ],
+        "address": [
+            "福馬路鼓山風景區入口"
+        ],
+        "owned": [
+            "operator"
+        ],
+        "lines": [
+            "{{福州地鐵線路名|2|full}}"
+        ],
+        "platforms": [
+            "1個[[島式站臺]]"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "code": [
+            "colour"
+        ],
+        "connections": [
+            "[[福州公交|公交]]鼓山公交總站、地鐵鼓山站"
+        ],
+        "structure": [
+            "地下車站"
+        ],
+        "hall": [
+            "地下站廳"
+        ],
+        "levels": [
+            "2層"
+        ],
+        "interchange": [
+            "exits"
+        ],
+        "status": [
+            "運營中"
+        ],
+        "opened": [
+            "{{Start date|2019|04|26|df"
+        ],
+        "services": [
+            "{{Adjacent stations|system"
+        ],
+        "route_map": [
+            "first"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "鼓山"
+            ]
+        ]
+    },
+    "1組": {
+        "locationName": [
+            "1組"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "platform": [
+            "1組[[完全混合式站臺]]"
+        ],
+        "Title": [
+            "主教座堂站&lt;br&gt;{{lang|pt|Estação Sé}}"
+        ],
+        "RouteType": [
+            "Metro"
+        ],
+        "linecolour": [
+            "#000080"
+        ],
+        "linecolour2": [
+            "#D9001C"
+        ],
+        "Place": [
+            "{{BRA}}[[聖保羅 (巴西)|聖保羅]]，[[主教座堂廣場 (聖保羅)|主教座堂廣場]]"
+        ],
+        "Coord": [
+            "{{coord|23|33|02|S|46|38|01|W|type:landmark_region:BR|display"
+        ],
+        "interchange": [
+            "MTType"
+        ],
+        "MTPlatformType": [
+            "[[混合式月臺]]"
+        ],
+        "Style": [
+            "[[鋼筋混凝土]]&lt;ref name"
+        ],
+        "MTDepth": [
+            "22公尺&lt;ref name"
+        ],
+        "architect": [
+            "MTStartDate"
+        ],
+        "daily ridership": [
+            "平日每天600,000人（含站內換車）&lt;ref name"
+        ],
+        "pass_year": [
+            "services"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "1組[[完全混合式站臺]]"
+            ]
+        ]
+    },
+    "北京": {
+        "locationName": [
+            "北京"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "北京"
+        ],
+        "native_name": [
+            "Pekin"
+        ],
+        "native_name_lang": [
+            "en"
+        ],
+        "settlement_type": [
+            "[[伊利諾伊州市鎮列表|市]]"
+        ],
+        "motto": [
+            "''Community' Opportunity' Home''"
+        ],
+        "subdivision_type": [
+            "國家"
+        ],
+        "subdivision_name": [
+            "{{US}}"
+        ],
+        "subdivision_type1": [
+            "州"
+        ],
+        "subdivision_name1": [
+            "{{flag|Illinois}}"
+        ],
+        "subdivision_type2": [
+            "[[伊利諾伊州行政區劃|郡]]"
+        ],
+        "subdivision_name2": [
+            "[[塔茲韋爾縣 (伊利諾伊州)|塔茲韋爾郡]]和[[皮奧里亞縣]]（小部分）"
+        ],
+        "subdivision_type3": [
+            "[[行政鎮區|鎮區]]"
+        ],
+        "subdivision_name3": [
+            "[[北京鎮區 (伊利諾伊州塔茲韋爾縣)|北京鎮區]]、[[霍利斯鎮區 (伊利諾伊州皮奧裡亞縣)|霍利斯鎮區]]"
+        ],
+        "established_title": [
+            "建立"
+        ],
+        "established_date": [
+            "named_for"
+        ],
+        "leader_title": [
+            "市長"
+        ],
+        "leader_name": [
+            "Mary Burress"
+        ],
+        "unit_pref": [
+            "Imperial"
+        ],
+        "area_total_km2": [
+            "42.91"
+        ],
+        "area_total_sq_mi": [
+            "16.57"
+        ],
+        "area_land_km2": [
+            "40.71"
+        ],
+        "area_land_sq_mi": [
+            "15.72"
+        ],
+        "area_water_km2": [
+            "2.20"
+        ],
+        "area_water_sq_mi": [
+            "0.85"
+        ],
+        "elevation_ft": [
+            "538"
+        ],
+        "population_as_of": [
+            "[[2020年美國人口普查|2020年]]"
+        ],
+        "population_total": [
+            "31731"
+        ],
+        "population_density_km2": [
+            "5229.19"
+        ],
+        "population_density_sq_mi": [
+            "2019"
+        ],
+        "population_metro": [
+            "402391"
+        ],
+        "timezone1": [
+            "[[北美中部時區|CST]]"
+        ],
+        "utc_offset1": [
+            "−6"
+        ],
+        "timezone1_DST": [
+            "[[北美中部時區|CDT]]"
+        ],
+        "utc_offset1_DST": [
+            "−5"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵遞區號]]"
+        ],
+        "postal_code": [
+            "61554"
+        ],
+        "area_code": [
+            "309"
+        ],
+        "blank_name": [
+            "[[聯邦資訊處理標準|FIPS程式碼]]"
+        ],
+        "blank_info": [
+            "17-58447"
+        ],
+        "blank1_name": [
+            "[[地名資訊系統|GNIS]] ID"
+        ],
+        "blank1_info": [
+            "2396172&lt;ref name"
+        ],
+        "website": [
+            "www.catholic-bj.org"
+        ],
+        "jurisdiction": [
+            "總教區"
+        ],
+        "latin": [
+            "Archidioecesis Pechimensis"
+        ],
+        "local": [
+            "天主教北京教區"
+        ],
+        "location": [
+            "[[中國]][[北京市]]"
+        ],
+        "territory": [
+            "[[北京市]]"
+        ],
+        "rite": [
+            "[[羅馬禮]]"
+        ],
+        "eastern church": [
+            "patron"
+        ],
+        "province": [
+            "河北教省"
+        ],
+        "established": [
+            "1307年（首設）&lt;br/&gt;1690年4月10日（恢復）"
+        ],
+        "cathedral": [
+            "[[西什庫天主堂]]"
+        ],
+        "co-cathedral": [
+            "leadership"
+        ],
+        "pope": [
+            "{{incumbent_pope}}"
+        ],
+        "patriarch": [
+            "major archbishop"
+        ],
+        "eastern metropolitan": [
+            "ordinary"
+        ],
+        "coadjutor bishop": [
+            "auxiliary"
+        ],
+        "chancery": [
+            "procura"
+        ],
+        "address": [
+            "[[中國]][[北京市]][[西城區]]西黃城根北街甲10號"
+        ],
+        "telephone_no": [
+            "{{Tel|86|10|6602 0521}}"
+        ],
+        "footnote": [
+            "}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "北京"
+            ]
+        ]
+    },
+    "第一": {
+        "locationName": [
+            "第一"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "第一"
+        ],
+        "native_name": [
+            "Number One"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[肯塔基州縣級行政區列表|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[肯塔基州]]"
+        ],
+        "subdivision_name2": [
+            "[[韋恩縣 (肯塔基州)|韋恩縣]]"
+        ],
+        "elevation_ft": [
+            "938"
+        ],
+        "elevation_m": [
+            "286"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美東部時區|EST]]"
+        ],
+        "utc_offset": [
+            "-5"
+        ],
+        "utc_offset_DST": [
+            "-4"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "499634&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "第一"
+            ]
+        ]
+    },
+    "中心": {
+        "locationName": [
+            "中心"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "中心"
+        ],
+        "settlement_type": [
+            "[[人口普查指定地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[阿拉斯加州行政區劃|人口普查區]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[阿拉斯加州]]"
+        ],
+        "subdivision_name2": [
+            "[[育空-科尤庫克人口普查區]]"
+        ],
+        "elevation_ft": [
+            "942"
+        ],
+        "elevation_m": [
+            "287"
+        ],
+        "area_total_km2": [
+            "646.10"
+        ],
+        "area_land_km2": [
+            "642.20"
+        ],
+        "area_water_km2": [
+            "3.90"
+        ],
+        "population_as_of": [
+            "[[2010年美國人口普查]]"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[阿拉斯加時區]]"
+        ],
+        "utc_offset": [
+            "-9"
+        ],
+        "utc_offset_DST": [
+            "-8"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "99730"
+        ],
+        "area_code": [
+            "{{link-en|電話區號907|Area code 907|907}}"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "1400106&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "中心"
+            ]
+        ]
+    },
+    "假日": {
+        "locationName": [
+            "假日"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "假日"
+        ],
+        "settlement_type": [
+            "[[人口普查指定地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[佛羅裡達州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[佛羅裡達州]]"
+        ],
+        "subdivision_name2": [
+            "[[帕斯科縣 (佛羅裡達州)|帕斯科縣]]"
+        ],
+        "elevation_ft": [
+            "16"
+        ],
+        "elevation_m": [
+            "5"
+        ],
+        "timezone": [
+            "[[北美東部時區]]"
+        ],
+        "area_total_km2": [
+            "14.80"
+        ],
+        "area_land_km2": [
+            "13.90"
+        ],
+        "area_water_km2": [
+            "0.90"
+        ],
+        "population_as_of": [
+            "[[2010年美國人口普查]]"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "utc_offset": [
+            "-5"
+        ],
+        "utc_offset_DST": [
+            "-4"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "34690-34691"
+        ],
+        "area_code": [
+            "{{link-en|電話區號727|Area code 727|727}}"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "284144&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "假日"
+            ]
+        ]
+    },
+    "利多": {
+        "locationName": [
+            "利多"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "利多"
+        ],
+        "native_name": [
+            "Leadore"
+        ],
+        "settlement_type": [
+            "[[城市]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[愛達荷州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[愛達荷州]]"
+        ],
+        "subdivision_name2": [
+            "[[萊姆哈伊縣 (愛達荷州)|萊姆哈伊縣]]"
+        ],
+        "elevation_ft": [
+            "5971"
+        ],
+        "elevation_m": [
+            "1820"
+        ],
+        "timezone": [
+            "[[北美山區時區|MST]]"
+        ],
+        "area_total_km2": [
+            "0.80"
+        ],
+        "area_land_km2": [
+            "0.80"
+        ],
+        "area_water_km2": [
+            "0.00"
+        ],
+        "area_total_sq_mi": [
+            "area_land_sq_mi"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "utc_offset": [
+            "-7"
+        ],
+        "utc_offset_DST": [
+            "-6"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "83464"
+        ],
+        "area_code": [
+            "[[電話區號208|208]]"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "396775&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "利多"
+            ]
+        ]
+    },
+    "日本": {
+        "locationName": [
+            "日本"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "日本"
+        ],
+        "native_name": [
+            "Japan"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_name": [
+            "{{USA}}"
+        ],
+        "subdivision_type1": [
+            "[[美國行政區劃|州]]"
+        ],
+        "subdivision_name1": [
+            "{{flag|密蘇裡州}}"
+        ],
+        "subdivision_type2": [
+            "[[密蘇裡州行政區劃|縣]]"
+        ],
+        "subdivision_name2": [
+            "[[富蘭克林縣 (密蘇裡州)|富蘭克林縣]]"
+        ],
+        "elevation_ft": [
+            "899"
+        ],
+        "latd": [
+            "38"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_info": [
+            "740963&lt;ref name"
+        ],
+        "name": [
+            "日本"
+        ],
+        "continent": [
+            "[[亞洲]]"
+        ],
+        "region": [
+            "[[東亞]]"
+        ],
+        "area ranking": [
+            "61"
+        ],
+        "km area": [
+            "377,975.24&lt;ref name"
+        ],
+        "percent land": [
+            "87.93099"
+        ],
+        "km coastline": [
+            "29751"
+        ],
+        "northernmost point": [
+            "[[Benten-jima (Wakkanai)|Benten-jima]]"
+        ],
+        "southernmost point": [
+            "[[Okinotorishima]]"
+        ],
+        "easternmost point": [
+            "[[Minami-Tori-shima]]"
+        ],
+        "westernmost point": [
+            "[[Cape Irizaki]]--&gt;"
+        ],
+        "geographic center": [
+            "highest point"
+        ],
+        "lowest point": [
+            "[[八郎潟]] &lt;br&gt; {{convert|-4|m|ft|abbr"
+        ],
+        "longest river": [
+            "[[信濃川]] &lt;br&gt; {{convert|367|km|mi|abbr"
+        ],
+        "largest lake": [
+            "[[琵琶湖]] &lt;br&gt; {{convert|671|km2|sqmi|abbr"
+        ],
+        "climate": [
+            "多樣；南方為[[熱帶]]，北方為涼爽的[[大陸性氣候]]，山區為{{link-en|亞北極|Subarctic}}，或[[凍原#高山凍原|高山凍原]]&lt;ref name"
+        ],
+        "terrain": [
+            "多為火山地貌山地丘陵地帶&lt;ref name"
+        ],
+        "natural resources": [
+            "海洋：海洋生物和礦物資源&lt;ref name"
+        ],
+        "natural hazards": [
+            "[[火山噴發]]、[[海嘯]]、[[地震]]、[[颱風]]等。&lt;ref name"
+        ],
+        "environmental issues": [
+            "[[空氣汙染]]；{{link-en|淡水酸化|Freshwater acidification|湖泊和水庫酸化}}；[[過度捕撈]]；[[森林砍伐]]&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "日本"
+            ]
+        ]
+    },
+    "高雄市": {
+        "locationName": [
+            "高雄市"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "City/CountyName": [
+            "高雄市"
+        ],
+        "DivName": [
+            "甲仙區"
+        ],
+        "Village/LiName": [
+            "小林"
+        ],
+        "Village/Li": [
+            "村"
+        ],
+        "OldName": [
+            "[[高雄州]][[旗山郡]]-{[[甲仙莊]]}-東阿里關"
+        ],
+        "AreaTotal": [
+            "47.913"
+        ],
+        "HouseholdTotal": [
+            "226"
+        ],
+        "PopTotal": [
+            "549"
+        ],
+        "YearMonth": [
+            "2023年9月"
+        ],
+        "Male": [
+            "302"
+        ],
+        "Female": [
+            "247"
+        ],
+        "Head": [
+            "潘世彬"
+        ],
+        "Sub": [
+            "8"
+        ],
+        "Website": [
+            "http://www.jiashian.gov.tw/?Guid"
+        ],
+        "Neighbors": [
+            "[[臺南市]][[南化區]][[關山裡 (臺南市)|關山-{裡}-]]&lt;br/&gt;[[高雄市]][[甲仙區]][[關山裡 (高雄市)|關山-{裡}-]]、[[六龜區]][[寶來裡|寶來-{裡}-]]、[[桃源區]][[高中裡|高中-{裡}-]]、[[建山裡|建山-{裡}-]]、[[那瑪夏區]][[南沙魯裡|南沙魯-{裡}-]]"
+        ],
+        "Phone": [
+            "7-676-1098"
+        ],
+        "Address": [
+            "甲仙區和安裡中正路99巷11號"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "高雄市"
+            ]
+        ]
+    },
+    "南新": {
+        "locationName": [
+            "南新"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "Village/LiName": [
+            "南新"
+        ],
+        "Village/Li": [
+            "裡"
+        ],
+        "City/CountyName": [
+            "嘉義縣"
+        ],
+        "DivName": [
+            "太保市"
+        ],
+        "OldName": [
+            "水虞厝"
+        ],
+        "Sub": [
+            "17"
+        ],
+        "HouseholdTotal": [
+            "699"
+        ],
+        "YearMonth": [
+            "2017年11月"
+        ],
+        "Male": [
+            "898"
+        ],
+        "Female": [
+            "857"
+        ],
+        "PopTotal": [
+            "1755"
+        ],
+        "AreaTotal": [
+            "2.259889"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "南新"
+            ]
+        ]
+    },
+    "工廠": {
+        "locationName": [
+            "工廠"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "Village/LiName": [
+            "工廠"
+        ],
+        "Village/Li": [
+            "村"
+        ],
+        "City/CountyName": [
+            "嘉義縣"
+        ],
+        "DivName": [
+            "六腳鄉"
+        ],
+        "OldName": [
+            "蒜頭/會社/糖廠村"
+        ],
+        "AreaTotal": [
+            "1.829725"
+        ],
+        "Sub": [
+            "10"
+        ],
+        "HouseholdTotal": [
+            "109"
+        ],
+        "YearMonth": [
+            "2017年5月"
+        ],
+        "PopTotal": [
+            "245"
+        ],
+        "Male": [
+            "121"
+        ],
+        "Female": [
+            "124"
+        ],
+        "Neighbors": [
+            "[[蒜南村]]、[[蒜東村]]、[[灣南村 (臺灣)|灣南村]]&lt;br&gt;[[太保市]]&lt;br&gt;[[朴子市]]：&lt;br&gt;[[雙溪裡]]、[[溪口裡|溪-{口裡}-]]、[[仁和裡 (朴子市)|仁和裡]]"
+        ],
+        "Head": [
+            "黃江正"
+        ],
+        "Address": [
+            "工廠村123-3號"
+        ],
+        "Phone": [
+            "5-3800123"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "工廠"
+            ]
+        ]
+    }
+}

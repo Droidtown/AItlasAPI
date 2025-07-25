@@ -1,0 +1,1871 @@
+{
+    "情事": {
+        "nerName": [
+            "情事"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "情事"
+        ],
+        "original_name": [
+            "{{lang|it|''L'Avventura''}}"
+        ],
+        "director": [
+            "[[米開朗基羅·安東尼奧尼]]"
+        ],
+        "producer": [
+            "Amato Pennasilico"
+        ],
+        "screenplay": [
+            "米開朗基羅·安東尼奧尼"
+        ],
+        "story": [
+            "米開朗基羅·安東尼奧尼"
+        ],
+        "starring": [
+            "{{le|加布裡埃爾·費澤蒂|Gabriele Ferzetti}}"
+        ],
+        "music": [
+            "約翰·福斯科"
+        ],
+        "cinematography": [
+            "阿爾多·斯卡瓦達"
+        ],
+        "editing": [
+            "爾多·達·羅馬"
+        ],
+        "studio": [
+            "西諾·戴爾·達卡"
+        ],
+        "distributor": [
+            "西諾·戴爾·達卡"
+        ],
+        "released": [
+            "{{Film date|1960|5|15|[[戛納電影節]]|1960|6|29|義大利|df"
+        ],
+        "runtime": [
+            "143分鐘"
+        ],
+        "country": [
+            "{{義大利電影產地}}"
+        ],
+        "language": [
+            "義大利語"
+        ],
+        "budget": [
+            "gross"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "情事"
+            ]
+        ]
+    },
+    "手機": {
+        "nerName": [
+            "手機"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "手機"
+        ],
+        "producer": [
+            "[[王中磊]]、[[韓三平]]、[[何平]]"
+        ],
+        "writer": [
+            "[[劉震雲]]"
+        ],
+        "based_on": [
+            "{{based on|[[手機 (2003年小說)|手機]]|[[劉震雲]]}}"
+        ],
+        "starring": [
+            "[[葛優]]、[[徐帆]]、[[張國立]]、[[范冰冰]]"
+        ],
+        "music": [
+            "[[蘇聰]]"
+        ],
+        "cinematography": [
+            "[[張黎]]"
+        ],
+        "editing": [
+            "周影"
+        ],
+        "production_company": [
+            "[[北京電影製片廠]]、[[華誼兄弟]]"
+        ],
+        "released": [
+            "2003年12月18日"
+        ],
+        "distributor": [
+            "[[華誼兄弟]]"
+        ],
+        "runtime": [
+            "107分鐘"
+        ],
+        "country": [
+            "{{中國大陸電影產地}}"
+        ],
+        "language": [
+            "國語"
+        ],
+        "imdb_id": [
+            "gross"
+        ],
+        "followed_by": [
+            "《[[手機2]]》"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "手機"
+            ]
+        ]
+    },
+    "亞洲": {
+        "nerName": [
+            "亞洲"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "WBSC亞洲"
+        ],
+        "original_name": [
+            "WBSC Asia"
+        ],
+        "headquarters": [
+            "{{plainlist"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "WBSC亞洲"
+            ]
+        ]
+    },
+    "基金會": {
+        "nerName": [
+            "基金會"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "Linux基金會"
+        ],
+        "Non-profit_type": [
+            "[[501(c)#501(c)(6)|501(c)(6)]] 非營利組織"
+        ],
+        "founded_date": [
+            "{{start date and age|2000}}"
+        ],
+        "founder": [
+            "location"
+        ],
+        "origins": [
+            "[[開原始碼發展實驗室|開原始碼發展實驗室(OSDL)]]，和[[自由標準組織|自由標準組織(FSG)]]"
+        ],
+        "key_people": [
+            "{{Unbulleted list|Jim Zemlin|Steve Westmoreland|Mike Woster|Nicko van Someren|Mike Dolan|Laura Kempke||Russell Farnel||Karen Copenhaver|Mark Cohn|Abby Kearns|Arpit Joshipura|Brian Behlendorf|Andy Updegrove|Angela Brown|Penny Yao|Mark Hinkle|Chris Aniszczyk|Philip DesAutels|Heather Kirksey|Kate Stewart|Phil Robb|Dan Cauchy|Noriaki Fukuyasu|Clyde Seepersad|Dan Kohn|[[林納斯·託瓦茲]]}}"
+        ],
+        "area_served": [
+            "世界範圍"
+        ],
+        "focus": [
+            "[[Open Source]]、[[Linux kernel]]、[[Linux]]"
+        ],
+        "method": [
+            "透過提供開放原始碼所需的統一資源和服務，與封閉平臺能成功的競爭，從而促進，保護和標準化Linux。"
+        ],
+        "revenue": [
+            "endowment"
+        ],
+        "owner": [
+            "Non-profit_slogan"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "Linux基金會"
+            ]
+        ]
+    },
+    "小組": {
+        "nerName": [
+            "小組"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "company_name": [
+            "ICO小組"
+        ],
+        "company_name_en": [
+            "Team Ico"
+        ],
+        "foundation": [
+            "1997"
+        ],
+        "defunct": [
+            "2011"
+        ],
+        "location": [
+            "key_people"
+        ],
+        "industry": [
+            "[[電子遊戲產業]]"
+        ],
+        "products": [
+            "《[[ICO (遊戲)|Ico]]》"
+        ],
+        "revenue": [
+            "operating_income"
+        ],
+        "num_employees": [
+            "parent"
+        ],
+        "homepage": [
+            "}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "ICO小組"
+            ]
+        ]
+    },
+    "公司": {
+        "nerName": [
+            "公司"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "company_name": [
+            "Mozilla公司"
+        ],
+        "name_en": [
+            "LSI Corporation"
+        ],
+        "company_type": [
+            "[[子公司]]"
+        ],
+        "foundation": [
+            "{{start date and age|2005|8|3}}"
+        ],
+        "location": [
+            "{{USA}}[[加利福尼亞州]][[芒廷維尤 (加利福尼亞州)|山景城]]"
+        ],
+        "key_people": [
+            "Abhi Talwalkar，總裁兼CEO"
+        ],
+        "num_employees": [
+            "5,053（2012-11-04）"
+        ],
+        "revenue": [
+            "20.4億美元（2011[[財政年度|財年]]）"
+        ],
+        "industry": [
+            "[[網際網路]]"
+        ],
+        "homepage": [
+            "{{URL|http://www.lsi.com/}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "LSI公司",
+                "Mozilla公司",
+                "D.O.公司"
+            ]
+        ],
+        "company_name_en": [
+            "Mozilla Corporation"
+        ],
+        "zip_code": [
+            "telephone_no"
+        ],
+        "products": [
+            "[[Mozilla Firefox]]&lt;br/&gt;[[Mozilla Thunderbird]]&lt;br/&gt;[[Mozilla產品列表|更多……]]"
+        ],
+        "capital": [
+            "revenue"
+        ],
+        "accounting_period": [
+            "parent"
+        ],
+        "subsid": [
+            "homepage"
+        ]
+    },
+    "足球": {
+        "nerName": [
+            "足球"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "sport": [
+            "[[足球]]"
+        ],
+        "pixels": [
+            "250px"
+        ],
+        "founded": [
+            "1956"
+        ],
+        "teams": [
+            "20"
+        ],
+        "country": [
+            "{{NED}}"
+        ],
+        "champion": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "[[足球]]",
+                "足球"
+            ]
+        ],
+        "G1": [
+            "足球"
+        ],
+        "G2": [
+            "英超"
+        ],
+        "T": [
+            "zh-hans:哈特姆·特拉貝爾西;zh-hk:哈特姆·查比斯;zh-tw:哈特姆·特拉貝爾西;"
+        ],
+        "1": [
+            "zh-hans:哈特姆·特拉貝爾西;zh-hk:哈特姆·查比斯;zh-tw:哈特姆·特拉貝爾西;"
+        ],
+        "2": [
+            "zh-hans:特拉貝爾西;zh-hk:查比斯;zh-tw:特拉貝爾西;"
+        ],
+        "3": [
+            "zh:突尼西亞;zh-hans:突尼西亞;zh-hant:突尼西亞;zh-tw:突尼西亞;zh-hk:突尼西亞;zh-mo:突尼西亞;"
+        ],
+        "4": [
+            "zh-hk:阿積士;zh-hans:阿賈克斯;"
+        ],
+        "5": [
+            "zh-hans:阿爾塞納·溫格;zh-hk:阿仙尼·雲加;zh-tw:溫格;"
+        ],
+        "6": [
+            "zh-hans:曼徹斯特德比;zh-hk:曼徹斯特打吡;zh-tw:曼徹斯特打吡;"
+        ],
+        "7": [
+            "zh-hans:埃德文·范德薩;zh-hk:埃德文·雲達沙;zh-tw:埃德文·範德薩;"
+        ],
+        "8": [
+            "zh-hans:邁卡·理查德茲;zh-hk:米卡·李察士;zh-tw:邁卡·理查德茲;"
+        ],
+        "9": [
+            "zh-hans:內姆·奧諾哈;zh-hk:內姆·奧奴夏;zh-tw:內姆·奧諾哈;"
+        ],
+        "10": [
+            "zh-hans:拉齊奧;zh-hk:拉素;zh-tw:拉吉歐;"
+        ],
+        "11": [
+            "zh-hans:華盛頓特區聯;zh-hk:華盛頓聯隊;zh-tw:華盛頓聯隊;"
+        ],
+        "12": [
+            "zh-hans:羅傑·勒梅爾;zh-hk:羅傑·拿美爾;zh-tw:羅傑·勒梅爾;"
+        ]
+    },
+    "圖書": {
+        "nerName": [
+            "圖書"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "Google圖書"
+        ],
+        "screenshot": [
+            "owner"
+        ],
+        "launch_date": [
+            "{{Start date and age|2004|10}}"
+        ],
+        "type": [
+            "[[數點陣圖書館]]"
+        ],
+        "license": [
+            "url"
+        ],
+        "current_status": [
+            "營運中"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "Google圖書"
+            ]
+        ]
+    },
+    "影片": {
+        "nerName": [
+            "影片"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "Google影片"
+        ],
+        "url": [
+            "{{url|http://video.google.com/}}"
+        ],
+        "commercial": [
+            "[[免費]]"
+        ],
+        "type": [
+            "[[影片分享網站]]、[[影片搜尋服務]]"
+        ],
+        "language": [
+            "[[多國語言]]"
+        ],
+        "registration": [
+            "否"
+        ],
+        "owner": [
+            "[[Google]]"
+        ],
+        "author": [
+            "[[Google]]"
+        ],
+        "launch_date": [
+            "{{start date and age|2005|1|25}}"
+        ],
+        "current_status": [
+            "關閉"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "Google影片"
+            ]
+        ]
+    },
+    "新聞": {
+        "nerName": [
+            "新聞"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "Google新聞"
+        ],
+        "url": [
+            "{{URL|https://news.google.com/|Google News}}"
+        ],
+        "commercial": [
+            "是"
+        ],
+        "type": [
+            "[[新聞聚合器]]"
+        ],
+        "language": [
+            "[[阿拉伯語]]、[[孟加拉語]]、[[保加利亞語]]、[[漢語|中文]]、[[捷克語]]、[[荷蘭語]]、[[英語]]、[[法語]]、[[德語]]、[[希臘語]]、[[希伯來語]]、[[印地語]]、[[匈牙利語]]、[[義大利語]]、[[印尼語]]、[[日語]]、-{zh-cn:[[朝鮮語]]; zh-tw:[[韓語]];}-、[[拉脫維亞語]]、[[立陶宛語]]、[[馬拉雅拉姆語]]、[[挪威語]]、[[波蘭語]]、[[葡萄牙語]]、[[羅馬尼亞語]]、[[俄語]]、[[塞爾維亞語]]、[[西班牙語]]、[[瑞典語]]、[[泰米爾語]]、[[泰盧固語]]、[[泰語]]、[[土耳其語]]、[[烏克蘭語]]與[[越南語]]"
+        ],
+        "language_count": [
+            "35|registration"
+        ],
+        "owner": [
+            "[[Google]]"
+        ],
+        "launch_date": [
+            "{{start date and age|2002|9}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "Google新聞"
+            ]
+        ]
+    },
+    "音樂": {
+        "nerName": [
+            "音樂"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "Google音樂"
+        ],
+        "commercial": [
+            "是"
+        ],
+        "type": [
+            "[[音樂]][[搜尋引擎]]"
+        ],
+        "registration": [
+            "選擇性"
+        ],
+        "owner": [
+            "[[谷歌中國]]"
+        ],
+        "language": [
+            "簡體中文"
+        ],
+        "launch_date": [
+            "{{start date and age|2009|3|30}}"
+        ],
+        "current_status": [
+            "已關閉"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "Google音樂"
+            ]
+        ]
+    },
+    "奧地利": {
+        "nerName": [
+            "奧地利"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "country": [
+            "奧地利"
+        ],
+        "native_name": [
+            "Piratenpartei Österreichs"
+        ],
+        "leader": [
+            "Patryk Kopaczynski"
+        ],
+        "chairman": [
+            "secretary_general"
+        ],
+        "leader1_name": [
+            "Andrea Grasserbauer"
+        ],
+        "foundation": [
+            "2006年6月31日"
+        ],
+        "membership": [
+            "european"
+        ],
+        "website": [
+            "[http://www.piratenpartei.at www.piratenpartei.at]"
+        ],
+        "Country": [
+            "奧地利"
+        ],
+        "Name": [
+            "施皮爾貝格"
+        ],
+        "Round_No": [
+            "8"
+        ],
+        "Season_No": [
+            "14"
+        ],
+        "Flag_suffix": [
+            "AUT"
+        ],
+        "Location": [
+            "[[奧地利]][[施皮爾貝格]][[紅牛賽道]]"
+        ],
+        "Course": [
+            "永久性賽道"
+        ],
+        "Course_mi": [
+            "2.683"
+        ],
+        "Course_km": [
+            "4.318"
+        ],
+        "Type_r1": [
+            "衝刺賽"
+        ],
+        "Date_r1": [
+            "2022年7月9日"
+        ],
+        "Laps_r1": [
+            "28"
+        ],
+        "First_driver_country_r1": [
+            "NZL"
+        ],
+        "First_driver_r1": [
+            "{{le|馬庫斯·阿姆斯特朗|Marcus Armstrong}}"
+        ],
+        "First_team_r1": [
+            "{{le|高科技大獎賽車隊|Hitech Grand Prix}}"
+        ],
+        "Second_driver_country_r1": [
+            "FRA"
+        ],
+        "Second_driver_r1": [
+            "[[泰奧·普謝爾]]"
+        ],
+        "Second_team_r1": [
+            "{{le|ART大獎賽車隊|ART Grand Prix}}"
+        ],
+        "Third_driver_country_r1": [
+            "AUS"
+        ],
+        "Third_driver_r1": [
+            "[[傑克·督漢]]"
+        ],
+        "Third_team_r1": [
+            "[[名家車隊]]"
+        ],
+        "Fast_driver_country_r1": [
+            "BRA"
+        ],
+        "Fast_driver_r1": [
+            "[[費利佩·德魯戈維奇]]"
+        ],
+        "Fast_team_r1": [
+            "{{le|MP車隊|MP Motorsport}}"
+        ],
+        "Fast_time_r1": [
+            "1:17.328"
+        ],
+        "Fast_lap_r1": [
+            "7"
+        ],
+        "Type_r2": [
+            "常規賽"
+        ],
+        "Date_r2": [
+            "2022年7月10日"
+        ],
+        "Laps_r2": [
+            "40"
+        ],
+        "Pole_driver_country_r2": [
+            "DEN"
+        ],
+        "Pole_driver_r2": [
+            "{{le|弗雷德裡克·韋斯蒂|Frederik Vesti}}"
+        ],
+        "Pole_team_r2": [
+            "{{le|ART大獎賽車隊|ART Grand Prix}}"
+        ],
+        "Pole_Time_r2": [
+            "1:14.123"
+        ],
+        "First_driver_country_r2": [
+            "USA"
+        ],
+        "First_driver_r2": [
+            "[[洛根·薩金特]]"
+        ],
+        "First_team_r2": [
+            "{{le|卡林車隊|Carlin Motorsport}}"
+        ],
+        "Second_driver_country_r2": [
+            "BRA"
+        ],
+        "Second_driver_r2": [
+            "{{le|恩佐·菲蒂帕爾迪|Enzo Fittipaldi}}"
+        ],
+        "Second_team_r2": [
+            "{{le|哈勞茲車隊|Charouz Racing System}}"
+        ],
+        "Third_driver_country_r2": [
+            "ESP"
+        ],
+        "Third_driver_r2": [
+            "[[羅伯託·梅里]]"
+        ],
+        "Third_team_r2": [
+            "[[坎波斯車隊]]"
+        ],
+        "Fast_driver_country_r2": [
+            "AUS"
+        ],
+        "Fast_driver_r2": [
+            "[[傑克·督漢]]"
+        ],
+        "Fast_team_r2": [
+            "[[名家車隊]]"
+        ],
+        "Fast_time_r2": [
+            "1:16.536"
+        ],
+        "Fast_lap_r2": [
+            "39"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "奧地利"
+            ]
+        ]
+    },
+    "泰國": {
+        "nerName": [
+            "泰國"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "country": [
+            "泰國"
+        ],
+        "name": [
+            "民主黨"
+        ],
+        "native_name": [
+            "พรรคประชาธิปัตย์"
+        ],
+        "native_name_lang": [
+            "th"
+        ],
+        "leader": [
+            "{{le|差林猜·西翁|Chalermchai Sri-on}}"
+        ],
+        "secretary_general": [
+            "{{link-th|德特·考通|เดชอิศม์ ขาวทอง}}"
+        ],
+        "leader1_title": [
+            "首席顧問"
+        ],
+        "leader1_name": [
+            "[[川·立派]]"
+        ],
+        "slogan": [
+            "{{lang|th|สจฺจํเว อมตา วาจา}}"
+        ],
+        "foundation": [
+            "{{start date|1946|4|5}}"
+        ],
+        "headquarters": [
+            "newspaper"
+        ],
+        "membership_year": [
+            "membership"
+        ],
+        "national": [
+            "international"
+        ],
+        "affiliation1_title": [
+            "大陸聯盟"
+        ],
+        "affiliation1": [
+            "[[亞洲自由民主聯盟]]"
+        ],
+        "seats1_title": [
+            "[[泰國眾議院]]"
+        ],
+        "website": [
+            "[http://democrat.or.th/ democrat.or.th]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "泰國"
+            ]
+        ]
+    },
+    "捷克": {
+        "nerName": [
+            "捷克"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "country": [
+            "捷克"
+        ],
+        "name": [
+            "公民民主黨"
+        ],
+        "native_name": [
+            "{{nowrap|Občanská demokratická strana}}"
+        ],
+        "leader": [
+            "[[彼得·費亞拉]]"
+        ],
+        "foundation": [
+            "1991年4月21日"
+        ],
+        "ideology": [
+            "[[保守主義]]"
+        ],
+        "前身": [
+            "[[公民論壇 (捷克)|公民論壇]]"
+        ],
+        "international": [
+            "[[國際民主聯盟]]"
+        ],
+        "european": [
+            "[[歐洲保守派和改革主義者黨]]"
+        ],
+        "europarl": [
+            "[[歐洲保守派和改革主義者]]"
+        ],
+        "colours": [
+            "[[藍色]]"
+        ],
+        "headquarters": [
+            "[[布拉格]]"
+        ],
+        "website": [
+            "[http://www.ods.cz/ http://www.ods.cz/]"
+        ],
+        "seats1_title": [
+            "[[捷克眾議院|眾議院]]"
+        ],
+        "seats1": [
+            "{{Infobox political party/seats|34|200|hex"
+        ],
+        "seats2_title": [
+            "[[捷克參議院|參議院]]"
+        ],
+        "seats2": [
+            "{{Infobox political party/seats|23|81|hex"
+        ],
+        "seats3_title": [
+            "[[歐洲議會]]"
+        ],
+        "seats3": [
+            "{{Infobox political party/seats|4|21|hex"
+        ],
+        "seats4_title": [
+            "州議會"
+        ],
+        "seats4": [
+            "{{Infobox political party/seats|99|675|hex"
+        ],
+        "seats5_title": [
+            "地方議會"
+        ],
+        "seats5": [
+            "{{Infobox political party/seats|2294|61780|hex"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "捷克"
+            ]
+        ]
+    },
+    "水門": {
+        "nerName": [
+            "水門"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "水門"
+        ],
+        "location": [
+            "{{USA}}[[華盛頓哥倫比亞特區]][[霧谷]]"
+        ],
+        "built": [
+            "1962年—1971年"
+        ],
+        "architect": [
+            "路易吉·莫雷蒂（顧問建築師）"
+        ],
+        "architecture": [
+            "現代主義"
+        ],
+        "added": [
+            "2005年10月12日"
+        ],
+        "governing_body": [
+            "私有"
+        ],
+        "refnum": [
+            "05000540&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "水門"
+            ]
+        ]
+    },
+    "噁心": {
+        "nerName": [
+            "噁心"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "Name": [
+            "噁心"
+        ],
+        "Caption": [
+            "1681年的畫像"
+        ],
+        "ICD10": [
+            "{{ICD10|R|11||r|10}}"
+        ],
+        "ICD9": [
+            "{{ICD9|787.0}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "噁心"
+            ]
+        ]
+    },
+    "澳洲": {
+        "nerName": [
+            "澳洲"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "country": [
+            "澳洲"
+        ],
+        "nickname": [
+            "Boomers"
+        ],
+        "joined_fiba": [
+            "1947"
+        ],
+        "fiba_zone": [
+            "大洋洲籃球協會"
+        ],
+        "national_fed": [
+            "[[澳洲籃球協會]]"
+        ],
+        "zone_championship": [
+            "[[大洋洲籃球錦標賽]]"
+        ],
+        "fiba_ranking": [
+            "{{FIBA Men's World Rankings|AUS|mdy"
+        ],
+        "coach": [
+            "{{flagicon|AUS}} [[Andrej Lemanis]]"
+        ],
+        "oly_appearances": [
+            "13"
+        ],
+        "wc_appearances": [
+            "11"
+        ],
+        "wc_medals": [
+            "無"
+        ],
+        "zone_appearances": [
+            "20"
+        ],
+        "h_pattern_b": [
+            "_lithuaniabasides2"
+        ],
+        "h_body": [
+            "FFBF00"
+        ],
+        "h_shorts": [
+            "FFBF00"
+        ],
+        "a_pattern_b": [
+            "_lithuaniabasides2"
+        ],
+        "a_body": [
+            "177245"
+        ],
+        "a_shorts": [
+            "177245"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "澳洲"
+            ]
+        ]
+    },
+    "德國": {
+        "nerName": [
+            "德國"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "Name": [
+            "德國U21"
+        ],
+        "Nickname": [
+            "國家十一人&lt;br&gt;（{{lang|de|DFB-Frauenteam}}）"
+        ],
+        "Association": [
+            "[[德國足球總會]]"
+        ],
+        "Confederation": [
+            "[[歐洲足球協會]]（UEFA）"
+        ],
+        "Coach": [
+            "[[斯特凡·昆茨|昆茨]]"
+        ],
+        "Captain": [
+            "[[馬克西米利安·阿諾德|阿諾德]]"
+        ],
+        "Most caps": [
+            "[[法比安·恩斯特|-{zh-hans:恩斯特; zh-hk:安斯; zh-tw:恩斯特;}-]]（31次）"
+        ],
+        "Top scorer": [
+            "[[皮埃爾·列巴斯基|-{zh-hans:利特巴爾斯基; zh-hk:列巴斯基; zh-tw:列巴斯基;}-]]（18球）"
+        ],
+        "Home Stadium": [
+            "FIFA Trigramme"
+        ],
+        "FIFA Rank": [
+            "{{FIFA Women's World Rankings|GER}}"
+        ],
+        "FIFA max": [
+            "1"
+        ],
+        "FIFA max date": [
+            "上次為2017年3月"
+        ],
+        "FIFA min": [
+            "6"
+        ],
+        "FIFA min date": [
+            "2023年8月–12月"
+        ],
+        "pattern_la1": [
+            "_ger16h"
+        ],
+        "pattern_b1": [
+            "_ger16h"
+        ],
+        "pattern_ra1": [
+            "_ger16h"
+        ],
+        "pattern_sh1": [
+            "_rmcf1415t"
+        ],
+        "pattern_so1": [
+            "_ger16h"
+        ],
+        "body1": [
+            "FFFFFF"
+        ],
+        "rightarm1": [
+            "FFFFFF"
+        ],
+        "shorts1": [
+            "000000"
+        ],
+        "socks1": [
+            "000000"
+        ],
+        "pattern_la2": [
+            "_ger16a"
+        ],
+        "pattern_b2": [
+            "_ger16a"
+        ],
+        "pattern_ra2": [
+            "_ger16a"
+        ],
+        "pattern_sh2": [
+            "_ger16a"
+        ],
+        "pattern_so2": [
+            "_ger16a"
+        ],
+        "body2": [
+            "000000"
+        ],
+        "rightarm2": [
+            "000000"
+        ],
+        "shorts2": [
+            "FFFFFF"
+        ],
+        "socks2": [
+            "FFFFFF"
+        ],
+        "First game": [
+            "{{fbu|21|POL}} 1-0 {{fbu-rt|21|GER}}&lt;br&gt;1979年10月10日，[[託倫]]"
+        ],
+        "Largest win": [
+            "{{fbu|21|SMR}} 0-11 {{fbu-rt|21|GER}} &lt;small&gt;"
+        ],
+        "Largest loss": [
+            "{{fbu|21|POR}} 5-0 {{fbu-rt|21|GER}}&lt;br&gt;2015年6月27日，[[奧洛穆茨|-{zh-cn:奧洛穆茨;zh-hk:奧洛穆茨;zh-tw:奧洛摩次;}-]]"
+        ],
+        "World cup apps": [
+            "9"
+        ],
+        "World cup first": [
+            "1991年"
+        ],
+        "World cup best": [
+            "'''冠軍'''（[[2003年女子世界盃足球賽|2003]]、[[2007年女子世界盃足球賽|2007]]）"
+        ],
+        "Olympic apps": [
+            "6"
+        ],
+        "Olympic first": [
+            "[[1996年夏季奧林匹克運動會|1996年]]"
+        ],
+        "Olympic best": [
+            "{{OG1}} '''金牌'''（[[2016年夏季奧林匹克運動會|2016]]）"
+        ],
+        "Regional name": [
+            "[[歐洲女子足球錦標賽]]"
+        ],
+        "Regional cup apps": [
+            "12"
+        ],
+        "Regional cup first": [
+            "[[1989年歐洲女子足球代表隊競賽|1989年]]"
+        ],
+        "Regional cup best": [
+            "'''冠軍'''（1989、1991、1995、1997、2001、2005、2009、[[2013年歐洲女子足球錦標賽|2013]]）"
+        ],
+        "2ndRegional name": [
+            "[[歐洲足協女子國家聯賽|歐洲女子國家聯賽]]"
+        ],
+        "2ndRegional cup apps": [
+            "1"
+        ],
+        "2ndRegional cup first": [
+            "[[2024年歐洲女子國家聯賽決賽圈|2024]]"
+        ],
+        "2ndRegional cup best": [
+            "季軍（2024）"
+        ],
+        "medaltemplates": [
+            "{{Medal|Comp|[[國際足協女子世界盃]]}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "德國&lt;br&gt;Germany",
+                "德國U21&lt;br /&gt;''Deutschland U21''"
+            ]
+        ],
+        "leftarm1": [
+            "FFFFFF"
+        ],
+        "leftarm2": [
+            "000000"
+        ],
+        "UEFAu21Champ apps": [
+            "13"
+        ],
+        "UEFAu21Champ first": [
+            "{{link-en|1982年歐洲U-21足球錦標賽|UEFA U-21 Championship 1982|1982年}}"
+        ],
+        "UEFAu21Champ best": [
+            "冠軍 [[2009年歐洲U-21足球錦標賽|2009年]]、[[2017年歐洲U-21足球錦標賽|2017年]]、[[2021年歐洲U-21足球錦標賽|2021年]]"
+        ]
+    },
+    "美國": {
+        "nerName": [
+            "美國"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "Name": [
+            "美國"
+        ],
+        "Nickname": [
+            "星條軍團&lt;br&gt;（The Stars and Stripes）"
+        ],
+        "Association": [
+            "[[美國冰球協會]]"
+        ],
+        "Sub-confederation": [
+            "[[北美洲足球聯盟]]（NAFU）"
+        ],
+        "Confederation": [
+            "[[中北美洲及加勒比海足球協會|中北美洲及加勒比海]]&lt;br&gt;（CONCACAF）"
+        ],
+        "FIFA Trigramme": [
+            "USA"
+        ],
+        "Coach": [
+            "{{le|大衛·奎因|David Quinn (ice hockey)}}"
+        ],
+        "Captain": [
+            "{{le|安迪·米爾|Andy Miele}}"
+        ],
+        "Most caps": [
+            "[[克麗絲廷·利利]]（354）"
+        ],
+        "Top scorer": [
+            "Most points"
+        ],
+        "FIFA Rank": [
+            "{{FIFA Women's World Rankings|USA}}"
+        ],
+        "FIFA max": [
+            "1"
+        ],
+        "FIFA max date": [
+            "多次；上次為2023年6月9日前"
+        ],
+        "FIFA min": [
+            "5"
+        ],
+        "FIFA min date": [
+            "2024年6月"
+        ],
+        "pattern_la1": [
+            "_usa24h"
+        ],
+        "pattern_b1": [
+            "_usa24h"
+        ],
+        "pattern_ra1": [
+            "_usa24h"
+        ],
+        "pattern_sh1": [
+            "_usa24h"
+        ],
+        "pattern_so1": [
+            "leftarm1"
+        ],
+        "body1": [
+            "FFFFFF"
+        ],
+        "rightarm1": [
+            "FFFFFF"
+        ],
+        "shorts1": [
+            "0000FF"
+        ],
+        "socks1": [
+            "FFFFFF"
+        ],
+        "pattern_la2": [
+            "_usa24a"
+        ],
+        "pattern_b2": [
+            "_usa24a"
+        ],
+        "pattern_ra2": [
+            "_usa24a"
+        ],
+        "pattern_sh2": [
+            "_usa24a"
+        ],
+        "pattern_so2": [
+            "leftarm2"
+        ],
+        "body2": [
+            "0000FF"
+        ],
+        "rightarm2": [
+            "0000FF"
+        ],
+        "shorts2": [
+            "FF0000"
+        ],
+        "socks2": [
+            "FF0000"
+        ],
+        "American": [
+            "true"
+        ],
+        "First game": [
+            "{{ih|USA|1912}} 29–0 {{ih-rt|SUI}}&lt;br&gt;&lt;small&gt;([[安特衛普]], [[比利時]]; April 23, 1920)&lt;/small&gt;"
+        ],
+        "Largest win": [
+            "{{ih|USA|1912}} 31–1 {{ih-rt|ITA}}&lt;br&gt;&lt;small&gt;([[聖莫里茨]], [[瑞士]]; February 1, 1948)&lt;/small&gt;"
+        ],
+        "Largest loss": [
+            "{{ih|SWE}} 17–2 {{ih-rt|USA}}&lt;br&gt;&lt;small&gt;([[斯德哥爾摩]], [[瑞典]]; March 12, 1963)&lt;/small&gt;&lt;br&gt;{{ih|URS}} 17–2 {{ih-rt|USA}}&lt;br&gt;&lt;small&gt;([[斯德哥爾摩]], [[瑞典]]; March 15, 1969)&lt;/small&gt;"
+        ],
+        "World cup apps": [
+            "9"
+        ],
+        "World cup first": [
+            "1991年"
+        ],
+        "World cup best": [
+            "'''冠軍'''（[[1991年國際足協女子世界盃|1991]]、[[1999年國際足協女子世界盃|1999]]、[[2015年國際足協女子世界盃|2015]]、[[2019年國際足協女子世界盃|2019]]）"
+        ],
+        "Olympic first": [
+            "[[Ice hockey at the 1920 Summer Olympics|1920]]"
+        ],
+        "Olympic apps": [
+            "21"
+        ],
+        "Olympic best": [
+            "{{OG1}} '''金牌'''（1996、[[2004年夏季奧林匹克運動會|2004]]、[[2008年夏季奧林匹克運動會女子足球比賽|2008]]、[[2012年夏季奧林匹克運動會女子足球比賽|2012]]、[[2024年夏季奧林匹克運動會女子足球比賽|2024]]）"
+        ],
+        "Regional name": [
+            "[[Canada Cup]] / [[World Cup of Hockey|World Cup]]"
+        ],
+        "Regional cup apps": [
+            "8"
+        ],
+        "Regional cup first": [
+            "1976"
+        ],
+        "Regional cup best": [
+            "'''冠軍'''（1991、1993、1994、2000、2002、2006、2014、2018、[[2022年中北美洲及加勒比海女子足球錦標賽|2022]]）"
+        ],
+        "2ndRegional name": [
+            "[[美洲女子金盃]]"
+        ],
+        "2ndRegional cup apps": [
+            "1"
+        ],
+        "2ndRegional cup first": [
+            "[[2024年美洲女子金盃|2024年]]"
+        ],
+        "2ndRegional cup best": [
+            "'''冠軍'''（2024）"
+        ],
+        "medaltemplates": [
+            "{{Medal|Comp|[[國際足協女子世界盃]]}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "美國&lt;br&gt;''USWNT''",
+                "美國"
+            ]
+        ],
+        "Asst Coach": [
+            "{{le|內特·利曼|Nate Leaman}}&lt;br&gt;Adam Nightingale"
+        ],
+        "Most games": [
+            "[[馬克·約翰遜]] (151)"
+        ],
+        "Home Stadium": [
+            "IIHF code"
+        ],
+        "IIHF Rank": [
+            "4"
+        ],
+        "IIHF max": [
+            "4"
+        ],
+        "IIHF max date": [
+            "2016"
+        ],
+        "IIHF min": [
+            "7"
+        ],
+        "IIHF min date": [
+            "first in 2003"
+        ],
+        "World champ apps": [
+            "70"
+        ],
+        "World champ first": [
+            "1930"
+        ],
+        "Record": [
+            "473–428–81"
+        ]
+    },
+    "皮艇": {
+        "nerName": [
+            "皮艇"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "event": [
+            "皮艇/划艇/龍舟"
+        ],
+        "games": [
+            "2019年東南亞運動會"
+        ],
+        "location": [
+            "{{PHI}}[[奧隆阿波]]"
+        ],
+        "date": [
+            "2019年12月3日至12月8日"
+        ],
+        "competitors": [
+            "nations"
+        ],
+        "next": [
+            "[[2021年東南亞運動會皮划艇比賽|2021]]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "皮艇/划艇/龍舟"
+            ]
+        ]
+    },
+    "電視": {
+        "nerName": [
+            "電視"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "MBS]]、[[TBS電視"
+            ]
+        ]
+    },
+    "電影": {
+        "nerName": [
+            "電影"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "作者因為《[[皮皮 (漫畫)|皮皮]]》被讀者與報界的肯定，和認識一位[[中國時報]]的編輯，編輯找他說想要邀請他在報紙上刊載新的單元，且當時流行武俠功夫，就以功夫發想，搭配搞笑的喜劇劇情，衍生出了《烏龍院》。&lt;ref&gt;{{Cite web|url": [
+            "http://gnn.gamer.com.tw/1/128241.html|title"
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "電影: 烏龍院 (1984) {{!}} 中文電影資料庫 |url"
+            ]
+        ]
+    },
+    "動作": {
+        "nerName": [
+            "動作"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "動作]]遊戲。本作是《火影忍者》系列登入3DS上的首作。",
+                "動作]]型別[[日本成人遊戲"
+            ]
+        ]
+    },
+    "這本": {
+        "nerName": [
+            "這本"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "這本WEB小說真厲害！]]》票選排名第四名。2020年1月22日宣佈第三期於同年秋季播放，後因[[2019冠狀病毒病疫情]]影響，延後至2021年1月播放。"
+            ]
+        ]
+    },
+    "時間": {
+        "nerName": [
+            "時間"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "j": [
+            "イバラード時間|rm"
+        ],
+        "片中的故事發生在一個被稱為{{nihongo|依巴拉度|イバラード}}的[[架空世界]]，其場景也曾成為吉卜力工作室出品的另一部電影《[[側耳傾聽]]》的靈感。&lt;ref&gt;{{Cite web |url": [
+            "http://www.animenewsnetwork.com/news/2007-06-21/studio-ghibli%27s-iblard-jikan-video-trailer-online |title"
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "イバラード時間|rm"
+            ]
+        ]
+    },
+    "本名": {
+        "nerName": [
+            "本名"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "kanji": [
+            "{{linktext|伊|藤|　|亜|由|美}}"
+        ],
+        "kana": [
+            "{{linktext|い|と|う|　|あ|ゆ|み}}&lt;br/&gt;{{linktext|い|と|う|　|ゆ|み}}"
+        ],
+        "romaji": [
+            "Itō Ayumi&lt;br/&gt;Itō Yumi"
+        ],
+        "hangul": [
+            "{{linktext|이|아|유|미}}&lt;br/&gt;{{linktext|아|유|미}}"
+        ],
+        "hanja": [
+            "{{linktext|李|亞|由|美}}&lt;br/&gt;{{linktext|亞|由|美}}"
+        ],
+        "rr": [
+            "I Ayumi&lt;br/&gt;Ayumi"
+        ],
+        "mr": [
+            "I Ayumi&lt;br/Ayumi"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "{{linktext|伊|藤|　|亜|由|美}}&lt;ref&gt;本名&lt;/ref&gt;&lt;br/&gt;{{linktext|伊|藤|　|ゆ|み}}&lt;ref&gt;在日藝名&lt;/ref&gt;"
+            ]
+        ]
+    },
+    "少女": {
+        "nerName": [
+            "少女"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "月刊COMIC FLAPPER|コミックフラッパー}}上連載，並由談判老師負責作畫。2006年9月21日於PS2主機上發表了由小說改編而成的遊戲作品〈神様家族 應援願望〉&lt;ref&gt;{{cite news |title": [
+            "少女たちの戀のバトルがヒートアップ！　『神様家族 「応援願望」』 |url"
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "少女たちの戀のバトルがヒートアップ！　『神様家族 「応援願望」』 |url",
+                "少女カフェ}}）是[[板倉梓]]的日本[[四格漫畫]]作品，中文版由[[東立出版社]]代理發行。",
+                "少女]][[漫畫家]][[日高萬里]]所創作的[[漫畫]]作品。"
+            ]
+        ]
+    },
+    "部活": {
+        "nerName": [
+            "部活"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "": [
+            ""
+        ],
+        "[[gdgd妖精s]]演出及{{link-ja|直球表題機械人動畫}}導演{{link-ja|石館光太郎}}與製片人{{link-ja|福原慶匡}}再次合作，全部基於[[計算機圖形學|電腦動畫]]製作作品&lt;ref name": [
+            "&quot;animate&quot;&gt;{{Cite web|url"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "てさぐれ!部活もの}}，{{lang"
+            ]
+        ]
+    },
+    "少年": {
+        "nerName": [
+            "少年"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "少年Jump NEXT!!]]》，之後又轉載於《[[少年Jump+]]》。單行本全11卷。"
+            ]
+        ]
+    },
+    "學校": {
+        "nerName": [
+            "學校"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "學校を出よう!|hg"
+            ]
+        ]
+    },
+    "刑事": {
+        "nerName": [
+            "刑事"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "j": [
+            "スケバン刑事|kn"
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "スケバン刑事|kn"
+            ]
+        ]
+    },
+    "約束": {
+        "nerName": [
+            "約束"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "j": [
+            "約束のネバーランド|rm"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "約束のネバーランド|rm"
+            ]
+        ]
+    },
+    "網站": {
+        "nerName": [
+            "網站"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "ミスミソウ}}）是[[日本]][[漫畫家]][[押切蓮介]]創作的漫畫作品。於2007年6月至2009年6月在《[[Horror M]]》進行連載。2013年作者加筆修正發售全2卷完全版。2018年改編為真人電影&lt;ref&gt;{{Cite news|publisher": [
+            "[[Natalie (網站)|Natalie]]|work"
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "[[Natalie (網站)|Natalie]]|work"
+            ]
+        ]
+    },
+    "討論": {
+        "nerName": [
+            "討論"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "討論]]）做出的修訂版本51323021</comment>"
+            ]
+        ]
+    },
+    "臨時": {
+        "nerName": [
+            "臨時"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "臨時]][[軍政府]]。1926年葡萄牙軍方發動[[1926年5月28日政變"
+            ]
+        ]
+    },
+    "建立": {
+        "nerName": [
+            "建立"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "event": [
+            "{{#if:{{{event_start|}}}|{{{event_start}}}|建立}}|year"
+        ],
+        "date": [
+            "{{#if:{{{date_start|}}}|{{{date_start}}}}}}}"
+        ],
+        "- class": [
+            "&quot;mergedbottomrow&quot;"
+        ],
+        "{{#if:{{{event1|}}}|{{Infobox former country/event|event": [
+            "{{{event1}}}|year"
+        ],
+        "{{#if:{{{event2|}}}|{{Infobox former country/event|event": [
+            "{{{event2}}}|year"
+        ],
+        "{{#if:{{{event3|}}}|{{Infobox former country/event|event": [
+            "{{{event3}}}|year"
+        ],
+        "{{#if:{{{event4|}}}|{{Infobox former country/event|event": [
+            "{{{event4}}}|year"
+        ],
+        "- {{#if:{{{event_post|}}}|class": [
+            "&quot;mergedrow&quot;|class"
+        ],
+        "{{Infobox former country/event|event": [
+            "{{#if:{{{event_end|}}}|{{{event_end}}}|終結}}|year"
+        ],
+        "{{#if:{{{event_post|}}}|{{Infobox former country/event|event": [
+            "{{{event_post}}}|year"
+        ],
+        "- {{#if: {{{stat_year1|}}}||class": [
+            "&quot;mergedtoprow&quot;}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "{{#if:{{{event_start|}}}|{{{event_start}}}|建立}}|year"
+            ]
+        ]
+    },
+    "衍生": {
+        "nerName": [
+            "衍生"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "衍生]]的[[動畫]]、真人版[[電視劇]]、[[舞臺劇]]、和[[電子遊戲]]等。漫畫在[[講談社]]發行的漫畫月刊《[[Nakayoshi]]》上連載，為日本[[少女漫畫]]的代表作之一。作為戰鬥系魔法少女作品的先驅之一，藉由90動畫版的推出，在全球亦十分知名。"
+            ]
+        ]
+    },
+    "高雄捷運": {
+        "nerName": [
+            "高雄捷運"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "高雄捷運&lt;br&gt;{{lang|en|Kaohsiung Metro}}"
+        ],
+        "owner": [
+            "'''高運量捷運'''：[[BOT模式|BOT]]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "高雄捷運&lt;br&gt;{{lang|en|Kaohsiung Metro}}"
+            ]
+        ]
+    },
+    "英語": {
+        "nerName": [
+            "英語"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "クイズマジックアカデミー}}，[[英語]]：{{lang"
+            ]
+        ]
+    },
+    "月光": {
+        "nerName": [
+            "月光"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "月光のカルネヴァーレ}}）是[[Nitro+]]於2007年1月26日發售的[[日本成人遊戲]]。其後衍生出[[漫畫]]和[[小說]]，漫畫先在[[Champion RED 草苺]]連載，後移至月刊[[Champion RED]]2007年4月號至2008年2月號，[[單行本]]全兩卷。小說則由[[小學館]][[Gagaga文庫]]發售，全三卷。"
+            ]
+        ]
+    },
+    "二十四": {
+        "nerName": [
+            "二十四"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "二十四の瞳}}》（ひとみ可以寫成瞳），不過兩者之間完全沒有關係。從電視劇版中得知仁美老師為24歲。"
+            ]
+        ]
+    },
+    "人物": {
+        "nerName": [
+            "人物"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "人物"
+            ]
+        ]
+    },
+    "例子": {
+        "nerName": [
+            "例子"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "class": [
+            "[[PSPACE]] (例子)"
+        ],
+        "long-name": [
+            "多項式空間"
+        ],
+        "description": [
+            ""
+        ],
+        "wheredefined": [
+            ""
+        ],
+        "external-urls": [
+            "[http://qwiki.stanford.edu/wiki/Complexity_Zoo:P#pspace Complexity Zoo]"
+        ],
+        "dtime": [
+            "&lt;math&gt;n^{\\Omega(1)}&lt;/math&gt;, &lt;math&gt;2^{n^{O(1)}}&lt;/math&gt;"
+        ],
+        "complete-class": [
+            "[[PSPACE完全]]"
+        ],
+        "complement-class": [
+            "自身"
+        ],
+        "proper-supersets": [
+            "[[EXPSPACE]]&lt;ref name"
+        ],
+        "improper-supersets": [
+            "[[AlmostPSPACE]]"
+        ],
+        "equals": [
+            "[[AP (複雜度)|AP]]"
+        ],
+        "related": [
+            "[[PTIME]]"
+        ],
+        "notequals": [
+            "[[PTIME|P]]-close, [[PTIME|P]]/log"
+        ],
+        "improper-subsets": [
+            "[[CH (複雜度)|CH]]&lt;ref name"
+        ],
+        "proper-subsets": [
+            "[[NL (複雜度)|NL]]&lt;ref name"
+        ],
+        "properties": [
+            "Syntactic"
+        ],
+        "low-with": [
+            "自身"
+        ],
+        "low-for": [
+            "自身"
+        ],
+        "closed-reductions": [
+            "[[多項式時間圖靈規約|多項式時間]]"
+        ],
+        "closed-operations": [
+            ""
+        ],
+        "canonical-problems": [
+            "[[QSAT]]"
+        ],
+        "models": [
+            "[[交替式圖靈機]], [[圖靈機]]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "[[PSPACE]] (例子)"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,6509 @@
+{
+    "巴黎": {
+        "locationName": [
+            "巴黎"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "巴黎"
+        ],
+        "native name": [
+            "{{lang|fr|Paris}}"
+        ],
+        "commune status": [
+            "[[首都]]、[[市鎮 (法國)|市鎮]]、[[省 (法國)|省]]"
+        ],
+        "alt1": [
+            "巴黎"
+        ],
+        "alt2": [
+            "凱旋門"
+        ],
+        "alt3": [
+            "巴黎歌劇院"
+        ],
+        "alt4": [
+            "奧賽博物館"
+        ],
+        "alt5": [
+            "西堤島"
+        ],
+        "alt6": [
+            "聖心聖殿"
+        ],
+        "alt7": [
+            "龐畢度中心"
+        ],
+        "alt8": [
+            "羅浮宮"
+        ],
+        "official_name": [
+            "巴黎"
+        ],
+        "settlement_type": [
+            "[[肯塔基州城市列表|市]]"
+        ],
+        "subdivision_type": [
+            "國家"
+        ],
+        "subdivision_name": [
+            "{{USA}}"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州]]"
+        ],
+        "subdivision_name1": [
+            "[[肯塔基州]]"
+        ],
+        "subdivision_type2": [
+            "[[縣 (美國)|縣]]"
+        ],
+        "subdivision_name2": [
+            "[[波旁縣 (肯塔基州)|波旁縣]]"
+        ],
+        "unit_pref": [
+            "Imperial"
+        ],
+        "area_land_km2": [
+            "17.6"
+        ],
+        "area_water_km2": [
+            "0.0"
+        ],
+        "area_total_sq_mi": [
+            "6.8"
+        ],
+        "area_land_sq_mi": [
+            "6.8"
+        ],
+        "area_water_sq_mi": [
+            "0.0"
+        ],
+        "population_as_of": [
+            "2000年普查"
+        ],
+        "population_density_km2": [
+            "521.7"
+        ],
+        "population_density_sq_mi": [
+            "1351.2"
+        ],
+        "timezone": [
+            "[[北美東部時區]]"
+        ],
+        "utc_offset": [
+            "-5"
+        ],
+        "timezone_DST": [
+            "EDT"
+        ],
+        "utc_offset_DST": [
+            "-4"
+        ],
+        "elevation_ft": [
+            "843"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|ZIP code]]s"
+        ],
+        "postal_code": [
+            "40361-40362"
+        ],
+        "area_code": [
+            "859"
+        ],
+        "blank_name": [
+            "[[聯邦資料處理標準|FIPS code]]"
+        ],
+        "blank_info": [
+            "21-59196"
+        ],
+        "blank1_name": [
+            "[[地名資訊系統|GNIS]] feature ID"
+        ],
+        "blank1_info": [
+            "0500172"
+        ],
+        "jurisdiction": [
+            "總教區"
+        ],
+        "latin": [
+            "Archidioecesis Parisiensis"
+        ],
+        "location": [
+            "[[法國]]"
+        ],
+        "territory": [
+            "巴黎"
+        ],
+        "population": [
+            "1,340,463"
+        ],
+        "rite": [
+            "[[羅馬禮]]"
+        ],
+        "patron": [
+            "[[聖德尼]]、[[聖女日南斐法]]"
+        ],
+        "province": [
+            "巴黎"
+        ],
+        "established": [
+            "3世紀（教區）"
+        ],
+        "cathedral": [
+            "[[巴黎聖母院]]"
+        ],
+        "leadership": [
+            "[[總主教]]"
+        ],
+        "website": [
+            "[https://www.paris.catholique.fr/ 總教區官方網站]"
+        ],
+        "pope": [
+            "{{incumbent pope}}"
+        ],
+        "metropolitan": [
+            "{{link-en|彌額爾·奧珀蒂|Michel Aupetit}}"
+        ],
+        "coadjutor archbishop": [
+            "auxiliary"
+        ],
+        "emeritus": [
+            "[[安德肋·萬-特魯瓦]]（榮休總主教）"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "巴黎"
+            ]
+        ]
+    },
+    "威廉": {
+        "locationName": [
+            "威廉"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "威廉"
+        ],
+        "native name": [
+            "Willems"
+        ],
+        "arrondissement": [
+            "[[里爾區]]"
+        ],
+        "intercommunality": [
+            "[[里爾歐洲都會區]]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "威廉"
+            ]
+        ]
+    },
+    "馬克": {
+        "locationName": [
+            "馬克"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "馬克"
+        ],
+        "native name": [
+            "Marcq"
+        ],
+        "arrondissement": [
+            "[[武濟耶區]]"
+        ],
+        "official_name": [
+            "馬克"
+        ],
+        "settlement_type": [
+            "[[村落]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[伊利諾伊州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[伊利諾伊州]]"
+        ],
+        "subdivision_name2": [
+            "[[普特南縣 (伊利諾伊州)|普特南縣]]"
+        ],
+        "elevation_ft": [
+            "692"
+        ],
+        "elevation_m": [
+            "211"
+        ],
+        "area_total_km2": [
+            "2.92"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美中部時區]]"
+        ],
+        "utc_offset": [
+            "-6"
+        ],
+        "utc_offset_DST": [
+            "-5"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "61340"
+        ],
+        "area_code": [
+            "{{link-en|電話區號815|Area code 815|815}}"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "413008&lt;ref name"
+        ],
+        "area_land_km2": [
+            "2.92"
+        ],
+        "area_water_km2": [
+            "0.00"
+        ],
+        "population_as_of": [
+            "[[2010年美國人口普查]]"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "馬克"
+            ]
+        ]
+    },
+    "阿朗": {
+        "locationName": [
+            "阿朗"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "阿朗"
+        ],
+        "native name": [
+            "Aren"
+        ],
+        "arrondissement": [
+            "[[奧洛龍-聖瑪麗區]]"
+        ],
+        "native_name": [
+            "Arhan"
+        ],
+        "settlement_type": [
+            "{{FR}}舊[[市鎮 (法國)|市鎮]]&lt;br&gt;&lt;small&gt;(今屬於[[拉卡里-阿朗-上沙裡特]])&lt;/small&gt;"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_name": [
+            "{{FR}}"
+        ],
+        "subdivision_type1": [
+            "[[大區 (法國)|大區]]"
+        ],
+        "subdivision_name1": [
+            "{{flag|Nouvelle-Aquitaine}}"
+        ],
+        "subdivision_type2": [
+            "[[省 (法國)|省]]"
+        ],
+        "subdivision_name2": [
+            "{{flag|Pyrénées-Atlantiques}}"
+        ],
+        "subdivision_type3": [
+            "[[區 (法國)|區]]"
+        ],
+        "subdivision_name3": [
+            "[[奧洛龍-聖瑪麗區]]"
+        ],
+        "subdivision_type4": [
+            "[[市鎮 (法國)|市鎮]]"
+        ],
+        "subdivision_name4": [
+            "[[拉卡里-阿朗-上沙裡特]]"
+        ],
+        "extinct_title": [
+            "撤銷"
+        ],
+        "extinct_date": [
+            "1831年"
+        ],
+        "population": [
+            "94"
+        ],
+        "population_as_of": [
+            "1821年"
+        ],
+        "postal_code": [
+            "64470"
+        ],
+        "postal2_code_type": [
+            "[[INSEE編碼|INSEE]]"
+        ],
+        "postal2_code": [
+            "timezone1"
+        ],
+        "utc_offset1": [
+            "+01:00"
+        ],
+        "timezone1_DST": [
+            "[[歐洲中部夏令時間|CEST]]"
+        ],
+        "utc_offset1_DST": [
+            "+02:00"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "阿朗"
+            ]
+        ]
+    },
+    "維韋斯": {
+        "locationName": [
+            "維韋斯"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "維韋斯"
+        ],
+        "native name": [
+            "Vivaise"
+        ],
+        "arrondissement": [
+            "[[拉昂區]]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "維韋斯"
+            ]
+        ]
+    },
+    "克萊": {
+        "locationName": [
+            "克萊"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "克萊"
+        ],
+        "native name": [
+            "Clefs"
+        ],
+        "arrondissement": [
+            "[[索米爾區]]"
+        ],
+        "intercommunality": [
+            "[[雷恩都會區]]"
+        ],
+        "official_name": [
+            "克萊"
+        ],
+        "settlement_type": [
+            "[[人口普查指定地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[加利福尼亞州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[加利福尼亞州]]"
+        ],
+        "subdivision_name2": [
+            "[[薩克拉門託縣 (加利福尼亞州)|薩克拉門託縣]]"
+        ],
+        "elevation_ft": [
+            "135"
+        ],
+        "elevation_m": [
+            "41"
+        ],
+        "timezone": [
+            "[[太平洋時區]]"
+        ],
+        "area_total_km2": [
+            "17.497"
+        ],
+        "area_land_km2": [
+            "17.497"
+        ],
+        "area_water_km2": [
+            "0.000"
+        ],
+        "population_as_of": [
+            "[[2010年美國人口普查]]"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "utc_offset": [
+            "-8"
+        ],
+        "utc_offset_DST": [
+            "-7"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "2582975&lt;ref name"
+        ],
+        "commune": [
+            "[[安茹地區博熱]]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "克萊"
+            ]
+        ]
+    },
+    "會議中心": {
+        "locationName": [
+            "會議中心"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "會議中心"
+        ],
+        "eng_name": [
+            "Conference Center"
+        ],
+        "other_name": [
+            "symbol_location"
+        ],
+        "country": [
+            "{{PRC}}"
+        ],
+        "borough": [
+            "[[遼寧省]][[大連市]][[中山區 (大連市)|中山區]]"
+        ],
+        "address": [
+            "港隆路與珠蓮街交叉口西側"
+        ],
+        "platforms": [
+            "2個[[側式站臺]]"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "owned": [
+            "大連公共交通建設投資集團"
+        ],
+        "operator": [
+            "大連地鐵運營有限公司"
+        ],
+        "connections": [
+            "公交站"
+        ],
+        "status": [
+            "運營中"
+        ],
+        "former": [
+            "structure"
+        ],
+        "hall": [
+            "地下站廳"
+        ],
+        "exits": [
+            "4"
+        ],
+        "opened": [
+            "2015年5月22日"
+        ],
+        "first": [
+            "往{{大連地鐵起訖站|2|L}}：05:37"
+        ],
+        "last": [
+            "往{{大連地鐵起訖站|2|L}}：22:37"
+        ],
+        "services": [
+            "{{Adjacent stations|system"
+        ],
+        "route_map": [
+            "{{Routemap|inline"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "會議中心"
+            ]
+        ]
+    },
+    "金馬": {
+        "locationName": [
+            "金馬"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "金馬"
+        ],
+        "native_name": [
+            "Kim Mã"
+        ],
+        "linecolour": [
+            "#A5B635"
+        ],
+        "borough": [
+            "[[河內市]][[巴亭郡]]玉慶坊"
+        ],
+        "elevation": [
+            "operator"
+        ],
+        "lines": [
+            "[[河內都市鐵路3號線]]（建設中）"
+        ],
+        "status": [
+            "code"
+        ],
+        "pass_year": [
+            "passengers"
+        ],
+        "line1": [
+            "3|left1"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "金馬"
+            ]
+        ]
+    },
+    "東風": {
+        "locationName": [
+            "東風"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "東風"
+        ],
+        "eng_name": [
+            "Dongfeng"
+        ],
+        "type": [
+            "[[地鐵車站]]"
+        ],
+        "linecolour": [
+            "{{廣州地鐵顏色|14}}"
+        ],
+        "country": [
+            "[[中華人民共和國]]"
+        ],
+        "borough": [
+            "[[廣東省]][[廣州市]][[從化區]][[城郊街道 (廣州市)|城郊街道]]"
+        ],
+        "address": [
+            "從化大道與規劃迎賓大道路口"
+        ],
+        "owned": [
+            "[[廣州地鐵集團有限公司]]"
+        ],
+        "operator": [
+            "廣州地鐵集團運營事業總部運營四中心"
+        ],
+        "lines": [
+            "{{廣州地鐵路線連結|14|SL}}"
+        ],
+        "platforms": [
+            "2個[[島式月臺]]"
+        ],
+        "tracks": [
+            "3條"
+        ],
+        "code": [
+            "{{廣州地鐵車站編號|14|13}}"
+        ],
+        "connections": [
+            "structure"
+        ],
+        "hall": [
+            "地下站廳"
+        ],
+        "levels": [
+            "2層"
+        ],
+        "interchange": [
+            "exits"
+        ],
+        "status": [
+            "正常運營"
+        ],
+        "opened": [
+            "2018年12月28日"
+        ],
+        "station_hours": [
+            "05:55－23:45"
+        ],
+        "first": [
+            "{{廣州地鐵路線連結|14|S}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "東風"
+            ]
+        ]
+    },
+    "天一": {
+        "locationName": [
+            "天一"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "天一"
+        ],
+        "eng_name": [
+            "Tianyi"
+        ],
+        "type": [
+            "[[無錫地鐵]]車站"
+        ],
+        "linecolour": [
+            "{{無錫地鐵標誌色|1}}"
+        ],
+        "country": [
+            "{{PRC}}"
+        ],
+        "borough": [
+            "[[江蘇省]][[無錫市]][[惠山區]]"
+        ],
+        "address": [
+            "老錫澄路"
+        ],
+        "owned": [
+            "無錫地鐵集團有限公司"
+        ],
+        "operator": [
+            "[[無錫地鐵|無錫地鐵運營有限公司]]"
+        ],
+        "lines": [
+            "{{無錫地鐵路線標誌|1|L}}"
+        ],
+        "platforms": [
+            "2個[[側式站臺]]"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "colour": [
+            "connections"
+        ],
+        "hall": [
+            "高架站廳"
+        ],
+        "levels": [
+            "3層"
+        ],
+        "interchange": [
+            "exits"
+        ],
+        "status": [
+            "運營中"
+        ],
+        "opened": [
+            "2014年7月1日"
+        ],
+        "first": [
+            "往[[堰橋站|堰橋]]方向：06:42:47&lt;br&gt;往[[南方泉站|南方泉]]方向：06:06:50&lt;br&gt;"
+        ],
+        "last": [
+            "往[[堰橋站|堰橋]]方向：23:20:43&lt;br&gt;往[[南方泉站|南方泉]]方向：22:44:17&lt;br&gt;"
+        ],
+        "adjacent": [
+            "{{Adjacent stations|system"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "天一"
+            ]
+        ]
+    },
+    "大觀": {
+        "locationName": [
+            "大觀"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "大觀"
+        ],
+        "eng_name": [
+            "Daguan"
+        ],
+        "linecolour": [
+            "#{{成都地鐵標誌色|7}}"
+        ],
+        "type": [
+            "[[地鐵車站]]"
+        ],
+        "country": [
+            "{{PRC}}"
+        ],
+        "borough": [
+            "[[四川省]][[成都市]][[成華區]][[保和街道]]"
+        ],
+        "address": [
+            "中環路錦繡大道段"
+        ],
+        "operator": [
+            "成都地鐵運營有限公司"
+        ],
+        "lines": [
+            "{{成都地鐵路線連結|7|SL}}"
+        ],
+        "platforms": [
+            "1個[[島式站臺]]"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "code": [
+            "{{成都軌道交通車站編號|7|21}}"
+        ],
+        "colour": [
+            "connections"
+        ],
+        "hall": [
+            "地下站廳"
+        ],
+        "levels": [
+            "2層"
+        ],
+        "interchange": [
+            "disabled"
+        ],
+        "status": [
+            "運營中"
+        ],
+        "opened": [
+            "2017年12月6日"
+        ],
+        "first": [
+            "'''{{成都地鐵路線連結|7}}'''"
+        ],
+        "last": [
+            "'''{{成都地鐵路線連結|7}}'''"
+        ],
+        "adjacent": [
+            "{{Adjacent stations|system"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "大觀"
+            ]
+        ]
+    },
+    "小喬": {
+        "locationName": [
+            "小喬"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "小喬"
+        ],
+        "eng_name": [
+            "XIAOQIAO"
+        ],
+        "type": [
+            "linecolour"
+        ],
+        "country": [
+            "{{PRC}}"
+        ],
+        "borough": [
+            "[[河南省]][[鄭州市]][[新鄭市]][[龍湖鎮 (新鄭市)|龍湖鎮]]"
+        ],
+        "address": [
+            "泰山路與紫荊山南路交叉口東側"
+        ],
+        "owned": [
+            "operator"
+        ],
+        "lines": [
+            "{{鄭州地鐵線路名|C|full}}"
+        ],
+        "platforms": [
+            "2座[[側式站臺]]"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "code": [
+            "0940"
+        ],
+        "colour": [
+            "connections"
+        ],
+        "hall": [
+            "高架站廳"
+        ],
+        "levels": [
+            "2層"
+        ],
+        "interchange": [
+            "exits"
+        ],
+        "status": [
+            "運營中"
+        ],
+        "opened": [
+            "2023年9月22日"
+        ],
+        "station_hours": [
+            "first"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "小喬"
+            ]
+        ]
+    },
+    "新造": {
+        "locationName": [
+            "新造"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "新造"
+        ],
+        "eng_name": [
+            "Xinzao"
+        ],
+        "type": [
+            "[[地鐵車站]]"
+        ],
+        "linecolour": [
+            "{{廣州地鐵顏色|4}}"
+        ],
+        "country": [
+            "[[中華人民共和國]]"
+        ],
+        "borough": [
+            "[[廣東省]][[廣州市]][[番禺區]][[新造鎮]]"
+        ],
+        "address": [
+            "廣醫南路"
+        ],
+        "owned": [
+            "[[廣州地鐵集團有限公司]]"
+        ],
+        "operator": [
+            "廣州地鐵集團運營事業總部運營二中心"
+        ],
+        "lines": [
+            "{{廣州地鐵路線連結|4|SL}}"
+        ],
+        "platforms": [
+            "1個[[島式月臺]]"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "code": [
+            "{{廣州地鐵車站編號|4|17}}"
+        ],
+        "connections": [
+            "structure"
+        ],
+        "hall": [
+            "地底站廳"
+        ],
+        "levels": [
+            "2層"
+        ],
+        "interchange": [
+            "exits"
+        ],
+        "status": [
+            "正常運營"
+        ],
+        "opened": [
+            "2005年12月26日"
+        ],
+        "station_hours": [
+            "05:55－23:39"
+        ],
+        "first": [
+            "{{廣州地鐵路線連結|4|S}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "新造"
+            ]
+        ]
+    },
+    "山田": {
+        "locationName": [
+            "山田"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "山田"
+        ],
+        "eng_name": [
+            "Shantian"
+        ],
+        "type": [
+            "[[地鐵車站]]"
+        ],
+        "linecolour": [
+            "{{廣州地鐵顏色|21}}"
+        ],
+        "country": [
+            "[[中華人民共和國]]"
+        ],
+        "borough": [
+            "[[廣東省]][[廣州市]][[增城區]][[朱村街道 (廣州市)|朱村街道]]"
+        ],
+        "address": [
+            "[[324國道]]（廣汕公路），盈園北側"
+        ],
+        "owned": [
+            "[[廣州地鐵集團|廣州地鐵集團有限公司]]"
+        ],
+        "operator": [
+            "廣州地鐵集團運營事業總部運營四中心&lt;br&gt;車站服務七部增城廣場中心站"
+        ],
+        "lines": [
+            "{{廣州地鐵路線連結|21|SL}}"
+        ],
+        "platforms": [
+            "2個[[島式月臺]]"
+        ],
+        "tracks": [
+            "4條"
+        ],
+        "code": [
+            "{{廣州地鐵車站編號|21|19}}"
+        ],
+        "connections": [
+            "structure"
+        ],
+        "hall": [
+            "高架站廳"
+        ],
+        "levels": [
+            "3層"
+        ],
+        "interchange": [
+            "exits"
+        ],
+        "status": [
+            "正常運營"
+        ],
+        "opened": [
+            "2018年12月28日"
+        ],
+        "station_hours": [
+            "06:02－00:08&lt;sup&gt;+1&lt;/sup&gt;"
+        ],
+        "first": [
+            "{{廣州地鐵路線連結|21|S}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "山田"
+            ]
+        ]
+    },
+    "香港": {
+        "locationName": [
+            "香港"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "香港"
+        ],
+        "eng_name": [
+            "Hong Kong"
+        ],
+        "livery": [
+            "{{港鐵車站顏色|香港}}"
+        ],
+        "namecolour": [
+            "{{港鐵車站顏色|香港|text}}"
+        ],
+        "linecolour": [
+            "{{港鐵顏色|TCL}}"
+        ],
+        "linecolour2": [
+            "{{港鐵顏色|AEL}}"
+        ],
+        "borough": [
+            "{{HKG}}[[香港島]][[中西區 (香港)|中西區]]"
+        ],
+        "address": [
+            "[[香港]][[堅道]]16號（天主教教區中心）"
+        ],
+        "elevation": [
+            "operator"
+        ],
+        "lines": [
+            "{{港鐵路線標誌|TCL|S}}&lt;br/&gt;{{港鐵路線標誌|AEL|S}}"
+        ],
+        "distance": [
+            "platform"
+        ],
+        "tracks": [
+            "4條{{NoteTag|包括機場快綫未啟用的2號月臺路軌。}}"
+        ],
+        "connections": [
+            "[[港鐵]][[中環站]]（{{港鐵路線標誌|TWL|S}}及{{港鐵路線標誌|ISL|S}}）、[[香港巴士|巴士]]、[[香港小巴|小巴]]、[[香港電車|電車]]、[[渡輪]]、[[山頂纜車]]、[[香港計程車|計程車]]"
+        ],
+        "structure": [
+            "地底車站"
+        ],
+        "hall": [
+            "地底大堂"
+        ],
+        "depth": [
+            "levels"
+        ],
+        "interchange": [
+            "exits"
+        ],
+        "elevator": [
+            "11部&lt;ref name"
+        ],
+        "escalator": [
+            "扶手電梯39條；自動行人道4條&lt;ref name"
+        ],
+        "architect": [
+            "ARUP建築師事務所及許李嚴建築師事務所"
+        ],
+        "jurisdiction": [
+            "教區"
+        ],
+        "latin": [
+            "Dioecesis Sciiamchiamensis"
+        ],
+        "local": [
+            "{{lang|en|Catholic Diocese of Hong Kong}}{{en}}"
+        ],
+        "location": [
+            "[[香港]]"
+        ],
+        "territory": [
+            "{{BHKG}}{{to}}{{HKSAR}}&lt;br/&gt;{{CHN-1928}}[[廣東省 (中華民國)|廣東省]][[寶安縣]]、[[惠陽縣]]、[[海豐縣]]&lt;br/&gt;（至[[廣東戰役|1949年]]，現由[[廣州總教區]]事實管轄）"
+        ],
+        "rite": [
+            "[[羅馬禮]]"
+        ],
+        "patron": [
+            "[[聖母無原罪]]"
+        ],
+        "province": [
+            "廣東教省（法理上）&lt;br/&gt;直屬[[聖座]]（事實上）"
+        ],
+        "established": [
+            "1841年4月22日（成立宗座監牧區）"
+        ],
+        "cathedral": [
+            "[[聖母無原罪主教座堂 (香港)|聖母無原罪主教座堂]]"
+        ],
+        "leadership": [
+            "主教"
+        ],
+        "pope": [
+            "{{incumbent pope}}"
+        ],
+        "ordinary": [
+            "[[周守仁]]樞機"
+        ],
+        "apostolic_admin": [
+            "emeritus"
+        ],
+        "auxiliary": [
+            "[[夏志誠]]主教"
+        ],
+        "vicar general": [
+            "[[蔡惠民]]神父"
+        ],
+        "chancery": [
+            "[[李亮 (天主教神職人員)|李亮]]神父"
+        ],
+        "procura": [
+            "[[陳國輝 (天主教神職人員)|陳國輝]]神父"
+        ],
+        "title1": [
+            "title1_name"
+        ],
+        "parishes": [
+            "52處&lt;ref name"
+        ],
+        "churches": [
+            "聖堂39間、小堂32間、禮堂28間&lt;ref name"
+        ],
+        "congregations": [
+            "secular priests"
+        ],
+        "telephone_no": [
+            "{{tel|852|2522-3677}}"
+        ],
+        "website": [
+            "[https://catholic.org.hk/ 天主教香港教區網站]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "香港"
+            ]
+        ]
+    },
+    "九龍": {
+        "locationName": [
+            "九龍"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "九龍"
+        ],
+        "eng_name": [
+            "Kowloon"
+        ],
+        "livery": [
+            "{{港鐵車站顏色|九龍}}"
+        ],
+        "namecolour": [
+            "{{港鐵車站顏色|九龍|text}}"
+        ],
+        "linecolour": [
+            "{{港鐵顏色|TCL}}"
+        ],
+        "linecolour2": [
+            "{{港鐵顏色|AEL}}"
+        ],
+        "borough": [
+            "{{HKG}}[[九龍]][[油尖旺區]]"
+        ],
+        "address": [
+            "[[尖沙咀]][[柯士甸道西]]1號"
+        ],
+        "elevation": [
+            "{{Convert|603|m|ft|0}}"
+        ],
+        "lines": [
+            "{{港鐵路線標誌|TCL|S}}"
+        ],
+        "distance": [
+            "platform"
+        ],
+        "tracks": [
+            "4條"
+        ],
+        "connections": [
+            "[[香港西九龍站]]（{{港鐵路線標誌|XRL|S}}）、[[香港巴士|巴士]]、[[香港小巴|小巴]]、[[跨境巴士]]、[[穿梭巴士]]、[[香港計程車|計程車]]"
+        ],
+        "structure": [
+            "地底車站"
+        ],
+        "hall": [
+            "地底大堂"
+        ],
+        "depth": [
+            "levels"
+        ],
+        "interchange": [
+            "exits"
+        ],
+        "elevator": [
+            "9部&lt;ref name"
+        ],
+        "escalator": [
+            "19條&lt;ref name"
+        ],
+        "architect": [
+            "[[Terry Farrell建築師事務所]]及何顯毅建築師事務所"
+        ],
+        "location": [
+            "{{HKG}}中部"
+        ],
+        "population": [
+            "2,108,419（2011年）"
+        ],
+        "area": [
+            "{{Convert|47|sqkm|sqmi|0}}&lt;ref name"
+        ],
+        "highest mount": [
+            "[[飛鵝山]]"
+        ],
+        "Country heading": [
+            "地域"
+        ],
+        "country": [
+            "{{HKG}}"
+        ],
+        "country admin divisions title": [
+            "分割槽"
+        ],
+        "country admin divisions": [
+            "[[深水埗區]]&lt;br/&gt;[[油尖旺區]]&lt;br/&gt;[[九龍城區]]&lt;br/&gt;[[黃大仙區]]&lt;br/&gt;[[觀塘區]]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "九龍"
+            ]
+        ]
+    },
+    "天后": {
+        "locationName": [
+            "天后"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "天后"
+        ],
+        "eng_name": [
+            "Tin Hau"
+        ],
+        "livery": [
+            "{{港鐵車站顏色|天后}}"
+        ],
+        "namecolour": [
+            "{{港鐵車站顏色|天后|text}}"
+        ],
+        "linecolour": [
+            "{{港鐵顏色|ISL}}"
+        ],
+        "borough": [
+            "{{HKG}}[[香港島]][[灣仔區]]"
+        ],
+        "address": [
+            "[[銅鑼灣]][[高士威道]]至[[英皇道]]交界"
+        ],
+        "elevation": [
+            "operator"
+        ],
+        "lines": [
+            "{{港鐵路線標誌|ISL|S}}"
+        ],
+        "distance": [
+            "platform"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "connections": [
+            "[[香港巴士|巴士]]、[[香港小巴|小巴]]、[[香港電車|電車]]"
+        ],
+        "structure": [
+            "地底車站"
+        ],
+        "hall": [
+            "地底大堂"
+        ],
+        "depth": [
+            "levels"
+        ],
+        "interchange": [
+            "exits"
+        ],
+        "elevator": [
+            "1部&lt;ref name"
+        ],
+        "escalator": [
+            "13條&lt;ref name"
+        ],
+        "status": [
+            "使用中"
+        ],
+        "code": [
+            "TIH"
+        ],
+        "built": [
+            "opened"
+        ],
+        "opening": [
+            "closed"
+        ],
+        "first": [
+            "往{{港鐵起訖站|ISL|L}}：06:09"
+        ],
+        "last": [
+            "往{{港鐵起訖站|ISL|L}}：00:50"
+        ],
+        "adjacent": [
+            "{{Adjacent stations|system"
+        ],
+        "other_services": [
+            "route_map"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "天后"
+            ]
+        ]
+    },
+    "歐洲": {
+        "locationName": [
+            "歐洲"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "歐洲"
+        ],
+        "symbol_location": [
+            "paris"
+        ],
+        "symbol": [
+            "m"
+        ],
+        "symbol2": [
+            "type"
+        ],
+        "other_name": [
+            "address"
+        ],
+        "borough": [
+            "[[法蘭西島]]"
+        ],
+        "country": [
+            "法國"
+        ],
+        "iso_region": [
+            "FR_scale:2000"
+        ],
+        "operator": [
+            "[[RATP]]"
+        ],
+        "line": [
+            "disabled"
+        ],
+        "opened": [
+            "{{Start date|1904|10|19}}"
+        ],
+        "services": [
+            "map_type"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "歐洲&lt;br /&gt;{{lang|fr|Europe}}",
+                "歐洲"
+            ]
+        ],
+        "title": [
+            "歐洲"
+        ],
+        "area": [
+            "{{cvt|10180000|km2}}"
+        ],
+        "population": [
+            "{{UN_Population|Europe}}（{{UN_Population|Year}}；{{tsl|en|List of continents and continental subregions by population||第3}}）{{UN_Population|ref}}"
+        ],
+        "density": [
+            "{{convert|72.9|/km2|/sqmi}}（第2）"
+        ],
+        "GDP_PPP": [
+            "{{nowrap|$33.62萬億（2022年；{{tsl|en|List of continents by GDP||第2}}）"
+        ],
+        "GDP_nominal": [
+            "$24.02萬億（2022年；{{tsl|en|List of continents by GDP||第3}}）"
+        ],
+        "GDP_per_capita": [
+            "$34,230（2022年；{{tsl|en|List of continents by GDP||第3}}）{{ref label|footnote_c|c}}"
+        ],
+        "HDI": [
+            "{{increase}} 0.845"
+        ],
+        "religions": [
+            "{{unbulleted list"
+        ],
+        "{{tsl|en|Christianity in Europe||基督教}}（76.2%）&lt;ref name": [
+            "&quot;Survey&quot;/&gt;"
+        ],
+        "[[無宗教|無]]（18.3%）&lt;ref name": [
+            "&quot;Survey&quot;/&gt;"
+        ],
+        "[[歐洲伊斯蘭教|伊斯蘭教]]（4.9%）&lt;ref name": [
+            "&quot;Survey&quot;/&gt;"
+        ],
+        "{{tsl|en|Religion in Europe|歐洲宗教|其他}}（0.6%）&lt;ref name": [
+            "&quot;Survey&quot;/&gt;"
+        ]
+    },
+    "大學": {
+        "locationName": [
+            "大學"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "大學"
+        ],
+        "type": [
+            "[[莫斯科地鐵]]車站"
+        ],
+        "country": [
+            "[[俄羅斯]]"
+        ],
+        "line": [
+            "{{MOSMETRO-bull|1|text"
+        ],
+        "other": [
+            "'''[[巴士]]'''：м19、е29、1、с10、67、103、111、113、119、130、138、260、266、434、464、470、661、845、т34'''&lt;br/&gt;'''[[有軌電車|電車]]'''：14、26、39"
+        ],
+        "structure": [
+            "架空車站"
+        ],
+        "platform": [
+            "1個[[島式月臺]]"
+        ],
+        "depth": [
+            "levels"
+        ],
+        "levels": [
+            "1層"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "parking": [
+            "無"
+        ],
+        "bicycle": [
+            "無"
+        ],
+        "opened": [
+            "{{start date and age|1959|12|01}}"
+        ],
+        "closed": [
+            "rebuilt"
+        ],
+        "owned": [
+            "莫斯科地鐵"
+        ],
+        "former": [
+            "馬料水車站"
+        ],
+        "route_map": [
+            "}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "大學&lt;br /&gt;{{lang|ru|Университе́т}}",
+                "大學"
+            ]
+        ],
+        "eng_name": [
+            "University"
+        ],
+        "livery": [
+            "{{港鐵車站顏色|大學}}"
+        ],
+        "namecolour": [
+            "{{港鐵車站顏色|大學|text}}"
+        ],
+        "linecolour": [
+            "{{港鐵顏色|EAL}}"
+        ],
+        "borough": [
+            "{{HKG}}[[新界]][[沙田區]]"
+        ],
+        "address": [
+            "[[馬料水]][[澤祥街]]"
+        ],
+        "elevation": [
+            "operator"
+        ],
+        "lines": [
+            "{{港鐵路線標誌|EAL|S}}"
+        ],
+        "distance": [
+            "platform"
+        ],
+        "connections": [
+            "[[香港巴士|巴士]]、[[香港小巴|小巴]]、[[渡輪]]"
+        ],
+        "hall": [
+            "地面大堂"
+        ],
+        "interchange": [
+            "exits"
+        ],
+        "elevator": [
+            "2部&lt;ref name"
+        ],
+        "escalator": [
+            "4條&lt;ref name"
+        ],
+        "status": [
+            "使用中"
+        ],
+        "code": [
+            "UNI"
+        ],
+        "built": [
+            "opened"
+        ],
+        "opening": [
+            "closed"
+        ],
+        "electrified": [
+            "1983年5月2日"
+        ],
+        "passengers": [
+            "station_hours"
+        ],
+        "first": [
+            "往{{站|羅湖||香港}}：05:41"
+        ],
+        "last": [
+            "往{{站|羅湖||香港}}：23:27"
+        ],
+        "adjacent": [
+            "{{Adjacent stations|system"
+        ],
+        "other_services": [
+            "route_map"
+        ]
+    },
+    "總統": {
+        "locationName": [
+            "總統"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "總統"
+            ]
+        ]
+    },
+    "愛河": {
+        "locationName": [
+            "愛河"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "river_name": [
+            "愛河"
+        ],
+        "origin": [
+            "{{TWN}}[[高雄市]][[仁武區]][[八卦寮]]"
+        ],
+        "mouth": [
+            "[[高雄港]]"
+        ],
+        "basin_countries": [
+            "{{ROC}}"
+        ],
+        "length": [
+            "{{Convert|12|km|0|cuft|0|abbr"
+        ],
+        "elevation": [
+            "{{Convert|80|m|0|cuft|0|abbr"
+        ],
+        "mouth_elevation": [
+            "{{Convert|0|m|0|cuft|0|abbr"
+        ],
+        "discharge": [
+            "{{Convert|0.54|m3/s|0|cuft|0|abbr"
+        ],
+        "watershed": [
+            "{{Convert|56|km2|0|cuft|0|abbr"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "愛河"
+            ]
+        ]
+    },
+    "長江": {
+        "locationName": [
+            "長江"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "長江"
+        ],
+        "mapframe-zoom": [
+            "3"
+        ],
+        "subdivision_name1": [
+            "{{PRC}}"
+        ],
+        "subdivision_name2": [
+            "[[青海省]]、[[西藏自治區]]、[[雲南省]]、[[四川省]]、[[重慶市]]、[[湖北省]]、[[湖南省]]、[[江西省]]、[[安徽省]]、[[江蘇省]]、[[上海市]]"
+        ],
+        "subdivision_name3": [
+            "subdivision_name4"
+        ],
+        "source1_location": [
+            "[[青海省]][[唐古拉山]]"
+        ],
+        "source1_coord_ref": [
+            "source1_elevation"
+        ],
+        "mouth_location": [
+            "[[江蘇省]][[南通市]]及[[上海市]][[崇明區]]、[[浦東新區]]"
+        ],
+        "mouth_coord_ref": [
+            "mouth_elevation"
+        ],
+        "altitude_difference": [
+            "watershed"
+        ],
+        "basin_countries": [
+            "basin_states"
+        ],
+        "basin_landmarks": [
+            "basin_population"
+        ],
+        "discharge1_avg": [
+            "{{Convert|30166|m3/s|ft3/s|abbr"
+        ],
+        "discharge1_max": [
+            "{{Convert|110000|m3/s|ft3/s|abbr"
+        ],
+        "discharge2_location": [
+            "discharge2_min"
+        ],
+        "tributaries_right": [
+            "[[烏江]]、[[沅江]]、[[湘江]]、[[贛江]]"
+        ],
+        "waterbodies": [
+            "waterfalls"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "長江"
+            ]
+        ]
+    },
+    "史丹佛": {
+        "locationName": [
+            "史丹佛"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "中文名": [
+            "史丹佛"
+        ],
+        "latitude": [
+            "52.656"
+        ],
+        "longitude": [
+            "-0.484"
+        ],
+        "official_name": [
+            "Stamford"
+        ],
+        "population": [
+            "19,701"
+        ],
+        "civil_parish": [
+            "Stamford"
+        ],
+        "shire_district": [
+            "[[South Kesteven]]"
+        ],
+        "shire_county": [
+            "[[林肯郡]]"
+        ],
+        "region": [
+            "東米德蘭茲"
+        ],
+        "constituency_westminster": [
+            "[[格蘭瑟姆和斯坦福 (英國國會選區)|格蘭瑟姆和斯坦福]]"
+        ],
+        "post_town": [
+            "STAMFORD"
+        ],
+        "postcode_district": [
+            "PE9"
+        ],
+        "postcode_area": [
+            "PE"
+        ],
+        "dial_code": [
+            "01780"
+        ],
+        "os_grid_reference": [
+            "TF0207"
+        ],
+        "london_direction": [
+            "S"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "史丹佛"
+            ]
+        ]
+    },
+    "波士頓": {
+        "locationName": [
+            "波士頓"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "中文名": [
+            "波士頓"
+        ],
+        "official_name": [
+            "波士頓市&lt;br&gt; {{lang|en|City of Boston}}"
+        ],
+        "latitude": [
+            "52.974"
+        ],
+        "longitude": [
+            "-0.0214"
+        ],
+        "population": [
+            "41,340"
+        ],
+        "shire_district": [
+            "[[Boston (borough)|Boston]]"
+        ],
+        "shire_county": [
+            "[[林肯郡]]"
+        ],
+        "region": [
+            "東米德蘭茲"
+        ],
+        "constituency_westminster": [
+            "[[波士頓和斯凱格內斯 (英國國會選區)|波士頓和斯凱格內斯]]"
+        ],
+        "post_town": [
+            "BOSTON"
+        ],
+        "postcode_district": [
+            "PE21"
+        ],
+        "postcode_area": [
+            "PE"
+        ],
+        "dial_code": [
+            "01205"
+        ],
+        "os_grid_reference": [
+            "TF329437"
+        ],
+        "london_direction": [
+            "S"
+        ],
+        "area_total_km2": [
+            "18.42"
+        ],
+        "population_ref": [
+            "(Town only, sum of Wards' populations)"
+        ],
+        "name": [
+            "波士頓"
+        ],
+        "native_name": [
+            "{{lang|en|Boston}}"
+        ],
+        "settlement_type": [
+            "[[美國行政區劃|市]]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "波士頓"
+            ]
+        ]
+    },
+    "林頓": {
+        "locationName": [
+            "林頓"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "林頓"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[喬治亞州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[喬治亞州]]"
+        ],
+        "subdivision_name2": [
+            "[[漢考克縣 (喬治亞州)|漢考克縣]]"
+        ],
+        "elevation_ft": [
+            "449"
+        ],
+        "elevation_m": [
+            "137"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美東部時區]]"
+        ],
+        "utc_offset": [
+            "-5"
+        ],
+        "utc_offset_DST": [
+            "-4"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "332222&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "林頓"
+            ]
+        ]
+    },
+    "維多利亞": {
+        "locationName": [
+            "維多利亞"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "維多利亞&lt;br&gt;Victoria"
+        ],
+        "native_name": [
+            "{{lang|es|Vitoria}}&lt;br&gt;{{lang|eu|Gasteiz}}"
+        ],
+        "settlement_type": [
+            "subdivision_type"
+        ],
+        "subdivision_name": [
+            "{{ESP}}"
+        ],
+        "subdivision_type1": [
+            "[[西班牙行政區劃|自治區]]"
+        ],
+        "subdivision_name1": [
+            "{{flag|巴斯克}}"
+        ],
+        "subdivision_type2": [
+            "[[省 (西班牙)|省]]"
+        ],
+        "subdivision_name2": [
+            "[[阿拉瓦省]]"
+        ],
+        "subdivision_type3": [
+            "subdivision_name3"
+        ],
+        "leader_name": [
+            "Patxi Lazcoz"
+        ],
+        "leader_party": [
+            "established_title"
+        ],
+        "established_date": [
+            "1181年"
+        ],
+        "established_title3": [
+            "城市地位"
+        ],
+        "established_date3": [
+            "elevation_m"
+        ],
+        "area_total_km2": [
+            "276.81"
+        ],
+        "population_as_of": [
+            "2005年"
+        ],
+        "population_total": [
+            "226490"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "timezone": [
+            "[[歐洲中部時間|CET]]"
+        ],
+        "utc_offset": [
+            "+1"
+        ],
+        "timezone_DST": [
+            "[[歐洲中部夏令時間|CEST]]"
+        ],
+        "utc_offset_DST": [
+            "+2"
+        ],
+        "population_demonym": [
+            "postal_code_type"
+        ],
+        "postal_code": [
+            "01001-01080"
+        ],
+        "area_code": [
+            "+34 945"
+        ],
+        "registration_plate": [
+            "blank_name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "維多利亞",
+                "維多利亞&lt;br /&gt;{{lang|en|Victoria}}|symbol",
+                "維多利亞&lt;br&gt;Victoria"
+            ]
+        ],
+        "alt_name": [
+            "倫敦維多利亞"
+        ],
+        "manager": [
+            "[[倫敦地鐵]]"
+        ],
+        "owner": [
+            "[[英國國營鐵路公司]]"
+        ],
+        "locale": [
+            "[[貝爾格萊維亞]]"
+        ],
+        "borough": [
+            "[[西敏市]]"
+        ],
+        "platforms": [
+            "4"
+        ],
+        "fare_zone": [
+            "1"
+        ],
+        "railcode": [
+            "VIC"
+        ],
+        "dft_category": [
+            "A"
+        ],
+        "latitude": [
+            "51.4966"
+        ],
+        "longitude": [
+            "-0.1448"
+        ],
+        "map_type": [
+            "Central London"
+        ],
+        "years1": [
+            "1860年10月1日"
+        ],
+        "years2": [
+            "1860年"
+        ],
+        "years3": [
+            "1862年"
+        ],
+        "years4": [
+            "events1"
+        ],
+        "events2": [
+            "租予倫敦布萊頓及南岸鐵路"
+        ],
+        "events3": [
+            "倫敦、查塔姆及多佛爾及大西方鐵路分離車站啟用"
+        ],
+        "events4": [
+            "cyclepark"
+        ],
+        "toilets": [
+            "有"
+        ],
+        "railexits0506": [
+            "{{decrease}} 47.86"
+        ],
+        "railexits0607": [
+            "{{increase}} 66.749"
+        ],
+        "railexits0809": [
+            "{{decrease}} 70.157"
+        ],
+        "railexits0910": [
+            "{{increase}} 70.224 --&gt;"
+        ],
+        "railexits1011": [
+            "{{increase}} 73.573"
+        ],
+        "railexits1112": [
+            "{{increase}} 76.231"
+        ],
+        "railexits1213": [
+            "{{increase}} 77.347"
+        ],
+        "railexits1314": [
+            "{{increase}} 81.856"
+        ],
+        "railexits1415": [
+            "{{increase}} 85.338"
+        ],
+        "railint0506": [
+            "{{pad|1em}}{{decrease}} 3.244"
+        ],
+        "railint0607": [
+            "{{pad|1em}}{{increase}} 3.293"
+        ],
+        "railint0708": [
+            "{{pad|1em}}{{increase}} 3.344"
+        ],
+        "railint0809": [
+            "{{pad|1em}}{{increase}} 4.498"
+        ],
+        "railint0910": [
+            "{{pad|1em}}{{increase}} 5.078--&gt;"
+        ],
+        "railint1011": [
+            "{{pad|1em}}{{decrease}} 4.801"
+        ],
+        "railint1112": [
+            "{{pad|1em}}{{increase}} 9.157"
+        ],
+        "railint1213": [
+            "{{pad|1em}}{{decrease}} 8.319"
+        ],
+        "railint1314": [
+            "{{pad|1em}}{{increase}} 9.005"
+        ],
+        "railint1415": [
+            "{{pad|1em}}{{increase}} 9.638"
+        ],
+        "access": [
+            "yes"
+        ],
+        "access_note": [
+            ""
+        ],
+        "years": [
+            "1868&lt;br&gt;1872&lt;br&gt;1872&lt;br&gt;1900&lt;br&gt;1908&lt;br&gt;1949&lt;br&gt;1968&lt;br&gt;1971"
+        ],
+        "events": [
+            "大都會區域鐵路開幕&lt;br&gt;開設外環線（北倫敦鐵路）&lt;br&gt;開設中環線（漢默史密斯及城市鐵路/大都會區域鐵路）&lt;br&gt;結束外環線&lt;br&gt;開通內環線（現[[環線 (倫敦地鐵)|環線]]&lt;br&gt;維多利亞線成為總站&lt;br&gt;維多利亞線南延線"
+        ],
+        "tubeexits": [
+            "67.823 }}"
+        ]
+    },
+    "歐米茄": {
+        "locationName": [
+            "歐米茄"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "歐米茄"
+        ],
+        "native_name": [
+            "Omega"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[印地安納州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[印地安納州]]"
+        ],
+        "subdivision_name2": [
+            "[[漢密爾頓縣 (印地安納州)|漢密爾頓縣]]"
+        ],
+        "elevation_ft": [
+            "850"
+        ],
+        "elevation_m": [
+            "259"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美東部時區]]"
+        ],
+        "utc_offset": [
+            "-5"
+        ],
+        "utc_offset_DST": [
+            "-4"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "46030"
+        ],
+        "area_code": [
+            "[[電話區號765|765]]"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "440661&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "歐米茄"
+            ]
+        ]
+    },
+    "六點": {
+        "locationName": [
+            "六點"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "六點"
+        ],
+        "native_name": [
+            "Six Points"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[印地安納州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[印地安納州]]"
+        ],
+        "subdivision_name2": [
+            "[[克萊縣 (印地安納州)|克萊縣]]"
+        ],
+        "elevation_ft": [
+            "712"
+        ],
+        "elevation_m": [
+            "217"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美東部時區]]"
+        ],
+        "utc_offset": [
+            "-5"
+        ],
+        "utc_offset_DST": [
+            "-4"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "443557&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "六點"
+            ]
+        ]
+    },
+    "珠寶": {
+        "locationName": [
+            "珠寶"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "珠寶"
+        ],
+        "official_name": [
+            "{{native name|en|Chemor|icon"
+        ],
+        "nickname": [
+            "translit_lang1"
+        ],
+        "translit_lang1_type1": [
+            "[[淡米爾語]]"
+        ],
+        "translit_lang1_info1": [
+            "சிம்மோர்"
+        ],
+        "settlement_type": [
+            "{{MAS}}[[馬來西亞城市|城鎮]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_name": [
+            "{{MAS}}"
+        ],
+        "subdivision_type1": [
+            "[[馬來西亞州屬|州屬]]"
+        ],
+        "subdivision_name1": [
+            "{{Perak}}"
+        ],
+        "subdivision_type2": [
+            "[[馬來西亞縣份|縣份]]"
+        ],
+        "subdivision_name2": [
+            "[[近打縣]]"
+        ],
+        "established_title": [
+            "開埠"
+        ],
+        "established_date": [
+            "1950"
+        ],
+        "population_note": [
+            "population_total"
+        ],
+        "postal_code": [
+            "31200"
+        ],
+        "area_code": [
+            "blank_name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "珠寶"
+            ]
+        ]
+    },
+    "羅斯": {
+        "locationName": [
+            "羅斯"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "羅斯"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[阿肯色州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[阿肯色州]]"
+        ],
+        "subdivision_name2": [
+            "[[波普縣 (阿肯色州)|波普縣]]"
+        ],
+        "elevation_ft": [
+            "787"
+        ],
+        "elevation_m": [
+            "240"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美中部時區]]"
+        ],
+        "utc_offset": [
+            "-6"
+        ],
+        "utc_offset_DST": [
+            "-5"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "078218&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "羅斯"
+            ]
+        ]
+    },
+    "丹佛": {
+        "locationName": [
+            "丹佛"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "丹佛"
+        ],
+        "native_name": [
+            "Denver"
+        ],
+        "settlement_type": [
+            "[[美國各州首府列表|州首府]]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "丹佛"
+            ]
+        ]
+    },
+    "倫敦": {
+        "locationName": [
+            "倫敦"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "倫敦"
+        ],
+        "native_name": [
+            "London&lt;br/&gt;Ronton"
+        ],
+        "settlement_type": [
+            "村莊"
+        ],
+        "subdivision_type": [
+            "國家"
+        ],
+        "subdivision_name": [
+            "{{KIR}}"
+        ],
+        "subdivision_type1": [
+            "群島"
+        ],
+        "subdivision_name1": [
+            "[[萊恩群島]]"
+        ],
+        "subdivision_type2": [
+            "[[環礁]]"
+        ],
+        "subdivision_name2": [
+            "[[聖誕島 (吉里巴斯)|聖誕島]]"
+        ],
+        "population_as_of": [
+            "2010年"
+        ],
+        "population_total": [
+            "1,879人"
+        ],
+        "elevation_m": [
+            "7"
+        ],
+        "timezone": [
+            "[[UTC+14]]"
+        ],
+        "jurisdiction": [
+            "教區"
+        ],
+        "latin": [
+            "local"
+        ],
+        "location": [
+            "{{GBR}}"
+        ],
+        "territory": [
+            "泰晤士河以北、利亞河以西&lt;br&gt;的[[大倫敦]]以及[[薩裡郡]]小部"
+        ],
+        "patron": [
+            "province"
+        ],
+        "established": [
+            "604年"
+        ],
+        "cathedral": [
+            "[[聖保羅座堂]]"
+        ],
+        "leadership": [
+            "倫敦主教"
+        ],
+        "ordinary": [
+            "[[莎拉·馬拉利]]"
+        ],
+        "emeritus": [
+            "vicar general"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "倫敦"
+            ]
+        ]
+    },
+    "馬丁": {
+        "locationName": [
+            "馬丁"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "馬丁"
+        ],
+        "settlement_type": [
+            "[[鎮|城鎮]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[佐治亞州縣級行政區列表|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[喬治亞州]]"
+        ],
+        "subdivision_name2": [
+            "[[富蘭克林縣 (喬治亞州)|富蘭克林縣]]和[[斯蒂芬斯縣 (喬治亞州)|斯蒂芬斯縣]]"
+        ],
+        "elevation_ft": [
+            "919"
+        ],
+        "elevation_m": [
+            "280"
+        ],
+        "area_total_km2": [
+            "6.56"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美東部時區|EST]]"
+        ],
+        "utc_offset": [
+            "-5"
+        ],
+        "utc_offset_DST": [
+            "-4"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "30557"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "317732&lt;ref name"
+        ],
+        "name": [
+            "馬丁"
+        ],
+        "native_name": [
+            "Martin"
+        ],
+        "area_land_km2": [
+            "6.50"
+        ],
+        "area_water_km2": [
+            "0.06"
+        ],
+        "area_total_sq_mi": [
+            "area_land_sq_mi"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "area_code": [
+            "{{link-en|電話區號706|Area code 706|706}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "馬丁"
+            ]
+        ]
+    },
+    "奧斯": {
+        "locationName": [
+            "奧斯"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "奧斯"
+        ],
+        "native_name": [
+            "Aars"
+        ],
+        "settlement_type": [
+            "[[市鎮 (荷蘭)|市鎮]]"
+        ],
+        "subdivision_type": [
+            "國家"
+        ],
+        "subdivision_name": [
+            "{{NL}}"
+        ],
+        "subdivision_type1": [
+            "[[荷蘭省份|省份]]"
+        ],
+        "subdivision_name1": [
+            "[[北布拉班特省]]"
+        ],
+        "subdivision_type2": [
+            "[[丹麥市鎮|市鎮]]"
+        ],
+        "subdivision_name2": [
+            "[[西希默蘭市鎮]]"
+        ],
+        "population": [
+            "8,465人"
+        ],
+        "timezone": [
+            "[[UTC+01:00]]"
+        ],
+        "postal_code": [
+            "9600"
+        ],
+        "website": [
+            "http://www.aars.dk/"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "奧斯",
+                "奧斯&lt;br&gt;Oss"
+            ]
+        ],
+        "name": [
+            "奧斯&lt;br&gt;Oss"
+        ],
+        "url": [
+            "http://www.oss.nl/web/gemeente-en-bestuur/college-gemeenteraad-en-wijk-en-dorpsraden/college-van-b-en-w/samenstelling-b-en-w.htm"
+        ],
+        "title": [
+            "Samenstelling b&amp;w"
+        ],
+        "trans-title": [
+            "Members board of mayor and aldermen"
+        ],
+        "language": [
+            "nl"
+        ],
+        "publisher": [
+            "Gemeente Oss"
+        ],
+        "access-date": [
+            "21 April 2014"
+        ],
+        "archive-url": [
+            "https://web.archive.org/web/20140422231614/http://www.oss.nl/web/gemeente-en-bestuur/college-gemeenteraad-en-wijk-en-dorpsraden/college-van-b-en-w/samenstelling-b-en-w.htm"
+        ],
+        "archive-date": [
+            "2014-04-22"
+        ],
+        "url-status": [
+            "yes"
+        ]
+    },
+    "北京": {
+        "locationName": [
+            "北京"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "北京"
+        ],
+        "native_name": [
+            "Pekin"
+        ],
+        "native_name_lang": [
+            "en"
+        ],
+        "settlement_type": [
+            "[[伊利諾伊州市鎮列表|市]]"
+        ],
+        "motto": [
+            "''Community' Opportunity' Home''"
+        ],
+        "subdivision_type": [
+            "國家"
+        ],
+        "subdivision_name": [
+            "{{US}}"
+        ],
+        "subdivision_type1": [
+            "州"
+        ],
+        "subdivision_name1": [
+            "{{flag|Illinois}}"
+        ],
+        "subdivision_type2": [
+            "[[伊利諾伊州行政區劃|郡]]"
+        ],
+        "subdivision_name2": [
+            "[[塔茲韋爾縣 (伊利諾伊州)|塔茲韋爾郡]]和[[皮奧里亞縣]]（小部分）"
+        ],
+        "subdivision_type3": [
+            "[[行政鎮區|鎮區]]"
+        ],
+        "subdivision_name3": [
+            "[[北京鎮區 (伊利諾伊州塔茲韋爾縣)|北京鎮區]]、[[霍利斯鎮區 (伊利諾伊州皮奧裡亞縣)|霍利斯鎮區]]"
+        ],
+        "established_title": [
+            "建立"
+        ],
+        "established_date": [
+            "named_for"
+        ],
+        "leader_title": [
+            "市長"
+        ],
+        "leader_name": [
+            "Mary Burress"
+        ],
+        "unit_pref": [
+            "Imperial"
+        ],
+        "area_total_km2": [
+            "42.91"
+        ],
+        "area_total_sq_mi": [
+            "16.57"
+        ],
+        "area_land_km2": [
+            "40.71"
+        ],
+        "area_land_sq_mi": [
+            "15.72"
+        ],
+        "area_water_km2": [
+            "2.20"
+        ],
+        "area_water_sq_mi": [
+            "0.85"
+        ],
+        "elevation_ft": [
+            "538"
+        ],
+        "population_as_of": [
+            "[[2020年美國人口普查|2020年]]"
+        ],
+        "population_total": [
+            "31731"
+        ],
+        "population_density_km2": [
+            "5229.19"
+        ],
+        "population_density_sq_mi": [
+            "2019"
+        ],
+        "population_metro": [
+            "402391"
+        ],
+        "timezone1": [
+            "[[北美中部時區|CST]]"
+        ],
+        "utc_offset1": [
+            "−6"
+        ],
+        "timezone1_DST": [
+            "[[北美中部時區|CDT]]"
+        ],
+        "utc_offset1_DST": [
+            "−5"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵遞區號]]"
+        ],
+        "postal_code": [
+            "61554"
+        ],
+        "area_code": [
+            "309"
+        ],
+        "blank_name": [
+            "[[聯邦資訊處理標準|FIPS程式碼]]"
+        ],
+        "blank_info": [
+            "17-58447"
+        ],
+        "blank1_name": [
+            "[[地名資訊系統|GNIS]] ID"
+        ],
+        "blank1_info": [
+            "2396172&lt;ref name"
+        ],
+        "website": [
+            "www.catholic-bj.org"
+        ],
+        "jurisdiction": [
+            "總教區"
+        ],
+        "latin": [
+            "Archidioecesis Pechimensis"
+        ],
+        "local": [
+            "天主教北京教區"
+        ],
+        "location": [
+            "[[中國]][[北京市]]"
+        ],
+        "territory": [
+            "[[北京市]]"
+        ],
+        "rite": [
+            "[[羅馬禮]]"
+        ],
+        "eastern church": [
+            "patron"
+        ],
+        "province": [
+            "河北教省"
+        ],
+        "established": [
+            "1307年（首設）&lt;br/&gt;1690年4月10日（恢復）"
+        ],
+        "cathedral": [
+            "[[西什庫天主堂]]"
+        ],
+        "co-cathedral": [
+            "leadership"
+        ],
+        "pope": [
+            "{{incumbent_pope}}"
+        ],
+        "patriarch": [
+            "major archbishop"
+        ],
+        "eastern metropolitan": [
+            "ordinary"
+        ],
+        "coadjutor bishop": [
+            "auxiliary"
+        ],
+        "chancery": [
+            "procura"
+        ],
+        "address": [
+            "[[中國]][[北京市]][[西城區]]西黃城根北街甲10號"
+        ],
+        "telephone_no": [
+            "{{Tel|86|10|6602 0521}}"
+        ],
+        "footnote": [
+            "}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "北京"
+            ]
+        ]
+    },
+    "紐約": {
+        "locationName": [
+            "紐約"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "紐約"
+        ],
+        "native_name": [
+            "Нью-Йорк"
+        ],
+        "native_name_lang": [
+            "uk"
+        ],
+        "settlement_type": [
+            "[[鎮 (烏克蘭)|鎮]]"
+        ],
+        "subdivision_name": [
+            "{{UKR}}（法理宣稱）&lt;br&gt;{{RUS}}（[[實際統治]]）"
+        ],
+        "subdivision_type1": [
+            "[[州 (烏克蘭)|州]]"
+        ],
+        "subdivision_name1": [
+            "{{flag|Donetsk Oblast}}（烏克蘭法理宣稱）"
+        ],
+        "subdivision_type2": [
+            "[[共和國 (俄羅斯)|共和國]]"
+        ],
+        "subdivision_name2": [
+            "{{DPR}}（俄羅斯實際控制）"
+        ],
+        "subdivision_type3": [
+            "[[區 (烏克蘭)|區]]"
+        ],
+        "subdivision_type4": [
+            "[[烏克蘭市鎮|市鎮]]"
+        ],
+        "subdivision_name4": [
+            "[[託雷茨克市鎮]]"
+        ],
+        "government_type": [
+            "託雷茨克市議會"
+        ],
+        "established_title": [
+            "成立"
+        ],
+        "established_date": [
+            "1892年"
+        ],
+        "leader_title": [
+            "鎮長"
+        ],
+        "population_as_of": [
+            "2022"
+        ],
+        "population_est": [
+            "1940人"
+        ],
+        "population_total": [
+            "9,735"
+        ],
+        "area_total_km2": [
+            "13.91"
+        ],
+        "pop_est_as_of": [
+            "2024年4月14日"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "timezone": [
+            "[[歐洲東部時間]]"
+        ],
+        "utc_offset": [
+            "+2"
+        ],
+        "timezone_DST": [
+            "[[歐洲東部夏令時間]]"
+        ],
+        "utc_offset_DST": [
+            "+3"
+        ],
+        "postal_code_type": [
+            "{{tsl|en|Postal codes in Ukraine||Postal code}}"
+        ],
+        "postal_code": [
+            "85297"
+        ],
+        "area_code": [
+            "+380 6247"
+        ],
+        "blank_name_sec1": [
+            "{{tsl|en|KOATUU||KOATUU}}程式碼"
+        ],
+        "translit_lang1": [
+            "[[烏克蘭語]]"
+        ],
+        "translit_lang1_type1": [
+            "{{tsl|en|MOS:UKR||官方}}"
+        ],
+        "translit_lang1_info1": [
+            "Niu-York"
+        ],
+        "translit_lang1_type2": [
+            "{{tsl|en|ALA-LC romanization|ALA-LC羅馬化系統|ALA-LC}}"
+        ],
+        "translit_lang1_info2": [
+            "Nʹi͡u-Ĭork"
+        ],
+        "translit_lang1_type3": [
+            "[[BGN/PCGN羅馬化系統|BGN/PCGN]]"
+        ],
+        "translit_lang1_info3": [
+            "N'yu-York"
+        ],
+        "translit_lang1_type4": [
+            "{{tsl|en|Scientific transliteration of Cyrillic|西里爾字母學術轉寫|學術}}"
+        ],
+        "translit_lang1_info4": [
+            "Nʹju-Jork"
+        ],
+        "jurisdiction": [
+            "總教區"
+        ],
+        "latin": [
+            "Archidioecesis Neo-Eboracensis"
+        ],
+        "local": [
+            "{{lang|en|Archdiocese of New York}}{{en}}"
+        ],
+        "location": [
+            "[[美國]][[紐約州]][[紐約]]"
+        ],
+        "territory": [
+            "[[紐約]]（[[曼哈頓]]、[[布朗克斯]]和[[斯塔騰島]]）以及[[紐約州]]的[[達奇斯縣 (紐約州)|達奇斯縣]]、[[奧蘭治縣 (紐約州)|奧蘭治縣]]、[[帕特南縣 (紐約州)|帕特南縣]]、[[羅克蘭縣 (紐約州)|羅克蘭縣]]、[[沙利文縣 (紐約州)|沙利文縣]]、[[阿爾斯特縣 (紐約州)|阿爾斯特縣]]和[[威斯特徹斯特縣 (紐約州)|威斯特徹斯特縣]]"
+        ],
+        "rite": [
+            "[[羅馬禮]]"
+        ],
+        "eastern church": [
+            "patron"
+        ],
+        "province": [
+            "紐約"
+        ],
+        "established": [
+            "1808年4月8日（教區）&lt;br/&gt;1850年7月19日（總教區）"
+        ],
+        "cathedral": [
+            "[[聖巴特利爵主教座堂 (紐約)|聖博德主教座堂]]"
+        ],
+        "co-cathedral": [
+            "leadership"
+        ],
+        "pope": [
+            "{{incumbent pope}}"
+        ],
+        "metropolitan": [
+            "[[弟茂德·彌額爾·多蘭|弟茂德·多蘭]]"
+        ],
+        "coadjutor archbishop": [
+            "auxiliary"
+        ],
+        "emeritus": [
+            "{{link-en|雅各伯·方濟各·麥卡錫|James Francis McCarthy|雅各伯·麥卡錫}}（榮休輔理主教）"
+        ],
+        "population": [
+            "parishes"
+        ],
+        "curia": [
+            "address"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "紐約"
+            ]
+        ]
+    },
+    "米洛": {
+        "locationName": [
+            "米洛"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "米洛"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[伊利諾伊州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[伊利諾伊州]]"
+        ],
+        "subdivision_name2": [
+            "[[比羅縣 (伊利諾伊州)|比羅縣]]"
+        ],
+        "elevation_ft": [
+            "886"
+        ],
+        "elevation_m": [
+            "270"
+        ],
+        "timezone": [
+            "[[北美中部時區]]"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "area_land_km2": [
+            "1.61"
+        ],
+        "area_water_km2": [
+            "0.00"
+        ],
+        "population_as_of": [
+            "[[2010年美國人口普查]]"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "utc_offset": [
+            "-6"
+        ],
+        "utc_offset_DST": [
+            "-5"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "area_code": [
+            "{{link-en|電話區號641|Area code 641|641}}"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "413630&lt;ref name"
+        ],
+        "native_name": [
+            "Milo"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "米洛"
+            ]
+        ]
+    },
+    "艾倫": {
+        "locationName": [
+            "艾倫"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "艾倫"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[印地安納州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[印地安納州]]"
+        ],
+        "subdivision_name2": [
+            "[[艾倫縣 (印地安納州)|艾倫縣]]"
+        ],
+        "elevation_ft": [
+            "837"
+        ],
+        "elevation_m": [
+            "255"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美東部時區]]"
+        ],
+        "utc_offset": [
+            "-5"
+        ],
+        "utc_offset_DST": [
+            "-4"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "46818"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "446643&lt;ref name"
+        ],
+        "native_name": [
+            "Allen"
+        ],
+        "area_code": [
+            "{{link-en|電話區號260|Area code 260|260}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "艾倫"
+            ]
+        ]
+    },
+    "達洛": {
+        "locationName": [
+            "達洛"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "達洛"
+        ],
+        "native_name": [
+            "Darlow"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[堪薩斯州縣級行政區列表|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[堪薩斯州]]"
+        ],
+        "subdivision_name2": [
+            "[[裡諾縣 (堪薩斯州)|裡諾縣]]"
+        ],
+        "elevation_ft": [
+            "1539"
+        ],
+        "elevation_m": [
+            "469"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美中部時區]]"
+        ],
+        "utc_offset": [
+            "-6"
+        ],
+        "utc_offset_DST": [
+            "-5"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "473641&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "達洛"
+            ]
+        ]
+    },
+    "傑克": {
+        "locationName": [
+            "傑克"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "傑克"
+        ],
+        "native_name": [
+            "Jack"
+        ],
+        "settlement_type": [
+            "[[鬼鎮]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[堪薩斯州縣級行政區列表|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[堪薩斯州]]"
+        ],
+        "subdivision_name2": [
+            "[[拉塞爾縣 (堪薩斯州)|拉塞爾縣]]"
+        ],
+        "elevation_ft": [
+            "1663"
+        ],
+        "elevation_m": [
+            "507"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美中部時區]]"
+        ],
+        "utc_offset": [
+            "-6"
+        ],
+        "utc_offset_DST": [
+            "-5"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "482554&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "傑克"
+            ]
+        ]
+    },
+    "奧斯卡": {
+        "locationName": [
+            "奧斯卡"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "奧斯卡"
+        ],
+        "native_name": [
+            "Oscar"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[路易斯安那州行政區劃|堂區]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[路易斯安那州]]"
+        ],
+        "subdivision_name2": [
+            "[[波因特庫皮堂區 (路易斯安那州)|波因特庫皮堂區]]"
+        ],
+        "elevation_ft": [
+            "33"
+        ],
+        "elevation_m": [
+            "10"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美中部時區|CST]]"
+        ],
+        "utc_offset": [
+            "-6"
+        ],
+        "utc_offset_DST": [
+            "-5"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "543560&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "奧斯卡"
+            ]
+        ]
+    },
+    "奧利": {
+        "locationName": [
+            "奧利"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "奧利"
+        ],
+        "settlement_type": [
+            "[[城市]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[愛荷華州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[愛荷華州]]"
+        ],
+        "subdivision_name2": [
+            "[[基奧卡克縣 (愛荷華州)|基奧卡克縣]]"
+        ],
+        "elevation_ft": [
+            "781"
+        ],
+        "elevation_m": [
+            "238"
+        ],
+        "timezone": [
+            "[[北美中部時區|CST]]"
+        ],
+        "area_total_km2": [
+            "2.56"
+        ],
+        "area_land_km2": [
+            "2.56"
+        ],
+        "area_water_km2": [
+            "0.00"
+        ],
+        "population_as_of": [
+            "[[2010年美國人口普查]]"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "utc_offset": [
+            "-6"
+        ],
+        "utc_offset_DST": [
+            "-5"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "52576"
+        ],
+        "area_code": [
+            "{{link-en|電話區號641|Area code 641|641}}"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "459858&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "奧利"
+            ]
+        ]
+    },
+    "凱特": {
+        "locationName": [
+            "凱特"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "凱特"
+        ],
+        "native_name": [
+            "Kite"
+        ],
+        "settlement_type": [
+            "[[城市]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[喬治亞州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[喬治亞州]]"
+        ],
+        "subdivision_name2": [
+            "[[約翰遜縣 (喬治亞州)|約翰遜縣]]"
+        ],
+        "elevation_ft": [
+            "249"
+        ],
+        "elevation_m": [
+            "76"
+        ],
+        "timezone": [
+            "[[北美東部時區|EST]]"
+        ],
+        "area_total_km2": [
+            "2.10"
+        ],
+        "area_land_km2": [
+            "2.09"
+        ],
+        "area_water_km2": [
+            "0.01"
+        ],
+        "area_total_sq_mi": [
+            "area_land_sq_mi"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "utc_offset": [
+            "-7"
+        ],
+        "utc_offset_DST": [
+            "-6"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "31049"
+        ],
+        "area_code": [
+            "{{link-en|電話區號478|Area code 478|478}}"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "316484&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "凱特"
+            ]
+        ]
+    },
+    "梅金": {
+        "locationName": [
+            "梅金"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "梅金"
+        ],
+        "native_name": [
+            "Mayking"
+        ],
+        "settlement_type": [
+            "[[人口普查指定地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[肯塔基州縣級行政區列表|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[肯塔基州]]"
+        ],
+        "subdivision_name2": [
+            "[[萊徹縣 (肯塔基州)|萊徹縣]]"
+        ],
+        "elevation_ft": [
+            "1204"
+        ],
+        "elevation_m": [
+            "367"
+        ],
+        "timezone": [
+            "[[北美東部時區|EST]]"
+        ],
+        "area_total_km2": [
+            "4.05"
+        ],
+        "area_land_km2": [
+            "3.99"
+        ],
+        "area_water_km2": [
+            "0.06"
+        ],
+        "area_total_sq_mi": [
+            "area_land_sq_mi"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "utc_offset": [
+            "-5"
+        ],
+        "utc_offset_DST": [
+            "-4"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "41837"
+        ],
+        "area_code": [
+            "{{link-en|電話區號606|Area code 606|606}}"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "497726&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "梅金"
+            ]
+        ]
+    },
+    "布蘭": {
+        "locationName": [
+            "布蘭"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "布蘭"
+        ],
+        "native_name": [
+            "Bulan"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[肯塔基州縣級行政區列表|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[肯塔基州]]"
+        ],
+        "subdivision_name2": [
+            "[[佩裡縣 (肯塔基州)|佩裡縣]]"
+        ],
+        "elevation_ft": [
+            "958"
+        ],
+        "elevation_m": [
+            "292"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美東部時區|EST]]"
+        ],
+        "utc_offset": [
+            "-5"
+        ],
+        "utc_offset_DST": [
+            "-4"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "41722"
+        ],
+        "area_code": [
+            "{{link-en|電話區號606|Area code 606|606}}"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "488342&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "布蘭"
+            ]
+        ]
+    },
+    "十六": {
+        "locationName": [
+            "十六"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "十六"
+        ],
+        "native_name": [
+            "Sixteen"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[肯塔基州縣級行政區列表|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[肯塔基州]]"
+        ],
+        "subdivision_name2": [
+            "[[佩裡縣 (肯塔基州)|佩裡縣]]"
+        ],
+        "elevation_ft": [
+            "1027"
+        ],
+        "elevation_m": [
+            "313"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美東部時區|EST]]"
+        ],
+        "utc_offset": [
+            "-5"
+        ],
+        "utc_offset_DST": [
+            "-4"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "2557346&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "十六"
+            ]
+        ]
+    },
+    "拉斯": {
+        "locationName": [
+            "拉斯"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "拉斯"
+        ],
+        "native_name": [
+            "Ruth"
+        ],
+        "settlement_type": [
+            "[[鬼鎮]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[肯塔基州縣級行政區列表|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[肯塔基州]]"
+        ],
+        "subdivision_name2": [
+            "[[普瓦斯基縣 (肯塔基州)|普瓦斯基縣]]"
+        ],
+        "elevation_ft": [
+            "840"
+        ],
+        "elevation_m": [
+            "256"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美東部時區|EST]]"
+        ],
+        "utc_offset": [
+            "-5"
+        ],
+        "utc_offset_DST": [
+            "-4"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "508989&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "拉斯"
+            ]
+        ]
+    },
+    "第一": {
+        "locationName": [
+            "第一"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "第一"
+        ],
+        "native_name": [
+            "Number One"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[肯塔基州縣級行政區列表|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[肯塔基州]]"
+        ],
+        "subdivision_name2": [
+            "[[韋恩縣 (肯塔基州)|韋恩縣]]"
+        ],
+        "elevation_ft": [
+            "938"
+        ],
+        "elevation_m": [
+            "286"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美東部時區|EST]]"
+        ],
+        "utc_offset": [
+            "-5"
+        ],
+        "utc_offset_DST": [
+            "-4"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "499634&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "第一"
+            ]
+        ]
+    },
+    "哈維": {
+        "locationName": [
+            "哈維"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "哈維"
+        ],
+        "settlement_type": [
+            "[[城市]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[伊利諾伊州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[伊利諾伊州]]"
+        ],
+        "subdivision_name2": [
+            "[[庫克縣 (伊利諾伊州)|庫克縣]]"
+        ],
+        "elevation_ft": [
+            "604"
+        ],
+        "elevation_m": [
+            "194"
+        ],
+        "area_total_km2": [
+            "16.07"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美中部時區|CST]]"
+        ],
+        "utc_offset": [
+            "-6"
+        ],
+        "utc_offset_DST": [
+            "-5"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "60426–60428"
+        ],
+        "area_code": [
+            "{{link-en|電話區號708|Area code 708|708}}"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "2395317&lt;ref name"
+        ],
+        "area_land_km2": [
+            "16.07"
+        ],
+        "area_water_km2": [
+            "0.00"
+        ],
+        "population_as_of": [
+            "[[2010年美國人口普查]]"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "native_name": [
+            "Harvey"
+        ],
+        "area_total_sq_mi": [
+            "area_land_sq_mi"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "哈維"
+            ]
+        ]
+    },
+    "韋斯": {
+        "locationName": [
+            "韋斯"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "韋斯"
+        ],
+        "native_name": [
+            "Weiss"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[路易斯安那州行政區劃|堂區]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[路易斯安那州]]"
+        ],
+        "subdivision_name2": [
+            "[[利文斯頓堂區 (路易斯安那州)|利文斯頓堂區]]"
+        ],
+        "elevation_ft": [
+            "89"
+        ],
+        "elevation_m": [
+            "27"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美中部時區|CST]]"
+        ],
+        "utc_offset": [
+            "-6"
+        ],
+        "utc_offset_DST": [
+            "-5"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "70706"
+        ],
+        "area_code": [
+            "{{link-en|電話區號225|Area code 225|225}}"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "541210&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "韋斯"
+            ]
+        ]
+    },
+    "傑克曼": {
+        "locationName": [
+            "傑克曼"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "傑克曼"
+        ],
+        "native_name": [
+            "Jackman"
+        ],
+        "settlement_type": [
+            "[[新英格蘭鎮|鎮]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[緬因州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[緬因州]]"
+        ],
+        "subdivision_name2": [
+            "[[薩默塞特縣 (緬因州)|薩默塞特縣]]"
+        ],
+        "elevation_ft": [
+            "1375"
+        ],
+        "elevation_m": [
+            "419"
+        ],
+        "timezone": [
+            "[[北美東部時區|EST]]"
+        ],
+        "area_total_km2": [
+            "109.87"
+        ],
+        "area_land_km2": [
+            "106.86"
+        ],
+        "area_water_km2": [
+            "3.00"
+        ],
+        "area_total_sq_mi": [
+            "area_land_sq_mi"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "utc_offset": [
+            "-5"
+        ],
+        "utc_offset_DST": [
+            "-4"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "04945"
+        ],
+        "area_code": [
+            "[[電話區號207|207]]"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "582532&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "傑克曼"
+            ]
+        ]
+    },
+    "好萊塢": {
+        "locationName": [
+            "好萊塢"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "好萊塢"
+        ],
+        "native_name": [
+            "Hollywood"
+        ],
+        "settlement_type": [
+            "[[城市]]"
+        ],
+        "nickname": [
+            "Diamond of the Gold Coast"
+        ],
+        "pushpin_relief": [
+            "yes"
+        ],
+        "subdivision_type": [
+            "國家"
+        ],
+        "subdivision_name": [
+            "{{US}}"
+        ],
+        "subdivision_type1": [
+            "州"
+        ],
+        "subdivision_type2": [
+            "[[佛羅里達州行政區劃|郡]]"
+        ],
+        "subdivision_name1": [
+            "{{flag|Florida}}"
+        ],
+        "subdivision_name2": [
+            "[[布勞沃德縣]]"
+        ],
+        "established_title": [
+            "設立"
+        ],
+        "established_date": [
+            "1921年2月18日"
+        ],
+        "established_title2": [
+            "[[市法團|建制]]"
+        ],
+        "established_date2": [
+            "1925年11月28日"
+        ],
+        "government_type": [
+            "[[議會-經理制政府]]"
+        ],
+        "leader_title": [
+            "市長"
+        ],
+        "leader_name": [
+            "Josh Levy"
+        ],
+        "unit_pref": [
+            "Imperial"
+        ],
+        "area_total_km2": [
+            "79.71"
+        ],
+        "area_total_sq_mi": [
+            "30.78"
+        ],
+        "area_land_km2": [
+            "70.58"
+        ],
+        "area_land_sq_mi": [
+            "27.25"
+        ],
+        "area_water_km2": [
+            "9.13"
+        ],
+        "area_water_sq_mi": [
+            "3.52"
+        ],
+        "area_water_percent": [
+            "11.23"
+        ],
+        "elevation_m": [
+            "3"
+        ],
+        "elevation_ft": [
+            "9"
+        ],
+        "population_as_of": [
+            "[[2020年美國人口普查|2020年]]"
+        ],
+        "population_total": [
+            "153067"
+        ],
+        "pop_est_as_of": [
+            "2022"
+        ],
+        "population_est": [
+            "152650"
+        ],
+        "population_rank": [
+            "[[按人口排列的美國城市列表|全美第176名]]、[[佛羅里達州市鎮村列表|佛州第12名]]"
+        ],
+        "population_density_km2": [
+            "2162.79"
+        ],
+        "population_density_sq_mi": [
+            "5601.83"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵遞區號]]"
+        ],
+        "postal_code": [
+            "33004, 33009, 33019-33021, 33023, 33024, 33312, 33314, 33316"
+        ],
+        "area_code": [
+            "954, 754"
+        ],
+        "website": [
+            "{{URL|www.hollywoodfl.org/}}"
+        ],
+        "timezone": [
+            "[[北美東部時區|EST]]"
+        ],
+        "utc_offset": [
+            "−5"
+        ],
+        "timezone_DST": [
+            "EDT"
+        ],
+        "utc_offset_DST": [
+            "−4"
+        ],
+        "blank_name": [
+            "[[聯邦資訊處理標準|FIPS程式碼]]"
+        ],
+        "blank_info": [
+            "12-32000&lt;ref name"
+        ],
+        "blank1_name": [
+            "[[地名資訊系統|GNIS]] ID"
+        ],
+        "blank1_info": [
+            "0284176&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "好萊塢"
+            ]
+        ]
+    },
+    "洛杉磯": {
+        "locationName": [
+            "洛杉磯"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "洛杉磯市&lt;br&gt;{{lang|en|City of Los Angeles}}"
+        ],
+        "name": [
+            "洛杉磯"
+        ],
+        "settlement_type": [
+            "[[加利福尼亞州市鎮列表|市]]"
+        ],
+        "subdivision_type2": [
+            "[[加利福尼亞州行政區劃|縣]]"
+        ],
+        "subdivision_name2": [
+            "[[洛杉磯]]"
+        ],
+        "subdivision_type3": [
+            "其他城市"
+        ],
+        "subdivision_name3": [
+            "&amp;nbsp;– [[長灘 (加利福尼亞州)|長灘]]"
+        ],
+        "population_rank": [
+            "[[按人口排列的美國都會區列表|美國第2位]]"
+        ],
+        "population": [
+            "12,828,837"
+        ],
+        "population_as_of": [
+            "2010"
+        ],
+        "area_total_sq_mi": [
+            "503"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "subdivision_type": [
+            "國家"
+        ],
+        "subdivision_name": [
+            "{{nowrap|{{flag|United States of America}}}}"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州]]"
+        ],
+        "subdivision_name1": [
+            "{{flag|California}}"
+        ],
+        "elevation_max_ft": [
+            "{{tsl|en|Mount San Antonio||Mount San Antonio}} 10,068"
+        ],
+        "elevation_min_ft": [
+            "{{tsl|en|Wilmington, Los Angeles, California||Wilmington}} −9"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "洛杉磯–長灘–安那翰",
+                "洛杉磯"
+            ]
+        ],
+        "native_name": [
+            "{{lang|en|Los Angeles}}"
+        ],
+        "nickname": [
+            "“L.A.”、“天使之城”"
+        ],
+        "website": [
+            "[https://lacity.gov/ lacity.gov]"
+        ],
+        "alt1": [
+            "Century City"
+        ],
+        "alt2": [
+            "Hollywood Sign"
+        ],
+        "alt3": [
+            "Griffith Observatory"
+        ],
+        "alt4": [
+            "Echo Park"
+        ],
+        "alt5": [
+            "Los Angeles City Hall"
+        ],
+        "alt6": [
+            "Theme Building at Los Angeles International Airport"
+        ],
+        "alt7": [
+            "Venice Beach}}"
+        ],
+        "coord": [
+            "{{Coord|34.054|-118.245|type:city_region:US|display"
+        ],
+        "government_type": [
+            "[[市長議會制政府|市長議會制]]"
+        ],
+        "governing_body": [
+            "{{Link-en|洛杉磯市議會|Los Angeles City Council}}"
+        ],
+        "leader_title": [
+            "{{Link-en|洛杉磯市長|Mayor of Los Angeles, California|市長}}"
+        ],
+        "leader_name": [
+            "[[凱倫·巴斯]]（[[美國民主黨|D]]）"
+        ],
+        "leader_title1": [
+            "市司法長"
+        ],
+        "leader_name1": [
+            "{{Link-en|海迪·費爾德斯坦·索托|Hydee Feldstein Soto}}"
+        ],
+        "leader_title2": [
+            "市審計長"
+        ],
+        "leader_name2": [
+            "{{Link-en|肯尼思·梅希亞|Kenneth Mejia}}"
+        ],
+        "area_magnitude": [
+            "unit_pref"
+        ],
+        "area_land_sq_mi": [
+            "469"
+        ],
+        "area_water_sq_mi": [
+            "34"
+        ],
+        "area_total_km2": [
+            "1302"
+        ],
+        "area_land_km2": [
+            "1214"
+        ],
+        "area_water_km2": [
+            "88"
+        ],
+        "area_water_percent": [
+            "6.7"
+        ],
+        "area_note": [
+            "population_as_of"
+        ],
+        "population_total": [
+            "3,976,322"
+        ],
+        "population_urban": [
+            "12,150,996"
+        ],
+        "population_metro": [
+            "13,131,431 "
+        ],
+        "population_blank1_title": [
+            "CSA"
+        ],
+        "population_blank1": [
+            "18,351,929"
+        ],
+        "population_demonym": [
+            "population_density_km2"
+        ],
+        "timezone": [
+            "[[太平洋時區|PST]]"
+        ],
+        "utc_offset": [
+            "-8"
+        ],
+        "timezone_DST": [
+            "PDT"
+        ],
+        "utc_offset_DST": [
+            "-7"
+        ],
+        "latd": [
+            "34"
+        ],
+        "elevation_m": [
+            "71"
+        ],
+        "elevation_ft": [
+            "233"
+        ],
+        "postal_code_type": [
+            "郵政編碼"
+        ],
+        "postal_code": [
+            "90001–90068, 90070–90084, 90086–90089, 90091, 90093–90097, 90099, 90101–90103, 90174, 90185, 90189, 90291–90293, 91040–91043, 91303–91308, 91342–91349, 91352–91353, 91356–91357, 91364–91367, 91401–91499, 91601–91609"
+        ],
+        "area_code": [
+            "213、310/424、323、661、747/818"
+        ],
+        "established_title": [
+            "定居"
+        ],
+        "established_date": [
+            "1781年9月4日"
+        ],
+        "established_title2": [
+            "建市"
+        ],
+        "established_date2": [
+            "1850年4月4日"
+        ],
+        "blank_name": [
+            "[[聯邦資料處理標準|FIPS程式碼]]"
+        ],
+        "blank_info": [
+            "06-44000"
+        ],
+        "blank1_name": [
+            "[[地理名稱資訊系統|GNIS]]程式碼"
+        ],
+        "blank1_info": [
+            "1662328"
+        ]
+    },
+    "拉斯維加斯": {
+        "locationName": [
+            "拉斯維加斯"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "拉斯維加斯"
+        ],
+        "native_name": [
+            "{{lang|en|Las Vegas}}"
+        ],
+        "official_name": [
+            "拉斯維加斯市&lt;br&gt;{{lang|en|City of Las Vegas}}"
+        ],
+        "settlement_type": [
+            "[[美國行政區劃|市]]"
+        ],
+        "etymology": [
+            "Las vegas{{language icon|es}}「青草地」&lt;ref name"
+        ],
+        "nickname": [
+            "罪惡之城、夜光之城、世界賭都"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "拉斯維加斯"
+            ]
+        ]
+    },
+    "中心": {
+        "locationName": [
+            "中心"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "中心"
+        ],
+        "settlement_type": [
+            "[[人口普查指定地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[阿拉斯加州行政區劃|人口普查區]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[阿拉斯加州]]"
+        ],
+        "subdivision_name2": [
+            "[[育空-科尤庫克人口普查區]]"
+        ],
+        "elevation_ft": [
+            "942"
+        ],
+        "elevation_m": [
+            "287"
+        ],
+        "area_total_km2": [
+            "646.10"
+        ],
+        "area_land_km2": [
+            "642.20"
+        ],
+        "area_water_km2": [
+            "3.90"
+        ],
+        "population_as_of": [
+            "[[2010年美國人口普查]]"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[阿拉斯加時區]]"
+        ],
+        "utc_offset": [
+            "-9"
+        ],
+        "utc_offset_DST": [
+            "-8"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "99730"
+        ],
+        "area_code": [
+            "{{link-en|電話區號907|Area code 907|907}}"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "1400106&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "中心"
+            ]
+        ]
+    },
+    "大陸": {
+        "locationName": [
+            "大陸"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "大陸"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[亞利桑那州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[亞利桑那州]]"
+        ],
+        "subdivision_name2": [
+            "[[皮馬縣 (亞利桑那州)|皮馬縣]]"
+        ],
+        "elevation_ft": [
+            "2864"
+        ],
+        "elevation_m": [
+            "873"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美山區時區]]"
+        ],
+        "utc_offset": [
+            "-7"
+        ],
+        "utc_offset_DST": [
+            "-6"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "027862&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "大陸"
+            ]
+        ]
+    },
+    "三點": {
+        "locationName": [
+            "三點"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "三點"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[加利福尼亞州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[加利福尼亞州]]"
+        ],
+        "subdivision_name2": [
+            "[[洛杉磯縣 (加利福尼亞州)|洛杉磯縣]]"
+        ],
+        "elevation_ft": [
+            "9853"
+        ],
+        "elevation_m": [
+            "3000"
+        ],
+        "timezone": [
+            "[[太平洋時區]]"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "area_land_km2": [
+            "120.22"
+        ],
+        "area_water_km2": [
+            "0.00"
+        ],
+        "population_as_of": [
+            "[[2010年美國人口普查]]"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "utc_offset": [
+            "-8"
+        ],
+        "utc_offset_DST": [
+            "-7"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "1655024&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "三點"
+            ]
+        ]
+    },
+    "布希": {
+        "locationName": [
+            "布希"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "布希"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[阿肯色州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[阿肯色州]]"
+        ],
+        "subdivision_name2": [
+            "[[卡羅爾縣 (阿肯色州)|卡羅爾縣]]"
+        ],
+        "elevation_ft": [
+            "1109"
+        ],
+        "elevation_m": [
+            "338"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美中部時區]]"
+        ],
+        "utc_offset": [
+            "-6"
+        ],
+        "utc_offset_DST": [
+            "-5"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "057478&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "布希"
+            ]
+        ]
+    },
+    "獨立": {
+        "locationName": [
+            "獨立"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "獨立"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[加利福尼亞州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[加利福尼亞州]]"
+        ],
+        "subdivision_name2": [
+            "[[卡拉韋拉斯縣 (加利福尼亞州)|卡拉韋拉斯縣]]"
+        ],
+        "elevation_ft": [
+            "2628"
+        ],
+        "elevation_m": [
+            "801"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[太平洋時區]]"
+        ],
+        "utc_offset": [
+            "-8"
+        ],
+        "utc_offset_DST": [
+            "-7"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "225841&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "獨立"
+            ]
+        ]
+    },
+    "路口": {
+        "locationName": [
+            "路口"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "路口"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[加利福尼亞州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[加利福尼亞州]]"
+        ],
+        "subdivision_name2": [
+            "[[拉森縣 (加利福尼亞州)|拉森縣]]"
+        ],
+        "elevation_ft": [
+            "4528"
+        ],
+        "elevation_m": [
+            "1380"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[太平洋時區]]"
+        ],
+        "utc_offset": [
+            "-8"
+        ],
+        "utc_offset_DST": [
+            "-7"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "1659980&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "路口"
+            ]
+        ]
+    },
+    "櫻桃": {
+        "locationName": [
+            "櫻桃"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "櫻桃"
+        ],
+        "settlement_type": [
+            "[[人口普查指定地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[加利福尼亞州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[加利福尼亞州]]"
+        ],
+        "subdivision_name2": [
+            "[[優洛縣 (加利福尼亞州)|優洛縣]]"
+        ],
+        "elevation_ft": [
+            "361"
+        ],
+        "elevation_m": [
+            "110"
+        ],
+        "timezone": [
+            "[[太平洋時區]]"
+        ],
+        "area_total_km2": [
+            "7.529"
+        ],
+        "area_land_km2": [
+            "7.529"
+        ],
+        "area_water_km2": [
+            "0.000"
+        ],
+        "population_as_of": [
+            "[[2010年美國人口普查]]"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "utc_offset": [
+            "-8"
+        ],
+        "utc_offset_DST": [
+            "-7"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "95627"
+        ],
+        "area_code": [
+            "{{link-en|電話區號916|Area code 916|916}}"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "224711&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "櫻桃"
+            ]
+        ]
+    },
+    "詹森": {
+        "locationName": [
+            "詹森"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "詹森"
+        ],
+        "settlement_type": [
+            "[[人口普查指定地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[科羅拉多州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[科羅拉多州]]"
+        ],
+        "subdivision_name2": [
+            "[[拉斯阿尼馬斯縣 (科羅拉多州)|拉斯阿尼馬斯縣]]"
+        ],
+        "elevation_ft": [
+            "6129"
+        ],
+        "elevation_m": [
+            "1868"
+        ],
+        "timezone": [
+            "[[北美山區時區]]"
+        ],
+        "area_total_km2": [
+            "3.03"
+        ],
+        "area_land_km2": [
+            "3.03"
+        ],
+        "area_water_km2": [
+            "0.00"
+        ],
+        "population_as_of": [
+            "[[2010年美國人口普查]]"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "utc_offset": [
+            "-8"
+        ],
+        "utc_offset_DST": [
+            "-6"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "81082"
+        ],
+        "area_code": [
+            "{{link-en|電話區號719|Area code 719|719}}"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "204812&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "詹森"
+            ]
+        ]
+    },
+    "瑞士": {
+        "locationName": [
+            "瑞士"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "瑞士"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[佛羅裡達州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[佛羅裡達州]]"
+        ],
+        "subdivision_name2": [
+            "[[聖約翰斯縣 (佛羅裡達州)|聖約翰斯縣]]"
+        ],
+        "elevation_ft": [
+            "23"
+        ],
+        "elevation_m": [
+            "7"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美東部時區]]"
+        ],
+        "utc_offset": [
+            "-5"
+        ],
+        "utc_offset_DST": [
+            "-4"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "308143&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "瑞士"
+            ]
+        ]
+    },
+    "南京": {
+        "locationName": [
+            "南京"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "南京"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[喬治亞州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[喬治亞州]]"
+        ],
+        "subdivision_name2": [
+            "[[布魯克斯縣 (喬治亞州)|布魯克斯縣]]"
+        ],
+        "elevation_ft": [
+            "197"
+        ],
+        "elevation_m": [
+            "60"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美東部時區]]"
+        ],
+        "utc_offset": [
+            "-5"
+        ],
+        "utc_offset_DST": [
+            "-4"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "332463&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "南京"
+            ]
+        ]
+    },
+    "伊拉": {
+        "locationName": [
+            "伊拉"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "伊拉"
+        ],
+        "native_name": [
+            "Ila"
+        ],
+        "settlement_type": [
+            "[[城市]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[喬治亞州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[喬治亞州]]"
+        ],
+        "subdivision_name2": [
+            "[[麥迪遜縣 (喬治亞州)|麥迪遜縣]]"
+        ],
+        "elevation_ft": [
+            "801"
+        ],
+        "elevation_m": [
+            "244"
+        ],
+        "timezone": [
+            "[[北美東部時區|EST]]"
+        ],
+        "area_total_km2": [
+            "2.10"
+        ],
+        "area_land_km2": [
+            "2.10"
+        ],
+        "area_water_km2": [
+            "0.00"
+        ],
+        "area_total_sq_mi": [
+            "area_land_sq_mi"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "utc_offset": [
+            "-7"
+        ],
+        "utc_offset_DST": [
+            "-6"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "30647"
+        ],
+        "area_code": [
+            "{{link-en|電話區號706|Area code 706|706}}"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "315877&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "伊拉"
+            ]
+        ]
+    },
+    "維加": {
+        "locationName": [
+            "維加"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "{{lang|en|Vega, Texas}}"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國行政區劃|州]]"
+        ],
+        "subdivision_type2": [
+            "[[得克薩斯州各縣列表|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[得克薩斯州]]"
+        ],
+        "subdivision_name2": [
+            "[[奧爾德姆縣 (得克薩斯州)|奧爾德姆縣]]"
+        ],
+        "elevation_ft": [
+            "4029"
+        ],
+        "elevation_m": [
+            "249"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "866.7"
+        ],
+        "timezone": [
+            "北美中部時區"
+        ],
+        "utc_offset": [
+            "-6"
+        ],
+        "utc_offset_DST": [
+            "-5"
+        ],
+        "postal_code_type": [
+            "郵政編碼"
+        ],
+        "postal_code": [
+            "79092"
+        ],
+        "blank_name": [
+            "[[聯邦資料處理標準]]"
+        ],
+        "blank_info": [
+            "48-75188{{GR|2}}"
+        ],
+        "chinese_name": [
+            "維加"
+        ],
+        "area_total": [
+            "2.8"
+        ],
+        "area_land": [
+            "2.8"
+        ],
+        "area_water": [
+            "0.0"
+        ],
+        "area_total_sq_mi": [
+            "1.1"
+        ],
+        "area_land_sq_mi": [
+            "1.1"
+        ],
+        "area_water_sq_mi": [
+            "0.0"
+        ],
+        "population_as_of": [
+            "2000年"
+        ],
+        "population_total": [
+            "936"
+        ],
+        "population_density": [
+            "334.6"
+        ],
+        "timezone_DST": [
+            "CDT"
+        ],
+        "elevation": [
+            "1228"
+        ],
+        "area_code": [
+            "806"
+        ],
+        "blank1_name": [
+            "地理名詞資訊系統編號"
+        ],
+        "blank1_info": [
+            "1370610{{GR|3}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "維加"
+            ]
+        ]
+    },
+    "伊麗莎": {
+        "locationName": [
+            "伊麗莎"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "伊麗莎"
+        ],
+        "native_name": [
+            "Eliza"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[伊利諾伊州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[伊利諾伊州]]"
+        ],
+        "subdivision_name2": [
+            "[[默瑟縣 (伊利諾伊州)|默瑟縣]]"
+        ],
+        "elevation_ft": [
+            "696"
+        ],
+        "elevation_m": [
+            "212"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美中部時區]]"
+        ],
+        "utc_offset": [
+            "-6"
+        ],
+        "utc_offset_DST": [
+            "-5"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "407865&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "伊麗莎"
+            ]
+        ]
+    },
+    "斯坦": {
+        "locationName": [
+            "斯坦"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "斯坦"
+        ],
+        "native_name": [
+            "Stains"
+        ],
+        "native_name_lang": [
+            "fr"
+        ],
+        "settlement_type": [
+            "{{FRA}}[[市鎮 (法國)|城市]]"
+        ],
+        "total_type": [
+            "[[市鎮 (法國)|市鎮]]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "斯坦"
+            ]
+        ]
+    },
+    "維多利亞港": {
+        "locationName": [
+            "維多利亞港"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "維多利亞港"
+        ],
+        "native_name": [
+            "Porto Vitória"
+        ],
+        "settlement_type": [
+            "市鎮"
+        ],
+        "subdivision_name": [
+            "巴西"
+        ],
+        "subdivision_type1": [
+            "[[巴西行政區劃|州]]"
+        ],
+        "subdivision_name1": [
+            "[[巴拉那州]]"
+        ],
+        "population_as_of": [
+            "2008"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_demonym": [
+            "population_note"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "維多利亞港"
+            ]
+        ]
+    },
+    "伊麗莎白": {
+        "locationName": [
+            "伊麗莎白"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "伊麗莎白&lt;br&gt;Elizabeth"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州]]"
+        ],
+        "subdivision_name1": [
+            "[[新澤西州]]"
+        ],
+        "area_total_km2": [
+            "9.75"
+        ],
+        "population_as_of": [
+            "[[2010年美國人口普查|2010年]]"
+        ],
+        "population_total": [
+            "124969"
+        ],
+        "population_density_km2": [
+            "3916.7"
+        ],
+        "subdivision_type": [
+            "[[世界地理索引|國家]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "timezone": [
+            "[[北美東部時區]]"
+        ],
+        "utc_offset": [
+            "-5"
+        ],
+        "timezone_DST": [
+            "北美東部時區"
+        ],
+        "utc_offset_DST": [
+            "-4"
+        ],
+        "postal_code_type": [
+            "[[美國郵政編碼|ZIP程式碼]]"
+        ],
+        "postal_code": [
+            ""
+        ],
+        "area_code": [
+            "908"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "伊麗莎白&lt;br&gt;Erzsébet",
+                "伊麗莎白&lt;br&gt;Elizabeth"
+            ]
+        ],
+        "settlement_type": [
+            "[[城市]]"
+        ],
+        "subdivision_type2": [
+            "[[縣 (美國)|縣]]"
+        ],
+        "subdivision_name2": [
+            "[[聯合縣 (新澤西州)|聯合縣]]"
+        ],
+        "government_type": [
+            "[[市長議會制]]"
+        ],
+        "leader_title": [
+            "[[市長]]"
+        ],
+        "leader_name": [
+            "J·克里斯蒂安·“克里斯”·包維知（任期於2015年12月31日結束）"
+        ],
+        "established_title": [
+            "成立"
+        ],
+        "established_date": [
+            "1665年"
+        ],
+        "established_title2": [
+            "成立市政機關"
+        ],
+        "established_date2": [
+            "1855年3月13日"
+        ],
+        "unit_pref": [
+            "Imperial"
+        ],
+        "area_magnitude": [
+            "area_total_km2"
+        ],
+        "area_land_km2": [
+            "31.907"
+        ],
+        "area_water_km2": [
+            "2.966"
+        ],
+        "area_total_sq_mi": [
+            "13.464"
+        ],
+        "area_land_sq_mi": [
+            "12.319"
+        ],
+        "area_water_sq_mi": [
+            "1.145"
+        ],
+        "area_water_percent": [
+            "8.51"
+        ],
+        "area_rank": [
+            "州中566個城鎮中排行第180位&lt;br&gt;縣內21個城鎮中排行第1位&lt;ref name"
+        ],
+        "population_rank": [
+            "州中566個城鎮中排行第4位&lt;br&gt;縣內21個城鎮中排行第1位&lt;ref name"
+        ],
+        "population_density_sq_mi": [
+            "10144.1"
+        ],
+        "population_density_rank": [
+            "州中566個城鎮中排行第37位&lt;br&gt;縣內21個城鎮中排行第2位&lt;ref name"
+        ],
+        "population_est": [
+            "126458"
+        ],
+        "pop_est_as_of": [
+            "2012&lt;ref name"
+        ],
+        "elevation_m": [
+            "elevation_ft"
+        ],
+        "latd": [
+            "40.666261"
+        ],
+        "blank_name": [
+            "[[聯邦資訊處理標準|FIPS程式碼]]"
+        ],
+        "blank_info": [
+            "3403921000{{GR|2|dateform"
+        ],
+        "blank1_name": [
+            "[[地名資訊系統|GNIS程式碼]]"
+        ],
+        "blank1_info": [
+            "0885205{{GR|3|dateform"
+        ],
+        "website": [
+            "http://www.elizabethnj.org/"
+        ]
+    },
+    "日本": {
+        "locationName": [
+            "日本"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "日本"
+        ],
+        "native_name": [
+            "Japan"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_name": [
+            "{{USA}}"
+        ],
+        "subdivision_type1": [
+            "[[美國行政區劃|州]]"
+        ],
+        "subdivision_name1": [
+            "{{flag|密蘇裡州}}"
+        ],
+        "subdivision_type2": [
+            "[[密蘇裡州行政區劃|縣]]"
+        ],
+        "subdivision_name2": [
+            "[[富蘭克林縣 (密蘇裡州)|富蘭克林縣]]"
+        ],
+        "elevation_ft": [
+            "899"
+        ],
+        "latd": [
+            "38"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_info": [
+            "740963&lt;ref name"
+        ],
+        "name": [
+            "日本"
+        ],
+        "continent": [
+            "[[亞洲]]"
+        ],
+        "region": [
+            "[[東亞]]"
+        ],
+        "area ranking": [
+            "61"
+        ],
+        "km area": [
+            "377,975.24&lt;ref name"
+        ],
+        "percent land": [
+            "87.93099"
+        ],
+        "km coastline": [
+            "29751"
+        ],
+        "northernmost point": [
+            "[[Benten-jima (Wakkanai)|Benten-jima]]"
+        ],
+        "southernmost point": [
+            "[[Okinotorishima]]"
+        ],
+        "easternmost point": [
+            "[[Minami-Tori-shima]]"
+        ],
+        "westernmost point": [
+            "[[Cape Irizaki]]--&gt;"
+        ],
+        "geographic center": [
+            "highest point"
+        ],
+        "lowest point": [
+            "[[八郎潟]] &lt;br&gt; {{convert|-4|m|ft|abbr"
+        ],
+        "longest river": [
+            "[[信濃川]] &lt;br&gt; {{convert|367|km|mi|abbr"
+        ],
+        "largest lake": [
+            "[[琵琶湖]] &lt;br&gt; {{convert|671|km2|sqmi|abbr"
+        ],
+        "climate": [
+            "多樣；南方為[[熱帶]]，北方為涼爽的[[大陸性氣候]]，山區為{{link-en|亞北極|Subarctic}}，或[[凍原#高山凍原|高山凍原]]&lt;ref name"
+        ],
+        "terrain": [
+            "多為火山地貌山地丘陵地帶&lt;ref name"
+        ],
+        "natural resources": [
+            "海洋：海洋生物和礦物資源&lt;ref name"
+        ],
+        "natural hazards": [
+            "[[火山噴發]]、[[海嘯]]、[[地震]]、[[颱風]]等。&lt;ref name"
+        ],
+        "environmental issues": [
+            "[[空氣汙染]]；{{link-en|淡水酸化|Freshwater acidification|湖泊和水庫酸化}}；[[過度捕撈]]；[[森林砍伐]]&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "日本"
+            ]
+        ]
+    },
+    "龜殼": {
+        "locationName": [
+            "龜殼"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "Village/LiName": [
+            "龜殼"
+        ],
+        "Village/Li": [
+            "裡"
+        ],
+        "City/CountyName": [
+            "[[臺中市]]"
+        ],
+        "DivName": [
+            "[[大安區 (臺中市)|大安區]]"
+        ],
+        "Caption": [
+            "龜殼裡位於臺中市大安區中部"
+        ],
+        "OldName": [
+            "龜殼-{莊}-、龜殼村"
+        ],
+        "Sub": [
+            "12"
+        ],
+        "EstDate": [
+            "1945年（龜殼村）"
+        ],
+        "Head": [
+            "洪正義&lt;ref name"
+        ],
+        "Address": [
+            "中山南路802巷13號&lt;ref name"
+        ],
+        "AreaTotal": [
+            "3.5671"
+        ],
+        "AreaSource": [
+            "{{sfn|陳炎正|1989|p"
+        ],
+        "HouseholdTotal": [
+            "511"
+        ],
+        "PopTotal": [
+            "1600"
+        ],
+        "Male": [
+            "861"
+        ],
+        "Female": [
+            "739"
+        ],
+        "YearMonth": [
+            "2024年12月"
+        ],
+        "PopSource": [
+            ""
+        ],
+        "PostalCode": [
+            "439"
+        ],
+        "AreaCode": [
+            "04"
+        ],
+        "Neighbors": [
+            "[[海墘裡]]、[[西安裡 (臺中市大安區)|西安裡]]、[[松雅裡]]、[[中莊裡 (臺中市)|中-{莊裡}-]]、[[福興裡 (臺中市大安區)|福興裡]]；[[大甲區]][[莊美里|-{莊}-美里]]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "龜殼"
+            ]
+        ]
+    },
+    "中山": {
+        "locationName": [
+            "中山"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "native_name": [
+            "中山"
+        ],
+        "conventional_long_name": [
+            "中山王國"
+        ],
+        "common_name": [
+            "中山"
+        ],
+        "continent": [
+            "亞洲"
+        ],
+        "country": [
+            "government_type"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "中山"
+            ]
+        ]
+    },
+    "亞洲": {
+        "locationName": [
+            "亞洲"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "continent": [
+            "亞洲"
+        ],
+        "region": [
+            "南亞"
+        ],
+        "native_name": [
+            "&lt;br&gt;बिजापूर सल्तनत्&lt;br&gt;ಬಿಜಾಪುರ ಸಲ್ತನತ್"
+        ],
+        "conventional_long_name": [
+            "比賈布林蘇丹國"
+        ],
+        "common_name": [
+            "比賈布林蘇丹國"
+        ],
+        "country": [
+            "印度"
+        ],
+        "era": [
+            "status"
+        ],
+        "date_start": [
+            "event1"
+        ],
+        "date_end": [
+            "p1"
+        ],
+        "flag_p1": [
+            "p2"
+        ],
+        "flag_p2": [
+            "s1"
+        ],
+        "s2": [
+            "馬拉塔帝國"
+        ],
+        "s3": [
+            "邁索爾王國"
+        ],
+        "capital": [
+            "[[比賈布林]]"
+        ],
+        "common_languages": [
+            "[[波斯語]]&lt;br&gt;[[Deccani Urdu]]&lt;br&gt;[[卡納達語]]"
+        ],
+        "religion": [
+            "[[什葉派]][[伊斯蘭教]]&lt;br&gt;[[遜尼派]][[伊斯蘭教]]"
+        ],
+        "government_type": [
+            "君主制"
+        ],
+        "leader1": [
+            "[[優素福·阿迪爾·沙阿]]"
+        ],
+        "year_leader1": [
+            "1490年–1510年"
+        ],
+        "leader2": [
+            "{{link-en|西坎達爾·阿迪勒沙阿|Sikandar Adil Shah}}"
+        ],
+        "year_leader2": [
+            "1672年–1686年"
+        ],
+        "title_leader": [
+            "[[沙阿]]"
+        ],
+        "legislature": [
+            "today"
+        ],
+        "title": [
+            "亞洲"
+        ],
+        "area": [
+            "{{convert|44579000|km2|sqmi|abbr"
+        ],
+        "population": [
+            "{{UN Population|Asia}}（{{UN Population|Year}}；{{tsl|en|List of continents and continental subregions by population||第1}}）{{UN Population|ref}}"
+        ],
+        "density": [
+            "{{convert|100|/km2|/sqmi}}"
+        ],
+        "GDP_PPP": [
+            "$72.7萬億（2022年；{{tsl|en|List of continents by GDP||第1}}）"
+        ],
+        "GDP_nominal": [
+            "$39萬億（2022年；{{tsl|en|List of continents by GDP||第1}}）"
+        ],
+        "GDP_per_capita": [
+            "$8,890（2022年；{{tsl|en|List of continents by GDP||第4}}）"
+        ],
+        "religions": [
+            "{{unbulleted list"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "亞洲"
+            ]
+        ]
+    },
+    "醫院": {
+        "locationName": [
+            "醫院"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "915醫院"
+        ],
+        "name_en": [
+            "admin"
+        ],
+        "address": [
+            "[[平壤直轄市]][[兄弟山區域]]鶴山"
+        ],
+        "discriminate_code": [
+            ""
+        ],
+        "funding": [
+            "type"
+        ],
+        "beds": [
+            "num_employees"
+        ],
+        "dean": [
+            "website"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "695醫院",
+                "915醫院"
+            ]
+        ]
+    },
+    "亞德": {
+        "locationName": [
+            "亞德"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "亞德"
+        ],
+        "native_name": [
+            "Jade"
+        ],
+        "district": [
+            "[[威悉馬施縣]]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "亞德"
+            ]
+        ]
+    },
+    "研究所": {
+        "locationName": [
+            "研究所"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "GroupLens研究所"
+        ],
+        "research_field": [
+            "推薦系統、社交計算"
+        ],
+        "faculty": [
+            "5人"
+        ],
+        "staff": [
+            "2人"
+        ],
+        "students": [
+            "20名研究生"
+        ],
+        "city": [
+            "[[美國]][[明尼蘇達州]][[明尼阿波利斯]]"
+        ],
+        "state": [
+            "country"
+        ],
+        "website": [
+            "[http://www.grouplens.org/ www.grouplens.org]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "GroupLens研究所"
+            ]
+        ]
+    },
+    "江原道": {
+        "locationName": [
+            "江原道"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "title": [
+            "江原道"
+        ],
+        "hangul": [
+            "강원도"
+        ],
+        "hanja": [
+            "江原道"
+        ],
+        "rr": [
+            "Gangwon-do"
+        ],
+        "mr": [
+            "Kangwŏn-do"
+        ],
+        "context": [
+            "north"
+        ],
+        "popyear": [
+            "popden_km2"
+        ],
+        "divs": [
+            "2市（시）15郡（군）"
+        ],
+        "region": [
+            "關東地方&lt;br&gt;嶺西地方（[[太白山脈]]西側）&lt;br&gt;嶺東地方（太白山脈東側）"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "江原道"
+            ]
+        ]
+    },
+    "大道": {
+        "locationName": [
+            "大道"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "I大道"
+        ],
+        "former": [
+            "帕克維爾（Parkville）"
+        ],
+        "address": [
+            "11230 [[紐約市]][[布魯克林]]&lt;br&gt;I大道及{{le|麥當勞大道|McDonald Avenue}}"
+        ],
+        "borough": [
+            "[[布魯克林]]"
+        ],
+        "locale": [
+            "{{le|米德伍德 (布魯克林)|Midwood, Brooklyn|米德伍德}}及{{le|梅普頓 (布魯克林)|Mapleton, Brooklyn|梅普頓}}"
+        ],
+        "division": [
+            "IND Culver"
+        ],
+        "line": [
+            "Culver local|left"
+        ],
+        "service": [
+            "Culver IND south local"
+        ],
+        "connection": [
+            "{{bus icon}} '''[[MTA區域公車營運|紐約市公共運輸公車]]''': {{NYC bus link|B11}}"
+        ],
+        "platforms": [
+            "2個[[側式月臺]]"
+        ],
+        "tracks": [
+            "3股（2股常態執行）"
+        ],
+        "code": [
+            "IND卡爾弗線"
+        ],
+        "structure": [
+            "Elevated"
+        ],
+        "open_date": [
+            "{{start date and age|1919|Mar|16|mf"
+        ],
+        "pass_ref": [
+            "&lt;ref name"
+        ],
+        "accessible": [
+            "future"
+        ],
+        "adjacent_stations": [
+            "{{Adjacent stations|system"
+        ],
+        "legend": [
+            "{{NYCS infobox legend|alltimes}}{{NYCS infobox legend|limitedrushpeak}}{{NYCS infobox legend|weekdaysnights}}"
+        ],
+        "layout": [
+            "{{NYCS 3-tracked local station|inline"
+        ],
+        "1": [
+            "18大道"
+        ],
+        "l1": [
+            "18大道"
+        ],
+        "2": [
+            "海灣公園道"
+        ],
+        "l2": [
+            "海灣公園道"
+        ],
+        "unused": [
+            "yes"
+        ],
+        "deg": [
+            "015"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "I大道"
+            ]
+        ]
+    }
+}

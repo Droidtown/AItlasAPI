@@ -1,0 +1,1166 @@
+{
+    "湖區": {
+        "locationName": [
+            "湖區"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "湖區"
+        ],
+        "native_name": [
+            "Озёрная"
+        ],
+        "native_name_lang": [
+            "ru"
+        ],
+        "type": [
+            "{{STPETERSBURGMETRO type}}"
+        ],
+        "borough": [
+            "[[聖彼得堡]]"
+        ],
+        "country": [
+            "[[俄羅斯]]"
+        ],
+        "line": [
+            "{{STPETERSBURGMETRO-line2}}"
+        ],
+        "other": [
+            "structure"
+        ],
+        "structure": [
+            "{{link-en|淺層列柱車站|Shallow column station|雙跨徑淺層列柱車站}}"
+        ],
+        "platform": [
+            "1個[[島式月臺]]"
+        ],
+        "depth": [
+            "levels"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "parking": [
+            "bicycle"
+        ],
+        "closed": [
+            "rebuilt"
+        ],
+        "zone": [
+            "smartcardname"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "湖區",
+                "湖區&lt;br /&gt;{{lang|ru|Озерки́}}"
+            ]
+        ],
+        "address": [
+            "[[維堡區 (聖彼得堡)|維堡區]]"
+        ]
+    },
+    "太和": {
+        "locationName": [
+            "太和"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "太和"
+        ],
+        "eng_name": [
+            "Tai Wo"
+        ],
+        "livery": [
+            "{{港鐵車站顏色|太和}}"
+        ],
+        "namecolour": [
+            "{{港鐵車站顏色|太和|text}}"
+        ],
+        "linecolour": [
+            "{{港鐵顏色|EAL}}"
+        ],
+        "borough": [
+            "{{HKG}}[[新界]][[大埔區]]"
+        ],
+        "address": [
+            "[[太和 (香港)|太和]]寶雅路"
+        ],
+        "elevation": [
+            "operator"
+        ],
+        "lines": [
+            "{{港鐵路線標誌|EAL|S}}"
+        ],
+        "distance": [
+            "platform"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "connections": [
+            "[[香港巴士|巴士]]、[[香港小巴|小巴]]"
+        ],
+        "structure": [
+            "[[高架車站#構造|堤上車站]]"
+        ],
+        "hall": [
+            "高架大堂"
+        ],
+        "depth": [
+            "levels"
+        ],
+        "interchange": [
+            "exits"
+        ],
+        "elevator": [
+            "2部&lt;ref name"
+        ],
+        "escalator": [
+            "6條&lt;ref name"
+        ],
+        "status": [
+            "使用中"
+        ],
+        "code": [
+            "TWO"
+        ],
+        "built": [
+            "opened"
+        ],
+        "opening": [
+            "closed"
+        ],
+        "first": [
+            "往{{站|羅湖||香港}}：05:49"
+        ],
+        "last": [
+            "往{{站|羅湖||香港}}：23:35"
+        ],
+        "adjacent": [
+            "{{Adjacent stations|system"
+        ],
+        "other_services": [
+            "route_map"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "太和"
+            ]
+        ]
+    },
+    "香港": {
+        "locationName": [
+            "香港"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "香港"
+        ],
+        "eng_name": [
+            "Hong Kong"
+        ],
+        "livery": [
+            "{{港鐵車站顏色|香港}}"
+        ],
+        "namecolour": [
+            "{{港鐵車站顏色|香港|text}}"
+        ],
+        "linecolour": [
+            "{{港鐵顏色|TCL}}"
+        ],
+        "linecolour2": [
+            "{{港鐵顏色|AEL}}"
+        ],
+        "borough": [
+            "{{HKG}}[[香港島]][[中西區 (香港)|中西區]]"
+        ],
+        "address": [
+            "[[香港]][[堅道]]16號（天主教教區中心）"
+        ],
+        "elevation": [
+            "operator"
+        ],
+        "lines": [
+            "{{港鐵路線標誌|TCL|S}}&lt;br/&gt;{{港鐵路線標誌|AEL|S}}"
+        ],
+        "distance": [
+            "platform"
+        ],
+        "tracks": [
+            "4條{{NoteTag|包括機場快綫未啟用的2號月臺路軌。}}"
+        ],
+        "connections": [
+            "[[港鐵]][[中環站]]（{{港鐵路線標誌|TWL|S}}及{{港鐵路線標誌|ISL|S}}）、[[香港巴士|巴士]]、[[香港小巴|小巴]]、[[香港電車|電車]]、[[渡輪]]、[[山頂纜車]]、[[香港計程車|計程車]]"
+        ],
+        "structure": [
+            "地底車站"
+        ],
+        "hall": [
+            "地底大堂"
+        ],
+        "depth": [
+            "levels"
+        ],
+        "interchange": [
+            "exits"
+        ],
+        "elevator": [
+            "11部&lt;ref name"
+        ],
+        "escalator": [
+            "扶手電梯39條；自動行人道4條&lt;ref name"
+        ],
+        "architect": [
+            "ARUP建築師事務所及許李嚴建築師事務所"
+        ],
+        "jurisdiction": [
+            "教區"
+        ],
+        "latin": [
+            "Dioecesis Sciiamchiamensis"
+        ],
+        "local": [
+            "{{lang|en|Catholic Diocese of Hong Kong}}{{en}}"
+        ],
+        "location": [
+            "[[香港]]"
+        ],
+        "territory": [
+            "{{BHKG}}{{to}}{{HKSAR}}&lt;br/&gt;{{CHN-1928}}[[廣東省 (中華民國)|廣東省]][[寶安縣]]、[[惠陽縣]]、[[海豐縣]]&lt;br/&gt;（至[[廣東戰役|1949年]]，現由[[廣州總教區]]事實管轄）"
+        ],
+        "rite": [
+            "[[羅馬禮]]"
+        ],
+        "patron": [
+            "[[聖母無原罪]]"
+        ],
+        "province": [
+            "廣東教省（法理上）&lt;br/&gt;直屬[[聖座]]（事實上）"
+        ],
+        "established": [
+            "1841年4月22日（成立宗座監牧區）"
+        ],
+        "cathedral": [
+            "[[聖母無原罪主教座堂 (香港)|聖母無原罪主教座堂]]"
+        ],
+        "leadership": [
+            "主教"
+        ],
+        "pope": [
+            "{{incumbent pope}}"
+        ],
+        "ordinary": [
+            "[[周守仁]]樞機"
+        ],
+        "apostolic_admin": [
+            "emeritus"
+        ],
+        "auxiliary": [
+            "[[夏志誠]]主教"
+        ],
+        "vicar general": [
+            "[[蔡惠民]]神父"
+        ],
+        "chancery": [
+            "[[李亮 (天主教神職人員)|李亮]]神父"
+        ],
+        "procura": [
+            "[[陳國輝 (天主教神職人員)|陳國輝]]神父"
+        ],
+        "title1": [
+            "title1_name"
+        ],
+        "parishes": [
+            "52處&lt;ref name"
+        ],
+        "churches": [
+            "聖堂39間、小堂32間、禮堂28間&lt;ref name"
+        ],
+        "congregations": [
+            "secular priests"
+        ],
+        "telephone_no": [
+            "{{tel|852|2522-3677}}"
+        ],
+        "website": [
+            "[https://catholic.org.hk/ 天主教香港教區網站]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "香港"
+            ]
+        ]
+    },
+    "鼓山": {
+        "locationName": [
+            "鼓山"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "鼓山"
+        ],
+        "eng_name": [
+            "Gushan"
+        ],
+        "type": [
+            "[[福州地鐵]]車站"
+        ],
+        "linecolour": [
+            "{{福州地鐵顏色|2|s}}"
+        ],
+        "country": [
+            "{{PRC}}"
+        ],
+        "borough": [
+            "[[福建省]][[福州市]][[晉安區]][[鼓山鎮]]"
+        ],
+        "address": [
+            "福馬路鼓山風景區入口"
+        ],
+        "owned": [
+            "operator"
+        ],
+        "lines": [
+            "{{福州地鐵線路名|2|full}}"
+        ],
+        "platforms": [
+            "1個[[島式站臺]]"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "code": [
+            "colour"
+        ],
+        "connections": [
+            "[[福州公交|公交]]鼓山公交總站、地鐵鼓山站"
+        ],
+        "structure": [
+            "地下車站"
+        ],
+        "hall": [
+            "地下站廳"
+        ],
+        "levels": [
+            "2層"
+        ],
+        "interchange": [
+            "exits"
+        ],
+        "status": [
+            "運營中"
+        ],
+        "opened": [
+            "{{Start date|2019|04|26|df"
+        ],
+        "services": [
+            "{{Adjacent stations|system"
+        ],
+        "route_map": [
+            "first"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "鼓山"
+            ]
+        ]
+    },
+    "薩克": {
+        "locationName": [
+            "薩克"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "conventional_long_name": [
+            "薩克"
+        ],
+        "native_name": [
+            "{{native name|en|Sark}}&lt;br&gt;Sèr / Cerq（{{small|[[諾曼語]]}}）&lt;br/&gt;{{native name|fr|Sercq}}"
+        ],
+        "common_name": [
+            "Sark"
+        ],
+        "status": [
+            "[[根西行政區]]的轄區"
+        ],
+        "official_languages": [
+            "[[英語]]"
+        ],
+        "regional_languages": [
+            "{{link-en|薩克語|Sercquiais}}"
+        ],
+        "admin_center": [
+            "無"
+        ],
+        "government_type": [
+            "[[議會制]]的[[自治]][[王室屬地]]"
+        ],
+        "leader_title1": [
+            "[[英國君主]]"
+        ],
+        "leader_name1": [
+            "[[查爾斯三世]]"
+        ],
+        "leader_title2": [
+            "[[薩克領主]]"
+        ],
+        "leader_name2": [
+            "[[克里斯托弗·博蒙特，第23代薩克領主|克里斯托弗·博蒙特]]"
+        ],
+        "legislature": [
+            "[[薩克議會|議會]]"
+        ],
+        "sovereignty_type": [
+            "established_event1"
+        ],
+        "established_date1": [
+            "1565年"
+        ],
+        "area_km2": [
+            "5.45"
+        ],
+        "population_estimate": [
+            "492&lt;ref name"
+        ],
+        "population_estimate_year": [
+            "population_census"
+        ],
+        "currency": [
+            "[[英鎊]]&lt;sup&gt;b&lt;/sup&gt;"
+        ],
+        "currency_code": [
+            "GBP"
+        ],
+        "time_zone": [
+            "[[GMT]]"
+        ],
+        "utc_offset": [
+            "time_zone_DST"
+        ],
+        "utc_offset_DST": [
+            "+1"
+        ],
+        "calling_code": [
+            "[[+44]]&amp;nbsp;1481"
+        ],
+        "iso3166code": [
+            "omit"
+        ],
+        "cctld": [
+            "[[.gg]]&lt;sup&gt;c&lt;/sup&gt;"
+        ],
+        "footnote_a": [
+            "根西行政區官方頌歌"
+        ],
+        "footnote_b": [
+            "[[根西鎊]]於根西行政區以外地區無效"
+        ],
+        "footnote_c": [
+            "薩克沒有自己的[[頂級域]]；[[.gg]]是根西行政區的域名"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "薩克"
+            ]
+        ]
+    },
+    "櫻桃": {
+        "locationName": [
+            "櫻桃"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "櫻桃"
+        ],
+        "settlement_type": [
+            "[[人口普查指定地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[加利福尼亞州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[加利福尼亞州]]"
+        ],
+        "subdivision_name2": [
+            "[[優洛縣 (加利福尼亞州)|優洛縣]]"
+        ],
+        "elevation_ft": [
+            "361"
+        ],
+        "elevation_m": [
+            "110"
+        ],
+        "timezone": [
+            "[[太平洋時區]]"
+        ],
+        "area_total_km2": [
+            "7.529"
+        ],
+        "area_land_km2": [
+            "7.529"
+        ],
+        "area_water_km2": [
+            "0.000"
+        ],
+        "population_as_of": [
+            "[[2010年美國人口普查]]"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "utc_offset": [
+            "-8"
+        ],
+        "utc_offset_DST": [
+            "-7"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "95627"
+        ],
+        "area_code": [
+            "{{link-en|電話區號916|Area code 916|916}}"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "224711&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "櫻桃"
+            ]
+        ]
+    },
+    "珍珠": {
+        "locationName": [
+            "珍珠"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "珍珠"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[科羅拉多州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[科羅拉多州]]"
+        ],
+        "subdivision_name2": [
+            "[[傑克遜縣 (科羅拉多州)|傑克遜縣]]"
+        ],
+        "elevation_ft": [
+            "12705"
+        ],
+        "elevation_m": [
+            "3872"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美山區時區]]"
+        ],
+        "utc_offset": [
+            "-7"
+        ],
+        "utc_offset_DST": [
+            "-6"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "169971&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "珍珠"
+            ]
+        ]
+    },
+    "假日": {
+        "locationName": [
+            "假日"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "假日"
+        ],
+        "settlement_type": [
+            "[[人口普查指定地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[佛羅裡達州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[佛羅裡達州]]"
+        ],
+        "subdivision_name2": [
+            "[[帕斯科縣 (佛羅裡達州)|帕斯科縣]]"
+        ],
+        "elevation_ft": [
+            "16"
+        ],
+        "elevation_m": [
+            "5"
+        ],
+        "timezone": [
+            "[[北美東部時區]]"
+        ],
+        "area_total_km2": [
+            "14.80"
+        ],
+        "area_land_km2": [
+            "13.90"
+        ],
+        "area_water_km2": [
+            "0.90"
+        ],
+        "population_as_of": [
+            "[[2010年美國人口普查]]"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "utc_offset": [
+            "-5"
+        ],
+        "utc_offset_DST": [
+            "-4"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "34690-34691"
+        ],
+        "area_code": [
+            "{{link-en|電話區號727|Area code 727|727}}"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "284144&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "假日"
+            ]
+        ]
+    },
+    "清水": {
+        "locationName": [
+            "清水"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "清水"
+        ],
+        "native_name": [
+            "Clearwater"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[愛達荷州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[愛達荷州]]"
+        ],
+        "subdivision_name2": [
+            "[[愛達荷縣 (愛達荷州)|愛達荷縣]]"
+        ],
+        "elevation_ft": [
+            "2549"
+        ],
+        "elevation_m": [
+            "777"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美山區時區]]"
+        ],
+        "utc_offset": [
+            "-7"
+        ],
+        "utc_offset_DST": [
+            "-6"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "372052&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "清水"
+            ]
+        ]
+    },
+    "德國": {
+        "locationName": [
+            "德國"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "德國"
+        ],
+        "native_name": [
+            "Germany"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[印地安納州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[印地安納州]]"
+        ],
+        "subdivision_name2": [
+            "[[克拉克縣 (印地安納州)|克拉克縣]]"
+        ],
+        "elevation_ft": [
+            "653"
+        ],
+        "elevation_m": [
+            "199"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美東部時區]]"
+        ],
+        "utc_offset": [
+            "-5"
+        ],
+        "utc_offset_DST": [
+            "-4"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "452141&lt;ref name"
+        ],
+        "district": [
+            "德國"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "德國"
+            ]
+        ]
+    },
+    "日本": {
+        "locationName": [
+            "日本"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "日本"
+        ],
+        "native_name": [
+            "Japan"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_name": [
+            "{{USA}}"
+        ],
+        "subdivision_type1": [
+            "[[美國行政區劃|州]]"
+        ],
+        "subdivision_name1": [
+            "{{flag|密蘇裡州}}"
+        ],
+        "subdivision_type2": [
+            "[[密蘇裡州行政區劃|縣]]"
+        ],
+        "subdivision_name2": [
+            "[[富蘭克林縣 (密蘇裡州)|富蘭克林縣]]"
+        ],
+        "elevation_ft": [
+            "899"
+        ],
+        "latd": [
+            "38"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_info": [
+            "740963&lt;ref name"
+        ],
+        "name": [
+            "日本"
+        ],
+        "continent": [
+            "[[亞洲]]"
+        ],
+        "region": [
+            "[[東亞]]"
+        ],
+        "area ranking": [
+            "61"
+        ],
+        "km area": [
+            "377,975.24&lt;ref name"
+        ],
+        "percent land": [
+            "87.93099"
+        ],
+        "km coastline": [
+            "29751"
+        ],
+        "northernmost point": [
+            "[[Benten-jima (Wakkanai)|Benten-jima]]"
+        ],
+        "southernmost point": [
+            "[[Okinotorishima]]"
+        ],
+        "easternmost point": [
+            "[[Minami-Tori-shima]]"
+        ],
+        "westernmost point": [
+            "[[Cape Irizaki]]--&gt;"
+        ],
+        "geographic center": [
+            "highest point"
+        ],
+        "lowest point": [
+            "[[八郎潟]] &lt;br&gt; {{convert|-4|m|ft|abbr"
+        ],
+        "longest river": [
+            "[[信濃川]] &lt;br&gt; {{convert|367|km|mi|abbr"
+        ],
+        "largest lake": [
+            "[[琵琶湖]] &lt;br&gt; {{convert|671|km2|sqmi|abbr"
+        ],
+        "climate": [
+            "多樣；南方為[[熱帶]]，北方為涼爽的[[大陸性氣候]]，山區為{{link-en|亞北極|Subarctic}}，或[[凍原#高山凍原|高山凍原]]&lt;ref name"
+        ],
+        "terrain": [
+            "多為火山地貌山地丘陵地帶&lt;ref name"
+        ],
+        "natural resources": [
+            "海洋：海洋生物和礦物資源&lt;ref name"
+        ],
+        "natural hazards": [
+            "[[火山噴發]]、[[海嘯]]、[[地震]]、[[颱風]]等。&lt;ref name"
+        ],
+        "environmental issues": [
+            "[[空氣汙染]]；{{link-en|淡水酸化|Freshwater acidification|湖泊和水庫酸化}}；[[過度捕撈]]；[[森林砍伐]]&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "日本"
+            ]
+        ]
+    },
+    "高雄市": {
+        "locationName": [
+            "高雄市"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "City/CountyName": [
+            "高雄市"
+        ],
+        "DivName": [
+            "甲仙區"
+        ],
+        "Village/LiName": [
+            "小林"
+        ],
+        "Village/Li": [
+            "村"
+        ],
+        "OldName": [
+            "[[高雄州]][[旗山郡]]-{[[甲仙莊]]}-東阿里關"
+        ],
+        "AreaTotal": [
+            "47.913"
+        ],
+        "HouseholdTotal": [
+            "226"
+        ],
+        "PopTotal": [
+            "549"
+        ],
+        "YearMonth": [
+            "2023年9月"
+        ],
+        "Male": [
+            "302"
+        ],
+        "Female": [
+            "247"
+        ],
+        "Head": [
+            "潘世彬"
+        ],
+        "Sub": [
+            "8"
+        ],
+        "Website": [
+            "http://www.jiashian.gov.tw/?Guid"
+        ],
+        "Neighbors": [
+            "[[臺南市]][[南化區]][[關山裡 (臺南市)|關山-{裡}-]]&lt;br/&gt;[[高雄市]][[甲仙區]][[關山裡 (高雄市)|關山-{裡}-]]、[[六龜區]][[寶來裡|寶來-{裡}-]]、[[桃源區]][[高中裡|高中-{裡}-]]、[[建山裡|建山-{裡}-]]、[[那瑪夏區]][[南沙魯裡|南沙魯-{裡}-]]"
+        ],
+        "Phone": [
+            "7-676-1098"
+        ],
+        "Address": [
+            "甲仙區和安裡中正路99巷11號"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "高雄市"
+            ]
+        ]
+    },
+    "金銀島": {
+        "locationName": [
+            "金銀島"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "金銀島"
+        ],
+        "official_name": [
+            ""
+        ],
+        "other_name": [
+            ""
+        ],
+        "native_name": [
+            "Treasure Island"
+        ],
+        "nickname": [
+            ""
+        ],
+        "settlement_type": [
+            "{{link-en|舊金山社群|List of neighborhoods in San Francisco|舊金山的社群}}"
+        ],
+        "motto": [
+            ""
+        ],
+        "blank_emblem_type": [
+            ""
+        ],
+        "subdivision_type": [
+            "[[主權國家列表|國家]]"
+        ],
+        "subdivision_name": [
+            "{{USA}}"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州]]"
+        ],
+        "subdivision_name1": [
+            "{{flag|California}}"
+        ],
+        "subdivision_type2": [
+            "[[市縣合一|市]]"
+        ],
+        "subdivision_name2": [
+            "[[舊金山]]"
+        ],
+        "named_for": [
+            "小說《[[金銀島]]》"
+        ],
+        "seat_type": [
+            ""
+        ],
+        "seat": [
+            ""
+        ],
+        "parts_type": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "金銀島"
+            ]
+        ]
+    },
+    "智利": {
+        "locationName": [
+            "智利"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "country": [
+            "智利"
+        ],
+        "name": [
+            "智利武裝部隊"
+        ],
+        "commander-in-chief_title": [
+            "[[智利總統|總司令]]"
+        ],
+        "minister_title": [
+            "國防部長"
+        ],
+        "age": [
+            "18歲"
+        ],
+        "active": [
+            "80,000人{{sfn| https://www.globalfirepower.com/country-military-strength-detail.php?country_id"
+        ],
+        "ranked": [
+            "38"
+        ],
+        "reserve": [
+            "40,000人{{sfn| https://www.globalfirepower.com/country-military-strength-detail.php?country_id"
+        ],
+        "amount": [
+            "55.8億美元（2022年）"
+        ],
+        "percent_GDP": [
+            "1.9%（2022年）"
+        ],
+        "domestic_suppliers": [
+            "{{tsl|es|FAMAE|智利軍工廠}}&lt;br&gt;{{tsl|es|ENAER|智利國航}}&lt;br&gt;{{tsl|es|ASMAR|智利造船廠}} &lt;br&gt;DTS&lt;br&gt;SISDEF&lt;br&gt;DESA&lt;br&gt;LINKTRONIC&lt;br&gt;Detroit Chile"
+        ],
+        "foreign_suppliers": [
+            "{{flag|Australia}}&lt;br&gt;{{flag|Brazil}}&lt;br&gt;{{flag|Canada}}&lt;br&gt;{{flag|Colombia}}&lt;br&gt;{{flag|France}}&lt;br&gt;{{flag|Germany}}&lt;br&gt;{{flag|Israel}}&lt;br&gt;{{flag|Italy}}&lt;br&gt;{{flag|Spain}}&lt;br&gt;{{flag|Sweden}}&lt;br&gt;{{flag|Republic of China}}&lt;br&gt;{{flag|United Kingdom}}&lt;br&gt;{{flag|United States}}"
+        ],
+        "'''智利軍隊'''（{{lang-es|Fuerzas Armadas de Chile}}）為南美洲智利的武裝部隊，包括了陸、海、空三軍。智利總統是其最高統帥，並且透過國防部制定政策。近幾年經過幾次大的裝備更新，智利軍成為[[拉丁美洲]]一支技術最精良、最專業的軍隊。&lt;ref name": [
+            "&quot;BAWDEN&quot;&gt;{{cite book | last"
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "智利"
+            ]
+        ]
+    }
+}

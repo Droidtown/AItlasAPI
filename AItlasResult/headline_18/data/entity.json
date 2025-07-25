@@ -1,0 +1,1336 @@
+{
+    "主席": {
+        "nerName": [
+            "主席"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "主席"
+            ]
+        ]
+    },
+    "秘密": {
+        "nerName": [
+            "秘密"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "秘密"
+        ],
+        "original_name": [
+            "''{{lang|ja|秘密}}"
+        ],
+        "executive_producer": [
+            "producer"
+        ],
+        "based on": [
+            "[[東野圭吾]]《秘密》（[[文藝春秋]]刊）"
+        ],
+        "production_supervisor": [
+            "starring"
+        ],
+        "music": [
+            "[[宇崎龍童]]"
+        ],
+        "maintheme": [
+            "[[竹內瑪莉亞]]「'''天使のため息'''」"
+        ],
+        "cinematography": [
+            "{{link-ja|栢野直樹|栢野直樹}}"
+        ],
+        "art direction": [
+            "editing"
+        ],
+        "studio": [
+            "distributor"
+        ],
+        "released": [
+            "{{flagicon|JPN}} 1999年9月25日"
+        ],
+        "runtime": [
+            "119分鐘"
+        ],
+        "country": [
+            "{{日本電影}}"
+        ],
+        "language": [
+            "[[日文]]"
+        ],
+        "budget": [
+            "preceded_by"
+        ],
+        "title_orig": [
+            "{{lang|ja|秘密}}"
+        ],
+        "author": [
+            "[[東野圭吾]]"
+        ],
+        "illustrator": [
+            "cover_artist"
+        ],
+        "series": [
+            "subject"
+        ],
+        "publisher": [
+            "pub_date"
+        ],
+        "pages": [
+            "isbn"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "秘密"
+            ]
+        ]
+    },
+    "危機": {
+        "nerName": [
+            "危機"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "危機"
+        ],
+        "original_name": [
+            "{{lang|en|''The China Syndrome''}}"
+        ],
+        "tw_name": [
+            "大特寫"
+        ],
+        "hk_name": [
+            "危機"
+        ],
+        "director": [
+            "[[佔士·佈列治]]（{{tsl|en|James Bridges|James Bridges}}）"
+        ],
+        "producer": [
+            "[[米高·德格拉斯]]"
+        ],
+        "writer": [
+            "[[Mike Gray]]&lt;br&gt;[[T.S. Cook]]&lt;br&gt;[[佔士·佈列治]]"
+        ],
+        "starring": [
+            "[[珍·芳達]]&lt;br&gt;[[積·林蒙]]&lt;br&gt;[[米高·德格拉斯]]"
+        ],
+        "music": [
+            "cinematography"
+        ],
+        "released": [
+            "{{start date|1979|3|16}}"
+        ],
+        "runtime": [
+            "122分鐘"
+        ],
+        "country": [
+            "美國電影"
+        ],
+        "language": [
+            "英語"
+        ],
+        "imdb_id": [
+            "0078966"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "危機"
+            ]
+        ]
+    },
+    "基金會": {
+        "nerName": [
+            "基金會"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "Linux基金會"
+        ],
+        "Non-profit_type": [
+            "[[501(c)#501(c)(6)|501(c)(6)]] 非營利組織"
+        ],
+        "founded_date": [
+            "{{start date and age|2000}}"
+        ],
+        "founder": [
+            "location"
+        ],
+        "origins": [
+            "[[開原始碼發展實驗室|開原始碼發展實驗室(OSDL)]]，和[[自由標準組織|自由標準組織(FSG)]]"
+        ],
+        "key_people": [
+            "{{Unbulleted list|Jim Zemlin|Steve Westmoreland|Mike Woster|Nicko van Someren|Mike Dolan|Laura Kempke||Russell Farnel||Karen Copenhaver|Mark Cohn|Abby Kearns|Arpit Joshipura|Brian Behlendorf|Andy Updegrove|Angela Brown|Penny Yao|Mark Hinkle|Chris Aniszczyk|Philip DesAutels|Heather Kirksey|Kate Stewart|Phil Robb|Dan Cauchy|Noriaki Fukuyasu|Clyde Seepersad|Dan Kohn|[[林納斯·託瓦茲]]}}"
+        ],
+        "area_served": [
+            "世界範圍"
+        ],
+        "focus": [
+            "[[Open Source]]、[[Linux kernel]]、[[Linux]]"
+        ],
+        "method": [
+            "透過提供開放原始碼所需的統一資源和服務，與封閉平臺能成功的競爭，從而促進，保護和標準化Linux。"
+        ],
+        "revenue": [
+            "endowment"
+        ],
+        "owner": [
+            "Non-profit_slogan"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "Linux基金會"
+            ]
+        ]
+    },
+    "頭髮": {
+        "nerName": [
+            "頭髮"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "書名": [
+            "頭髮"
+        ],
+        "作者": [
+            "衛斯理"
+        ],
+        "原名": [
+            "中文書名"
+        ],
+        "語言": [
+            "中文"
+        ],
+        "系列": [
+            "衛斯理系列"
+        ],
+        "題材": [
+            "型別"
+        ],
+        "出版者": [
+            "明窗出版社"
+        ],
+        "出版日期": [
+            "中文版"
+        ],
+        "開本": [
+            "isbn"
+        ],
+        "oclc": [
+            "杜威十進位制圖書分類法"
+        ],
+        "美國國會圖書館圖書分類法": [
+            "上一部作品"
+        ],
+        "下一部作品": [
+            "[[眼睛 (小說)|眼睛]]"
+        ],
+        "引用": [
+            "被引用"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "頭髮"
+            ]
+        ]
+    },
+    "設計": {
+        "nerName": [
+            "設計"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "設計&amp;日常生活，前一版書名為設計心理學"
+        ],
+        "title_orig": [
+            "'''''The Design of Everyday Things'''''，前一版名稱為''The Psychology of Everyday Things''"
+        ],
+        "genre": [
+            "[[心理學]]，[[設計]]與[[商業]]"
+        ],
+        "country": [
+            "[[美國]]"
+        ],
+        "author": [
+            "[[唐·諾曼]]"
+        ],
+        "pages": [
+            "272"
+        ],
+        "publisher": [
+            "Doubleday Business"
+        ],
+        "translator": [
+            "release_date"
+        ],
+        "language": [
+            "[[英文]]"
+        ],
+        "isbn": [
+            "978-0-465-06710-7"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "設計&amp;日常生活，前一版書名為設計心理學"
+            ]
+        ]
+    },
+    "公司": {
+        "nerName": [
+            "公司"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "company_name": [
+            "Mozilla公司"
+        ],
+        "name_en": [
+            "LSI Corporation"
+        ],
+        "company_type": [
+            "[[子公司]]"
+        ],
+        "foundation": [
+            "{{start date and age|2005|8|3}}"
+        ],
+        "location": [
+            "{{USA}}[[加利福尼亞州]][[芒廷維尤 (加利福尼亞州)|山景城]]"
+        ],
+        "key_people": [
+            "Abhi Talwalkar，總裁兼CEO"
+        ],
+        "num_employees": [
+            "5,053（2012-11-04）"
+        ],
+        "revenue": [
+            "20.4億美元（2011[[財政年度|財年]]）"
+        ],
+        "industry": [
+            "[[網際網路]]"
+        ],
+        "homepage": [
+            "{{URL|http://www.lsi.com/}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "LSI公司",
+                "Mozilla公司",
+                "D.O.公司"
+            ]
+        ],
+        "company_name_en": [
+            "Mozilla Corporation"
+        ],
+        "zip_code": [
+            "telephone_no"
+        ],
+        "products": [
+            "[[Mozilla Firefox]]&lt;br/&gt;[[Mozilla Thunderbird]]&lt;br/&gt;[[Mozilla產品列表|更多……]]"
+        ],
+        "capital": [
+            "revenue"
+        ],
+        "accounting_period": [
+            "parent"
+        ],
+        "subsid": [
+            "homepage"
+        ]
+    },
+    "機構": {
+        "nerName": [
+            "機構"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "company_name": [
+            "Eidos機構"
+        ],
+        "company_name_en": [
+            "Eidos Institute"
+        ],
+        "company_type": [
+            "[[上市公司|非牟利有限公司]]"
+        ],
+        "foundation": [
+            "2006年"
+        ],
+        "location": [
+            "[[布里斯班]]"
+        ],
+        "location_country": [
+            "[[澳大利亞]]"
+        ],
+        "key_people": [
+            "[[Bruce Muirhead (Eidos)|Bruce Muirhead]] (CEO), "
+        ],
+        "industry": [
+            "[[研究機構]]及[[智庫]]"
+        ],
+        "products": [
+            "homepage"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "Eidos機構"
+            ]
+        ]
+    },
+    "中華": {
+        "nerName": [
+            "中華"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "company_name": [
+            "中華TV"
+        ],
+        "company_type": [
+            "original_text"
+        ],
+        "original_spelling": [
+            "company_slogan"
+        ],
+        "market_information": [
+            "abbreviated_name"
+        ],
+        "location": [
+            "{{KOR}}[[首爾]][[麻浦區]][[龍江洞]]494-38&lt;br&gt;世-{徵}-大廈1樓"
+        ],
+        "area_served": [
+            "key_people"
+        ],
+        "industry": [
+            "products"
+        ],
+        "major_shareholder": [
+            "divisions"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "中華TV"
+            ]
+        ]
+    },
+    "中華民國": {
+        "nerName": [
+            "中華民國"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "jurisdiction": [
+            "[[中華民國]]"
+        ],
+        "部門名稱": [
+            "廣州市政府"
+        ],
+        "外文名稱": [
+            "Tainan Prison, AOC, MOJ"
+        ],
+        "外文語言": [
+            "英語"
+        ],
+        "部門標誌尺寸": [
+            "130px"
+        ],
+        "首長姓名": [
+            "林雲陔 → 程天固 → 劉紀文 → 曾養甫 → 彭東原 → 關仲羲 → 周化人 → 陳耀祖 → 周應湘 → 汪屺 → 張焯堃 → 陳策 → 歐陽駒 → 李揚敬"
+        ],
+        "副首長職銜": [
+            "副典獄長"
+        ],
+        "副首長姓名": [
+            "陳明筆"
+        ],
+        "秘書長姓名": [
+            "王國強"
+        ],
+        "任命者姓名": [
+            "[[中華民國法務部|法務部部長]]"
+        ],
+        "官員任期": [
+            "無任期保障"
+        ],
+        "員額": [
+            "350人"
+        ],
+        "年度預算額": [
+            "約[[新臺幣]]3.86億元（2021年）"
+        ],
+        "成立日期": [
+            "{{Start date|1925|07|04}}"
+        ],
+        "前身機關": [
+            "1895年 臺南刑務所&lt;br&gt;1945年 臺灣第三監獄&lt;br&gt;1947年 臺灣臺南監獄"
+        ],
+        "解散日期": [
+            "{{End date|1949|10|14}}&lt;br&gt;（因軍事失利自然瓦解）"
+        ],
+        "附屬機關": [
+            "任務編組"
+        ],
+        "任務編組": [
+            "附屬機關"
+        ],
+        "地址": [
+            "[[廣州市政府合署]]"
+        ],
+        "網站": [
+            "[http://www.tnp.moj.gov.tw/ www.tnp.moj.gov.tw/]"
+        ],
+        "部門標誌名稱": [
+            "國立臺灣科學教育館館徽"
+        ],
+        "首長職銜": [
+            "市長"
+        ],
+        "後繼機關": [
+            "[[廣州市軍事管制委員會]]"
+        ],
+        "內部單位": [
+            "授權法源"
+        ],
+        "所屬國家": [
+            "{{ROC}}"
+        ],
+        "秘書長職銜": [
+            "秘書"
+        ],
+        "授權法源": [
+            "成立日期"
+        ],
+        "備註": [
+            "}}"
+        ],
+        "title": [
+            "{{center|（國家語言府名列表）}}"
+        ],
+        "機關型別": [
+            "所屬部門"
+        ],
+        "所屬部門": [
+            "{{ROC|行政院}}"
+        ],
+        "員額任期": [
+            "員額"
+        ],
+        "副首長姓名二": [
+            "陳美蓉"
+        ],
+        "組織編制": [
+            "技術組、營運組、法政組"
+        ],
+        "秘書長姓名二": [
+            "秘書長姓名三"
+        ],
+        "副秘書長職銜": [
+            "副秘書長姓名"
+        ],
+        "副秘書長姓名": [
+            "[[郭應義]]"
+        ],
+        "副秘書長姓名二": [
+            "[[許文獻]]"
+        ],
+        "副秘書長姓名三": [
+            "[[謝文斌]]"
+        ],
+        "部門標誌": [
+            "部門標誌名稱"
+        ],
+        "預計解散日期": [
+            "後繼機關"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "[[中華民國]]"
+            ]
+        ]
+    },
+    "影片": {
+        "nerName": [
+            "影片"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "Google影片"
+        ],
+        "url": [
+            "{{url|http://video.google.com/}}"
+        ],
+        "commercial": [
+            "[[免費]]"
+        ],
+        "type": [
+            "[[影片分享網站]]、[[影片搜尋服務]]"
+        ],
+        "language": [
+            "[[多國語言]]"
+        ],
+        "registration": [
+            "否"
+        ],
+        "owner": [
+            "[[Google]]"
+        ],
+        "author": [
+            "[[Google]]"
+        ],
+        "launch_date": [
+            "{{start date and age|2005|1|25}}"
+        ],
+        "current_status": [
+            "關閉"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "Google影片"
+            ]
+        ]
+    },
+    "新聞": {
+        "nerName": [
+            "新聞"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "Google新聞"
+        ],
+        "url": [
+            "{{URL|https://news.google.com/|Google News}}"
+        ],
+        "commercial": [
+            "是"
+        ],
+        "type": [
+            "[[新聞聚合器]]"
+        ],
+        "language": [
+            "[[阿拉伯語]]、[[孟加拉語]]、[[保加利亞語]]、[[漢語|中文]]、[[捷克語]]、[[荷蘭語]]、[[英語]]、[[法語]]、[[德語]]、[[希臘語]]、[[希伯來語]]、[[印地語]]、[[匈牙利語]]、[[義大利語]]、[[印尼語]]、[[日語]]、-{zh-cn:[[朝鮮語]]; zh-tw:[[韓語]];}-、[[拉脫維亞語]]、[[立陶宛語]]、[[馬拉雅拉姆語]]、[[挪威語]]、[[波蘭語]]、[[葡萄牙語]]、[[羅馬尼亞語]]、[[俄語]]、[[塞爾維亞語]]、[[西班牙語]]、[[瑞典語]]、[[泰米爾語]]、[[泰盧固語]]、[[泰語]]、[[土耳其語]]、[[烏克蘭語]]與[[越南語]]"
+        ],
+        "language_count": [
+            "35|registration"
+        ],
+        "owner": [
+            "[[Google]]"
+        ],
+        "launch_date": [
+            "{{start date and age|2002|9}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "Google新聞"
+            ]
+        ]
+    },
+    "泛綠": {
+        "nerName": [
+            "泛綠"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "名字": [
+            "泛綠"
+        ],
+        "ideology": [
+            "親[[民主進步黨]]&lt;br&gt;{{•}}[[臺灣本土化]]&lt;br&gt;{{•}}[[臺灣民族主義]]&lt;br&gt;{{•}}[[臺灣獨立]]"
+        ],
+        "黨團型別1": [
+            "成員"
+        ],
+        "黨團1": [
+            "'''右翼'''&lt;br&gt;{{TSU}}&lt;br&gt;{{喜樂島聯盟}}（[[2020年民主進步黨總統提名選舉|有爭議]]）&lt;br&gt;{{SSFPP}}&lt;br&gt;'''中間'''&lt;br&gt;{{TSP}}&lt;br&gt;{{DPP}}&lt;br&gt;'''中間偏左'''&lt;br&gt;{{TNPP}}（[[時代力量分裂危機|有爭議]]）&lt;br&gt;{{SDP}}&lt;br&gt;{{GPT}}&lt;br&gt;{{TOPEP}}&lt;br&gt;"
+        ],
+        "country": [
+            "中華民國"
+        ],
+        "seats2_title": [
+            "[[立法院|立法委員]]"
+        ],
+        "seats3_title": [
+            "[[現任中華民國一、二級行政區行政首長列表|直轄市長]]"
+        ],
+        "seats4_title": [
+            "[[2022年中華民國直轄市議員及縣市議員選舉|直轄市議員]]"
+        ],
+        "seats5_title": [
+            "[[現任中華民國各直轄市及縣市正副議長列表|直轄市議長]]"
+        ],
+        "seats6_title": [
+            "[[現任中華民國一、二級行政區行政首長列表|縣市長]]"
+        ],
+        "seats7_title": [
+            "[[2022年中華民國直轄市議員及縣市議員選舉|縣市議員]]"
+        ],
+        "seats8_title": [
+            "[[現任中華民國各直轄市及縣市正副議長列表|縣市議長]]"
+        ],
+        "seats9_title": [
+            "[[2022年中華民國鄉鎮市區長選舉|鄉鎮市區長]]"
+        ],
+        "seats10_title": [
+            "[[2022年中華民國鄉鎮市區民代表選舉|鄉鎮市區民代表]]"
+        ],
+        "seats11_title": [
+            "[[2022年中華民國村裡長選舉|村裡長]]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "泛綠"
+            ]
+        ]
+    },
+    "利用": {
+        "nerName": [
+            "利用"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "&lt;!-- 利用&quot;name"
+            ]
+        ]
+    },
+    "書籍": {
+        "nerName": [
+            "書籍"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "媒體": [
+            "[[CD]]|書籍"
+        ],
+        "{{Infobox animanga/Novel|標題": [
+            "純愛羅曼史|插圖"
+        ],
+        "{{Infobox animanga/RadioDrama|媒體": [
+            "標題"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "[[CD]]|書籍"
+            ]
+        ]
+    },
+    "議會": {
+        "nerName": [
+            "議會"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "議會"
+        ],
+        "native_name": [
+            "{{Hebrew|הכנסת}}"
+        ],
+        "transcription_name": [
+            "Knesset"
+        ],
+        "legislature": [
+            "第22屆議會"
+        ],
+        "session_room": [
+            "Knesset Building (South Side).JPG"
+        ],
+        "house_type": [
+            "一院制"
+        ],
+        "leader1_type": [
+            "[[以色列國會議長|議長]]"
+        ],
+        "leader1": [
+            "{{link-en|亞米爾·奧哈拿|Amir Ohana}}"
+        ],
+        "party1": [
+            "[[利庫德集團]]"
+        ],
+        "election1": [
+            "2022年12月29日"
+        ],
+        "leader2_type": [
+            "[[以色列總理|總理]]"
+        ],
+        "leader2": [
+            "[[本傑明·內塔尼亞胡]]"
+        ],
+        "party2": [
+            "[[利庫德集團]]"
+        ],
+        "election2": [
+            "2022年12月29日"
+        ],
+        "leader3": [
+            "[[亞伊爾·拉皮德]]"
+        ],
+        "party3": [
+            "[[擁有未來]]"
+        ],
+        "election3": [
+            "2023年1月2日"
+        ],
+        "last_election1": [
+            "[[2022年以色列議會選舉|2022年11月1日]]"
+        ],
+        "next_election1": [
+            "未知"
+        ],
+        "voting_system1": [
+            "政黨[[名單比例代表制]]，以[[漢狄法]]分配"
+        ],
+        "members": [
+            "120"
+        ],
+        "structure1_res": [
+            "260px"
+        ],
+        "political_groups1": [
+            ";{{link-en|第六次內塔尼亞胡內閣|Thirty-seventh government of Israel|政府}}（61）"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "議會"
+            ]
+        ]
+    },
+    "航空": {
+        "nerName": [
+            "航空"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "airline": [
+            "Manx2航空"
+        ],
+        "nativename": [
+            "{{lang|en|Manx2}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "Manx2航空"
+            ]
+        ]
+    },
+    "遇溺": {
+        "nerName": [
+            "遇溺"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "Name": [
+            "遇溺"
+        ],
+        "ICD10": [
+            "{{ICD10|T|75|1|t|66}}"
+        ],
+        "ICD9": [
+            "{{ICD9|994.1}}"
+        ],
+        "ICDO": [
+            "OMIM"
+        ],
+        "eMedicineSubj": [
+            "emerg"
+        ],
+        "eMedicineTopic": [
+            "744"
+        ],
+        "MeshName": [
+            "Drowning"
+        ],
+        "MeshNumber": [
+            "C23.550.260.393"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "遇溺"
+            ]
+        ]
+    },
+    "歐洲": {
+        "nerName": [
+            "歐洲"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "tourney_name": [
+            "歐洲U-17足球錦標賽"
+        ],
+        "year": [
+            "2009年"
+        ],
+        "other_titles": [
+            "{{lang|de|U-17-Fußball-Europameisterschaft 2009}}"
+        ],
+        "country": [
+            "德國"
+        ],
+        "defending_champ_other": [
+            "{{fbu|17|ESP}}"
+        ],
+        "dates": [
+            "5月6日–5月18日"
+        ],
+        "num_teams": [
+            "8 隊"
+        ],
+        "confederations": [
+            "1"
+        ],
+        "venues": [
+            "13"
+        ],
+        "cities": [
+            "13"
+        ],
+        "champion_other": [
+            "{{fbu|17|GER}}"
+        ],
+        "count": [
+            "8"
+        ],
+        "second_other": [
+            "{{fbu|17|NED}}"
+        ],
+        "matches": [
+            "15"
+        ],
+        "goals": [
+            "33"
+        ],
+        "attendance": [
+            "top_scorer"
+        ],
+        "player": [
+            "{{flagicon|GER}} [[馬里奧·格策|-{zh-cn:馬里奧·格策; zh-hk:馬裡奧·葛斯; zh-tw:馬裡歐·格策}-]]"
+        ],
+        "prevseason": [
+            "[[2008年歐洲U-17足球錦標賽|2008]]"
+        ],
+        "nextseason": [
+            "[[2010年歐洲U-17足球錦標賽|2010]]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "歐洲U-19足球錦標賽",
+                "歐洲U-21足球錦標賽",
+                "歐洲U-17足球錦標賽"
+            ]
+        ],
+        "top_scorer": [
+            "{{flagicon|ESP}} [[阿祖安·洛佩斯·阿爾瓦雷斯|-{zh-hans:阿德里安;zh-hk:阿祖安;zh-tw:阿德裡安;}-]]（5 球）"
+        ],
+        "young_player": [
+            "prevseason"
+        ],
+        "third_other": [
+            "{{fbu|21|BLR}}"
+        ],
+        "fourth_other": [
+            "{{fbu|21|CZE}}"
+        ]
+    },
+    "救贖": {
+        "nerName": [
+            "救贖"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "24：救贖"
+        ],
+        "original_name": [
+            "{{lang|en|''24: Redemption''}}"
+        ],
+        "format": [
+            "[[動作片]]"
+        ],
+        "runtime": [
+            "89分鐘（{{Small|電視首播}}）"
+        ],
+        "creator": [
+            "{{link-en|霍華德·戈登|Joel Surnow}}"
+        ],
+        "director": [
+            "{{link-en|強·卡薩|Jon Cassar}}"
+        ],
+        "producer": [
+            "霍華德·戈登"
+        ],
+        "writer": [
+            "霍華德·戈登"
+        ],
+        "starring": [
+            "[[基夫·修打蘭]]"
+        ],
+        "music": [
+            "{{link-en|肖恩·卡雷利|Sean Callery}}"
+        ],
+        "country": [
+            "美國"
+        ],
+        "language": [
+            "英語"
+        ],
+        "network": [
+            "[[福克斯廣播公司]]"
+        ],
+        "released": [
+            "{{Film date|TV"
+        ],
+        "preceded_by": [
+            "[[24 (第六季)]]"
+        ],
+        "followed_by": [
+            "[[24 (第七季)]]"
+        ],
+        "website": [
+            "https://web.archive.org/web/20081126014023/http://www.fox.com/24/redemption/"
+        ],
+        "show_name_zh-tw": [
+            "24反恐任務：救贖行動"
+        ],
+        "show_name_zh-sg": [
+            "show_name_zh-my"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "24：救贖"
+            ]
+        ]
+    },
+    "官方": {
+        "nerName": [
+            "官方"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "駒田蒸留所へようこそ}}）是由[[P.A.Works|P.Ａ.WORKS]]製作的日本[[動畫電影]]，於2023年11月10日在日本上映&lt;ref&gt;{{Cite web|title": [
+            "官方X(Twitter)|url"
+        ],
+        "2023年[[6月]]在[[法國|法國]]舉辦的[[安錫國際動畫影展|安錫國際電影節]]入圍長片新視野競賽單元&lt;ref name": [
+            "&quot;:0&quot;&gt;{{Cite web|last"
+        ],
+        "是繼《[[花開物語]]》、《[[白箱]]》、《[[櫻花任務]]》、《[[白沙的Aquatope]]》之後P.A.WORKS第五個「工作系列」作品&lt;ref name": [
+            "&quot;:0&quot;/&gt; 。"
+        ],
+        "": [
+            ""
+        ],
+        "; {{Nihongo|駒田 琉生|こまだ るい|4": [
+            "聲：[[早見沙織]]}}&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "官方X(Twitter)|url"
+            ]
+        ]
+    },
+    "電視": {
+        "nerName": [
+            "電視"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "MBS]]、[[TBS電視"
+            ]
+        ]
+    },
+    "動作": {
+        "nerName": [
+            "動作"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "動作]]遊戲。本作是《火影忍者》系列登入3DS上的首作。",
+                "動作]]型別[[日本成人遊戲"
+            ]
+        ]
+    },
+    "疲倦": {
+        "nerName": [
+            "疲倦"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "Name": [
+            "疲倦"
+        ],
+        "Caption": [
+            "一名累趴的泰國學生"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "疲倦"
+            ]
+        ]
+    },
+    "時間": {
+        "nerName": [
+            "時間"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "j": [
+            "イバラード時間|rm"
+        ],
+        "片中的故事發生在一個被稱為{{nihongo|依巴拉度|イバラード}}的[[架空世界]]，其場景也曾成為吉卜力工作室出品的另一部電影《[[側耳傾聽]]》的靈感。&lt;ref&gt;{{Cite web |url": [
+            "http://www.animenewsnetwork.com/news/2007-06-21/studio-ghibli%27s-iblard-jikan-video-trailer-online |title"
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "イバラード時間|rm"
+            ]
+        ]
+    },
+    "文豪": {
+        "nerName": [
+            "文豪"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "j": [
+            "文豪ストレイドッグス|hg"
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "文豪ストレイドッグス|hg"
+            ]
+        ]
+    },
+    "學校": {
+        "nerName": [
+            "學校"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "學校を出よう!|hg"
+            ]
+        ]
+    },
+    "網站": {
+        "nerName": [
+            "網站"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "ミスミソウ}}）是[[日本]][[漫畫家]][[押切蓮介]]創作的漫畫作品。於2007年6月至2009年6月在《[[Horror M]]》進行連載。2013年作者加筆修正發售全2卷完全版。2018年改編為真人電影&lt;ref&gt;{{Cite news|publisher": [
+            "[[Natalie (網站)|Natalie]]|work"
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "[[Natalie (網站)|Natalie]]|work"
+            ]
+        ]
+    },
+    "討論": {
+        "nerName": [
+            "討論"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "討論]]）做出的修訂版本51323021</comment>"
+            ]
+        ]
+    },
+    "臨時": {
+        "nerName": [
+            "臨時"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "臨時]][[軍政府]]。1926年葡萄牙軍方發動[[1926年5月28日政變"
+            ]
+        ]
+    },
+    "引擎": {
+        "nerName": [
+            "引擎"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "PRV引擎"
+        ],
+        "manufacturer": [
+            "Française de Mécanique"
+        ],
+        "production": [
+            "1974–1998"
+        ],
+        "configuration": [
+            "90° [[V6發動機|V6]]"
+        ],
+        "fueltype": [
+            "[[汽油]]"
+        ],
+        "fuelsystem": [
+            "[[化油器]]、[[燃料噴射裝置|燃料噴射]]"
+        ],
+        "block": [
+            "[[鋁]]"
+        ],
+        "head": [
+            "鋁"
+        ],
+        "valvetrain": [
+            "[[SOHC]] 每[[氣缸]]兩個[[提升閥|氣閥]]"
+        ],
+        "oilsystem": [
+            "{{le|溼式油底殼|Wet sump}}"
+        ],
+        "coolingsystem": [
+            "水冷"
+        ],
+        "bore": [
+            "{{convert|91|mm|2|abbr"
+        ],
+        "stroke": [
+            "{{convert|73|mm|2|abbr"
+        ],
+        "displacement": [
+            "{{convert|2849|cc|L CID|1|abbr"
+        ],
+        "power": [
+            "{{convert|100|kW|PS bhp|0|abbr"
+        ],
+        "torque": [
+            "{{convert|215|Nm|0|abbr"
+        ],
+        "successor": [
+            "{{le|ESL引擎|V6 ESL engine}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "PRV引擎"
+            ]
+        ]
+    },
+    "肖像": {
+        "nerName": [
+            "肖像"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "'''コゼットの肖像'''}}（{{lang"
+            ]
+        ]
+    },
+    "更多": {
+        "nerName": [
+            "更多"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "更多！認真地不認真的怪傑佐羅力&lt;br/&gt;（第三輯）"
+            ]
+        ]
+    },
+    "逆境": {
+        "nerName": [
+            "逆境"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "逆境ナイン}}）是一部真人版電影，改編自[[島本和彥]]的同名[[漫畫]]作品《'''[[逆境九壯士]]'''》，作品本身簡稱為「'''GK9'''」。電影版在2005年7月2日上映，由[[ロボット (企業)"
+            ]
+        ]
+    },
+    "麗的": {
+        "nerName": [
+            "麗的"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "麗的]]電視臺初譯「'''電光再造人'''」，在多年後由麗的的後身[[亞視]]播映並改譯「'''再造人卡-{}-新'''」；而在臺灣播映時譯「'''生化超人卡-{}-撒'''」，出租店VHS帶則譯「'''克霹超人'''」。"
+            ]
+        ]
+    },
+    "二十四": {
+        "nerName": [
+            "二十四"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "二十四の瞳}}》（ひとみ可以寫成瞳），不過兩者之間完全沒有關係。從電視劇版中得知仁美老師為24歲。"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,824 @@
+{
+    "親愛的": {
+        "nerName": [
+            "親愛的"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "親愛的"
+        ],
+        "original_name": [
+            "''{{lang|en|Forgive and Forget}}''"
+        ],
+        "producer": [
+            "[[黃柏高]]"
+        ],
+        "producer_2": [
+            "陳梓存"
+        ],
+        "writer": [
+            "葉念琛"
+        ],
+        "starring": [
+            "[[楊愛瑾]]&lt;br&gt;[[曾愷玹]]&lt;br&gt;[[安志傑]]"
+        ],
+        "music": [
+            "[[泰迪羅賓]]"
+        ],
+        "主題曲": [
+            "〈我不在乎〉／[[曾愷玹]]、[[安志傑]]"
+        ],
+        "cinematography": [
+            "林志堅"
+        ],
+        "editing": [
+            "李棟全"
+        ],
+        "production_company": [
+            "[[金牌大風電影有限公司]]&lt;br/&gt;[[Neway Star影業製作有限公司]]"
+        ],
+        "distributor": [
+            "[[金牌大風電影有限公司]]"
+        ],
+        "released": [
+            "{{flagicon|Hong Kong}} {{film date|2008|8|2}}"
+        ],
+        "runtime": [
+            "118分鐘"
+        ],
+        "country": [
+            "{{HK}}"
+        ],
+        "language": [
+            "[[粵語]]"
+        ],
+        "budget": [
+            "preceded_by"
+        ],
+        "amg_id": [
+            "imdb_id"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "親愛的"
+            ]
+        ]
+    },
+    "左右": {
+        "nerName": [
+            "左右"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "左右"
+        ],
+        "producer": [
+            "[[Isabelle Glachant]]&lt;br/&gt;[[黃斌]]"
+        ],
+        "writer": [
+            "[[王小帥]]"
+        ],
+        "narrator": [
+            "starring"
+        ],
+        "music": [
+            "[[Dou Wei]]"
+        ],
+        "cinematography": [
+            "[[鄔迪]]"
+        ],
+        "editing": [
+            "[[Yang Hongyu]]"
+        ],
+        "distributor": [
+            "released"
+        ],
+        "runtime": [
+            "115 min."
+        ],
+        "country": [
+            "{{中國大陸電影產地}}"
+        ],
+        "language": [
+            "[[漢語]]"
+        ],
+        "budget": [
+            "preceded_by"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "左右"
+            ]
+        ]
+    },
+    "設計": {
+        "nerName": [
+            "設計"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "設計&amp;日常生活，前一版書名為設計心理學"
+        ],
+        "title_orig": [
+            "'''''The Design of Everyday Things'''''，前一版名稱為''The Psychology of Everyday Things''"
+        ],
+        "genre": [
+            "[[心理學]]，[[設計]]與[[商業]]"
+        ],
+        "country": [
+            "[[美國]]"
+        ],
+        "author": [
+            "[[唐·諾曼]]"
+        ],
+        "pages": [
+            "272"
+        ],
+        "publisher": [
+            "Doubleday Business"
+        ],
+        "translator": [
+            "release_date"
+        ],
+        "language": [
+            "[[英文]]"
+        ],
+        "isbn": [
+            "978-0-465-06710-7"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "設計&amp;日常生活，前一版書名為設計心理學"
+            ]
+        ]
+    },
+    "系列": {
+        "nerName": [
+            "系列"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "title": [
+            "WG6100系列"
+        ],
+        "label1": [
+            "尺寸"
+        ],
+        "data1": [
+            "長：10,200毫米&lt;br/&gt;寬：2,500毫米&lt;br/&gt;高：3,000毫米"
+        ],
+        "label2": [
+            "載客量"
+        ],
+        "data2": [
+            "總載客量 70 人"
+        ],
+        "label3": [
+            "引擎資料"
+        ],
+        "data3": [
+            "解放 CA6102N2"
+        ],
+        "label4": [
+            "最大功率"
+        ],
+        "data4": [
+            "99 kW"
+        ],
+        "label5": [
+            "最大扭力"
+        ],
+        "data5": [
+            "335 Nm"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "WG6100系列",
+                "Radeon HD 4000 系列",
+                "Radeon HD 5000 系列"
+            ]
+        ],
+        "name": [
+            "Radeon HD 5000 系列"
+        ],
+        "created": [
+            "2009年9月"
+        ],
+        "entry": [
+            "''Cedar''（HD 5400）"
+        ],
+        "midrange": [
+            "''Redwood''（HD 5600）"
+        ],
+        "highend": [
+            "''Cypress''（HD 5800）"
+        ],
+        "d3dversion": [
+            "[[Direct3D#Direct3D 11|Direct3D 11]] &lt;br/&gt;Shader Model 5.0"
+        ],
+        "openclversion": [
+            "openglversion"
+        ],
+        "successor": [
+            "[[AMD Radeon HD 6000]]"
+        ],
+        "img_w": [
+            "180}}"
+        ],
+        "'''ATI Radeon HD 5000'''系列，是[[超威半導體|AMD]]([[冶天科技|ATI]])的顯示核心系列產品，研發代號Evergreen。2007年AMD公司在[[臺灣]]參加[[臺北國際電腦展覽會]]，展會結束後，公司工程師到酒吧享樂，並提議利用酒店集團名稱Evergreen作為新顯示核心的代號。Evergreen正是臺灣的[[長榮集團]]&lt;ref&gt;{{Cite web |title": [
+            "RV870真正代號“Evergreen”由來-AMD,RV870 ——快科技(驅動之家旗下媒體)--科技改變未來 |url"
+        ],
+        "": [
+            ""
+        ]
+    },
+    "影片": {
+        "nerName": [
+            "影片"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "Google影片"
+        ],
+        "url": [
+            "{{url|http://video.google.com/}}"
+        ],
+        "commercial": [
+            "[[免費]]"
+        ],
+        "type": [
+            "[[影片分享網站]]、[[影片搜尋服務]]"
+        ],
+        "language": [
+            "[[多國語言]]"
+        ],
+        "registration": [
+            "否"
+        ],
+        "owner": [
+            "[[Google]]"
+        ],
+        "author": [
+            "[[Google]]"
+        ],
+        "launch_date": [
+            "{{start date and age|2005|1|25}}"
+        ],
+        "current_status": [
+            "關閉"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "Google影片"
+            ]
+        ]
+    },
+    "音樂": {
+        "nerName": [
+            "音樂"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "Google音樂"
+        ],
+        "commercial": [
+            "是"
+        ],
+        "type": [
+            "[[音樂]][[搜尋引擎]]"
+        ],
+        "registration": [
+            "選擇性"
+        ],
+        "owner": [
+            "[[谷歌中國]]"
+        ],
+        "language": [
+            "簡體中文"
+        ],
+        "launch_date": [
+            "{{start date and age|2009|3|30}}"
+        ],
+        "current_status": [
+            "已關閉"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "Google音樂"
+            ]
+        ]
+    },
+    "花生": {
+        "nerName": [
+            "花生"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "title": [
+            "花生"
+        ],
+        "author": [
+            "[[查爾斯·舒茲]]"
+        ],
+        "first": [
+            "1950年10月2日（每日版）&lt;br&gt;1952年1月6日（週日版）"
+        ],
+        "last": [
+            "2000年1月3日（每日版）&lt;br&gt;2000年2月13日（週日版）"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "花生"
+            ]
+        ]
+    },
+    "澳洲": {
+        "nerName": [
+            "澳洲"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "country": [
+            "澳洲"
+        ],
+        "nickname": [
+            "Boomers"
+        ],
+        "joined_fiba": [
+            "1947"
+        ],
+        "fiba_zone": [
+            "大洋洲籃球協會"
+        ],
+        "national_fed": [
+            "[[澳洲籃球協會]]"
+        ],
+        "zone_championship": [
+            "[[大洋洲籃球錦標賽]]"
+        ],
+        "fiba_ranking": [
+            "{{FIBA Men's World Rankings|AUS|mdy"
+        ],
+        "coach": [
+            "{{flagicon|AUS}} [[Andrej Lemanis]]"
+        ],
+        "oly_appearances": [
+            "13"
+        ],
+        "wc_appearances": [
+            "11"
+        ],
+        "wc_medals": [
+            "無"
+        ],
+        "zone_appearances": [
+            "20"
+        ],
+        "h_pattern_b": [
+            "_lithuaniabasides2"
+        ],
+        "h_body": [
+            "FFBF00"
+        ],
+        "h_shorts": [
+            "FFBF00"
+        ],
+        "a_pattern_b": [
+            "_lithuaniabasides2"
+        ],
+        "a_body": [
+            "177245"
+        ],
+        "a_shorts": [
+            "177245"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "澳洲"
+            ]
+        ]
+    },
+    "日本": {
+        "nerName": [
+            "日本"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "日本]][[科幻電影",
+                "日本GrEnAdEs模組包|url"
+            ]
+        ],
+        "": [
+            ""
+        ],
+        "{{link-ja|星之卡比20週年紀念特別珍藏版|星のカービィ 20週年スペシャルコレクション}}收錄片頭曲、片尾曲和三集動畫。&lt;ref&gt;{{cite web|title": [
+            "星之卡比２０週年紀念合集|url"
+        ],
+        "動畫於2022年冬季發行[[藍光光碟]]合輯，以慶祝星之卡比系列發售30週年。&lt;ref&gt;{{Cite web |url": [
+            "https://twitter.com/Kirby_JP/status/1557674125149491200 |title"
+        ],
+        "在數萬年前，夢魔想統治整個宇宙，於是派出一大堆魔獸到處侵略。有一群愛好自由的人組成銀河戰士團與之對抗，不過夢魔的魔獸太多，戰士們一個一個倒下了，生還的只有魅塔騎士一個，他相信新的星星戰士一定會出現，所以一直活著在宇宙中流浪。&lt;ref&gt;{{cite web|script-title": [
+            "ja:アニメカービィとは (アニメカービィとは) [単語記事] - ニコニコ大百科|url"
+        ]
+    },
+    "美國": {
+        "nerName": [
+            "美國"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "Name": [
+            "美國"
+        ],
+        "Nickname": [
+            "星條軍團&lt;br&gt;（The Stars and Stripes）"
+        ],
+        "Association": [
+            "[[美國冰球協會]]"
+        ],
+        "Sub-confederation": [
+            "[[北美洲足球聯盟]]（NAFU）"
+        ],
+        "Confederation": [
+            "[[中北美洲及加勒比海足球協會|中北美洲及加勒比海]]&lt;br&gt;（CONCACAF）"
+        ],
+        "FIFA Trigramme": [
+            "USA"
+        ],
+        "Coach": [
+            "{{le|大衛·奎因|David Quinn (ice hockey)}}"
+        ],
+        "Captain": [
+            "{{le|安迪·米爾|Andy Miele}}"
+        ],
+        "Most caps": [
+            "[[克麗絲廷·利利]]（354）"
+        ],
+        "Top scorer": [
+            "Most points"
+        ],
+        "FIFA Rank": [
+            "{{FIFA Women's World Rankings|USA}}"
+        ],
+        "FIFA max": [
+            "1"
+        ],
+        "FIFA max date": [
+            "多次；上次為2023年6月9日前"
+        ],
+        "FIFA min": [
+            "5"
+        ],
+        "FIFA min date": [
+            "2024年6月"
+        ],
+        "pattern_la1": [
+            "_usa24h"
+        ],
+        "pattern_b1": [
+            "_usa24h"
+        ],
+        "pattern_ra1": [
+            "_usa24h"
+        ],
+        "pattern_sh1": [
+            "_usa24h"
+        ],
+        "pattern_so1": [
+            "leftarm1"
+        ],
+        "body1": [
+            "FFFFFF"
+        ],
+        "rightarm1": [
+            "FFFFFF"
+        ],
+        "shorts1": [
+            "0000FF"
+        ],
+        "socks1": [
+            "FFFFFF"
+        ],
+        "pattern_la2": [
+            "_usa24a"
+        ],
+        "pattern_b2": [
+            "_usa24a"
+        ],
+        "pattern_ra2": [
+            "_usa24a"
+        ],
+        "pattern_sh2": [
+            "_usa24a"
+        ],
+        "pattern_so2": [
+            "leftarm2"
+        ],
+        "body2": [
+            "0000FF"
+        ],
+        "rightarm2": [
+            "0000FF"
+        ],
+        "shorts2": [
+            "FF0000"
+        ],
+        "socks2": [
+            "FF0000"
+        ],
+        "American": [
+            "true"
+        ],
+        "First game": [
+            "{{ih|USA|1912}} 29–0 {{ih-rt|SUI}}&lt;br&gt;&lt;small&gt;([[安特衛普]], [[比利時]]; April 23, 1920)&lt;/small&gt;"
+        ],
+        "Largest win": [
+            "{{ih|USA|1912}} 31–1 {{ih-rt|ITA}}&lt;br&gt;&lt;small&gt;([[聖莫里茨]], [[瑞士]]; February 1, 1948)&lt;/small&gt;"
+        ],
+        "Largest loss": [
+            "{{ih|SWE}} 17–2 {{ih-rt|USA}}&lt;br&gt;&lt;small&gt;([[斯德哥爾摩]], [[瑞典]]; March 12, 1963)&lt;/small&gt;&lt;br&gt;{{ih|URS}} 17–2 {{ih-rt|USA}}&lt;br&gt;&lt;small&gt;([[斯德哥爾摩]], [[瑞典]]; March 15, 1969)&lt;/small&gt;"
+        ],
+        "World cup apps": [
+            "9"
+        ],
+        "World cup first": [
+            "1991年"
+        ],
+        "World cup best": [
+            "'''冠軍'''（[[1991年國際足協女子世界盃|1991]]、[[1999年國際足協女子世界盃|1999]]、[[2015年國際足協女子世界盃|2015]]、[[2019年國際足協女子世界盃|2019]]）"
+        ],
+        "Olympic first": [
+            "[[Ice hockey at the 1920 Summer Olympics|1920]]"
+        ],
+        "Olympic apps": [
+            "21"
+        ],
+        "Olympic best": [
+            "{{OG1}} '''金牌'''（1996、[[2004年夏季奧林匹克運動會|2004]]、[[2008年夏季奧林匹克運動會女子足球比賽|2008]]、[[2012年夏季奧林匹克運動會女子足球比賽|2012]]、[[2024年夏季奧林匹克運動會女子足球比賽|2024]]）"
+        ],
+        "Regional name": [
+            "[[Canada Cup]] / [[World Cup of Hockey|World Cup]]"
+        ],
+        "Regional cup apps": [
+            "8"
+        ],
+        "Regional cup first": [
+            "1976"
+        ],
+        "Regional cup best": [
+            "'''冠軍'''（1991、1993、1994、2000、2002、2006、2014、2018、[[2022年中北美洲及加勒比海女子足球錦標賽|2022]]）"
+        ],
+        "2ndRegional name": [
+            "[[美洲女子金盃]]"
+        ],
+        "2ndRegional cup apps": [
+            "1"
+        ],
+        "2ndRegional cup first": [
+            "[[2024年美洲女子金盃|2024年]]"
+        ],
+        "2ndRegional cup best": [
+            "'''冠軍'''（2024）"
+        ],
+        "medaltemplates": [
+            "{{Medal|Comp|[[國際足協女子世界盃]]}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "美國&lt;br&gt;''USWNT''",
+                "美國"
+            ]
+        ],
+        "Asst Coach": [
+            "{{le|內特·利曼|Nate Leaman}}&lt;br&gt;Adam Nightingale"
+        ],
+        "Most games": [
+            "[[馬克·約翰遜]] (151)"
+        ],
+        "Home Stadium": [
+            "IIHF code"
+        ],
+        "IIHF Rank": [
+            "4"
+        ],
+        "IIHF max": [
+            "4"
+        ],
+        "IIHF max date": [
+            "2016"
+        ],
+        "IIHF min": [
+            "7"
+        ],
+        "IIHF min date": [
+            "first in 2003"
+        ],
+        "World champ apps": [
+            "70"
+        ],
+        "World champ first": [
+            "1930"
+        ],
+        "Record": [
+            "473–428–81"
+        ]
+    },
+    "電影": {
+        "nerName": [
+            "電影"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "作者因為《[[皮皮 (漫畫)|皮皮]]》被讀者與報界的肯定，和認識一位[[中國時報]]的編輯，編輯找他說想要邀請他在報紙上刊載新的單元，且當時流行武俠功夫，就以功夫發想，搭配搞笑的喜劇劇情，衍生出了《烏龍院》。&lt;ref&gt;{{Cite web|url": [
+            "http://gnn.gamer.com.tw/1/128241.html|title"
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "電影: 烏龍院 (1984) {{!}} 中文電影資料庫 |url"
+            ]
+        ]
+    },
+    "蜜桃": {
+        "nerName": [
+            "蜜桃"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "蜜桃17"
+            ]
+        ]
+    },
+    "時間": {
+        "nerName": [
+            "時間"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "j": [
+            "イバラード時間|rm"
+        ],
+        "片中的故事發生在一個被稱為{{nihongo|依巴拉度|イバラード}}的[[架空世界]]，其場景也曾成為吉卜力工作室出品的另一部電影《[[側耳傾聽]]》的靈感。&lt;ref&gt;{{Cite web |url": [
+            "http://www.animenewsnetwork.com/news/2007-06-21/studio-ghibli%27s-iblard-jikan-video-trailer-online |title"
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "イバラード時間|rm"
+            ]
+        ]
+    },
+    "少女": {
+        "nerName": [
+            "少女"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "月刊COMIC FLAPPER|コミックフラッパー}}上連載，並由談判老師負責作畫。2006年9月21日於PS2主機上發表了由小說改編而成的遊戲作品〈神様家族 應援願望〉&lt;ref&gt;{{cite news |title": [
+            "少女たちの戀のバトルがヒートアップ！　『神様家族 「応援願望」』 |url"
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "少女たちの戀のバトルがヒートアップ！　『神様家族 「応援願望」』 |url",
+                "少女カフェ}}）是[[板倉梓]]的日本[[四格漫畫]]作品，中文版由[[東立出版社]]代理發行。",
+                "少女]][[漫畫家]][[日高萬里]]所創作的[[漫畫]]作品。"
+            ]
+        ]
+    },
+    "網站": {
+        "nerName": [
+            "網站"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "ミスミソウ}}）是[[日本]][[漫畫家]][[押切蓮介]]創作的漫畫作品。於2007年6月至2009年6月在《[[Horror M]]》進行連載。2013年作者加筆修正發售全2卷完全版。2018年改編為真人電影&lt;ref&gt;{{Cite news|publisher": [
+            "[[Natalie (網站)|Natalie]]|work"
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "[[Natalie (網站)|Natalie]]|work"
+            ]
+        ]
+    },
+    "月下": {
+        "nerName": [
+            "月下"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "岸辺露伴 ルーヴルへ行く}}，{{lang-fr|''Rohan au Louvre''}}），是日本漫畫家[[荒木飛呂彥]]的全綵漫畫作品，同時也是法國[[羅浮宮]]與漫畫界從2003年開始的合作計畫「[[BD Louvre]]」（當羅浮宮遇見漫畫）的第五部作品。本作以荒木作品《[[JoJo的奇妙冒險]]》的第四部《[[不滅鑽石]]》中的角色岸邊露伴為主角，講述一段圍繞著一件羅浮宮館藏「世界上最黑暗的畫」——「月下」{{refnest|name": [
+            "月下|group"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "月下|group"
+            ]
+        ]
+    },
+    "今日": {
+        "nerName": [
+            "今日"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "今日、戀をはじめます}}）作者為[[水波風南]]，於2007年第19號至2011年第24號在[[小學館]]《[[Sho-Comi]]》連載，[[單行本]]全15卷，共97話。在2010年改編成[[原創動畫錄影帶",
+                "今日のケルベロス}}）是日本漫畫家{{tsl"
+            ]
+        ]
+    },
+    "更多": {
+        "nerName": [
+            "更多"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "更多！認真地不認真的怪傑佐羅力&lt;br/&gt;（第三輯）"
+            ]
+        ]
+    },
+    "魔力": {
+        "nerName": [
+            "魔力"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "title": [
+            "魔力W.i.t.c.h."
+        ],
+        "schedule": [
+            "format"
+        ],
+        "publisher": [
+            "[[迪士尼|義大利迪士尼公司]]"
+        ],
+        "date": [
+            "2001年4月 — 2012年10月"
+        ],
+        "startmo": [
+            "startyr"
+        ],
+        "main_char_team": [
+            "[[薇兒·範多姆]]&lt;br&gt;[[愛瑪·萊爾]]&lt;br&gt;[[塔拉妮·庫克]]&lt;br&gt;[[柯妮麗婭·黑爾]]&lt;br&gt;[[海琳]]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "魔力W.i.t.c.h."
+            ]
+        ]
+    },
+    "配音員": {
+        "nerName": [
+            "配音員"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "カイ・クドウ}}) ([[配音員"
+            ]
+        ]
+    }
+}

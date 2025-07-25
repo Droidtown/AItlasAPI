@@ -1,0 +1,925 @@
+{
+    "等待": {
+        "nerName": [
+            "等待"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "等待，是為了和你相遇"
+        ],
+        "original_name": [
+            "{{lang|ja|そのときは彼によろしく}}"
+        ],
+        "director": [
+            "[[平川雄一朗]]"
+        ],
+        "producer": [
+            "writer"
+        ],
+        "starring": [
+            "[[長澤雅美]]"
+        ],
+        "music": [
+            "[[松谷卓]]"
+        ],
+        "movie_music": [
+            "[[柴咲幸]]〈Prism〉"
+        ],
+        "cinematography": [
+            "[[斑目重友]]"
+        ],
+        "editing": [
+            "production_company"
+        ],
+        "released": [
+            "{{JPN}}2007年6月2日"
+        ],
+        "runtime": [
+            "114 min"
+        ],
+        "country": [
+            "{{JPN}}"
+        ],
+        "language": [
+            "[[日語]]"
+        ],
+        "budget": [
+            "gross"
+        ],
+        "preceded_by": [
+            "followed_by"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "等待，是為了和你相遇"
+            ]
+        ]
+    },
+    "意外": {
+        "nerName": [
+            "意外"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "意外"
+        ],
+        "original_name": [
+            "{{lang|en|''Accident''}}"
+        ],
+        "director": [
+            "[[鄭保瑞]]"
+        ],
+        "executive_producer": [
+            "[[莊澄|莊　澄]]（兼出品人）"
+        ],
+        "producer": [
+            "[[杜琪峰]]"
+        ],
+        "producer_2": [
+            "馮志偉、朱淑儀"
+        ],
+        "writer": [
+            "[[司徒錦源]]、[[鄧力奇]]"
+        ],
+        "starring": [
+            "[[古天樂]]&lt;br&gt;[[任賢齊]]&lt;br&gt;[[馮淬帆]]&lt;br&gt;[[林雪|林　雪]]&lt;br&gt;[[葉璇|葉　璇]]"
+        ],
+        "music": [
+            "{{lang|en|Xavier Jamaux}}"
+        ],
+        "cinematography": [
+            "[[馮遠文]] [[香港專業電影攝影師學會|HKSC]]"
+        ],
+        "editing": [
+            "{{lang|en|David Richardson}}"
+        ],
+        "studio": [
+            "[[寰亞電影有限公司]] &lt;small&gt;'''出品'''&lt;/small&gt;"
+        ],
+        "distributor": [
+            "[[寰亞電影發行有限公司]]"
+        ],
+        "released": [
+            "{{flagicon|HKG}}{{flagicon|MAC}}{{flagicon|AUS}}　{{film date|2009|9|17}}&lt;br&gt;{{flagicon|SIN}}{{flagicon|MAL}}　{{film date|2009|9|24}}&lt;br&gt;{{flagicon|France}}　{{film date|2009|12|30}}&lt;br&gt;{{flagicon|South Korea}}　{{start date|2010|12|30}}&lt;br&gt;{{flagicon|Japan}}[[東京]]　{{start date|2011|10|8}}"
+        ],
+        "runtime": [
+            "89分鐘"
+        ],
+        "rate": [
+            "{{HK}}：IIB&lt;br&gt;{{SIN}}：G&lt;br&gt;{{AUS}}：MA 15+"
+        ],
+        "country": [
+            "{{香港電影產地}}"
+        ],
+        "language": [
+            "粵語"
+        ],
+        "imdb_id": [
+            "tt1202514"
+        ],
+        "website": [
+            "[http://www.mediaasia.com/accident/ 《意外》官方網站]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "意外"
+            ]
+        ]
+    },
+    "危機": {
+        "nerName": [
+            "危機"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "危機"
+        ],
+        "original_name": [
+            "{{lang|en|''The China Syndrome''}}"
+        ],
+        "tw_name": [
+            "大特寫"
+        ],
+        "hk_name": [
+            "危機"
+        ],
+        "director": [
+            "[[佔士·佈列治]]（{{tsl|en|James Bridges|James Bridges}}）"
+        ],
+        "producer": [
+            "[[米高·德格拉斯]]"
+        ],
+        "writer": [
+            "[[Mike Gray]]&lt;br&gt;[[T.S. Cook]]&lt;br&gt;[[佔士·佈列治]]"
+        ],
+        "starring": [
+            "[[珍·芳達]]&lt;br&gt;[[積·林蒙]]&lt;br&gt;[[米高·德格拉斯]]"
+        ],
+        "music": [
+            "cinematography"
+        ],
+        "released": [
+            "{{start date|1979|3|16}}"
+        ],
+        "runtime": [
+            "122分鐘"
+        ],
+        "country": [
+            "美國電影"
+        ],
+        "language": [
+            "英語"
+        ],
+        "imdb_id": [
+            "0078966"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "危機"
+            ]
+        ]
+    },
+    "左右": {
+        "nerName": [
+            "左右"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "左右"
+        ],
+        "producer": [
+            "[[Isabelle Glachant]]&lt;br/&gt;[[黃斌]]"
+        ],
+        "writer": [
+            "[[王小帥]]"
+        ],
+        "narrator": [
+            "starring"
+        ],
+        "music": [
+            "[[Dou Wei]]"
+        ],
+        "cinematography": [
+            "[[鄔迪]]"
+        ],
+        "editing": [
+            "[[Yang Hongyu]]"
+        ],
+        "distributor": [
+            "released"
+        ],
+        "runtime": [
+            "115 min."
+        ],
+        "country": [
+            "{{中國大陸電影產地}}"
+        ],
+        "language": [
+            "[[漢語]]"
+        ],
+        "budget": [
+            "preceded_by"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "左右"
+            ]
+        ]
+    },
+    "如新": {
+        "nerName": [
+            "如新"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "company_name": [
+            "如新"
+        ],
+        "company_name_en": [
+            "Nu Skin"
+        ],
+        "company_type": [
+            "[[跨國公司]]、[[上市公司]]"
+        ],
+        "foundation": [
+            "1984年"
+        ],
+        "founder": [
+            "羅百禮 Blake M. Roney&lt;br&gt;戴純娣 Sandie N. Tillotson&lt;br&gt;倫兆勳 Steve Lund"
+        ],
+        "location": [
+            "{{USA}}[[猶他州]][[普若佛]]"
+        ],
+        "area_served": [
+            "{{flag|世界}}"
+        ],
+        "key_people": [
+            "賀楚門 Truman Hunt&lt;small&gt;（總裁暨執行長）&lt;/small&gt;&lt;br&gt;邱爾丹 Dan Chard&lt;small&gt;（全球業務營運總裁)&lt;/small&gt;&lt;br&gt;范家輝 Andrew Fan&lt;small&gt;（東亞區域總裁）"
+        ],
+        "industry": [
+            "[[直銷]]"
+        ],
+        "products": [
+            "ageLOC,Nutricentials,Nu Skin 180 Anti-Aging,Galvanic Spa,Tru Face Targeted Treatments"
+        ],
+        "revenue": [
+            "{{decrease}}22.5億美元&lt;small&gt;（2014年）&lt;/small&gt;&lt;ref name"
+        ],
+        "operating_income": [
+            "{{decrease}}3.52188億美元&lt;small&gt;（2014年）&lt;/small&gt;&lt;ref name"
+        ],
+        "net_income": [
+            "{{decrease}}1.89176億美元&lt;small&gt;（2014年）&lt;/small&gt;&lt;ref name"
+        ],
+        "assets": [
+            "{{decrease}}16.14億美元&lt;small&gt;（2014年）&lt;/small&gt;&lt;ref name"
+        ],
+        "equity": [
+            "{{increase}}9.42438億美元&lt;small&gt;（2014年）&lt;/small&gt;&lt;ref name"
+        ],
+        "num_employees": [
+            "5,000人&lt;small&gt;（2014年12月）&lt;/small&gt;&lt;ref name"
+        ],
+        "homepage": [
+            "{{Official URL}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "如新"
+            ]
+        ]
+    },
+    "科技": {
+        "nerName": [
+            "科技"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "Zend科技"
+        ],
+        "name_en": [
+            "Zend Technologies Ltd."
+        ],
+        "traded_as": [
+            "fate"
+        ],
+        "founder": [
+            "{{le|安迪·古特曼斯|Andi Gutmans}}&lt;br&gt;{{le|澤弗·蘇拉斯凱|Zeev Suraski}}"
+        ],
+        "location_city": [
+            "{{USA}}[[加州]][[庫帕提諾 (加利福尼亞州)|庫帕提諾]]"
+        ],
+        "location_country": [
+            "location"
+        ],
+        "industry": [
+            "[[軟體|軟體業]]"
+        ],
+        "products": [
+            "{{le|Zend Server|Zend Server}} "
+        ],
+        "services": [
+            "[[PHP]]諮詢"
+        ],
+        "revenue": [
+            "operating_income"
+        ],
+        "divisions": [
+            "subsid"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "Zend科技"
+            ]
+        ]
+    },
+    "公司": {
+        "nerName": [
+            "公司"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "company_name": [
+            "Mozilla公司"
+        ],
+        "name_en": [
+            "LSI Corporation"
+        ],
+        "company_type": [
+            "[[子公司]]"
+        ],
+        "foundation": [
+            "{{start date and age|2005|8|3}}"
+        ],
+        "location": [
+            "{{USA}}[[加利福尼亞州]][[芒廷維尤 (加利福尼亞州)|山景城]]"
+        ],
+        "key_people": [
+            "Abhi Talwalkar，總裁兼CEO"
+        ],
+        "num_employees": [
+            "5,053（2012-11-04）"
+        ],
+        "revenue": [
+            "20.4億美元（2011[[財政年度|財年]]）"
+        ],
+        "industry": [
+            "[[網際網路]]"
+        ],
+        "homepage": [
+            "{{URL|http://www.lsi.com/}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "LSI公司",
+                "Mozilla公司",
+                "D.O.公司"
+            ]
+        ],
+        "company_name_en": [
+            "Mozilla Corporation"
+        ],
+        "zip_code": [
+            "telephone_no"
+        ],
+        "products": [
+            "[[Mozilla Firefox]]&lt;br/&gt;[[Mozilla Thunderbird]]&lt;br/&gt;[[Mozilla產品列表|更多……]]"
+        ],
+        "capital": [
+            "revenue"
+        ],
+        "accounting_period": [
+            "parent"
+        ],
+        "subsid": [
+            "homepage"
+        ]
+    },
+    "有限公司": {
+        "nerName": [
+            "有限公司"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "company_name": [
+            "有限公司IOSYS"
+        ],
+        "company_name_en": [
+            "{{lang|ja|有限會社イオシス}}"
+        ],
+        "company_type": [
+            "[[有限公司]]"
+        ],
+        "company_slogan": [
+            ""
+        ],
+        "market_information": [
+            ""
+        ],
+        "foundation": [
+            "1998年"
+        ],
+        "location": [
+            "[[日本]][[北海道]][[札幌市]][[中央區 (札幌市)|中央區]]北4條西2丁目"
+        ],
+        "area_served": [
+            ""
+        ],
+        "key_people": [
+            ""
+        ],
+        "industry": [
+            ""
+        ],
+        "products": [
+            "[[CD]]製作、[[網路電臺|網路廣播]]等"
+        ],
+        "services": [
+            ""
+        ],
+        "capital": [
+            ""
+        ],
+        "revenue": [
+            ""
+        ],
+        "operating_income": [
+            ""
+        ],
+        "profit": [
+            ""
+        ],
+        "market_value": [
+            ""
+        ],
+        "num_employees": [
+            ""
+        ],
+        "P/E ratio": [
+            ""
+        ],
+        "earnings per share": [
+            ""
+        ],
+        "Net asset value": [
+            ""
+        ],
+        "accounting_period": [
+            ""
+        ],
+        "parent": [
+            ""
+        ],
+        "major_shareholder": [
+            ""
+        ],
+        "divisions": [
+            ""
+        ],
+        "subsid": [
+            "[[ALBATROSICKS]]等"
+        ],
+        "sister": [
+            ""
+        ],
+        "homepage": [
+            "http://www.iosysos.com/"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "有限公司IOSYS"
+            ]
+        ]
+    },
+    "新聞": {
+        "nerName": [
+            "新聞"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "Google新聞"
+        ],
+        "url": [
+            "{{URL|https://news.google.com/|Google News}}"
+        ],
+        "commercial": [
+            "是"
+        ],
+        "type": [
+            "[[新聞聚合器]]"
+        ],
+        "language": [
+            "[[阿拉伯語]]、[[孟加拉語]]、[[保加利亞語]]、[[漢語|中文]]、[[捷克語]]、[[荷蘭語]]、[[英語]]、[[法語]]、[[德語]]、[[希臘語]]、[[希伯來語]]、[[印地語]]、[[匈牙利語]]、[[義大利語]]、[[印尼語]]、[[日語]]、-{zh-cn:[[朝鮮語]]; zh-tw:[[韓語]];}-、[[拉脫維亞語]]、[[立陶宛語]]、[[馬拉雅拉姆語]]、[[挪威語]]、[[波蘭語]]、[[葡萄牙語]]、[[羅馬尼亞語]]、[[俄語]]、[[塞爾維亞語]]、[[西班牙語]]、[[瑞典語]]、[[泰米爾語]]、[[泰盧固語]]、[[泰語]]、[[土耳其語]]、[[烏克蘭語]]與[[越南語]]"
+        ],
+        "language_count": [
+            "35|registration"
+        ],
+        "owner": [
+            "[[Google]]"
+        ],
+        "launch_date": [
+            "{{start date and age|2002|9}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "Google新聞"
+            ]
+        ]
+    },
+    "利用": {
+        "nerName": [
+            "利用"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "&lt;!-- 利用&quot;name"
+            ]
+        ]
+    },
+    "航空": {
+        "nerName": [
+            "航空"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "airline": [
+            "Manx2航空"
+        ],
+        "nativename": [
+            "{{lang|en|Manx2}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "Manx2航空"
+            ]
+        ]
+    },
+    "2021年": {
+        "nerName": [
+            "2021年"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "2021年]]4月3日首播，首兩集於同日播映，共13集。其原案小說《'''Vivy prototype'''》同年4月30日起發售。",
+                "2021年]]4月6日起逢星期二在[[東京電視臺]]系列兒童節目《幼兒電視》（{{lang",
+                "2021年]]10月12日首播，由[[大沼心]]擔任導演，[[SILVER LINK.]]擔任動畫製作。[[手機遊戲]]《'''Deep Insanity ASYLUM'''》於2021年10月14日推出，於2022年10月31日停止營運。",
+                "2021年]]4月10日播放。"
+            ]
+        ]
+    },
+    "備註": {
+        "nerName": [
+            "備註"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "タイムパラドクスゴーストライター}}）{{refnest|group": [
+            "備註|「{{lang|ja|タイムパラドクス}}」是英文「time paradox」的片假名寫法，意指[[時間悖論]]；「{{lang|ja|ゴーストライター}}」則是英文「ghostwriter」的片假名寫法，中文裡的類似詞彙有[[捉刀|捉刀人]]、影子寫手、代筆人等等。}}，是由{{lang|ja|{{link-ja|市真ケンジ|市真ケンジ}}}}擔任原作、[[伊達恒大]]作畫的[[少年漫畫]]，於[[集英社]]旗下雜誌《[[週刊少年Jump]]》2020年24號開始連載，同年39號完結，單行本全2冊。"
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "備註|「{{lang|ja|タイムパラドクス}}」是英文「time paradox」的片假名寫法，意指[[時間悖論]]；「{{lang|ja|ゴーストライター}}」則是英文「ghostwriter」的片假名寫法，中文裡的類似詞彙有[[捉刀|捉刀人]]、影子寫手、代筆人等等。}}，是由{{lang|ja|{{link-ja|市真ケンジ|市真ケンジ}}}}擔任原作、[[伊達恒大]]作畫的[[少年漫畫]]，於[[集英社]]旗下雜誌《[[週刊少年Jump]]》2020年24號開始連載，同年39號完結，單行本全2冊。"
+            ]
+        ]
+    },
+    "美國": {
+        "nerName": [
+            "美國"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "Name": [
+            "美國"
+        ],
+        "Nickname": [
+            "星條軍團&lt;br&gt;（The Stars and Stripes）"
+        ],
+        "Association": [
+            "[[美國冰球協會]]"
+        ],
+        "Sub-confederation": [
+            "[[北美洲足球聯盟]]（NAFU）"
+        ],
+        "Confederation": [
+            "[[中北美洲及加勒比海足球協會|中北美洲及加勒比海]]&lt;br&gt;（CONCACAF）"
+        ],
+        "FIFA Trigramme": [
+            "USA"
+        ],
+        "Coach": [
+            "{{le|大衛·奎因|David Quinn (ice hockey)}}"
+        ],
+        "Captain": [
+            "{{le|安迪·米爾|Andy Miele}}"
+        ],
+        "Most caps": [
+            "[[克麗絲廷·利利]]（354）"
+        ],
+        "Top scorer": [
+            "Most points"
+        ],
+        "FIFA Rank": [
+            "{{FIFA Women's World Rankings|USA}}"
+        ],
+        "FIFA max": [
+            "1"
+        ],
+        "FIFA max date": [
+            "多次；上次為2023年6月9日前"
+        ],
+        "FIFA min": [
+            "5"
+        ],
+        "FIFA min date": [
+            "2024年6月"
+        ],
+        "pattern_la1": [
+            "_usa24h"
+        ],
+        "pattern_b1": [
+            "_usa24h"
+        ],
+        "pattern_ra1": [
+            "_usa24h"
+        ],
+        "pattern_sh1": [
+            "_usa24h"
+        ],
+        "pattern_so1": [
+            "leftarm1"
+        ],
+        "body1": [
+            "FFFFFF"
+        ],
+        "rightarm1": [
+            "FFFFFF"
+        ],
+        "shorts1": [
+            "0000FF"
+        ],
+        "socks1": [
+            "FFFFFF"
+        ],
+        "pattern_la2": [
+            "_usa24a"
+        ],
+        "pattern_b2": [
+            "_usa24a"
+        ],
+        "pattern_ra2": [
+            "_usa24a"
+        ],
+        "pattern_sh2": [
+            "_usa24a"
+        ],
+        "pattern_so2": [
+            "leftarm2"
+        ],
+        "body2": [
+            "0000FF"
+        ],
+        "rightarm2": [
+            "0000FF"
+        ],
+        "shorts2": [
+            "FF0000"
+        ],
+        "socks2": [
+            "FF0000"
+        ],
+        "American": [
+            "true"
+        ],
+        "First game": [
+            "{{ih|USA|1912}} 29–0 {{ih-rt|SUI}}&lt;br&gt;&lt;small&gt;([[安特衛普]], [[比利時]]; April 23, 1920)&lt;/small&gt;"
+        ],
+        "Largest win": [
+            "{{ih|USA|1912}} 31–1 {{ih-rt|ITA}}&lt;br&gt;&lt;small&gt;([[聖莫里茨]], [[瑞士]]; February 1, 1948)&lt;/small&gt;"
+        ],
+        "Largest loss": [
+            "{{ih|SWE}} 17–2 {{ih-rt|USA}}&lt;br&gt;&lt;small&gt;([[斯德哥爾摩]], [[瑞典]]; March 12, 1963)&lt;/small&gt;&lt;br&gt;{{ih|URS}} 17–2 {{ih-rt|USA}}&lt;br&gt;&lt;small&gt;([[斯德哥爾摩]], [[瑞典]]; March 15, 1969)&lt;/small&gt;"
+        ],
+        "World cup apps": [
+            "9"
+        ],
+        "World cup first": [
+            "1991年"
+        ],
+        "World cup best": [
+            "'''冠軍'''（[[1991年國際足協女子世界盃|1991]]、[[1999年國際足協女子世界盃|1999]]、[[2015年國際足協女子世界盃|2015]]、[[2019年國際足協女子世界盃|2019]]）"
+        ],
+        "Olympic first": [
+            "[[Ice hockey at the 1920 Summer Olympics|1920]]"
+        ],
+        "Olympic apps": [
+            "21"
+        ],
+        "Olympic best": [
+            "{{OG1}} '''金牌'''（1996、[[2004年夏季奧林匹克運動會|2004]]、[[2008年夏季奧林匹克運動會女子足球比賽|2008]]、[[2012年夏季奧林匹克運動會女子足球比賽|2012]]、[[2024年夏季奧林匹克運動會女子足球比賽|2024]]）"
+        ],
+        "Regional name": [
+            "[[Canada Cup]] / [[World Cup of Hockey|World Cup]]"
+        ],
+        "Regional cup apps": [
+            "8"
+        ],
+        "Regional cup first": [
+            "1976"
+        ],
+        "Regional cup best": [
+            "'''冠軍'''（1991、1993、1994、2000、2002、2006、2014、2018、[[2022年中北美洲及加勒比海女子足球錦標賽|2022]]）"
+        ],
+        "2ndRegional name": [
+            "[[美洲女子金盃]]"
+        ],
+        "2ndRegional cup apps": [
+            "1"
+        ],
+        "2ndRegional cup first": [
+            "[[2024年美洲女子金盃|2024年]]"
+        ],
+        "2ndRegional cup best": [
+            "'''冠軍'''（2024）"
+        ],
+        "medaltemplates": [
+            "{{Medal|Comp|[[國際足協女子世界盃]]}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "美國&lt;br&gt;''USWNT''",
+                "美國"
+            ]
+        ],
+        "Asst Coach": [
+            "{{le|內特·利曼|Nate Leaman}}&lt;br&gt;Adam Nightingale"
+        ],
+        "Most games": [
+            "[[馬克·約翰遜]] (151)"
+        ],
+        "Home Stadium": [
+            "IIHF code"
+        ],
+        "IIHF Rank": [
+            "4"
+        ],
+        "IIHF max": [
+            "4"
+        ],
+        "IIHF max date": [
+            "2016"
+        ],
+        "IIHF min": [
+            "7"
+        ],
+        "IIHF min date": [
+            "first in 2003"
+        ],
+        "World champ apps": [
+            "70"
+        ],
+        "World champ first": [
+            "1930"
+        ],
+        "Record": [
+            "473–428–81"
+        ]
+    },
+    "健康": {
+        "nerName": [
+            "健康"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "ja|健康で文化的な最低限度の生活}}）是[[柏木晴子]]創作的[[日本漫畫|日本漫畫]]，於[[小學館]]漫畫雜誌《[[Big Comic Spirits]]》2014年18號開始連載。本作榮獲「[[這本漫畫真厲害！]] 2015」男生篇第10名，以及第64屆[[小學館漫畫賞]]一般向部門獎項。截至第10卷出版時（2021年3月），本作的單行本發行量已突破100萬冊（含電子版）&lt;ref&gt;{{Cite web |title": [
+            "健康で文化的な最低限度の生活 １０ |url"
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "健康で文化的な最低限度の生活 １０ |url"
+            ]
+        ]
+    },
+    "時間": {
+        "nerName": [
+            "時間"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "j": [
+            "イバラード時間|rm"
+        ],
+        "片中的故事發生在一個被稱為{{nihongo|依巴拉度|イバラード}}的[[架空世界]]，其場景也曾成為吉卜力工作室出品的另一部電影《[[側耳傾聽]]》的靈感。&lt;ref&gt;{{Cite web |url": [
+            "http://www.animenewsnetwork.com/news/2007-06-21/studio-ghibli%27s-iblard-jikan-video-trailer-online |title"
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "イバラード時間|rm"
+            ]
+        ]
+    },
+    "普通": {
+        "nerName": [
+            "普通"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "j": [
+            "普通の女子校生が【ろこどる】やってみた|hg"
+        ],
+        "": [
+            ""
+        ],
+        "2014年1月22日，在《漫畫4格 Palette》2014年3月號的發售上，官方發表了《普通女高中生要做當地偶像》決定[[日本動畫|動畫化]]的訊息&lt;ref name": [
+            "&quot;Natalie.mu&quot;&gt;{{cite web|url"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "普通の女子校生が【ろこどる】やってみた|hg"
+            ]
+        ]
+    },
+    "約束": {
+        "nerName": [
+            "約束"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "j": [
+            "約束のネバーランド|rm"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "約束のネバーランド|rm"
+            ]
+        ]
+    },
+    "社長": {
+        "nerName": [
+            "社長"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "社長、バトルの時間です！}}）是由Deluxe Games、PREAPP PARTNERS開發的[[手機遊戲]]，改編[[日本動畫|動畫]]於2020年4月播出。&lt;ref&gt;{{cite web |title": [
+            "社長、バトルの時間です！ |url"
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "社長、バトルの時間です！ |url"
+            ]
+        ]
+    },
+    "企劃": {
+        "nerName": [
+            "企劃"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "MK企劃"
+            ]
+        ]
+    }
+}

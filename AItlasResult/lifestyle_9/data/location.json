@@ -1,0 +1,2182 @@
+{
+    "永豐": {
+        "locationName": [
+            "永豐"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "永豐"
+        ],
+        "eng_name": [
+            "Yongfeng"
+        ],
+        "linecolour": [
+            "{{北京地鐵顏色|16}}"
+        ],
+        "other_name": [
+            "country"
+        ],
+        "borough": [
+            "[[北京市]][[海淀區]][[西北旺地區]]"
+        ],
+        "address": [
+            "[[北清路]]、[[永翔北路]]交叉口"
+        ],
+        "elevation": [
+            "operator"
+        ],
+        "lines": [
+            "{{北京地鐵線路名|16|SL}}"
+        ],
+        "distance": [
+            "platform"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "bus_routes": [
+            "bus_stands"
+        ],
+        "hall": [
+            "整體式站廳"
+        ],
+        "depth": [
+            "levels"
+        ],
+        "elevator": [
+            "escalator"
+        ],
+        "MTStartDate": [
+            "2016年12月31日&lt;ref name"
+        ],
+        "type": [
+            "status"
+        ],
+        "code": [
+            "zone"
+        ],
+        "pass_year": [
+            "passengers"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "永豐"
+            ]
+        ]
+    },
+    "四海": {
+        "locationName": [
+            "四海"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "四海"
+        ],
+        "eng_name": [
+            "Sihai"
+        ],
+        "linecolour": [
+            "{{深圳地鐵色彩|12}}"
+        ],
+        "country": [
+            "{{PRC}}"
+        ],
+        "borough": [
+            "[[廣東省]][[深圳市]][[南山區]]"
+        ],
+        "address": [
+            "工業八路和南海大道交叉路口處"
+        ],
+        "colour": [
+            ""
+        ],
+        "station_hours": [
+            "工作日：06:02-00:13&lt;br&gt;休息日：06:06-00:13"
+        ],
+        "first": [
+            "{{Collapsible list|title"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "四海"
+            ]
+        ]
+    },
+    "機場": {
+        "locationName": [
+            "機場"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "機場"
+        ],
+        "eng_name": [
+            "Airport"
+        ],
+        "livery": [
+            "namecolour"
+        ],
+        "address": [
+            "{{CHN}}[[廣東省]][[深圳市]][[寶安區]][[航城街道 (深圳市)|航城街道]][[領航一路]]18號[[深圳寶安國際機場]]"
+        ],
+        "line": [
+            "{{MOSMETRO-bull|2|text"
+        ],
+        "station_hours": [
+            "06:23－23:40"
+        ],
+        "hours": [
+            "connection"
+        ],
+        "opened": [
+            "{{start date and age|df"
+        ],
+        "structure": [
+            "platform"
+        ],
+        "hall": [
+            "地下站廳"
+        ],
+        "platform": [
+            "1個[[島式月臺]]"
+        ],
+        "exits": [
+            "4"
+        ],
+        "elevator": [
+            "3"
+        ],
+        "escalator": [
+            "services"
+        ],
+        "route_map": [
+            "{{Routemap|inline"
+        ],
+        "official_name": [
+            "機場"
+        ],
+        "settlement_type": [
+            "[[人口普查指定地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[加利福尼亞州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[加利福尼亞州]]"
+        ],
+        "subdivision_name2": [
+            "[[斯坦尼斯洛斯縣 (加利福尼亞州)|斯坦尼斯洛斯縣]]"
+        ],
+        "elevation_ft": [
+            "92"
+        ],
+        "elevation_m": [
+            "28"
+        ],
+        "timezone": [
+            "[[太平洋時區]]"
+        ],
+        "area_total_km2": [
+            "1.54"
+        ],
+        "area_land_km2": [
+            "1.49"
+        ],
+        "area_water_km2": [
+            "0.05"
+        ],
+        "population_as_of": [
+            "[[2010年美國人口普查]]"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "utc_offset": [
+            "-8"
+        ],
+        "utc_offset_DST": [
+            "-7"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "2583084&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "機場",
+                "機場&lt;br /&gt;{{lang|ru|Аэропо́рт}}"
+            ]
+        ],
+        "type": [
+            "[[莫斯科地鐵]]車站"
+        ],
+        "borough": [
+            "[[莫斯科]]"
+        ],
+        "country": [
+            "[[俄羅斯]]"
+        ],
+        "other": [
+            "'''[[巴士]]'''：м1、е30、е30к、105、с356、412、456к、905、т6、т43、т65、т70、т86、н1、н12"
+        ],
+        "depth": [
+            "{{convert|8.6|m}}"
+        ],
+        "levels": [
+            "1層"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "parking": [
+            "無"
+        ],
+        "closed": [
+            "rebuilt"
+        ],
+        "owned": [
+            "莫斯科地鐵"
+        ],
+        "zone": [
+            "former"
+        ],
+        "pass_year": [
+            "2002年"
+        ],
+        "pass_percent": [
+            "pass_system"
+        ]
+    },
+    "山景": {
+        "locationName": [
+            "山景"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "{{SMRT code|DT|3}}"
+        ],
+        "type": [
+            "[[地鐵站]]"
+        ],
+        "linecolour": [
+            "{{新加坡地鐵濱海市區線色彩}}"
+        ],
+        "address": [
+            "{{SIN}}武吉知馬路上段510號"
+        ],
+        "line": [
+            "[[新加坡地鐵濱海市區線|濱海市區線]]"
+        ],
+        "other": [
+            "巴士、德士"
+        ],
+        "structure": [
+            "地下"
+        ],
+        "platform": [
+            "島式"
+        ],
+        "depth": [
+            "levels"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "parking": [
+            "bicycle"
+        ],
+        "closed": [
+            "rebuilt"
+        ],
+        "code": [
+            "{{SMRT code|DT|3}}"
+        ],
+        "operator": [
+            "[[新捷運]] DTL"
+        ],
+        "owned": [
+            "zone"
+        ],
+        "x": [
+            "98"
+        ],
+        "y": [
+            "66"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "{{SMRT code|DT|3}}&lt;br /&gt;山景&lt;br /&gt;Hillview&lt;br /&gt;ஹில்வியூ&lt;br /&gt;Hillview"
+            ]
+        ]
+    },
+    "太平": {
+        "locationName": [
+            "太平"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "太平"
+        ],
+        "eng_name": [
+            "Taiping"
+        ],
+        "type": [
+            "[[地鐵車站]]"
+        ],
+        "linecolour": [
+            "{{廣州地鐵顏色|14}}"
+        ],
+        "country": [
+            "[[中華人民共和國]]"
+        ],
+        "borough": [
+            "[[廣東省]][[廣州市]][[從化區]][[太平鎮 (廣州市)|太平鎮]]"
+        ],
+        "address": [
+            "[[105國道]]（廣從南路），廣州軟體學院西側"
+        ],
+        "owned": [
+            "[[廣州地鐵集團有限公司]]"
+        ],
+        "operator": [
+            "廣州地鐵集團運營事業總部運營四中心"
+        ],
+        "lines": [
+            "{{廣州地鐵路線連結|14|SL}}"
+        ],
+        "platforms": [
+            "2個[[島式月臺]]"
+        ],
+        "tracks": [
+            "4條"
+        ],
+        "code": [
+            "{{廣州地鐵車站編號|14|09}}"
+        ],
+        "connections": [
+            "structure"
+        ],
+        "hall": [
+            "地上站廳"
+        ],
+        "levels": [
+            "3層"
+        ],
+        "interchange": [
+            "exits"
+        ],
+        "status": [
+            "正常運營"
+        ],
+        "opened": [
+            "2018年12月28日"
+        ],
+        "station_hours": [
+            "06:02－23:28"
+        ],
+        "first": [
+            "{{廣州地鐵路線標誌|14|S}}"
+        ],
+        "Village/LiName": [
+            "太平"
+        ],
+        "Village/Li": [
+            "村"
+        ],
+        "City/CountyName": [
+            "彰化縣"
+        ],
+        "DivName": [
+            "埔心鄉"
+        ],
+        "OldName": [
+            "鳥巢莊"
+        ],
+        "AreaTotal": [
+            "1.25"
+        ],
+        "Sub": [
+            "15"
+        ],
+        "HouseholdTotal": [
+            "723"
+        ],
+        "YearMonth": [
+            "2023年6月"
+        ],
+        "PopTotal": [
+            "2.359"
+        ],
+        "Male": [
+            "1.201"
+        ],
+        "Female": [
+            "1.158"
+        ],
+        "Neighbors": [
+            "[[東門村]]、[[經口村]]、[[大華村]]、[[仁裡村]]、[[員林市]]、[[永靖鄉]]"
+        ],
+        "MapLocation": [
+            "Head"
+        ],
+        "Address": [
+            "埔心鄉太平村太平路418巷32弄26號"
+        ],
+        "Phone": [
+            "04-8236011"
+        ],
+        "Website": [
+            "DataSource"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "太平"
+            ]
+        ]
+    },
+    "湖區": {
+        "locationName": [
+            "湖區"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "湖區"
+        ],
+        "native_name": [
+            "Озёрная"
+        ],
+        "native_name_lang": [
+            "ru"
+        ],
+        "type": [
+            "{{STPETERSBURGMETRO type}}"
+        ],
+        "borough": [
+            "[[聖彼得堡]]"
+        ],
+        "country": [
+            "[[俄羅斯]]"
+        ],
+        "line": [
+            "{{STPETERSBURGMETRO-line2}}"
+        ],
+        "other": [
+            "structure"
+        ],
+        "structure": [
+            "{{link-en|淺層列柱車站|Shallow column station|雙跨徑淺層列柱車站}}"
+        ],
+        "platform": [
+            "1個[[島式月臺]]"
+        ],
+        "depth": [
+            "levels"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "parking": [
+            "bicycle"
+        ],
+        "closed": [
+            "rebuilt"
+        ],
+        "zone": [
+            "smartcardname"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "湖區",
+                "湖區&lt;br /&gt;{{lang|ru|Озерки́}}"
+            ]
+        ],
+        "address": [
+            "[[維堡區 (聖彼得堡)|維堡區]]"
+        ]
+    },
+    "林山": {
+        "locationName": [
+            "林山"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "林山"
+        ],
+        "eng_name": [
+            "LINSHAN"
+        ],
+        "former": [
+            "linecolour"
+        ],
+        "code": [
+            "country"
+        ],
+        "borough": [
+            "[[江蘇省]][[南京市]][[浦口區]][[橋林街道]]"
+        ],
+        "address": [
+            "豐子河路與龍周線交叉口"
+        ],
+        "levels": [
+            "2層"
+        ],
+        "connections": [
+            "[[南京公交]]"
+        ],
+        "owned": [
+            "operator"
+        ],
+        "lines": [
+            "{{南京地鐵路線標誌|S3|full}}"
+        ],
+        "interchange": [
+            "hall"
+        ],
+        "opened": [
+            "2017年12月6日"
+        ],
+        "status": [
+            "運營中"
+        ],
+        "platform": [
+            "1個[[島式站臺]]"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "exits": [
+            "2個"
+        ],
+        "first": [
+            "{{南京地鐵路線標誌|S3|short}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "林山"
+            ]
+        ]
+    },
+    "東港": {
+        "locationName": [
+            "東港"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "東港"
+        ],
+        "eng_name": [
+            "Donggang"
+        ],
+        "linecolour": [
+            "{{大連地鐵顏色|2}}"
+        ],
+        "borough": [
+            "[[遼寧省]][[大連市]][[中山區 (大連市)|中山區]][[人民路街道 (大連市)|人民路街道]]"
+        ],
+        "address": [
+            "港隆路與港東四街交叉口地下"
+        ],
+        "elevation": [
+            "operator"
+        ],
+        "lines": [
+            "{{大連地鐵線路名|2|SL}}"
+        ],
+        "distance": [
+            "platform"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "connections": [
+            "公交站"
+        ],
+        "structure": [
+            "地下車站"
+        ],
+        "hall": [
+            "地下站廳"
+        ],
+        "depth": [
+            "levels"
+        ],
+        "code": [
+            "classification"
+        ],
+        "former": [
+            "pass_year"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "東港"
+            ]
+        ]
+    },
+    "西南": {
+        "locationName": [
+            "西南"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "西南"
+        ],
+        "native_name": [
+            "Юго-Западная"
+        ],
+        "native_name_lang": [
+            "ru"
+        ],
+        "type": [
+            "[[莫斯科地鐵]]車站"
+        ],
+        "borough": [
+            "[[莫斯科]]"
+        ],
+        "country": [
+            "[[俄羅斯]]"
+        ],
+        "line": [
+            "{{MOSMETRO-bull|1|text"
+        ],
+        "other": [
+            "'''[[巴士]]'''：м16、66、196、219、226、227、250、261、281、329、330、343、361、374、404、461、485、518、520、610、611、630、642、667、688、699、707、718、752、785к、877、890、950、т34、н11"
+        ],
+        "structure": [
+            "{{link-en|淺層列柱車站|Shallow column station|淺層列柱}}三拱門車站"
+        ],
+        "platform": [
+            "1個[[島式月臺]]"
+        ],
+        "depth": [
+            "{{convert|8|m}}"
+        ],
+        "levels": [
+            "1層"
+        ],
+        "tracks": [
+            "2條"
+        ],
+        "parking": [
+            "無"
+        ],
+        "opened": [
+            "{{start date and age|df"
+        ],
+        "closed": [
+            "rebuilt"
+        ],
+        "owned": [
+            "莫斯科地鐵"
+        ],
+        "former": [
+            "passengers"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "西南"
+            ]
+        ]
+    },
+    "新千歲機場": {
+        "locationName": [
+            "新千歲機場"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "新千歲機場"
+        ],
+        "nativename": [
+            "&lt;small&gt;{{lang|ja|新千歳空港}}&lt;/small&gt;"
+        ],
+        "nativename-a": [
+            "&lt;small&gt;New Chitose Airport&lt;/small&gt;"
+        ],
+        "IATA": [
+            "CTS"
+        ],
+        "ICAO": [
+            "RJCC"
+        ],
+        "type": [
+            "軍用/民用"
+        ],
+        "operator": [
+            "[[北海道機場公司]]"
+        ],
+        "city-served": [
+            "[[札幌市|札幌]]"
+        ],
+        "location": [
+            "{{JPN}}[[北海道]][[千歲市]]"
+        ],
+        "opened": [
+            "軍用：1933年"
+        ],
+        "hub": [
+            "{{plainlist"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "新千歲機場"
+            ]
+        ]
+    },
+    "森林山": {
+        "locationName": [
+            "森林山"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "森林山"
+        ],
+        "native_name": [
+            "Forest Hill"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[印地安納州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[印地安納州]]"
+        ],
+        "subdivision_name2": [
+            "[[第開特縣 (印地安納州)|第開特縣]]"
+        ],
+        "elevation_ft": [
+            "830"
+        ],
+        "elevation_m": [
+            "253"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美東部時區]]"
+        ],
+        "utc_offset": [
+            "-5"
+        ],
+        "utc_offset_DST": [
+            "-4"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "47240"
+        ],
+        "area_code": [
+            "{{link-en|電話區號812|Area code 812|812}}"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "434651&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "森林山"
+            ]
+        ]
+    },
+    "漁村": {
+        "locationName": [
+            "漁村"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "settlement_type": [
+            "{{MAS}}漁村"
+        ],
+        "name": [
+            "瓜拉十八丁"
+        ],
+        "official_name": [
+            "Kuala Sepetang / Port Weld"
+        ],
+        "translit_lang1": [
+            "其他"
+        ],
+        "translit_lang1_type1": [
+            "[[爪夷文]]"
+        ],
+        "translit_lang1_info1": [
+            "كوالا سيڤيتڠ"
+        ],
+        "translit_lang1_type2": [
+            "[[淡米爾文]]"
+        ],
+        "translit_lang1_info2": [
+            "போ ட்வெல்ட்"
+        ],
+        "translit_lang1_type3": [
+            "[[檳城福建話|福建話]]&lt;br&gt;{{spaces|3}}[[白話字]]"
+        ],
+        "translit_lang1_info3": [
+            "十八丁&lt;br&gt;cha̍p-peh teng"
+        ],
+        "subdivision_type": [
+            "[[主權國家列表|所屬國家]]"
+        ],
+        "subdivision_name": [
+            "{{MAS}}"
+        ],
+        "subdivision_type2": [
+            "[[馬來西亞州屬|所屬州屬]]"
+        ],
+        "subdivision_name2": [
+            "{{flag|Perak}}"
+        ],
+        "subdivision_type3": [
+            "[[馬來西亞縣份|所屬縣份]]"
+        ],
+        "subdivision_name3": [
+            "[[拉律馬登司南馬縣|拉律馬登暨司南馬縣]]"
+        ],
+        "postal_code": [
+            "34640"
+        ],
+        "government_type": [
+            "[[市政府]]"
+        ],
+        "leader_name": [
+            "市議員"
+        ],
+        "leader_title1": [
+            "[[太平市議會]]主席"
+        ],
+        "leader_name1": [
+            "阿都拉欣（{{lang|ms|Abd Rahim Md Ariff}}）"
+        ],
+        "leader_title2": [
+            "十八丁國會議席"
+        ],
+        "leader_name2": [
+            "[[戴成銀]]"
+        ],
+        "area_code": [
+            "05"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "{{MAS}}漁村"
+            ]
+        ]
+    },
+    "城鎮": {
+        "locationName": [
+            "城鎮"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "settlement_type": [
+            "城鎮"
+        ],
+        "name": [
+            "科夫"
+        ],
+        "native_name": [
+            "&lt;small&gt;''an Cóbh''&lt;/small&gt;"
+        ],
+        "motto": [
+            "''Statio Fidissima Classi''{{spaces|2}}&lt;small&gt;([[拉丁語]])&lt;/small&gt;"
+        ],
+        "blank_info_sec1": [
+            "[http://getamap.ordnancesurvey.co.uk/getamap/frames.htm?mapAction"
+        ],
+        "unit_pref": [
+            "Metric"
+        ],
+        "elevation_m": [
+            "47"
+        ],
+        "subdivision_type": [
+            "[[世界地理索引|國家]]"
+        ],
+        "subdivision_name": [
+            "[[愛爾蘭共和國|愛爾蘭]]"
+        ],
+        "subdivision_type1": [
+            "[[愛爾蘭省份|省份]]"
+        ],
+        "subdivision_name1": [
+            "[[芒斯特省|芒斯特]]"
+        ],
+        "subdivision_type2": [
+            "[[愛爾蘭行政區劃|郡份]]"
+        ],
+        "subdivision_name2": [
+            "[[科克郡]]"
+        ],
+        "subdivision_type3": [
+            "眾議院"
+        ],
+        "subdivision_name3": [
+            "{{link-en|東科克|Cork East (Dáil Éireann constituency)}}"
+        ],
+        "population_urban": [
+            "6,500"
+        ],
+        "population_metro": [
+            "5,847"
+        ],
+        "population_as_of": [
+            "2011"
+        ],
+        "website": [
+            "{{URL|www.cobh.ie}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "城鎮"
+            ]
+        ]
+    },
+    "草原": {
+        "locationName": [
+            "草原"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "草原"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[阿拉巴馬州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[阿拉巴馬州]]"
+        ],
+        "subdivision_name2": [
+            "[[威爾科克斯縣 (阿拉巴馬州)|威爾科克斯縣]]"
+        ],
+        "elevation_ft": [
+            "161"
+        ],
+        "elevation_m": [
+            "49"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美中部時區]]"
+        ],
+        "utc_offset": [
+            "-6"
+        ],
+        "utc_offset_DST": [
+            "-5"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "156929&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "草原"
+            ]
+        ]
+    },
+    "中心": {
+        "locationName": [
+            "中心"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "中心"
+        ],
+        "settlement_type": [
+            "[[人口普查指定地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[阿拉斯加州行政區劃|人口普查區]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[阿拉斯加州]]"
+        ],
+        "subdivision_name2": [
+            "[[育空-科尤庫克人口普查區]]"
+        ],
+        "elevation_ft": [
+            "942"
+        ],
+        "elevation_m": [
+            "287"
+        ],
+        "area_total_km2": [
+            "646.10"
+        ],
+        "area_land_km2": [
+            "642.20"
+        ],
+        "area_water_km2": [
+            "3.90"
+        ],
+        "population_as_of": [
+            "[[2010年美國人口普查]]"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[阿拉斯加時區]]"
+        ],
+        "utc_offset": [
+            "-9"
+        ],
+        "utc_offset_DST": [
+            "-8"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "99730"
+        ],
+        "area_code": [
+            "{{link-en|電話區號907|Area code 907|907}}"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "1400106&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "中心"
+            ]
+        ]
+    },
+    "麥田": {
+        "locationName": [
+            "麥田"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "麥田"
+        ],
+        "settlement_type": [
+            "[[人口普查指定地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[亞利桑那州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[亞利桑那州]]"
+        ],
+        "subdivision_name2": [
+            "[[希拉縣 (亞利桑那州)|希拉縣]]"
+        ],
+        "elevation_ft": [
+            "3121"
+        ],
+        "elevation_m": [
+            "959"
+        ],
+        "area_total_km2": [
+            "20.88"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美山區時區]]"
+        ],
+        "utc_offset": [
+            "-7"
+        ],
+        "utc_offset_DST": [
+            "-6"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "2582899&lt;ref name"
+        ],
+        "area_land_km2": [
+            "20.88"
+        ],
+        "area_water_km2": [
+            "0.00"
+        ],
+        "population_as_of": [
+            "[[2010年美國人口普查]]"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "麥田"
+            ]
+        ]
+    },
+    "衛生": {
+        "locationName": [
+            "衛生"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "衛生"
+        ],
+        "settlement_type": [
+            "非建制地區"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[科羅拉多州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[科羅拉多州]]"
+        ],
+        "subdivision_name2": [
+            "[[圓石縣 (科羅拉多州)|圓石縣]]"
+        ],
+        "elevation_ft": [
+            "5095"
+        ],
+        "elevation_m": [
+            "1553"
+        ],
+        "timezone": [
+            "[[北美山區時區]]"
+        ],
+        "population_as_of": [
+            "[[2010年美國人口普查]]"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "utc_offset": [
+            "-8"
+        ],
+        "utc_offset_DST": [
+            "-6"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "80533"
+        ],
+        "area_code": [
+            "{{link-en|電話區號303|Area code 303|303}}"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "178333&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "衛生"
+            ]
+        ]
+    },
+    "山坡": {
+        "locationName": [
+            "山坡"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "山坡"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[科羅拉多州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[科羅拉多州]]"
+        ],
+        "subdivision_name2": [
+            "[[弗裡蒙特縣 (科羅拉多州)|弗裡蒙特縣]]"
+        ],
+        "elevation_ft": [
+            "7490"
+        ],
+        "elevation_m": [
+            "2283"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美山區時區]]"
+        ],
+        "utc_offset": [
+            "-7"
+        ],
+        "utc_offset_DST": [
+            "-6"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號]]"
+        ],
+        "postal_code": [
+            "81232"
+        ],
+        "area_code": [
+            "{{link-en|電話區號719|Area code 719|719}}"
+        ],
+        "blank_name": [
+            "[[地名資訊系統]]ID"
+        ],
+        "blank_info": [
+            "191812&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "山坡"
+            ]
+        ]
+    },
+    "山頂": {
+        "locationName": [
+            "山頂"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "山頂"
+        ],
+        "native_name": [
+            "Hill Top"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_type1": [
+            "[[美國州份|州份]]"
+        ],
+        "subdivision_type2": [
+            "[[伊利諾伊州行政區劃|縣]]"
+        ],
+        "subdivision_name": [
+            "[[美國]]"
+        ],
+        "subdivision_name1": [
+            "[[伊利諾伊州]]"
+        ],
+        "subdivision_name2": [
+            "[[默納德縣 (伊利諾伊州)|默納德縣]]"
+        ],
+        "elevation_ft": [
+            "604"
+        ],
+        "elevation_m": [
+            "184"
+        ],
+        "area_total_km2": [
+            "area_total_sq_mi"
+        ],
+        "population_density_sq_mi": [
+            "auto"
+        ],
+        "timezone": [
+            "[[北美中部時區]]"
+        ],
+        "utc_offset": [
+            "-6"
+        ],
+        "utc_offset_DST": [
+            "-5"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_name": [
+            "[[地名資訊系統|GNIS ID]]"
+        ],
+        "blank_info": [
+            "422700&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "山頂"
+            ]
+        ]
+    },
+    "太平市": {
+        "locationName": [
+            "太平市"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "太平市"
+        ],
+        "official_name": [
+            "Bandar Taiping"
+        ],
+        "translit_lang1": [
+            "其他"
+        ],
+        "translit_lang1_type1": [
+            "[[爪夷文]]"
+        ],
+        "translit_lang1_info1": [
+            "{{lang|ms-Arab|تاءيڤيڠ}}"
+        ],
+        "translit_lang1_type2": [
+            "[[馬來語]]"
+        ],
+        "translit_lang1_info2": [
+            "{{lang|ms|Taiping}}"
+        ],
+        "translit_lang1_type3": [
+            "[[淡米爾語]]"
+        ],
+        "translit_lang1_info3": [
+            "{{lang|ta|தைப்பிங்}}"
+        ],
+        "settlement_type": [
+            "[[馬來西亞城市|市鎮]]及[[馬來西亞首都及各州首府列表#各縣縣府|縣府]]"
+        ],
+        "nickname": [
+            "雨城&lt;br&gt;（Bandar Hujan）&lt;hr&gt;綽號：遺產之城&lt;br&gt;（Bandar Warisan）&lt;hr&gt;"
+        ],
+        "motto": [
+            "永遠太平&lt;br&gt;（Aman Selama-lamanya）"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|所屬國家]]"
+        ],
+        "subdivision_name": [
+            "{{MAS}}"
+        ],
+        "subdivision_type1": [
+            "[[馬來西亞州|所屬州屬]]"
+        ],
+        "subdivision_name1": [
+            "{{flag|Perak}}"
+        ],
+        "subdivision_type2": [
+            "[[馬來西亞縣份|所屬縣區]]"
+        ],
+        "subdivision_name2": [
+            "[[拉律峇登司南馬縣|拉律馬登暨司南馬縣]]"
+        ],
+        "subdivision_type3": [
+            "&lt;hr&gt;官方："
+        ],
+        "subdivision_name3": [
+            "&lt;hr&gt;[[馬來語]]、[[馬來西亞英語|英語]]"
+        ],
+        "subdivision_type4": [
+            "方言（母語）："
+        ],
+        "subdivision_name4": [
+            "[[吉打馬來語]]、[[檳城福建話]]、[[馬來西亞粵語|廣府話]]、[[潮州話]]、[[客家話]]"
+        ],
+        "established_title": [
+            "建立"
+        ],
+        "established_date": [
+            "1850年代&lt;br&gt;1874年（[[邦咯條約|改名]]）"
+        ],
+        "government_type": [
+            "市政府"
+        ],
+        "leader_name": [
+            "市議員"
+        ],
+        "leader_title1": [
+            "市議會主席"
+        ],
+        "leader_name1": [
+            "阿都拉欣&lt;br&gt;（{{lang|ms|Abd. Rahim Md. Ariff}}）"
+        ],
+        "leader_title2": [
+            "[[太平國會議席|國會議員]]"
+        ],
+        "leader_name2": [
+            "[[黃家和]]"
+        ],
+        "population_as_of": [
+            "2013"
+        ],
+        "population_note": [
+            "population_total"
+        ],
+        "population_density_km2": [
+            "1197年"
+        ],
+        "timezone": [
+            "[[馬來西亞標準時間]]"
+        ],
+        "utc_offset": [
+            "+8"
+        ],
+        "postal_code_type": [
+            "[[馬來西亞郵政編碼|郵政編碼]]"
+        ],
+        "postal_code": [
+            "34***"
+        ],
+        "area_code": [
+            "05"
+        ],
+        "registration_plate": [
+            "[[馬來西亞車輛號牌|A]]"
+        ],
+        "website": [
+            "{{URL|https://www.mptaiping.gov.my/}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "太平市"
+            ]
+        ]
+    },
+    "上野": {
+        "locationName": [
+            "上野"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "上野"
+        ],
+        "native_name": [
+            "settlement_type"
+        ],
+        "subdivision_name": [
+            "{{JPN}}"
+        ],
+        "subdivision_type1": [
+            "[[都道府縣]]"
+        ],
+        "subdivision_type2": [
+            "[[東京都區部|特別區]]"
+        ],
+        "established_title": [
+            "established_date"
+        ],
+        "population_urban": [
+            "population_metro"
+        ],
+        "utc_offset": [
+            "+9"
+        ],
+        "elevation_m": [
+            "elevation_ft"
+        ],
+        "postal_code": [
+            "110-0005"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "上野"
+            ]
+        ]
+    },
+    "日本": {
+        "locationName": [
+            "日本"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "official_name": [
+            "日本"
+        ],
+        "native_name": [
+            "Japan"
+        ],
+        "settlement_type": [
+            "[[非建制地區]]"
+        ],
+        "subdivision_type": [
+            "[[世界政區索引|國家]]"
+        ],
+        "subdivision_name": [
+            "{{USA}}"
+        ],
+        "subdivision_type1": [
+            "[[美國行政區劃|州]]"
+        ],
+        "subdivision_name1": [
+            "{{flag|密蘇裡州}}"
+        ],
+        "subdivision_type2": [
+            "[[密蘇裡州行政區劃|縣]]"
+        ],
+        "subdivision_name2": [
+            "[[富蘭克林縣 (密蘇裡州)|富蘭克林縣]]"
+        ],
+        "elevation_ft": [
+            "899"
+        ],
+        "latd": [
+            "38"
+        ],
+        "postal_code_type": [
+            "[[美國郵區編號|郵區編號]]"
+        ],
+        "postal_code": [
+            "area_code"
+        ],
+        "blank_info": [
+            "740963&lt;ref name"
+        ],
+        "name": [
+            "日本"
+        ],
+        "continent": [
+            "[[亞洲]]"
+        ],
+        "region": [
+            "[[東亞]]"
+        ],
+        "area ranking": [
+            "61"
+        ],
+        "km area": [
+            "377,975.24&lt;ref name"
+        ],
+        "percent land": [
+            "87.93099"
+        ],
+        "km coastline": [
+            "29751"
+        ],
+        "northernmost point": [
+            "[[Benten-jima (Wakkanai)|Benten-jima]]"
+        ],
+        "southernmost point": [
+            "[[Okinotorishima]]"
+        ],
+        "easternmost point": [
+            "[[Minami-Tori-shima]]"
+        ],
+        "westernmost point": [
+            "[[Cape Irizaki]]--&gt;"
+        ],
+        "geographic center": [
+            "highest point"
+        ],
+        "lowest point": [
+            "[[八郎潟]] &lt;br&gt; {{convert|-4|m|ft|abbr"
+        ],
+        "longest river": [
+            "[[信濃川]] &lt;br&gt; {{convert|367|km|mi|abbr"
+        ],
+        "largest lake": [
+            "[[琵琶湖]] &lt;br&gt; {{convert|671|km2|sqmi|abbr"
+        ],
+        "climate": [
+            "多樣；南方為[[熱帶]]，北方為涼爽的[[大陸性氣候]]，山區為{{link-en|亞北極|Subarctic}}，或[[凍原#高山凍原|高山凍原]]&lt;ref name"
+        ],
+        "terrain": [
+            "多為火山地貌山地丘陵地帶&lt;ref name"
+        ],
+        "natural resources": [
+            "海洋：海洋生物和礦物資源&lt;ref name"
+        ],
+        "natural hazards": [
+            "[[火山噴發]]、[[海嘯]]、[[地震]]、[[颱風]]等。&lt;ref name"
+        ],
+        "environmental issues": [
+            "[[空氣汙染]]；{{link-en|淡水酸化|Freshwater acidification|湖泊和水庫酸化}}；[[過度捕撈]]；[[森林砍伐]]&lt;ref name"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "日本"
+            ]
+        ]
+    },
+    "水源市": {
+        "locationName": [
+            "水源市"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "水源市"
+        ],
+        "settlement_type": [
+            "[[中央直轄市轄市]]"
+        ],
+        "official_name": [
+            "other_name"
+        ],
+        "subdivision_name": [
+            "{{flag|Vietnam}}"
+        ],
+        "subdivision_type1": [
+            "[[越南行政區劃|直轄市]]"
+        ],
+        "subdivision_name1": [
+            "[[海防市]]"
+        ],
+        "subdivision_type2": [
+            "行政區劃"
+        ],
+        "subdivision_name2": [
+            "17坊4社"
+        ],
+        "area_land_km2": [
+            "area_water_km2"
+        ],
+        "population_density_km2": [
+            "auto"
+        ],
+        "population_metro": [
+            "population_density_metro_km2"
+        ],
+        "utc_offset": [
+            "+7"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "水源市"
+            ]
+        ]
+    },
+    "臺北市": {
+        "locationName": [
+            "臺北市"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "City/CountyName": [
+            "[[臺北市]]"
+        ],
+        "DivName": [
+            "[[文山區]]"
+        ],
+        "Village/LiName": [
+            "指南"
+        ],
+        "Village/Li": [
+            "裡"
+        ],
+        "OldName": [
+            "指南村"
+        ],
+        "AreaTotal": [
+            "6.3460"
+        ],
+        "HouseholdTotal": [
+            "1,636"
+        ],
+        "PopTotal": [
+            "3,879"
+        ],
+        "YearMonth": [
+            "2018年7月"
+        ],
+        "Male": [
+            "2003"
+        ],
+        "Female": [
+            "1876"
+        ],
+        "Head": [
+            "張佳南"
+        ],
+        "Sub": [
+            "18"
+        ],
+        "Website": [
+            "http://li.taipei/ws_zhinan/"
+        ],
+        "Neighbors": [
+            "萬興裡、政大里、老泉裡&lt;br/&gt;[[新北市]][[深坑區]]、[[新店區]]"
+        ],
+        "Address": [
+            "指南路3段33巷34號"
+        ],
+        "Phone": [
+            "02-22342099"
+        ],
+        "MapLocation": [
+            "XingRen-Li in ZhongShan.PNG"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "臺北市",
+                "[[臺北市]]"
+            ]
+        ],
+        "Caption": [
+            "自[[指南宮]]遠眺指南里境內與[[景美溪]]對岸之[[木柵]]市區"
+        ],
+        "DataSource": [
+            "戶口資料"
+        ]
+    },
+    "醫院": {
+        "locationName": [
+            "醫院"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "915醫院"
+        ],
+        "name_en": [
+            "admin"
+        ],
+        "address": [
+            "[[平壤直轄市]][[兄弟山區域]]鶴山"
+        ],
+        "discriminate_code": [
+            ""
+        ],
+        "funding": [
+            "type"
+        ],
+        "beds": [
+            "num_employees"
+        ],
+        "dean": [
+            "website"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "695醫院",
+                "915醫院"
+            ]
+        ]
+    },
+    "臺北市立聯合醫院松德院區": {
+        "locationName": [
+            "臺北市立聯合醫院松德院區"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "臺北市立聯合醫院松德院區"
+        ],
+        "name_en": [
+            "Taipei City Hospital Heping Songde Branch"
+        ],
+        "discriminate_code": [
+            "0101090517"
+        ],
+        "funding": [
+            "公立"
+        ],
+        "type": [
+            "專科教學醫院"
+        ],
+        "Division_of_medical_liability": [
+            "區域醫院"
+        ],
+        "affiliation": [
+            "臺北市政府衛生局"
+        ],
+        "beds": [
+            "806床"
+        ],
+        "area": [
+            "臺北市中正區金山南路一段5號"
+        ],
+        "num_employees": [
+            "[[臺北市立聯合醫院]]：4188人"
+        ],
+        "founded": [
+            "臺北市立精神病養護所：1969年4月15日"
+        ],
+        "dean": [
+            "[[黃名琪]]"
+        ],
+        "website": [
+            "{{URL|tpech.gov.taipei}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "[[臺北市立聯合醫院松德院區]]",
+                "臺北市立聯合醫院松德院區"
+            ]
+        ],
+        "admin": [
+            "臺北市政府衛生局"
+        ],
+        "address": [
+            "臺北市信義區三犁裡23鄰松德路309號&lt;br/&gt;臺北市中正區金山南路一段5號"
+        ]
+    },
+    "北部": {
+        "locationName": [
+            "北部"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "北部"
+        ],
+        "native_name": [
+            "&lt;small&gt;{{native name|fr|Nord}}&lt;/small&gt;"
+        ],
+        "settlement_type": [
+            "{{BEL}}[[列日]]的街區"
+        ],
+        "map-legend": [
+            "在列日的位置"
+        ],
+        "region": [
+            "{{BE-WAL}}"
+        ],
+        "community": [
+            "{{BE-FR}}"
+        ],
+        "province": [
+            "{{BE-WLG}}"
+        ],
+        "arrondissement": [
+            "[[列日區 (比利時)|列日區]]"
+        ],
+        "municipality": [
+            "[[列日]]"
+        ],
+        "area_total_km2": [
+            "population_as_of"
+        ],
+        "postal-codes": [
+            "4000"
+        ],
+        "telephone-area": [
+            "04"
+        ],
+        "NIS": [
+            "website"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "北部"
+            ]
+        ]
+    },
+    "臺北": {
+        "locationName": [
+            "臺北"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "臺北"
+        ],
+        "jurisdiction": [
+            "總教區"
+        ],
+        "latin": [
+            "Archidioecesis Taipehensis"
+        ],
+        "local": [
+            "財團法人天主教會臺北教區"
+        ],
+        "location": [
+            "{{ROC-TW}}[[臺北市]]"
+        ],
+        "territory": [
+            "[[臺北市]]、[[新北市]]、[[基隆市]]、[[宜蘭縣]]"
+        ],
+        "rite": [
+            "[[羅馬禮]]"
+        ],
+        "patron": [
+            "[[無染原罪聖母]]"
+        ],
+        "province": [
+            "[[臺灣天主教|臺北]]"
+        ],
+        "established": [
+            "[[1949年]]12月31日（宗座監牧區）&lt;br/&gt;[[1952年]]8月7日（總教區）"
+        ],
+        "cathedral": [
+            "[[聖母無原罪主教座堂 (臺北市)|聖母無原罪主教座堂]]"
+        ],
+        "leadership": [
+            "總主教"
+        ],
+        "pope": [
+            "{{incumbent pope}}"
+        ],
+        "metropolitan": [
+            "[[洪山川]]"
+        ],
+        "emeritus": [
+            "[[狄剛]]（榮休總主教）&lt;br/&gt;[[鄭再發]]（榮休總主教）"
+        ],
+        "vicar general": [
+            "[[周繼源]]&lt;br/&gt;[[孫志青]]"
+        ],
+        "episcopal_vicar": [
+            "[[王榮和]]（基隆地區）&lt;br/&gt;[[高國卿]]（宜蘭羅東地區）"
+        ],
+        "chancery": [
+            "[[許德訓]]"
+        ],
+        "procura": [
+            "[[李裁榮]]"
+        ],
+        "population": [
+            "86,125人"
+        ],
+        "parishes": [
+            "71處"
+        ],
+        "churches": [
+            "131座"
+        ],
+        "congregations": [
+            "20個男修會"
+        ],
+        "secular priests": [
+            "296位"
+        ],
+        "curia": [
+            "天主教臺北總主教公署"
+        ],
+        "address": [
+            "[[臺北市|臺北市]][[大安區 (臺北市)|大安區]]樂利路94號"
+        ],
+        "website": [
+            "www.catholic.org.tw"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "臺北"
+            ]
+        ]
+    },
+    "北海道": {
+        "locationName": [
+            "北海道"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "Name": [
+            "北海道"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "北海道"
+            ]
+        ]
+    },
+    "北海": {
+        "locationName": [
+            "北海"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "北海"
+        ],
+        "location": [
+            "大西洋"
+        ],
+        "coords": [
+            "{{coord|56|N|03|E|scale:5000000_type:waterbody|name"
+        ],
+        "type": [
+            "[[海]]"
+        ],
+        "inflow": [
+            "[[波羅的海]]、[[易北河]]、[[威悉河]]、[[埃姆斯河]]、[[萊茵河]]/[[瓦爾河 (荷蘭)|瓦爾河]]、[[默茲河]]、[[斯海爾德河]]、[[斯佩河]]、[[泰河]]、[[福斯河]]、[[泰恩河]]、[[蒂斯河]]、[[亨伯河]]、[[泰晤士河]]"
+        ],
+        "outflow": [
+            "catchment"
+        ],
+        "length": [
+            "{{convert|960|km}}"
+        ],
+        "area": [
+            "{{convert|750000|km2}}"
+        ],
+        "depth": [
+            "{{convert|95|m}}"
+        ],
+        "max-depth": [
+            "{{convert|700|m}}"
+        ],
+        "volume": [
+            "{{convert|94000|km3}}"
+        ],
+        "residence_time": [
+            "temperature_high"
+        ],
+        "temperature_low": [
+            "6℃"
+        ],
+        "salinity": [
+            "3.4至3.5%"
+        ],
+        "shore": [
+            "islands"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "北海"
+            ]
+        ]
+    }
+}
