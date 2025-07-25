@@ -1,1134 +1,4 @@
 {
-    "曾經": {
-        "nerName": [
-            "曾經"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "name": [
-            "曾經。愛是唯一"
-        ],
-        "original_name": [
-            "{{lang|en|''Once''}}"
-        ],
-        "hk_name": [
-            "一奏傾情"
-        ],
-        "tw_name": [
-            "曾經。愛是唯一"
-        ],
-        "cn_name": [
-            "曾經"
-        ],
-        "director": [
-            "[[約翰·卡尼]]"
-        ],
-        "producer": [
-            "瑪婷娜·奈藍"
-        ],
-        "writer": [
-            "約翰·卡尼"
-        ],
-        "starring": [
-            "{{tsl|en|Glen Hansard|葛倫·漢瑟}}"
-        ],
-        "music": [
-            "葛倫·漢瑟"
-        ],
-        "cinematography": [
-            "提姆·弗萊明"
-        ],
-        "editing": [
-            "保羅·穆倫"
-        ],
-        "distributor": [
-            "{{flagicon|United States}} [[福斯探照燈影業]]"
-        ],
-        "released": [
-            "{{flagicon|Ireland}} 2007年3月23日"
-        ],
-        "runtime": [
-            "90分鐘"
-        ],
-        "country": [
-            "{{IRE}}"
-        ],
-        "language": [
-            "[[英語]]"
-        ],
-        "budget": [
-            "13萬[[歐元]]"
-        ],
-        "gross": [
-            "'''全美'''"
-        ],
-        "amg_id": [
-            "1:381696"
-        ],
-        "imdb_id": [
-            "0907657"
-        ],
-        "wiki_origin_name_list": [
-            [
-                "曾經。愛是唯一"
-            ]
-        ]
-    },
-    "主席": {
-        "nerName": [
-            "主席"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "wiki_origin_name_list": [
-            [
-                "主席"
-            ]
-        ]
-    },
-    "意外": {
-        "nerName": [
-            "意外"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "name": [
-            "意外"
-        ],
-        "original_name": [
-            "{{lang|en|''Accident''}}"
-        ],
-        "director": [
-            "[[鄭保瑞]]"
-        ],
-        "executive_producer": [
-            "[[莊澄|莊　澄]]（兼出品人）"
-        ],
-        "producer": [
-            "[[杜琪峰]]"
-        ],
-        "producer_2": [
-            "馮志偉、朱淑儀"
-        ],
-        "writer": [
-            "[[司徒錦源]]、[[鄧力奇]]"
-        ],
-        "starring": [
-            "[[古天樂]]&lt;br&gt;[[任賢齊]]&lt;br&gt;[[馮淬帆]]&lt;br&gt;[[林雪|林　雪]]&lt;br&gt;[[葉璇|葉　璇]]"
-        ],
-        "music": [
-            "{{lang|en|Xavier Jamaux}}"
-        ],
-        "cinematography": [
-            "[[馮遠文]] [[香港專業電影攝影師學會|HKSC]]"
-        ],
-        "editing": [
-            "{{lang|en|David Richardson}}"
-        ],
-        "studio": [
-            "[[寰亞電影有限公司]] &lt;small&gt;'''出品'''&lt;/small&gt;"
-        ],
-        "distributor": [
-            "[[寰亞電影發行有限公司]]"
-        ],
-        "released": [
-            "{{flagicon|HKG}}{{flagicon|MAC}}{{flagicon|AUS}}　{{film date|2009|9|17}}&lt;br&gt;{{flagicon|SIN}}{{flagicon|MAL}}　{{film date|2009|9|24}}&lt;br&gt;{{flagicon|France}}　{{film date|2009|12|30}}&lt;br&gt;{{flagicon|South Korea}}　{{start date|2010|12|30}}&lt;br&gt;{{flagicon|Japan}}[[東京]]　{{start date|2011|10|8}}"
-        ],
-        "runtime": [
-            "89分鐘"
-        ],
-        "rate": [
-            "{{HK}}：IIB&lt;br&gt;{{SIN}}：G&lt;br&gt;{{AUS}}：MA 15+"
-        ],
-        "country": [
-            "{{香港電影產地}}"
-        ],
-        "language": [
-            "粵語"
-        ],
-        "imdb_id": [
-            "tt1202514"
-        ],
-        "website": [
-            "[http://www.mediaasia.com/accident/ 《意外》官方網站]"
-        ],
-        "wiki_origin_name_list": [
-            [
-                "意外"
-            ]
-        ]
-    },
-    "左右": {
-        "nerName": [
-            "左右"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "name": [
-            "左右"
-        ],
-        "producer": [
-            "[[Isabelle Glachant]]&lt;br/&gt;[[黃斌]]"
-        ],
-        "writer": [
-            "[[王小帥]]"
-        ],
-        "narrator": [
-            "starring"
-        ],
-        "music": [
-            "[[Dou Wei]]"
-        ],
-        "cinematography": [
-            "[[鄔迪]]"
-        ],
-        "editing": [
-            "[[Yang Hongyu]]"
-        ],
-        "distributor": [
-            "released"
-        ],
-        "runtime": [
-            "115 min."
-        ],
-        "country": [
-            "{{中國大陸電影產地}}"
-        ],
-        "language": [
-            "[[漢語]]"
-        ],
-        "budget": [
-            "preceded_by"
-        ],
-        "wiki_origin_name_list": [
-            [
-                "左右"
-            ]
-        ]
-    },
-    "設計": {
-        "nerName": [
-            "設計"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "name": [
-            "設計&amp;日常生活，前一版書名為設計心理學"
-        ],
-        "title_orig": [
-            "'''''The Design of Everyday Things'''''，前一版名稱為''The Psychology of Everyday Things''"
-        ],
-        "genre": [
-            "[[心理學]]，[[設計]]與[[商業]]"
-        ],
-        "country": [
-            "[[美國]]"
-        ],
-        "author": [
-            "[[唐·諾曼]]"
-        ],
-        "pages": [
-            "272"
-        ],
-        "publisher": [
-            "Doubleday Business"
-        ],
-        "translator": [
-            "release_date"
-        ],
-        "language": [
-            "[[英文]]"
-        ],
-        "isbn": [
-            "978-0-465-06710-7"
-        ],
-        "wiki_origin_name_list": [
-            [
-                "設計&amp;日常生活，前一版書名為設計心理學"
-            ]
-        ]
-    },
-    "萬豪酒店": {
-        "nerName": [
-            "萬豪酒店"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "name": [
-            "萬豪酒店"
-        ],
-        "type": [
-            "子公司"
-        ],
-        "foundation": [
-            "{{start date and age|1957}}"
-        ],
-        "key_people": [
-            "num_employees"
-        ],
-        "revenue": [
-            "homepage"
-        ],
-        "area_served": [
-            "全球"
-        ],
-        "locations": [
-            "{{decrease}}583間"
-        ],
-        "wiki_origin_name_list": [
-            [
-                "JW萬豪酒店",
-                "萬豪酒店"
-            ]
-        ],
-        "slogan": [
-            "parent"
-        ],
-        "founder": [
-            "[[J. Willard Marriott]]"
-        ],
-        "location": [
-            "{{USA}}[[馬裡蘭州]][[貝塞斯達 (馬裡蘭州)|貝塞斯達]]"
-        ]
-    },
-    "公司": {
-        "nerName": [
-            "公司"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "company_name": [
-            "Mozilla公司"
-        ],
-        "name_en": [
-            "LSI Corporation"
-        ],
-        "company_type": [
-            "[[子公司]]"
-        ],
-        "foundation": [
-            "{{start date and age|2005|8|3}}"
-        ],
-        "location": [
-            "{{USA}}[[加利福尼亞州]][[芒廷維尤 (加利福尼亞州)|山景城]]"
-        ],
-        "key_people": [
-            "Abhi Talwalkar，總裁兼CEO"
-        ],
-        "num_employees": [
-            "5,053（2012-11-04）"
-        ],
-        "revenue": [
-            "20.4億美元（2011[[財政年度|財年]]）"
-        ],
-        "industry": [
-            "[[網際網路]]"
-        ],
-        "homepage": [
-            "{{URL|http://www.lsi.com/}}"
-        ],
-        "wiki_origin_name_list": [
-            [
-                "LSI公司",
-                "Mozilla公司",
-                "D.O.公司"
-            ]
-        ],
-        "company_name_en": [
-            "Mozilla Corporation"
-        ],
-        "zip_code": [
-            "telephone_no"
-        ],
-        "products": [
-            "[[Mozilla Firefox]]&lt;br/&gt;[[Mozilla Thunderbird]]&lt;br/&gt;[[Mozilla產品列表|更多……]]"
-        ],
-        "capital": [
-            "revenue"
-        ],
-        "accounting_period": [
-            "parent"
-        ],
-        "subsid": [
-            "homepage"
-        ]
-    },
-    "國防部": {
-        "nerName": [
-            "國防部"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "agency_name": [
-            "國防部"
-        ],
-        "nativename": [
-            "국방부{{in lang|ko-kr}}"
-        ],
-        "formed": [
-            "1948年8月15日"
-        ],
-        "jurisdiction": [
-            "[[大韓民國]]"
-        ],
-        "headquarters": [
-            "[[韓國]][[首爾特別市]][[龍山區 (首爾特別市)|龍山區]]梨泰院路22號"
-        ],
-        "employees": [
-            "62萬5,000人（2016年度）"
-        ],
-        "budget": [
-            "46.7億[[韓圓]]（2019年度）"
-        ],
-        "chief1": [
-            "{{Link-ko|金善鎬 (1964年)|김선호 (군인)|金善鎬}}（代理）"
-        ],
-        "chief1_title": [
-            "[[韓國國防部長|部長]]"
-        ],
-        "chief2": [
-            "{{Link-ko|金善鎬 (1964年)|김선호 (군인)|金善鎬}}"
-        ],
-        "chief2_title": [
-            "次長"
-        ],
-        "chief3": [
-            "{{Link-ko|金明秀 (1967年)|김명수 (군인)|金明秀}}（[[韓國海軍|海軍]][[上將]]）"
-        ],
-        "chief3_title": [
-            "[[韓國聯合參謀本部|聯合參謀本部議長]]"
-        ],
-        "chief4": [
-            "[[樸安洙]]上將"
-        ],
-        "chief4_title": [
-            "[[陸軍]]參謀總長"
-        ],
-        "chief5": [
-            "{{Link-ko|梁龍模|양용모 (군인)}}上將"
-        ],
-        "chief5_title": [
-            "[[海軍]]參謀總長"
-        ],
-        "chief6": [
-            "[[李英秀]]上將"
-        ],
-        "chief6_title": [
-            "[[空軍]]參謀總長"
-        ],
-        "child1_agency": [
-            "運營支援課、企畫協調室、國防政策室、人事福祉室、戰力資源管理室 &lt;li&gt; 附屬機關：[[國立首爾顯忠院]]、國防電算情報院，[[國防宣傳院]]&lt;li&gt;直轄機關：國防大學"
-        ],
-        "website": [
-            "[http://www.mnd.go.kr/ 國防部]"
-        ],
-        "preceding1": [
-            "{{link-ko|國內警備部|국내경비부}}|agency_type"
-        ],
-        "'''國防部'''（{{kor|名": [
-            "南|k"
-        ],
-        "": [
-            ""
-        ],
-        "國防部總部位於[[首爾特別市]][[龍山區 (首爾特別市)|龍山區]]，佔地面積27.6萬平方米。境內有地上10層的國防部主樓（新館）以及參謀長聯席會議、國防部附樓（舊館）、國防調查司令部、防衛設施司令部、網路司令部、心理戰團、軍事法庭、檢察廳等直屬單位使用的建築物&lt;ref name": [
-            "&quot;:0&quot;&gt;{{Cite web|title"
-        ],
-        "2022年3月20日，新當選的候任總統[[尹錫悅]]宣佈將會把韓國總統府從[[青瓦臺]]遷至國防部主樓，即[[韓國總統室]]。因此原位於國防部主樓內的國防部長辦公室、副部長辦公室、政策辦公室、規劃協調辦公室等主要部門將搬遷至隔壁的參謀長聯席會議大樓四層，其餘部門則將分散在大約10個地點，包括國防部附樓、前[[防衛事業廳]]大樓和[[政府果川廳舍]]等處。而原位於參謀長聯席會議大樓四層的參謀長聯席會議部分部門將轉移到位於[[南泰嶺]]的[[首都防衛司令部]]；考慮到[[美韓聯合司令部]]遷往[[京畿道]][[平澤市]]，參謀長聯席會議未來將會全部搬遷到南泰嶺。同時，武裝部隊網路司令部、國防調查總部、勤務支援團等部隊可能將轉移到首都防衛司令部或果川政府大樓，國防部檢察組和軍事法庭也會遷往其他地方。而因總統府安保室將遷入防衛設施司令部大樓，因此防衛設施司令部將暫時搬遷至位於京畿道[[高陽市]]的原第30師司令部大樓&lt;ref name": [
-            "&quot;:0&quot; /&gt;。"
-        ],
-        "wiki_origin_name_list": [
-            [
-                "國防部"
-            ]
-        ]
-    },
-    "影片": {
-        "nerName": [
-            "影片"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "name": [
-            "Google影片"
-        ],
-        "url": [
-            "{{url|http://video.google.com/}}"
-        ],
-        "commercial": [
-            "[[免費]]"
-        ],
-        "type": [
-            "[[影片分享網站]]、[[影片搜尋服務]]"
-        ],
-        "language": [
-            "[[多國語言]]"
-        ],
-        "registration": [
-            "否"
-        ],
-        "owner": [
-            "[[Google]]"
-        ],
-        "author": [
-            "[[Google]]"
-        ],
-        "launch_date": [
-            "{{start date and age|2005|1|25}}"
-        ],
-        "current_status": [
-            "關閉"
-        ],
-        "wiki_origin_name_list": [
-            [
-                "Google影片"
-            ]
-        ]
-    },
-    "新聞": {
-        "nerName": [
-            "新聞"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "name": [
-            "Google新聞"
-        ],
-        "url": [
-            "{{URL|https://news.google.com/|Google News}}"
-        ],
-        "commercial": [
-            "是"
-        ],
-        "type": [
-            "[[新聞聚合器]]"
-        ],
-        "language": [
-            "[[阿拉伯語]]、[[孟加拉語]]、[[保加利亞語]]、[[漢語|中文]]、[[捷克語]]、[[荷蘭語]]、[[英語]]、[[法語]]、[[德語]]、[[希臘語]]、[[希伯來語]]、[[印地語]]、[[匈牙利語]]、[[義大利語]]、[[印尼語]]、[[日語]]、-{zh-cn:[[朝鮮語]]; zh-tw:[[韓語]];}-、[[拉脫維亞語]]、[[立陶宛語]]、[[馬拉雅拉姆語]]、[[挪威語]]、[[波蘭語]]、[[葡萄牙語]]、[[羅馬尼亞語]]、[[俄語]]、[[塞爾維亞語]]、[[西班牙語]]、[[瑞典語]]、[[泰米爾語]]、[[泰盧固語]]、[[泰語]]、[[土耳其語]]、[[烏克蘭語]]與[[越南語]]"
-        ],
-        "language_count": [
-            "35|registration"
-        ],
-        "owner": [
-            "[[Google]]"
-        ],
-        "launch_date": [
-            "{{start date and age|2002|9}}"
-        ],
-        "wiki_origin_name_list": [
-            [
-                "Google新聞"
-            ]
-        ]
-    },
-    "帳戶": {
-        "nerName": [
-            "帳戶"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "name": [
-            "Google帳戶"
-        ],
-        "owner": [
-            "[[Google]]"
-        ],
-        "url": [
-            "{{URL|https://myaccount.google.com/}}"
-        ],
-        "wiki_origin_name_list": [
-            [
-                "Google帳戶"
-            ]
-        ]
-    },
-    "動畫": {
-        "nerName": [
-            "動畫"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "wiki_origin_name_list": [
-            [
-                "動畫]]，為「[[光之美少女系列]]」第十八作，第十六代光之美少女。2021年2月28日於[[朝日放送]]和[[朝日電視臺]]播放。臺灣由[[東森幼幼臺]]在2021年6月19日以「'''熱-{}-情閃耀！光之美少女'''」的名義首播。",
-                "動畫]]於2010年11月5日至11月26日播放。",
-                "動畫]]以及{{link-ja",
-                "動畫]]，以同名[[社交網路服務",
-                "動畫]]於2013年4月在[[Ustream]]上播放。",
-                "動畫《Chaos Dragon 赤龍戰役》新創作型態的大型企畫動畫版7月登場|url",
-                "動畫]]系列[[GUNDAM系列作品",
-                "動畫]]，為「[[光之美少女系列]]」第十七作，第十五代光之美少女。2020年2月2日於[[朝日放送]]和[[朝日電視臺]]播放。臺灣由[[東森幼幼臺]]在2020年7月25日以「'''元氣魔法 ♥ 光之美少女'''」的名義首播。香港於2021年11月17日起由[[ViuTV]]播出，成為首部於該電視臺播放的光之美少女系列作品。",
-                "動畫]]，於1999年10月6日－2000年3月29日[[東京電視臺]]放送。全26話。",
-                "動畫]]作品；此部動畫的[[日本漫畫",
-                "動畫]]化，並於[[日本放送協會]]的BS2頻道首播。首播時間為2003年11月1日至2004年3月27日，全20集。香港方面，動畫版由[[無綫電視]]翡翠臺於2005年4月9日至6月18日首播，劇集版於2009年6月18日開始在[[NHK]]播放，全7集。動畫版和劇集版兩者有些內容會不同。",
-                "動畫]]，總共13集；講述的是現代合體機器人的故事。之後發行DVD和VHS。",
-                "動畫]]及一部[[電視劇]]。該漫畫的[[中文]]版由[[東立出版社]]發行。",
-                "動畫]]，由[[夢田文創]]出品、[[綺泰動畫]]製作；在動畫版釋出前，也有[[尖端出版]]發行的原作改編漫畫。",
-                "動畫]]，同時亦是此動畫製作公司的首部原創動畫作品。",
-                "動畫]]、[[日本動畫",
-                "動畫]]及[[PlayStation 2]][[遊戲軟體]]。"
-            ]
-        ],
-        "レッドドラゴン}}）是[[星海社]]於2012年1月31日至2014年5月29日在《[[最前線]]》連載的小說，由桌上角色扮演遊戲（TRPG）的遊戲過程改編而來。2015年2月[[東寶|東寶動畫]]（[[TOHO animation]]）、[[星海社]]、[[世嘉]]共同合作，宣佈以小說為基礎的大型多媒體計劃&lt;ref&gt;{{cite web|title": [
-            "動畫《Chaos Dragon 赤龍戰役》新創作型態的大型企畫動畫版7月登場|url"
-        ]
-    },
-    "歐洲": {
-        "nerName": [
-            "歐洲"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "tourney_name": [
-            "歐洲U-17足球錦標賽"
-        ],
-        "year": [
-            "2009年"
-        ],
-        "other_titles": [
-            "{{lang|de|U-17-Fußball-Europameisterschaft 2009}}"
-        ],
-        "country": [
-            "德國"
-        ],
-        "defending_champ_other": [
-            "{{fbu|17|ESP}}"
-        ],
-        "dates": [
-            "5月6日–5月18日"
-        ],
-        "num_teams": [
-            "8 隊"
-        ],
-        "confederations": [
-            "1"
-        ],
-        "venues": [
-            "13"
-        ],
-        "cities": [
-            "13"
-        ],
-        "champion_other": [
-            "{{fbu|17|GER}}"
-        ],
-        "count": [
-            "8"
-        ],
-        "second_other": [
-            "{{fbu|17|NED}}"
-        ],
-        "matches": [
-            "15"
-        ],
-        "goals": [
-            "33"
-        ],
-        "attendance": [
-            "top_scorer"
-        ],
-        "player": [
-            "{{flagicon|GER}} [[馬里奧·格策|-{zh-cn:馬里奧·格策; zh-hk:馬裡奧·葛斯; zh-tw:馬裡歐·格策}-]]"
-        ],
-        "prevseason": [
-            "[[2008年歐洲U-17足球錦標賽|2008]]"
-        ],
-        "nextseason": [
-            "[[2010年歐洲U-17足球錦標賽|2010]]"
-        ],
-        "wiki_origin_name_list": [
-            [
-                "歐洲U-19足球錦標賽",
-                "歐洲U-21足球錦標賽",
-                "歐洲U-17足球錦標賽"
-            ]
-        ],
-        "top_scorer": [
-            "{{flagicon|ESP}} [[阿祖安·洛佩斯·阿爾瓦雷斯|-{zh-hans:阿德里安;zh-hk:阿祖安;zh-tw:阿德裡安;}-]]（5 球）"
-        ],
-        "young_player": [
-            "prevseason"
-        ],
-        "third_other": [
-            "{{fbu|21|BLR}}"
-        ],
-        "fourth_other": [
-            "{{fbu|21|CZE}}"
-        ]
-    },
-    "2021年": {
-        "nerName": [
-            "2021年"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "wiki_origin_name_list": [
-            [
-                "2021年]]4月3日首播，首兩集於同日播映，共13集。其原案小說《'''Vivy prototype'''》同年4月30日起發售。",
-                "2021年]]4月6日起逢星期二在[[東京電視臺]]系列兒童節目《幼兒電視》（{{lang",
-                "2021年]]10月12日首播，由[[大沼心]]擔任導演，[[SILVER LINK.]]擔任動畫製作。[[手機遊戲]]《'''Deep Insanity ASYLUM'''》於2021年10月14日推出，於2022年10月31日停止營運。",
-                "2021年]]4月10日播放。"
-            ]
-        ]
-    },
-    "是由": {
-        "nerName": [
-            "是由"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "wiki_origin_name_list": [
-            [
-                "マイルノビッチ}}）是由{{lang",
-                "ワッチャプリマジ!}}）是由[[Takara Tomy",
-                "あそびにいくヨ！}}）是由{{link-ja"
-            ]
-        ],
-        "": [
-            ""
-        ]
-    },
-    "鼻骨": {
-        "nerName": [
-            "鼻骨"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "Name": [
-            "鼻骨"
-        ],
-        "Latin": [
-            "os nasale"
-        ],
-        "Caption": [
-            "鼻骨位於中間，較深綠之處。"
-        ],
-        "Caption2": [
-            "[[鼻軟骨]]的側檢視(鼻骨在左上角顯而易見)"
-        ],
-        "GraySubject": [
-            "37"
-        ],
-        "GrayPage": [
-            "156"
-        ],
-        "DorlandsPre": [
-            "o_07"
-        ],
-        "DorlandsSuf": [
-            "12598538"
-        ],
-        "wiki_origin_name_list": [
-            [
-                "鼻骨"
-            ]
-        ]
-    },
-    "頸椎": {
-        "nerName": [
-            "頸椎"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "Name": [
-            "頸椎"
-        ],
-        "Latin": [
-            "Vertebrae cervicales"
-        ],
-        "Caption": [
-            "人類頸椎的位置（紅色部分）。其由7塊骨頭組成，從上到下為 C1（寰椎）、 C2（樞椎）、C3、C4、C5、C6 、C7（隆椎）。"
-        ],
-        "Caption2": [
-            "人類頸椎"
-        ],
-        "GraySubject": [
-            "21"
-        ],
-        "GrayPage": [
-            "97"
-        ],
-        "MeshName": [
-            "Cervical+vertebrae"
-        ],
-        "MeshNumber": [
-            "A02.835.232.834.151"
-        ],
-        "DorlandsPre": [
-            "v_07"
-        ],
-        "DorlandsSuf": [
-            "12854511"
-        ],
-        "FMA": [
-            "72063"
-        ],
-        "wiki_origin_name_list": [
-            [
-                "頸椎"
-            ]
-        ]
-    },
-    "日本": {
-        "nerName": [
-            "日本"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "wiki_origin_name_list": [
-            [
-                "日本]][[科幻電影",
-                "日本GrEnAdEs模組包|url"
-            ]
-        ],
-        "": [
-            ""
-        ],
-        "{{link-ja|星之卡比20週年紀念特別珍藏版|星のカービィ 20週年スペシャルコレクション}}收錄片頭曲、片尾曲和三集動畫。&lt;ref&gt;{{cite web|title": [
-            "星之卡比２０週年紀念合集|url"
-        ],
-        "動畫於2022年冬季發行[[藍光光碟]]合輯，以慶祝星之卡比系列發售30週年。&lt;ref&gt;{{Cite web |url": [
-            "https://twitter.com/Kirby_JP/status/1557674125149491200 |title"
-        ],
-        "在數萬年前，夢魔想統治整個宇宙，於是派出一大堆魔獸到處侵略。有一群愛好自由的人組成銀河戰士團與之對抗，不過夢魔的魔獸太多，戰士們一個一個倒下了，生還的只有魅塔騎士一個，他相信新的星星戰士一定會出現，所以一直活著在宇宙中流浪。&lt;ref&gt;{{cite web|script-title": [
-            "ja:アニメカービィとは (アニメカービィとは) [単語記事] - ニコニコ大百科|url"
-        ]
-    },
-    "陳思": {
-        "nerName": [
-            "陳思"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "名稱": [
-            "陳思"
-        ],
-        "羅馬拼音": [
-            "Chén Sī"
-        ],
-        "國籍": [
-            "{{PRC}}"
-        ],
-        "生年": [
-            "1991"
-        ],
-        "生月": [
-            "9"
-        ],
-        "生日": [
-            "14"
-        ],
-        "出生地點": [
-            "{{CHN}}[[湖南省]][[岳陽市]]"
-        ],
-        "血型": [
-            "O型&lt;ref name"
-        ],
-        "身高": [
-            "163cm&lt;ref name"
-        ],
-        "母校": [
-            "[[湖南師範大學]]"
-        ],
-        "加入時期": [
-            "SNH48 1期"
-        ],
-        "出道作": [
-            "《[[Team K 4th Stage“最終鐘聲鳴響”#SNH48 1期生「最終的鐘聲響起」公演|最後的鐘聲響起]]》"
-        ],
-        "經紀公司": [
-            "[[絲芭傳媒|上海絲芭文化傳媒集團有限公司]]"
-        ],
-        "所屬團體": [
-            "SNH48"
-        ],
-        "所屬隊伍": [
-            "Team SII"
-        ],
-        "選拔次數": [
-            "5"
-        ],
-        "SNH48選拔次數": [
-            "5"
-        ],
-        "擔任中心成員次數": [
-            "1"
-        ],
-        "第一屆總選舉排名": [
-            "第9名"
-        ],
-        "第二屆總選舉排名": [
-            "第24名"
-        ],
-        "第三屆總選舉排名": [
-            "第38名"
-        ],
-        "第四屆總選舉排名": [
-            "未入選"
-        ],
-        "第五屆總選舉排名": [
-            "未入選"
-        ],
-        "第六屆總選舉排名": [
-            "未入選"
-        ],
-        "ID": [
-            "10002"
-        ],
-        "wiki_origin_name_list": [
-            [
-                "陳思"
-            ]
-        ]
-    },
-    "射擊": {
-        "nerName": [
-            "射擊"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "event": [
-            "射擊"
-        ],
-        "games": [
-            "2019年東南亞運動會"
-        ],
-        "date": [
-            "12月2日至10日"
-        ],
-        "competitors": [
-            "nations"
-        ],
-        "next": [
-            "[[2021年東南亞運動會射擊比賽|2021]]"
-        ],
-        "wiki_origin_name_list": [
-            [
-                "射擊"
-            ]
-        ]
-    },
-    "電影": {
-        "nerName": [
-            "電影"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "作者因為《[[皮皮 (漫畫)|皮皮]]》被讀者與報界的肯定，和認識一位[[中國時報]]的編輯，編輯找他說想要邀請他在報紙上刊載新的單元，且當時流行武俠功夫，就以功夫發想，搭配搞笑的喜劇劇情，衍生出了《烏龍院》。&lt;ref&gt;{{Cite web|url": [
-            "http://gnn.gamer.com.tw/1/128241.html|title"
-        ],
-        "": [
-            ""
-        ],
-        "wiki_origin_name_list": [
-            [
-                "電影: 烏龍院 (1984) {{!}} 中文電影資料庫 |url"
-            ]
-        ]
-    },
-    "動作": {
-        "nerName": [
-            "動作"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "": [
-            ""
-        ],
-        "wiki_origin_name_list": [
-            [
-                "動作]]遊戲。本作是《火影忍者》系列登入3DS上的首作。",
-                "動作]]型別[[日本成人遊戲"
-            ]
-        ]
-    },
-    "時間": {
-        "nerName": [
-            "時間"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "j": [
-            "イバラード時間|rm"
-        ],
-        "片中的故事發生在一個被稱為{{nihongo|依巴拉度|イバラード}}的[[架空世界]]，其場景也曾成為吉卜力工作室出品的另一部電影《[[側耳傾聽]]》的靈感。&lt;ref&gt;{{Cite web |url": [
-            "http://www.animenewsnetwork.com/news/2007-06-21/studio-ghibli%27s-iblard-jikan-video-trailer-online |title"
-        ],
-        "": [
-            ""
-        ],
-        "wiki_origin_name_list": [
-            [
-                "イバラード時間|rm"
-            ]
-        ]
-    },
-    "普通": {
-        "nerName": [
-            "普通"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "j": [
-            "普通の女子校生が【ろこどる】やってみた|hg"
-        ],
-        "": [
-            ""
-        ],
-        "2014年1月22日，在《漫畫4格 Palette》2014年3月號的發售上，官方發表了《普通女高中生要做當地偶像》決定[[日本動畫|動畫化]]的訊息&lt;ref name": [
-            "&quot;Natalie.mu&quot;&gt;{{cite web|url"
-        ],
-        "wiki_origin_name_list": [
-            [
-                "普通の女子校生が【ろこどる】やってみた|hg"
-            ]
-        ]
-    },
-    "學校": {
-        "nerName": [
-            "學校"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "": [
-            ""
-        ],
-        "wiki_origin_name_list": [
-            [
-                "學校を出よう!|hg"
-            ]
-        ]
-    },
-    "網站": {
-        "nerName": [
-            "網站"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "ミスミソウ}}）是[[日本]][[漫畫家]][[押切蓮介]]創作的漫畫作品。於2007年6月至2009年6月在《[[Horror M]]》進行連載。2013年作者加筆修正發售全2卷完全版。2018年改編為真人電影&lt;ref&gt;{{Cite news|publisher": [
-            "[[Natalie (網站)|Natalie]]|work"
-        ],
-        "": [
-            ""
-        ],
-        "wiki_origin_name_list": [
-            [
-                "[[Natalie (網站)|Natalie]]|work"
-            ]
-        ]
-    },
-    "作家": {
-        "nerName": [
-            "作家"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "wiki_origin_name_list": [
-            [
-                "作家]]Troll（{{lang"
-            ]
-        ]
-    },
-    "建立": {
-        "nerName": [
-            "建立"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "event": [
-            "{{#if:{{{event_start|}}}|{{{event_start}}}|建立}}|year"
-        ],
-        "date": [
-            "{{#if:{{{date_start|}}}|{{{date_start}}}}}}}"
-        ],
-        "- class": [
-            "&quot;mergedbottomrow&quot;"
-        ],
-        "{{#if:{{{event1|}}}|{{Infobox former country/event|event": [
-            "{{{event1}}}|year"
-        ],
-        "{{#if:{{{event2|}}}|{{Infobox former country/event|event": [
-            "{{{event2}}}|year"
-        ],
-        "{{#if:{{{event3|}}}|{{Infobox former country/event|event": [
-            "{{{event3}}}|year"
-        ],
-        "{{#if:{{{event4|}}}|{{Infobox former country/event|event": [
-            "{{{event4}}}|year"
-        ],
-        "- {{#if:{{{event_post|}}}|class": [
-            "&quot;mergedrow&quot;|class"
-        ],
-        "{{Infobox former country/event|event": [
-            "{{#if:{{{event_end|}}}|{{{event_end}}}|終結}}|year"
-        ],
-        "{{#if:{{{event_post|}}}|{{Infobox former country/event|event": [
-            "{{{event_post}}}|year"
-        ],
-        "- {{#if: {{{stat_year1|}}}||class": [
-            "&quot;mergedtoprow&quot;}}"
-        ],
-        "wiki_origin_name_list": [
-            [
-                "{{#if:{{{event_start|}}}|{{{event_start}}}|建立}}|year"
-            ]
-        ]
-    },
-    "今日": {
-        "nerName": [
-            "今日"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "wiki_origin_name_list": [
-            [
-                "今日、戀をはじめます}}）作者為[[水波風南]]，於2007年第19號至2011年第24號在[[小學館]]《[[Sho-Comi]]》連載，[[單行本]]全15卷，共97話。在2010年改編成[[原創動畫錄影帶",
-                "今日のケルベロス}}）是日本漫畫家{{tsl"
-            ]
-        ]
-    },
-    "更多": {
-        "nerName": [
-            "更多"
-        ],
-        "alias_name": [
-            ""
-        ],
-        "wiki_origin_name_list": [
-            [
-                "更多！認真地不認真的怪傑佐羅力&lt;br/&gt;（第三輯）"
-            ]
-        ]
-    },
     "秘密": {
         "nerName": [
             "秘密"
@@ -1269,6 +139,79 @@
             ]
         ]
     },
+    "意外": {
+        "nerName": [
+            "意外"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "意外"
+        ],
+        "original_name": [
+            "{{lang|en|''Accident''}}"
+        ],
+        "director": [
+            "[[鄭保瑞]]"
+        ],
+        "executive_producer": [
+            "[[莊澄|莊　澄]]（兼出品人）"
+        ],
+        "producer": [
+            "[[杜琪峰]]"
+        ],
+        "producer_2": [
+            "馮志偉、朱淑儀"
+        ],
+        "writer": [
+            "[[司徒錦源]]、[[鄧力奇]]"
+        ],
+        "starring": [
+            "[[古天樂]]&lt;br&gt;[[任賢齊]]&lt;br&gt;[[馮淬帆]]&lt;br&gt;[[林雪|林　雪]]&lt;br&gt;[[葉璇|葉　璇]]"
+        ],
+        "music": [
+            "{{lang|en|Xavier Jamaux}}"
+        ],
+        "cinematography": [
+            "[[馮遠文]] [[香港專業電影攝影師學會|HKSC]]"
+        ],
+        "editing": [
+            "{{lang|en|David Richardson}}"
+        ],
+        "studio": [
+            "[[寰亞電影有限公司]] &lt;small&gt;'''出品'''&lt;/small&gt;"
+        ],
+        "distributor": [
+            "[[寰亞電影發行有限公司]]"
+        ],
+        "released": [
+            "{{flagicon|HKG}}{{flagicon|MAC}}{{flagicon|AUS}}　{{film date|2009|9|17}}&lt;br&gt;{{flagicon|SIN}}{{flagicon|MAL}}　{{film date|2009|9|24}}&lt;br&gt;{{flagicon|France}}　{{film date|2009|12|30}}&lt;br&gt;{{flagicon|South Korea}}　{{start date|2010|12|30}}&lt;br&gt;{{flagicon|Japan}}[[東京]]　{{start date|2011|10|8}}"
+        ],
+        "runtime": [
+            "89分鐘"
+        ],
+        "rate": [
+            "{{HK}}：IIB&lt;br&gt;{{SIN}}：G&lt;br&gt;{{AUS}}：MA 15+"
+        ],
+        "country": [
+            "{{香港電影產地}}"
+        ],
+        "language": [
+            "粵語"
+        ],
+        "imdb_id": [
+            "tt1202514"
+        ],
+        "website": [
+            "[http://www.mediaasia.com/accident/ 《意外》官方網站]"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "意外"
+            ]
+        ]
+    },
     "手機": {
         "nerName": [
             "手機"
@@ -1327,6 +270,55 @@
         "wiki_origin_name_list": [
             [
                 "手機"
+            ]
+        ]
+    },
+    "左右": {
+        "nerName": [
+            "左右"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "左右"
+        ],
+        "producer": [
+            "[[Isabelle Glachant]]&lt;br/&gt;[[黃斌]]"
+        ],
+        "writer": [
+            "[[王小帥]]"
+        ],
+        "narrator": [
+            "starring"
+        ],
+        "music": [
+            "[[Dou Wei]]"
+        ],
+        "cinematography": [
+            "[[鄔迪]]"
+        ],
+        "editing": [
+            "[[Yang Hongyu]]"
+        ],
+        "distributor": [
+            "released"
+        ],
+        "runtime": [
+            "115 min."
+        ],
+        "country": [
+            "{{中國大陸電影產地}}"
+        ],
+        "language": [
+            "[[漢語]]"
+        ],
+        "budget": [
+            "preceded_by"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "左右"
             ]
         ]
     },
@@ -1471,6 +463,149 @@
             ]
         ]
     },
+    "公司": {
+        "nerName": [
+            "公司"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "company_name": [
+            "Mozilla公司"
+        ],
+        "name_en": [
+            "LSI Corporation"
+        ],
+        "company_type": [
+            "[[子公司]]"
+        ],
+        "foundation": [
+            "{{start date and age|2005|8|3}}"
+        ],
+        "location": [
+            "{{USA}}[[加利福尼亞州]][[芒廷維尤 (加利福尼亞州)|山景城]]"
+        ],
+        "key_people": [
+            "Abhi Talwalkar，總裁兼CEO"
+        ],
+        "num_employees": [
+            "5,053（2012-11-04）"
+        ],
+        "revenue": [
+            "20.4億美元（2011[[財政年度|財年]]）"
+        ],
+        "industry": [
+            "[[網際網路]]"
+        ],
+        "homepage": [
+            "{{URL|http://www.lsi.com/}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "LSI公司",
+                "Mozilla公司",
+                "D.O.公司"
+            ]
+        ],
+        "company_name_en": [
+            "Mozilla Corporation"
+        ],
+        "zip_code": [
+            "telephone_no"
+        ],
+        "products": [
+            "[[Mozilla Firefox]]&lt;br/&gt;[[Mozilla Thunderbird]]&lt;br/&gt;[[Mozilla產品列表|更多……]]"
+        ],
+        "capital": [
+            "revenue"
+        ],
+        "accounting_period": [
+            "parent"
+        ],
+        "subsid": [
+            "homepage"
+        ]
+    },
+    "影片": {
+        "nerName": [
+            "影片"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "Google影片"
+        ],
+        "url": [
+            "{{url|http://video.google.com/}}"
+        ],
+        "commercial": [
+            "[[免費]]"
+        ],
+        "type": [
+            "[[影片分享網站]]、[[影片搜尋服務]]"
+        ],
+        "language": [
+            "[[多國語言]]"
+        ],
+        "registration": [
+            "否"
+        ],
+        "owner": [
+            "[[Google]]"
+        ],
+        "author": [
+            "[[Google]]"
+        ],
+        "launch_date": [
+            "{{start date and age|2005|1|25}}"
+        ],
+        "current_status": [
+            "關閉"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "Google影片"
+            ]
+        ]
+    },
+    "新聞": {
+        "nerName": [
+            "新聞"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "name": [
+            "Google新聞"
+        ],
+        "url": [
+            "{{URL|https://news.google.com/|Google News}}"
+        ],
+        "commercial": [
+            "是"
+        ],
+        "type": [
+            "[[新聞聚合器]]"
+        ],
+        "language": [
+            "[[阿拉伯語]]、[[孟加拉語]]、[[保加利亞語]]、[[漢語|中文]]、[[捷克語]]、[[荷蘭語]]、[[英語]]、[[法語]]、[[德語]]、[[希臘語]]、[[希伯來語]]、[[印地語]]、[[匈牙利語]]、[[義大利語]]、[[印尼語]]、[[日語]]、-{zh-cn:[[朝鮮語]]; zh-tw:[[韓語]];}-、[[拉脫維亞語]]、[[立陶宛語]]、[[馬拉雅拉姆語]]、[[挪威語]]、[[波蘭語]]、[[葡萄牙語]]、[[羅馬尼亞語]]、[[俄語]]、[[塞爾維亞語]]、[[西班牙語]]、[[瑞典語]]、[[泰米爾語]]、[[泰盧固語]]、[[泰語]]、[[土耳其語]]、[[烏克蘭語]]與[[越南語]]"
+        ],
+        "language_count": [
+            "35|registration"
+        ],
+        "owner": [
+            "[[Google]]"
+        ],
+        "launch_date": [
+            "{{start date and age|2002|9}}"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "Google新聞"
+            ]
+        ]
+    },
     "航空": {
         "nerName": [
             "航空"
@@ -1521,6 +656,85 @@
             ]
         ]
     },
+    "時間": {
+        "nerName": [
+            "時間"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "j": [
+            "イバラード時間|rm"
+        ],
+        "片中的故事發生在一個被稱為{{nihongo|依巴拉度|イバラード}}的[[架空世界]]，其場景也曾成為吉卜力工作室出品的另一部電影《[[側耳傾聽]]》的靈感。&lt;ref&gt;{{Cite web |url": [
+            "http://www.animenewsnetwork.com/news/2007-06-21/studio-ghibli%27s-iblard-jikan-video-trailer-online |title"
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "イバラード時間|rm"
+            ]
+        ]
+    },
+    "普通": {
+        "nerName": [
+            "普通"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "j": [
+            "普通の女子校生が【ろこどる】やってみた|hg"
+        ],
+        "": [
+            ""
+        ],
+        "2014年1月22日，在《漫畫4格 Palette》2014年3月號的發售上，官方發表了《普通女高中生要做當地偶像》決定[[日本動畫|動畫化]]的訊息&lt;ref name": [
+            "&quot;Natalie.mu&quot;&gt;{{cite web|url"
+        ],
+        "wiki_origin_name_list": [
+            [
+                "普通の女子校生が【ろこどる】やってみた|hg"
+            ]
+        ]
+    },
+    "學校": {
+        "nerName": [
+            "學校"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "學校を出よう!|hg"
+            ]
+        ]
+    },
+    "網站": {
+        "nerName": [
+            "網站"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "ミスミソウ}}）是[[日本]][[漫畫家]][[押切蓮介]]創作的漫畫作品。於2007年6月至2009年6月在《[[Horror M]]》進行連載。2013年作者加筆修正發售全2卷完全版。2018年改編為真人電影&lt;ref&gt;{{Cite news|publisher": [
+            "[[Natalie (網站)|Natalie]]|work"
+        ],
+        "": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "[[Natalie (網站)|Natalie]]|work"
+            ]
+        ]
+    },
     "天天": {
         "nerName": [
             "天天"
@@ -1557,6 +771,19 @@
         "wiki_origin_name_list": [
             [
                 "死神とチョコレート・パフェ}}'''）是花凰神也創作的輕小說與同名改編漫畫。"
+            ]
+        ]
+    },
+    "更多": {
+        "nerName": [
+            "更多"
+        ],
+        "alias_name": [
+            ""
+        ],
+        "wiki_origin_name_list": [
+            [
+                "更多！認真地不認真的怪傑佐羅力&lt;br/&gt;（第三輯）"
             ]
         ]
     },
