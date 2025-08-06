@@ -140,3 +140,6 @@ dmypy.json
 
 # mac files
 .DS_Store
+
+# result of wikiTest.py
+AItlasResult
