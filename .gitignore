@@ -4,6 +4,7 @@ account.info
 *.wpu
 .*
 local_data/
+AItlasResult/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
