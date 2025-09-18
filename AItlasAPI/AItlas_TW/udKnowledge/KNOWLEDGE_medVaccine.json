@@ -1,0 +1,27 @@
+{
+    "諾瓦瓦克斯疫苗|Novavax": ["諾瓦瓦克斯疫苗"],
+    "莫德納疫苗|Moderna": ["莫德納疫苗"],
+    "輝瑞疫苗|Pfizer": ["輝瑞疫苗", "BNT疫苗", "輝瑞/BNT疫苗"],
+    "阿斯特捷利康疫苗|AstraZeneca": ["阿斯特捷利康疫苗", "AZ疫苗"],
+    "高端疫苗": [],
+    "JN.1疫苗": ["Novavax JN.1疫苗", "JN.1"],
+    "XBB疫苗": [],
+    "公費流感疫苗": [],
+    "幼兒常規A型肝炎疫苗": ["幼兒A肝疫苗"],
+    "卡介苗|Bacillus Calmette-Guérin vaccine": ["卡介苗", "BCG"],
+    "白喉破傷風非細胞性百日咳": [],
+    "ｂ型嗜血桿菌及不活化小兒麻痺五合一疫苗": ["B型嗜血桿菌及不活化小兒麻痺五合一疫苗"],
+    "肺炎鏈球菌疫苗|PCV": ["13價結合型肺炎鏈球菌疫苗", "Pneumococcal Conjugate Vaccine", "PCV"],
+    "水痘疫苗|Varicella": ["水痘疫苗"],
+    "麻疹腮腺炎德國麻疹混合疫苗|MMR": ["麻疹腮腺炎德國麻疹混合疫苗", "Measles, Mumps and Rubella", "MMR疫苗", "德國麻疹混合疫苗"],
+    "日本腦炎疫苗|Japanese Encephalitis Vaccine": ["日本腦炎疫苗", "Japanese Encephalitis Vaccine"],
+    "流感疫苗": ["季節性流感疫苗"],
+    "A型肝炎疫苗|Hepatitis A": ["A型肝炎疫苗"],
+    "B型肝炎疫苗|Hepatitis B": ["B型肝炎疫苗", "Hepatitis B Vaccine"],
+    "COVID疫苗": ["COVID-19新冠疫苗"],
+    "KP.2疫苗": [],
+    "腺病毒疫苗": []
+
+
+
+}

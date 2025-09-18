@@ -1,0 +1,355 @@
+{
+  "墨爾本台灣電影節":[
+    "墨爾本台灣影展",
+    "墨爾本臺灣電影節",
+    "墨爾本臺灣影展"
+  ],
+  "威尼斯影展": [
+    "威尼斯電影節",
+    "威尼斯國際影展",
+    "威尼斯國際電影節",
+    "Venice Film Festival"
+  ],
+  "坎城影展": [
+    "坎城電影節",
+    "茨城國際影展",
+    "茨城國際電影節",
+    "Cannes Film Festival"
+  ],
+  "卡羅維發利影展": [
+    "卡羅維發利電影節",
+    "卡羅維發利國際影展",
+    "卡羅維發利國際電影節",
+    "Karlovy Vary International Film Festival"
+  ],
+  "盧卡諾影展": [
+    "盧卡諾電影節",
+    "盧卡諾國際電影節",
+    "盧卡諾國際影展",
+    "Locarno International Film Festival"
+  ],
+  "柏林影展": [
+    "柏林電影節",
+    "柏林國際電影節",
+    "柏林國際影展",
+    "Berlin International Film Festival"
+  ],
+  "印度國際影展": [
+    "印度國際電影節",
+    "印度影展",
+    "印度電影節",
+    "International Film Festival of India"
+  ],
+  "聖賽巴斯提安國際影展": [
+    "聖賽巴斯提安國際電影節",
+    "聖賽巴斯提安影展",
+    "聖賽巴斯提安電影節",
+    "San Sebastián International Film Festival"
+  ],
+  "馬德普拉塔影展": [
+    "馬德普拉塔電影節",
+    "馬德普拉塔國際影展",
+    "馬德普拉塔國際電影節",
+    "Mar del Plata Film Festival"
+  ],
+  "開羅國際影展": [
+    "開羅國際電影節",
+    "開羅電影節",
+    "開羅影展",
+    "Cairo International Film Festival"
+  ],
+  "伊朗黎明國際影展": [
+    "伊朗黎明國際電影節",
+    "伊朗黎明電影節",
+    "伊朗黎明影展",
+    "Fajr International Film Festival"
+  ],
+  "華沙國際影展": [
+    "華沙國際電影節",
+    "華沙電影節",
+    "華沙影展",
+    "Warsaw International Film Festival"
+  ],
+  "東京國際影展": [
+    "東京國際電影節",
+    "東京電影節",
+    "東京影展",
+    "Tokyo International Film Festival"
+  ],
+  "上海國際影展": [
+    "上海國際電影節",
+    "上海電影節",
+    "上海影展",
+    "Shanghai International Film Festival"
+  ],
+  "塔林黑夜影展": [
+    "塔林黑夜電影節",
+    "塔林黑夜國際電影節",
+    "塔林黑夜國際影展",
+    "Tallinn Black Nights Film Festival"
+  ],
+  "安塔利亞國際電影節": [
+    "安塔莉亞國際影展",
+    "安塔莉亞影展",
+    "安塔莉亞電影節",
+    "Antalya International Film Festival"
+  ],
+  "歐亞國際電影節": [
+    "歐亞國際影展",
+    "歐亞影展",
+    "歐亞電影節",
+    "Eurasia International Film Festival"
+  ],
+  "布魯塞爾國際奇幻電影節": [
+    "布魯塞爾國際奇幻影展",
+    "布魯塞爾奇幻影展",
+    "布魯塞爾電影節",
+    "Brussels International Fantastic Film Festival"
+  ],
+  "釜山國際電影節": [
+    "釜山國際影展",
+    "釜山影展",
+    "釜山電影節",
+    "Pusan International Film Festival"
+  ],
+  "卡塔赫納電影節": [
+    "卡塔赫納影展",
+    "卡塔赫納國際影展",
+    "卡塔赫納國際電影節",
+    "Cartagena Film Festival"
+  ],
+  "庫馬約爾黑色電影節": [
+    "庫馬約爾黑色影展",
+    "庫馬約爾黑色國際影展",
+    "庫馬約爾黑色國際電影節",
+    "Courmayeur Noir Film Festival"
+  ],
+  "希洪國際電影節": [
+    "希洪國際影展",
+    "希洪影展",
+    "希洪國際電影節",
+    "Gijón International Film Festival"
+  ],
+  "伊斯坦堡國際電影節": [
+    "伊斯坦堡國際影展",
+    "伊斯坦堡影展",
+    "伊斯坦堡電影節",
+    "Istanbul International Film Festival"
+  ],
+  "全州國際電影節": [
+    "全州國際影展",
+    "全州影展",
+    "全州電影節",
+    "Jeonju International Film Festival"
+  ],
+  "喀拉拉邦國際電影節": [
+    "喀拉拉邦國際影展",
+    "喀拉拉邦影展",
+    "喀拉拉邦電影節",
+    "International Film Festival of_Kerala"
+  ],
+  "基茨比厄爾電影節": [
+    "基茨比厄爾影展",
+    "基茨比厄爾國際影展",
+    "基茨比厄爾國際電影節",
+    "Kitzbuehel Film Festival"
+  ],
+  "加爾各答國際電影節": [
+    "加爾各答國際影展",
+    "加爾各答影展",
+    "加爾各答電影節",
+    "Kolkata International Film Festival"
+  ],
+  "基輔國際電影節": [
+    "基輔國際影展",
+    "基輔影展",
+    "基輔電影節",
+    "Molodist Kyiv International Film Festival"
+  ],
+  "明斯克國際電影節": [
+    "明斯克國際影展",
+    "明斯克影展",
+    "明斯克電影節",
+    "Minsk International Film Festival"
+  ],
+  "孟買電影節": [
+    "孟買影展",
+    "孟買國際影展",
+    "孟買國際電影節",
+    "Mumbai film festival"
+  ],
+  "那慕爾國際法語電影節": [
+    "那慕爾國際法語影展",
+    "那慕爾法語電影節",
+    "那慕爾法語影展",
+    "Festival international du film francophone de Namur"
+  ],
+  "塞拉耶佛電影節": [
+    "賽拉耶佛影展",
+    "賽拉耶佛國際影展",
+    "賽拉耶佛國際電影節",
+    "Sarajevo Film Festival"
+  ],
+  "錫切斯國際奇幻電影節": [
+    "錫切斯國際奇幻影展",
+    "錫切斯奇幻影展",
+    "錫切斯奇幻電影節",
+    "Sitges International Fantasy Film Festival"
+  ],
+  "索菲亞國際電影節": [
+    "索菲亞國際影展",
+    "索菲亞影展",
+    "索菲亞電影節",
+    "Sofia International Film Festival"
+  ],
+  "斯德哥爾摩國際電影節": [
+    "斯德哥爾摩國際影展",
+    "斯德哥爾摩影展",
+    "斯德哥爾摩電影節",
+    "Stockholm International Film Festival"
+  ],
+  "雪梨電影節": [
+    "雪梨影展",
+    "雪梨國際影展",
+    "雪梨國際電影節",
+    "Sydney Film Festival"
+  ],
+  "都靈電影節": [
+    "都靈影展",
+    "都靈國際影展",
+    "都靈國際電影節",
+    "Torino Film Festival"
+  ],
+  "特蘭西瓦尼亞國際電影節": [
+    "特蘭西瓦尼亞國際影展",
+    "特蘭西瓦尼亞影展",
+    "特蘭西瓦尼亞電影節",
+    "Transilvania International Film Festival"
+  ],
+  "瓦倫西亞國際電影節": [
+    "瓦倫西亞國際影展",
+    "瓦倫西亞影展",
+    "瓦倫西亞電影節",
+    "Cine Jove Valencia International Film Festival"
+  ],
+  "多倫多國際影展": [
+    "多倫多國際電影節",
+    "多倫多電影節",
+    "多倫多影展",
+    "Toronto International Film Festival"
+  ],
+  "維也納國際電影節": [
+    "維也納國際影展",
+    "維也納影展",
+    "維也納電影節",
+    "Vienna International Film Festival"
+  ],
+  "畢爾巴鄂國際紀錄片和短片電影節": [
+    "畢爾巴鄂國際紀錄片影展",
+    "畢爾巴鄂國際紀錄片國際影展",
+    "畢爾巴鄂國際紀錄片國際電影節",
+    "Bilbao International Festival of Documentary and Short Films"
+  ],
+  "克拉科夫電影節": [
+    "克拉科夫影展",
+    "克拉科夫國際影展",
+    "克拉科夫國際電影節",
+    "Kraków Film Festival"
+  ],
+  "奧伯豪森國際短片電影節": [
+    "奧伯豪森國際短片影展",
+    "奧伯豪森短片電影節",
+    "奧伯豪森短片影展",
+    "International Short Film Festival Oberhausen"
+  ],
+  "坦佩雷電影節": [
+    "坦佩雷影展",
+    "坦佩雷國際影展",
+    "坦佩雷國際電影節",
+    "Tampere Film Festival"
+  ],
+  "波哥大電影節": [
+    "波哥大影展",
+    "波哥大國際影展",
+    "波哥大國際電影節",
+    "Bogota Film Festival"
+  ],
+  "法蘭克福盧卡斯國際兒童電影節": [
+    "法蘭克福盧卡斯國際兒童影展",
+    "法蘭克福盧卡斯兒童影展",
+    "法蘭克福盧卡斯兒童電影節",
+    "Lucas International Children's Film Festival"
+  ],
+  "佛蘭德斯國際電影節": [
+    "佛蘭德斯國際影展",
+    "佛蘭德斯電影節",
+    "佛蘭德斯影展",
+    "Flanders International Film Festival Ghent"
+  ],
+  "挪威國際電影節": [
+    "挪威國際影展",
+    "挪威影展",
+    "挪威電影節",
+    "Norwegian International Film Festival"
+  ],
+  "聖保羅國際電影節": [
+    "聖保羅國際影展",
+    "聖保羅影展",
+    "聖保羅電影節",
+    "Mostra - São Paulo International Film Festival"
+  ],
+  "塞薩洛尼基國際電影節": [
+    "塞薩洛尼基國際影展",
+    "塞薩洛尼基影展",
+    "塞薩洛尼基電影節",
+    "Thessaloniki International Film Festival"
+  ],
+  "地中海電影節": [
+    "地中海影展",
+    "地中海國際影展",
+    "地中海國際電影節",
+    "Mostra - Valencia Cinema of Mediterranean"
+  ],
+  "威斯巴登國際電影節": [
+    "威斯巴登國際影展",
+    "威斯巴登影展",
+    "威斯巴登電影節",
+    "goEast Festival of Central and Eastern European Films"
+  ],
+  "新地平線電影節": [
+    "新地平線影展",
+    "新地平線國際影展",
+    "新地平線國際電影節",
+    "New Horizons Film Festiva"
+  ],
+  "亞太影展": [
+    "亞太電影節",
+    "亞太國際電影節",
+    "亞太國際影展",
+    "Federation of Motion Picture Producers in Asia-Pacific"
+  ],
+  "墨爾本國際影展": [
+    "墨爾本國際電影節",
+    "墨爾本影展",
+    "墨爾本電影節",
+    "Melbourne International Film Festival"
+  ],
+  "北京國際影展": [
+    "北京國際電影節",
+    "北京影展",
+    "北京電影節",
+    "Beijing International Film Festival"
+  ],
+  "澳門國際影展": [
+    "澳門國際電影節",
+    "澳門電影節",
+    "澳門影展",
+    "International Film Festival & Awards"
+  ],
+  "金馬國際影展": [
+    "金馬國際電影節",
+    "金馬電影節",
+    "金馬影展",
+    "Taipei Golden Horse Film Festival"
+  ]
+}
