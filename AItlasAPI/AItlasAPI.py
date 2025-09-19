@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 # 把 AItlasView 加進 path
-import sys
+import requests
 from pathlib import Path
 
 #sys.path.append(str(Path(__file__).parent / "AItlasView"))
@@ -24,6 +24,7 @@ from typing import Union
 from functools import reduce
 from pprint import pprint
 from datetime import datetime
+from CNA_DTLK import CNA_Articut
 import re
 
 purgePat = re.compile("</?[a-zA-Z]+(_[a-zA-Z]+)?>")
@@ -41,8 +42,6 @@ listPackerDICT = {
 }
 
 # genderPAT = re.compile("<PERSON><AUX><NOUNY>") => if NOUNY in AItlas.get_all(nouny, "biological_gender")
-from requests import post
-from pprint import pprint
 
 import os
 
@@ -52,12 +51,11 @@ newAItlasDirPATH = Path.cwd() / "AItlasResult"
 newAItlasDirPATH.mkdir(exist_ok=True, parents=True)
 
 try:
-    with open("{}/AItlasAPI/account.info".format(BASEPATH), encoding="utf-8") as f:
+    with open("{}/account.info".format(BASEPATH), encoding="utf-8") as f:
         accountDICT = json.load(f)
     articut = Articut(username=accountDICT["username"], apikey=accountDICT["api_key"])
 except:
     articut = Articut()
-
 
 
 class AItlas:
@@ -363,6 +361,65 @@ class AItlas:
             resultLIST.remove(None)
         return resultLIST
 
+    def _callLLM2GenContent(self, modelnameSTR: str="Gemma3-27B", sentenceSTR: str="") -> dict:
+        """
+        給定文章和指定的 LLM
+        [Gemma2-9B, Gemma3-12B, Gemma3-27B, Llama3-8B, Llama3-70B, Llama3-Taiwan-8B, Llama3.3-70B, Phi3-3B, Phi4-14B, Nemotron-4B]
+        讓 LLM 找到『誰對誰做了什麼』的結構
+
+        回傳 eventDICT 
+        若為空 dict 則為
+        """
+        # KNOWLEDGE_* 要有兩個以上才可以
+        
+        url = "https://api.droidtown.co/Loki/Call/" # 中文版
+
+        payload = {
+            "username": accountDICT["username"],
+            "func": "call_llm",
+            "data": {
+                "model": modelnameSTR, # [Gemma2-9B, Gemma3-12B, Gemma3-27B, Llama3-8B, Llama3-70B, Llama3-Taiwan-8B, Llama3.3-70B, Phi3-3B, Phi4-14B, Nemotron-4B]
+                "system": "你是一位關注新事物的記者", # optional
+                "assistant": "", # optional
+                "user": f"""```json\b{str(sentenceSTR)}```請閱讀這篇文章，找到誰對誰做了什麼的結構，寫成下列 json 格式，不要給我多餘的東西
+                        ```[{{
+                            "source": "",           #主詞
+                            "target": "",           #受詞
+                            "label": "",            #主詞對受詞做的事情
+                            "metaData": "",         #文章中的這句句子
+                            "encounter_time": ""    #這件事情的發生時間
+                        }},......]```\b""" # required
+            }
+        }
+        response = requests.post(url, json=payload)
+        # 先檢查 status code
+        if response.status_code != 200:
+            return {}
+
+        try:
+            resultDICT = response.json()
+            pprint(resultDICT)
+            chSTR = resultDICT["result"][0]["message"]["content"]
+            return chSTR
+        except requests.exceptions.JSONDecodeError:
+            return {}
+
+    def _parseArticutKnowledgeSentence(articutResultDICT: dict)-> dict[str, str]:
+        """
+        找到含有 <KNOWLEDGE_*>[^<]+</KNOWLEDGE_*> 的句子回傳
+        
+        input:
+            dict  articutResultDICT
+        output:
+            dict[str, str]  pos句:移除pos後的原句  
+        """
+        resultPosLIST = articutResultDICT["result_pos"]
+        resultDICT: dict[str, str] = {}
+
+        # 填
+
+        return resultDICT
+
     def aitlasViewPacker(self, directoryNameSTR: str):
         translatePersonDICT = {
             "name": "全名",
@@ -470,7 +527,17 @@ class AItlas:
         #              ]
 
         # event
-        # 等peter
+        # 先接 Articut
+        articutResultDICT: dict = CNA_Articut.parse(inputSTR=viewDICT["article"][0]["content"])
+        knowledgeSentenceDICT: dict[str, str] = self._parseArticutKnowledgeSentence(articutResultDICT=articutResultDICT)
+        
+        # 先接LLM
+        for key_s, value_s in knowledgeSentenceDICT.items():
+            result = self._callLLM2GenContent(sentenceSTR=value_s)
+            pprint(result)
+            print("==")
+        
+        exit()
         self.viewDICT = viewDICT
 
         return viewDICT
@@ -600,7 +667,7 @@ class AItlas:
                 "name": projectSTR,  # 這裡填入您想要在 Loki 上建立的專案名稱
             },
         }
-        response = post(url, json=payload).json()
+        response = requests.post(url, json=payload).json()
         lokiKey = response["loki_key"]
         payload = {
             "username": accountDICT[
@@ -612,7 +679,7 @@ class AItlas:
             "func": "create_intent",
             "data": {"type": "basic"},  # 意圖類別
         }
-        response = post(url, json=payload).json()
+        response = requests.post(url, json=payload).json()
         for i in range(0, len(utteranceLIST), 20):
             payload = {
                 "username": accountDICT[
@@ -624,7 +691,7 @@ class AItlas:
                 "func": "insert_utterance",
                 "data": {"utterance": utteranceLIST[i : i + 20]},
             }
-            response = post(url, json=payload).json()
+            response = requests.post(url, json=payload).json()
 
 
 if __name__ == "__main__":
@@ -642,7 +709,7 @@ if __name__ == "__main__":
     # pprint(KG)
 
     view = aitlas.aitlasViewPacker(directoryNameSTR=topicSTR)
-    aitlas.view(directoryNameSTR=topicSTR)
+    # aitlas.view(directoryNameSTR=topicSTR)
     # isPersonBool = alias.is_person(entity, utteranceLIST) #=>Maybe
     # isLocation = alias.is_location(entity, utteranceLIST)
     # print("{} 是 Person 嗎？{}".format(entity, isPersonBool))
