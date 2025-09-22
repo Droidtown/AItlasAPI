@@ -119,10 +119,13 @@ function getData() {
     });
 
     $("#articlePresent").html(html);
-    eventLIST.sort((a, b) => new Date(a.date_only) - new Date(b.date_only));
+    // 用 encounter_time 取代 date_only
+    eventLIST.sort((a, b) => new Date(a.encounter_time) - new Date(b.encounter_time));
+
     const eventMap = {};
     eventLIST.forEach(event => {
-        const date = event.date_only;
+        // 只取日期 (YYYY-MM-DD)
+        const date = event.encounter_time.split("T")[0];
         if (!eventMap[date]) {
             eventMap[date] = [];
         }
