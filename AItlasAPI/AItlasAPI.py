@@ -24,10 +24,18 @@ from typing import Union
 from functools import reduce
 from pprint import pprint
 from datetime import datetime
-from CNA_DTLK import CNA_Articut
+import CNA_DTLK.CNA_Articut as CNA_Articut
 import re
 
 purgePat = re.compile("</?[a-zA-Z]+(_[a-zA-Z]+)?>")
+G_baseTimePAT: re.Pattern = re.compile(r"(?<=）)[0-9]{7}")
+G_knowledgePAT: re.Pattern = re.compile(r"<KNOWLEDGE_(?:(?!CNAMember).+?)>(?:(?!中央社).+?)</KNOWLEDGE_(?:(?!CNAMember).+?)>")
+G_dictPAT: re.Pattern = re.compile(r"\{[^{}]*\}")
+G_sourcePAT: re.Pattern = re.compile(r'(?<="source": ")[^"]+')
+G_taregetPAT: re.Pattern = re.compile(r'(?<="target": ")[^"]+')
+G_labelPAT: re.Pattern = re.compile(r'(?<="label": ")[^"]+')
+G_metaDataPAT: re.Pattern = re.compile(r'(?<="metaData": ")[^"]+')
+G_encounterTimePAT: re.Pattern = re.compile(r'(?<="encounter_time": ")[^"]+')
 
 listPackerDICT = {
     "twPat": re.compile(r"[一-龥]"),
@@ -197,7 +205,7 @@ class AItlas:
             resultLIST: list[dict[str, str]] = [{
                 "title": self.viewDICT["article"][0]["title"],
                 "content": highlightContent,
-                # "events": self.viewDICT["entity"],
+                "events": self.viewDICT["event"],
                 "peoples": self.viewDICT["person"],
                 "places": self.viewDICT["location"],
                 "entities": self.viewDICT["entity"]
@@ -243,11 +251,12 @@ class AItlas:
 
         ### 寫 人物圖 person2person.json
         #with open(newAItlasKgPATH / "person2person.json",  "w", encoding="utf-8") as f:
-            #json.dump(viewDICT["person2person"], f, ensure_ascii=False, indent=4)
+            #json.dump(self.viewDICT["person2person"], f, ensure_ascii=False, indent=4)
 
         ### 寫 event.json
-        #with  open(newAItlasKgPATH / "event.json", "w", encoding="utf-8") as f:
-            #json.dump(viewDICT["event"], f, ensure_ascii=False, indent=4)
+        with  open(newAItlasKgPATH / "event.json", "w", encoding="utf-8") as f:
+            json.dump(self.viewDICT["event"], f, ensure_ascii=False, indent=4)
+        
         return None
 
     def _matchAItlasPerson(self, lang):
@@ -370,8 +379,6 @@ class AItlas:
         回傳 eventDICT 
         若為空 dict 則為
         """
-        # KNOWLEDGE_* 要有兩個以上才可以
-        
         url = "https://api.droidtown.co/Loki/Call/" # 中文版
 
         payload = {
@@ -381,14 +388,8 @@ class AItlas:
                 "model": modelnameSTR, # [Gemma2-9B, Gemma3-12B, Gemma3-27B, Llama3-8B, Llama3-70B, Llama3-Taiwan-8B, Llama3.3-70B, Phi3-3B, Phi4-14B, Nemotron-4B]
                 "system": "你是一位關注新事物的記者", # optional
                 "assistant": "", # optional
-                "user": f"""```json\b{str(sentenceSTR)}```請閱讀這篇文章，找到誰對誰做了什麼的結構，寫成下列 json 格式，不要給我多餘的東西
-                        ```[{{
-                            "source": "",           #主詞
-                            "target": "",           #受詞
-                            "label": "",            #主詞對受詞做的事情
-                            "metaData": "",         #文章中的這句句子
-                            "encounter_time": ""    #這件事情的發生時間
-                        }},......]```\b""" # required
+                "user": f"""```json\b{str(sentenceSTR)}```請閱讀這篇文章，以有<KNOWLEDGE_*>([^<]+)</KNOWLEDGE_*>的元素為優先，找到誰對誰做了什麼的結構，沒有的話就留空，寫成下列 json 格式，不要給我多餘的東西
+                        ```[{{"source": ""/*主詞*/,"target": ""/*#受詞*/,"label": ""/*#主詞對受詞做的事情*/,"metaData": ""/*#文章中的這句句子*/,"encounter_time": ""/*#這件事情的發生時間*/}},......]```\b""" # required
             }
         }
         response = requests.post(url, json=payload)
@@ -398,27 +399,53 @@ class AItlas:
 
         try:
             resultDICT = response.json()
-            pprint(resultDICT)
             chSTR = resultDICT["result"][0]["message"]["content"]
             return chSTR
         except requests.exceptions.JSONDecodeError:
             return {}
 
-    def _parseArticutKnowledgeSentence(articutResultDICT: dict)-> dict[str, str]:
+    def _parseArticutKnowledgeSentence(self, articutResultDICT: dict, baseTimeSTR: str)-> dict[str, str]:
         """
-        找到含有 <KNOWLEDGE_*>[^<]+</KNOWLEDGE_*> 的句子回傳
+        找到含有兩個以上 <KNOWLEDGE_*>[^<]+</KNOWLEDGE_*> 的句子回傳
+        {
+            "<KNOWLEDGE_party>民進黨</KNOWLEDGE_party><ACTION_verb>任命</ACTION_verb>": "民進黨任命",
+            "": "",
+            ...
+        }
         
         input:
             dict  articutResultDICT
         output:
-            dict[str, str]  pos句:移除pos後的原句  
+            dict[str, str]  pos句:時間  
         """
-        resultPosLIST = articutResultDICT["result_pos"]
+        resultPosLIST: list[str] = articutResultDICT["result_pos"]
+        # timeLIST: list[str] = articutResultDICT["time"]
         resultDICT: dict[str, str] = {}
 
         # 填
+        for idx, sentence_s in enumerate(resultPosLIST):
+            matches: re.Match = G_knowledgePAT.findall(sentence_s)
+            if len(matches) >=2 :
+                resultDICT[sentence_s] = baseTimeSTR
+                # if len(timeLIST[idx])>0:
+                #     resultDICT[sentence_s] = timeLIST[idx][0]["datetime"].replace(" ", "T")
 
         return resultDICT
+
+    def _convertRoc2Iso(self, rocDateSTR: str) -> str:
+        """
+        將民國年格式 (例如 '1140613') 轉成 ISO 8601 格式 'YYYY-MM-DDT00:00:00'
+        """
+        if len(rocDateSTR) != 7 or not rocDateSTR.isdigit():
+            raise ValueError("輸入格式錯誤，應為 7 位數字，例如 '1140613'")
+
+        rocYearSTR = int(rocDateSTR[:3])
+        yearSTR = rocYearSTR + 1911  # 民國年轉西元年
+        monthSTR = int(rocDateSTR[3:5])
+        daySTR = int(rocDateSTR[5:7])
+
+        dt = datetime(yearSTR, monthSTR, daySTR)
+        return dt.strftime("%Y-%m-%dT%H:%M:%S")
 
     def aitlasViewPacker(self, directoryNameSTR: str):
         translatePersonDICT = {
@@ -486,6 +513,15 @@ class AItlas:
             "person2person":[], #關聯圖
             "event": []
         }
+        # 接 Articut
+        ## 時間基準
+        baseTimeSTR: str = ""
+        baseTimeLIST: list[str] = G_baseTimePAT.findall(viewDICT["article"][0]["content"])
+        if len(baseTimeLIST)>0:
+            baseTimeSTR = self._convertRoc2Iso(baseTimeLIST[-1])
+
+        articutResultDICT: dict = CNA_Articut.parse(inputSTR=viewDICT["article"][0]["content"], level="lv3")
+
         # Person
         for person in self.AITLASKG["person"]:
             viewDICT["person"][person] = {}
@@ -496,7 +532,21 @@ class AItlas:
                     for itemSTR in self.AITLASKG["person"][person][key]:
                         for x in self._listPacker(translatePersonDICT[key], itemSTR):
                             valueSET.add(x)
+
                     viewDICT["person"][person][translatePersonDICT[key]] = list(valueSET)
+        
+        ## 比對 Articut
+        personLIST: list[str] = [
+            "person",
+            "people"
+        ]
+        for person_s in personLIST:
+            ### person
+            if f"KNOWLEDGE_{person_s}" in articutResultDICT["CNA_tag"]:
+                for key_s, value_l in articutResultDICT["CNA_tag"][f"KNOWLEDGE_{person_s}"].items():
+                    viewDICT["person"][key_s] = {}
+                    for value_s in value_l:
+                        viewDICT["person"][value_s] = {}
 
         # Location
         for locationSTR in self.AITLASKG["location"]:
@@ -506,6 +556,32 @@ class AItlas:
                     keySTR: [dataSTR]
                 })
 
+        ## 比對 articut
+        locationLIST: list[str] = [
+            "city",
+            "country",
+            "internationalLocation",
+            "JapanCity",
+            "lake",
+            "MalaysiaCity",
+            "river",
+            "ThailandCity",
+            "TWAdminDistrict",
+            "TWBridge",
+            "TWDam",
+            "TWMountains",
+            "TWRiver",
+            "TWTunnel",
+            "VietnamCity"
+        ]
+        for location_s in locationLIST:
+            ### location
+            if f"KNOWLEDGE_{location_s}" in articutResultDICT["CNA_tag"]:
+                for key_s, value_l in articutResultDICT["CNA_tag"][f"KNOWLEDGE_{location_s}"].items():
+                    viewDICT["location"][key_s] = {}
+                    for value_s in value_l:
+                        viewDICT["location"][value_s] = {}
+
         # Entity
         for nerSTR in self.AITLASKG["entity"]:
             viewDICT["entity"][nerSTR] = {}
@@ -514,6 +590,71 @@ class AItlas:
                     keySTR: [dataSTR],
                 })
 
+        ## 比對 Articut
+        entityLIST: list[str] = [
+            "adminAgency",
+            "airlines",
+            "airport",
+            "award",
+            "band",
+            "Baseball",
+            "chief",
+            "CNGov",
+            "company",
+            "correctionalInstitution",
+            "department",
+            "emergingStockCompany",
+            "fishingPort",
+            "foundation",
+            "hospital",
+            "hotels",
+            "JPGov",
+            "medicalSpecialty",
+            "NBA_Teams",
+            "newsAgency",
+            "newsChannel",
+            "newspapers",
+            "NFL_Teams",
+            "nightmarket",
+            "organization",
+            "party",
+            "pharmacyTW",
+            "pttCompanyAlias",
+            "scenery",
+            "school",
+            "sportsAssociations",
+            "stockExchange",
+            "transportation",
+            "TWBank",
+            "TWBasketball",
+            "TWGov",
+            "TWHikingTrail",
+            "TWIndustrialPark",
+            "TWInternetMedia",
+            "TWJudicial",
+            "TWMRT",
+            "TWPresidentialOffice",
+            "TWProcuratorate",
+            "TWScenery",
+            "TWSchool",
+            "TWSpecLocations",
+            "TWTelevision",
+            "TWTVChannel",
+            "TWUniversity",
+            "TWVolleyball",
+            "typhoon",
+            "unitedNationsSystem",
+            "weapon",
+            "webplatform",
+            "WNBA_Teams"
+        ]
+
+        for entity_s in entityLIST:
+            if f"KNOWLEDGE_{entity_s}" in articutResultDICT["CNA_tag"]:
+                for key_s, value_l in articutResultDICT["CNA_tag"][f"KNOWLEDGE_{entity_s}"].items():
+                    viewDICT["entity"][key_s] = {}
+                    for value_s in value_l:
+                        viewDICT["entity"][value_s] = {}
 
         #人物關聯圖
         #tempDICT = tempfile.NamedTemporaryFile(mode="w+")
@@ -527,17 +668,50 @@ class AItlas:
         #              ]
 
         # event
-        # 先接 Articut
-        articutResultDICT: dict = CNA_Articut.parse(inputSTR=viewDICT["article"][0]["content"])
-        knowledgeSentenceDICT: dict[str, str] = self._parseArticutKnowledgeSentence(articutResultDICT=articutResultDICT)
+        knowledgeSentenceDICT: dict[str, str] = self._parseArticutKnowledgeSentence(articutResultDICT, baseTimeSTR=baseTimeSTR)
         
-        # 先接LLM
-        for key_s, value_s in knowledgeSentenceDICT.items():
-            result = self._callLLM2GenContent(sentenceSTR=value_s)
-            pprint(result)
-            print("==")
+        ## 接LLM
+        for key_s in knowledgeSentenceDICT.keys():
+            result = self._callLLM2GenContent(sentenceSTR=key_s)
+            for m in G_dictPAT.finditer(result):
+                dictSTR: str = m.group()
+                # 找到子結構
+                sourceLIST: list[str] = G_sourcePAT.findall(dictSTR)
+                sourceSTR: str = ""
+                if len(sourceLIST)>0:
+                    sourceSTR = purgePat.sub("", sourceLIST[0])
+
+                targetLIST: list[str] = G_taregetPAT.findall(dictSTR)
+                targetSTR: str = ""
+                if len(targetLIST)>0:
+                    targetSTR = purgePat.sub("", targetLIST[0])
+
+                labelLIST: list[str] = G_labelPAT.findall(dictSTR)
+                labelSTR: str = ""
+                if len(labelLIST)>0:
+                    labelSTR = purgePat.sub("", labelLIST[0])
+
+                metaDataLIST: list[str] = G_metaDataPAT.findall(dictSTR)
+                metaDataSTR: str = ""
+                if len(metaDataLIST)>0:
+                    metaDataSTR = purgePat.sub("", metaDataLIST[0])
+
+                encounterTimeSTR = knowledgeSentenceDICT[key_s]
+                
+                # 合成
+                if sourceSTR in key_s and targetSTR in key_s and labelSTR in key_s:
+                    lableArticutResult: dict = articut.parse(labelSTR)
+                    if "ACTION" in lableArticutResult["result_obj"][0][0]["pos"]:
+                        dictDICT: dict[str, str] = {
+                            "source": sourceSTR,
+                            "target": targetSTR,
+                            "label": labelSTR,
+                            "metaData": metaDataSTR,
+                            "encounter_time": encounterTimeSTR
+                        }
+
+                        viewDICT["event"].append(dictDICT)
         
-        exit()
         self.viewDICT = viewDICT
 
         return viewDICT
@@ -652,7 +826,7 @@ class AItlas:
             "input_str": inputSTR,
             "data": {},
         }
-        response = post(aitlasURL, json=payload).json()
+        response = requests.post(aitlasURL, json=payload).json()
         return response["results"][keySTR]
 
     def createLokiProject(self, utteranceLIST):
@@ -695,8 +869,7 @@ class AItlas:
 
 
 if __name__ == "__main__":
-    longText = """台北地方法院審理京華城案，5月13日提訊威京集團主席沈慶京（前）出庭。（中央社檔案照片）（中央社記者林長順台北10日電）台北地方法院審理京華城案今天開庭勘驗相關會議錄音。沈慶京律師當庭聲請具保停押，法官請律師到醫院與沈慶京商討交保金額，且不得低於過去金額。北院預計最快下午裁定。京華城案再度開庭，北院提訊在押的前台北市長、前台北市長辦公室主任李文宗，傳喚前台北市都發局長黃景茂，勘驗北市都發局專家學者諮詢會議、都委會第775次會議、專案小組會議錄音逐字稿。威京集團主席因病治療請假未到庭，由律師代理出庭。律師在開庭時指出，沈慶京羈押至今健康狀態不佳，目前由台北看守所戒護下在台大醫院戒護就醫，且有開刀的必要，因此向北院聲請具保停押。法官指出，經函詢台北醫院，醫院認為沈慶京確實有動手術的必要，台北看守所也回函有法警戒護人力問題，法官准予律師中午前往醫院與沈慶京商談保證金額，但不能少於過去法院裁定的金額。法官也要律師與沈溝通不要以醫院治療為理由拒絕電子監控，表示過去曾有重大人犯因以疾病因素拒絕電子監控但人逃亡，「這讓法院承受很大壓力」。（編輯：方沛清）1140710",
-    高雄市副市長林欽榮（右）16日在高雄市議會接受媒體聯訪，回應京華城案相關議題，強調自己對前台北市長柯文哲沒有狹怨報復。左為高雄市長陳其邁。中央社記者林巧璉攝  114年5月16日（中央社記者郭建伸、林巧璉台北16日電）北院審理京華城案引發民眾黨與高雄市政府為容積獎勵隔空交火。民眾黨今天批評高雄市府避重就輕、惡意誤導，呼籲勿配合政客炒作聲量；高雄市副市長林欽榮說，京華城是單一財團小基地，採取所謂自創容積，無法律授權。北院昨天開庭審理京華城案，前民眾黨主席柯文哲的臉書以「綠能，你不能；陳其邁可以，柯文哲不能」為題表示，「高雄亞灣經貿開發計畫不管是營運或企業總部給20%容獎，都不可以。」高雄市府回應，政黨人士混淆視聽，譴責以司法調查弊案類比國家重大經建亞灣2.0。民眾黨今天透過聲明表示，根據「都市計畫法高雄市施行細則」第24條之3規定項目與容積獎勵上限，取得經濟部核發的「營運總部」認定函，法定容積5%，但高雄市府新聞稿中卻未正面回應昨天柯文哲委任律師質疑「為何給予容積獎勵20%，整整比施行細則所規定之上限5%多出3倍？」民眾黨質疑，高雄市政府心虛閃躲、避重就輕，給予容積獎勵的項目是哪些，請高雄市政府具體回應，應依林欽榮所言「容積是公共財」，審議不可黑箱。民眾黨也抨擊，高雄市府新聞稿提及有關京華城部分有諸多錯誤，表格更是惡意誤導，因為京華城從頭到尾都不是「準用都更」，是根據「都市計畫法第24條」由地主自行提出細部計畫申請，台北市政府則依「台北市都市計畫施行自治條例」25條給予容積獎勵，何來「違法準用都更條例」。民眾黨指出，京華城計畫內容具備「公益性、對價性」且提供市府回饋，通過都委會審議才得到容積獎勵，肩負帶動台北市南松山地區與附近老舊街廓有更新活化的任務、並非單一地主受惠。民眾黨抨擊，高雄市政府的表格在土地面積欄位寫「亞灣計畫區為國有土地」是刻意迴避，實際上以「國家重大經建計畫」做包裝，亞灣開發後，原國有土地皆轉賣給私有企業或財團進行開發，而且高雄市政府在上位計畫還沒通過前，就搶先給容積，對照林欽榮對京華城案的攻擊，明顯雙標，根本是「我能你不能」。不過，民眾黨也指出，高雄市政府聲明稿唯一有參考價值的地方，是證實細部計畫可以給容積獎勵，林欽榮在開庭時，不斷鬼打牆稱細部計畫不能給容積獎勵，多給一平方米就是圖利，但亞灣2.0計畫正是林欽榮透過細部計畫給予容積獎勵的實際個案，甚至突破5%上限給到20%。高雄市副市長林欽榮上午在高雄市議會接受媒體聯訪表示，所有容積獎勵須依法授權，亞灣地區容積合法合規，京華城非都更區，僅是單一財團小基地，「這是天差地別」。他說，亞灣地區早在民國91年依都市計畫程序，完全就劃定為公劃公告都市更新地區，對比京華城根本不是都市更新地區，亞灣本來就可有1.5倍容積率使用。林欽榮表示，京華城是單一財團小基地1.6公頃，採取所謂自創容積，無法律授權；監察院2023年有糾正台北市政府、台北市都委會、台北市都發局，「亞灣與京華城是天差地別。亞灣2.0計畫完全是依法授權」。（編輯：謝佳珍）1140516"""
+    longText = """"""
 
 
     # longText = """中東夙敵以色列和伊朗空戰進入第8天。以色列總理尼坦雅胡今天矢言「消除」伊朗構成的核子和彈道飛彈威脅。
@@ -709,7 +882,7 @@ if __name__ == "__main__":
     # pprint(KG)
 
     view = aitlas.aitlasViewPacker(directoryNameSTR=topicSTR)
-    # aitlas.view(directoryNameSTR=topicSTR)
+    aitlas.view(directoryNameSTR=topicSTR)
     # isPersonBool = alias.is_person(entity, utteranceLIST) #=>Maybe
     # isLocation = alias.is_location(entity, utteranceLIST)
     # print("{} 是 Person 嗎？{}".format(entity, isPersonBool))
