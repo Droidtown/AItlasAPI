@@ -1,5 +1,6 @@
 ./data/preprocessed/*
 account.info
+iogin.info
 *.wpr
 *.wpu
 .*
