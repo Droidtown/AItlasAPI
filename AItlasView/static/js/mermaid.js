@@ -40,16 +40,13 @@ $(document).on('click', '.messageLine0', function (event) {
  */
 function initMermaid() {
     console.log("In initMermaid")
-    console.log(G_EventMap)
 
     // 將 G_EventMap 整理送到 G_Event_LIST
     G_Event_LIST = _parseMAP2LIST(G_EventMap)
-    console.log(G_Event_LIST)
 
     // 將 G_Event_LIST 根據 G_selectedEntity_LIST 的內容做篩選後送到 G_FilterEvent_LIST
     G_FilterEvent_LIST = _buildFilterEventLIST(G_Event_LIST, G_SelectedEntity_LIST)
     console.log(G_FilterEvent_LIST)
-
     if (G_FilterEvent_LIST.length === 0) {
         alert("在選取的人物中，沒有時序圖關係可以畫");
         return;
@@ -96,10 +93,9 @@ function _buildFilterEventLIST(eventLIST, selectedEntityLIST) {
     eventLIST.forEach(entry => {
         if (selectedEntityLIST.includes(entry.source) && selectedEntityLIST.includes(entry.target)) {
             filterEventLIST.push({
-                "date_only": entry.date_only,
                 "encounter_time": entry.encounter_time,
                 "label": entry.label,
-                "meta_data": entry.meta_data,
+                "metaData": entry.metaData,
                 "source": {
                     "id": entry.source
                 },

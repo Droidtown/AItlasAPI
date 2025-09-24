@@ -33,8 +33,8 @@ function closeModal() {
  *   source: { id: string },
  *   target: { id: string },
  *   label: string,
- *   meta_data: string,
- *   date_only: string,
+ *   metaData: string,
+ *   encounter_time: string,
  *   url: string
  * }} link
  */
@@ -60,11 +60,14 @@ function showLinkInfo(x, y, link) {
             ${link.label}
         </a>
         <div class="collapse" id="collapseMetaData">
-            <div class="card card-body">
-                ${link.date_only}
-                <a href="${link.url}">文章連結</a>
-                <br>
-                ${link.meta_data}
+            <div class="card mb-3 border-info shadow-sm">
+                <div class="card-body">
+                    <h6 class="card-subtitle mb-2 text-muted">
+                    <i class="bi bi-clock"></i>
+                    ${new Date(link.encounter_time).toLocaleString('zh-TW', { dateStyle: 'medium' })}
+                    </h6>
+                    <p class="card-text">${link.metaData}</p>
+                </div>
             </div>
         </div>
     </div>
