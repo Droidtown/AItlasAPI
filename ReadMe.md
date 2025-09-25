@@ -1,5 +1,90 @@
 # AItlas
 
+## Usage
+
+### 設定檔
+請參考 [LiteLLM](https://docs.litellm.ai/docs/providers) 後，建立`./account.info`，並在檔案內填寫下列設定檔：
+
+```json
+{
+    "url":"",                                    # 請填入 articut url（線上版 articut 可留空）
+    "username":"",                               # 請填入您在卓騰語言科技使用的登入信箱
+    "api_key": "",                               # 請填入您登入卓騰語言科技後所顯示的 API 金鑰（ Docker 版可留空）
+    "llm": {
+        "model": "",                             # 請務必按照 LiteLLM 格式，填入您在 AItlasAPI 中要使用的語言模型及下列設定。
+        "api_base": "",
+        "env": {                                 # 請務必按照 LiteLLM 格式，填入環境變數。
+            "OPENAI_API_KEY": "",
+            "AZURE_API_KEY": "",
+            "AZURE_API_BASE": "",
+            "AZURE_API_VERSION": "",
+            "ANTHROPIC_API_KEY": "",
+            "GEMINI_API_KEY": ""
+        }
+    }
+}
+```
+
+以`gpt-5`為範例：
+
+```json
+{
+    "url":"http://10.1.1.123:45678",
+    "username":"test@gmail.com",                               
+    "api_key": "",                               
+    "llm": {
+        "model": "gpt-5",
+        "api_base": "",
+        "env": {
+            "OPENAI_API_KEY": "myApiKey123",
+            "AZURE_API_KEY": "",
+            "AZURE_API_BASE": "",
+            "AZURE_API_VERSION": "",
+            "ANTHROPIC_API_KEY": "",
+            "GEMINI_API_KEY": ""
+        }
+    }
+}
+```
+
+### 使用 AItlas （可參考 test.py ）
+```py
+# 文章根據
+articleDICT: dict[str, str] = {
+    "1140516": "（中央社記者劉世怡台北11日電）北院審理京華城案裁定柯文哲、應曉薇自2日起延長羈押禁見2個月。2人不服提起抗告，高院今天認定原裁定並無違法或不當，駁回抗告，即延長羈押禁見2個月確定。台灣高等法院指出，柯文哲、應曉薇前經原審法院裁定羈押禁見，因期間將屆，經原審台北地院法院訊問後，認定2人犯罪嫌疑重大，且原羈押原因及必要依然存在，因此裁定延長羈押2個月並禁止接見、通信。高院表示，柯文哲、應曉薇抗告主張犯嫌並非重大、無逃亡之虞、無勾串之虞、無羈押必要、原裁定理由不備、身體有恙非保外就醫難以痊癒，請求撤銷原裁定。高院合議庭表示，依卷內事證及向原審法院、看守所函調相關資料，認定2人主張均不足採信，因此認定本件抗告為無理由，予以駁回。本件延長羈押確定。台北地檢署偵辦京華城案、柯文哲政治獻金案，去年底依貪污治罪條例違背職務收受賄賂、圖利、公益侵占與背信等罪起訴前台北市長柯文哲、威京集團主席沈慶京、國民黨台北市議員應曉薇、前台北市長辦公室主任李文宗等11人，具體求處柯文哲總計28年6月徒刑。全案移審後，北院2度裁定在押的柯文哲、沈慶京、應曉薇與李文宗交保，經北檢抗告，高院2度發回更裁，北院1月2日裁定柯文哲、沈慶京、應曉薇、李文宗等4人裁定羈押禁見3個月。北院隨後裁定柯文哲、沈慶京、應曉薇與李文宗等4人，自4月2日、同年6月2日起分別延長羈押2月。北院7月21日裁定柯文哲、應曉薇均自8月2日起延長羈押2月，並禁止接見、通信。李文宗則獲裁定2000萬元交保，限制住居、限制出境出海及配戴電子腳鐶。李男7月23日辦保及配戴電子腳鐶完成，離開法院。此外，沈慶京獲裁定1億8000萬元交保並限制住居、限制出境出海及配戴電子腳環及個案手機。沈慶京7月24日下午繳交保證金，晚間配戴電子腳環及個案手機後，離開法院。（編輯：蕭博文）1140811"
+}
+
+#生成檔案檔名
+topicSTR: str = "京華城"  
+
+# 初始化 aitlas
+aitlas = AItlas(username=G_accountDICT["username"], apikey=G_accountDICT["api_key"], url=G_accountDICT["url"], llm=G_accountDICT["llm"])
+
+# 移除所有換行符號提昇效率
+for time_s, article_s in articleDICT.items():
+    KG = aitlas.scan(inputSTR=article_s.replace("\n", ""), timeRefSTR=time_s)
+    # pprint(KG)
+
+view = aitlas.aitlasViewPacker(directoryNameSTR=topicSTR)
+aitlas.view(directoryNameSTR=topicSTR)
+```
+
+1. scan
+- input：inputSTR
+  - 要做 AItlas 分析的文字
+- output：生成 self.AITLASKG
+
+2. aitlasViewPacker
+- input：生成的檔名
+- output：生成相關資料結構
+
+3. view
+- 將資料寫成 js 和 html 以便視覺化查看
+- input：生成的檔名
+- output：生成相關資料結構
+
+
+## Overview
 AItlas is a knowledge graph designed to go with Loki NLU system.
 
 一言以蔽之，AItlas 是一個基於 Loki NLU 系統所設計的知識圖譜。
@@ -98,7 +183,7 @@ personPatLIST = ["^{}\s?（[^名又a-zA-Z]+）",
 ├── README.md
 ├── AItlasAPI
 │   ├── AItlasAPI.py
-│   └── AItlasView         #內含 django 專案，呈現 AItlas 的可能性
+│   └── AItlasView         
 │   └── AItlas_TW          #內含各種 AItlas 所需 source data
 │   └── AItlas
 ├── data
@@ -111,42 +196,3 @@ personPatLIST = ["^{}\s?（[^名又a-zA-Z]+）",
     ├── extract.py (script to extract wikipedia title and summary from topic.txt
     └── topic.txt (txt file containing wikipedia article names)
 ```
-
-## 3. Usage
-
-a. 先到`AItlasAPI/AItlasAPI/AItlasView`執行`python3 manage.py runserver`後直到出現
-
-> Django version 3+都可以
-
-```md
-Django version 5.2.4, using settings 'aitlasDEMO.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CONTROL-C.
-```
-
-b. 打開`AItlasAPI.py`，在程式進入點能夠看到使用範例如下方，可以直接執行。
-c. 在`http://127.0.0.1:8000/`觀察結果
-
-```python
-if __name__ == "__main__":
-    longText = """中東夙敵以色列和伊朗空戰進入第8天。以色列總理尼坦雅胡今天矢言「消除」伊朗構成的核子和彈道飛彈威脅。法新社報導，尼坦雅胡（Benjamin Netanyahu）在南部城巿俾什巴（Beersheba）告訴記者：「我們致力於信守摧毀核威脅的承諾、針對以色列的核滅絕威脅。」伊朗今天的飛彈攻勢擊中當地一間醫院。"""
-    aitlas = AItlas()
-    topicSTR: str = "中東"
-    KG = aitlas.scan(longText)
-
-    view = aitlas.aitlasViewPacker(directoryNameSTR=topicSTR)
-    aitlas.view(directoryNameSTR=topicSTR)
-```
-
-### scan
-- input：inputSTR
-  - 要做 AItlas 分析的文字
-- output：生成 self.AITLASKG
-
-### aitlasViewPacker
-- input：self
-- output：生成 django 專案呈現所需的檔案
-
-### view
-- 對 django 寫入須呈現的資料
-
