@@ -70,18 +70,18 @@ aitlas.view(directoryNameSTR=topicSTR)
 ```
 
 1. scan
-- input：inputSTR
-  - 要做 AItlas 分析的文字
-- output：生成 self.AITLASKG
+    - input：inputSTR
+    - 要做 AItlas 分析的文字
+    - output：生成 self.AITLASKG
 
 2. aitlasViewPacker
-- input：生成的檔名
-- output：生成相關資料結構
+    - input：生成的檔名
+    - output：生成相關資料結構
 
 3. view
-- 將資料寫成 js 和 html 以便視覺化查看
-- input：生成的檔名
-- output：生成相關資料結構
+    - 將資料寫成 js 和 html 以便視覺化查看
+    - input：生成的檔名
+    - output：生成相關資料結構
 
 
 ## Overview
