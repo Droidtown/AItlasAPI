@@ -25,8 +25,12 @@ from articutShell.dynamic_userdefined.dynamic_UD import (
 
 G_accountDICT: dict = {}
 try:
-    with open(Path.cwd()/"account.info", encoding="utf-8") as f:
-        G_accountDICT = json.load(f)
+    try:
+        with open(Path.cwd()/"account.info", encoding="utf-8") as f:
+            G_accountDICT = json.load(f)
+    except Exception as e:
+        pprint(e)
+        
     if "url" in G_accountDICT:
         articut = Articut(url=G_accountDICT["url"])
     else:
