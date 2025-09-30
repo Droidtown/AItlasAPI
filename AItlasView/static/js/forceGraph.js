@@ -3,10 +3,6 @@
  * @returns  none
  */
 function initForceGraph() {
-    if (!G_EventMap || Object.keys(G_EventMap).length === 0) {
-        alert('圖表 api 建置尚未完成');
-        return;
-    }
     const elem = document.getElementById('graph');
     let dateSelector = document.getElementById('dateSelector');
     if (!dateSelector) {

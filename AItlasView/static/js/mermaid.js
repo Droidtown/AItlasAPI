@@ -48,7 +48,7 @@ function initMermaid() {
     G_FilterEvent_LIST = _buildFilterEventLIST(G_Event_LIST, G_SelectedEntity_LIST)
     console.log(G_FilterEvent_LIST)
     if (G_FilterEvent_LIST.length === 0) {
-        alert("在選取的人物中，沒有時序圖關係可以畫");
+        alert("在選取的人物中，沒有時序圖關係可以呈現");
         return;
     }
     G_MermaidGraphData = _genMermaidData(G_FilterEvent_LIST);

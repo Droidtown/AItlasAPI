@@ -192,7 +192,7 @@ function _renderGlobalEntities(entities) {
     }
     else {
         document.getElementById("entityCheckboxContainer").innerHTML =
-        `<strong>人物</strong><br>無`
+        `<strong>人物</strong><br>無<br>`
     }
 
     if (placeLIST.length > 0) {
@@ -201,7 +201,7 @@ function _renderGlobalEntities(entities) {
     }
     else {
         document.getElementById("entityCheckboxContainer").innerHTML =
-        `<strong>地點</strong><br>無`
+        `<strong>地點</strong><br>無<br>`
     }
 
     if (entityLIST.length > 0) {
@@ -210,7 +210,7 @@ function _renderGlobalEntities(entities) {
     }
     else {
         document.getElementById("entityCheckboxContainer").innerHTML =
-        `<strong>實體</strong><br>無`
+        `<strong>實體</strong><br>無<br>`
     }
 
 }
