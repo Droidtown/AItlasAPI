@@ -14,11 +14,11 @@ from pprint import pprint
 
 from ArticutAPI import Articut
 
-currentDir = Path(os.path.dirname(os.path.abspath(__file__)))
-accountFilePath = os.path.join(currentDir.parent, "login.info")
+currentDir = Path.cwd()
+accountFilePath = Path.cwd()/"account.info"
 
 # 確保 abrv 目錄和相關文件存在
-abrv_dir = currentDir / "abrv"
+abrv_dir = currentDir/ "AItlasAPI" / "articutShell" / "dynamic_userdefined" / "abrv"
 if not abrv_dir.exists(): # 純粹確保 abrv 目錄存在 不會報錯正確斷詞
     os.makedirs(abrv_dir, exist_ok=True)
     print(f"Created abrv directory at {abrv_dir}")
@@ -362,7 +362,6 @@ def createCNAMemberUD(inputSTR: str) -> dict:
         udDICT = dictForger(inputSTR, "dict_collection")
         udFILE = dict2File(udDICT)
         resultDICT = articut.parse(head, userDefinedDictFILE=udFILE.name)
-
         for sentence in resultDICT["result_pos"]:
             if len(sentence) == 1:
                 continue
@@ -450,7 +449,7 @@ def _tabooDetection(abbrLIST: list[str])-> list[str]:
     """
     # 取髒話
     spellCurseLIST: list[list[str]] = []
-    jsonFile: Path = currentDir / "abrv" / "spellCurse.json"
+    jsonFile: Path = abrv_dir / "spellCurse.json"
     with open(jsonFile, "r", encoding="utf-8") as f:
         spellCurseLIST = json.load(f)
 
@@ -500,7 +499,7 @@ def _getPossibleLIST(udSTR: str) -> list[str]:
     """
     rangeLocalityLIST: list[str] = ["上", "下", "左", "右", "內", "外", "旁", "底"]
     headLIST: list[str] = []
-    jsonFile: Path = currentDir / "abrv" / "head.json"
+    jsonFile: Path = abrv_dir/ "head.json"
     with open(jsonFile, "r", encoding="utf-8") as f:
         headLIST = json.load(f)
 

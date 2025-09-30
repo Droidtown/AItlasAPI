@@ -27,7 +27,9 @@ G_accountDICT: dict = {}
 try:
     try:
         with open(Path.cwd()/"account.info", encoding="utf-8") as f:
+            print(Path.cwd()/"account.info")
             G_accountDICT = json.load(f)
+            pprint(G_accountDICT)
     except Exception as e:
         pprint(e)
         
@@ -38,13 +40,6 @@ try:
 except:
     print("[articutShell] 請先新增 account.info 並填入相關資訊")
     exit()
-
-if "url" in G_accountDICT:
-    # docker 版登入
-    articut = Articut(url=G_accountDICT["url"])
-elif "username" and "apikey" in G_accountDICT:
-    # 線上 版登入
-    articut = Articut(username=G_accountDICT["username"], apikey=G_accountDICT["apikey"])
 
 G_splitSpecifyPerson_pat = re.compile(r"<ENTITY_person>向[台臺英法德俄泰韓美中共澳越日朝星紐馬菲義華瓜帛烏荷以阿緬波布蒲喀象埃港厄衣甘加肯賴摩莫納奈盧聖塞獅索史坦突辛亞巴孟汶柬賽喬伊約哈黎蒙尼沙斯敘塔土奧比保克芬匈拉印葡羅西哥薩宏牙墨玻蓋秘委斐吉諾吐]方</ENTITY_person>")
 G_nameExcept_pat = re.compile(r"向[台臺英法德俄泰韓美中共澳越日朝星紐馬菲義華瓜帛烏荷以阿緬波布蒲喀象埃港厄衣甘加肯賴摩莫納奈盧聖塞獅索史坦突辛亞巴孟汶柬賽喬伊約哈黎蒙尼沙斯敘塔土奧比保克芬匈拉印葡羅西哥薩宏牙墨玻蓋秘委斐吉諾吐]方")
