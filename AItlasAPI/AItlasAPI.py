@@ -612,40 +612,60 @@ class AItlas:
             # article
             viewDICT["article"][0]["content"] += article_s
 
-            # Person
-            for person in self.AITLASKG["person"]:
-                viewDICT["person"][person] = {}
-                for key in self.AITLASKG["person"][person]:
-                    if key in translatePersonDICT.keys():
-                        # viewDICT["person"][person][translateDICT[key]] = self.AITLASKG["person"][person][key]
-                        valueSET: set = set()
-                        for itemSTR in self.AITLASKG["person"][person][key]:
-                            for x in self._listPacker(translatePersonDICT[key], itemSTR):
-                                valueSET.add(x)
-
-                        viewDICT["person"][person][translatePersonDICT[key]] = list(valueSET)
-            
+            # viewDICT: Person
+            logging.info("Person")
             ## 比對 Articut
             personLIST: list[str] = [
                 "person",
                 "people"
             ]
+            charSET: set = set()
             for person_s in personLIST:
-                ### person
                 if f"KNOWLEDGE_{person_s}" in articutResultDICT["CNA_tag"]:
-                    for sentence_s, value_l in articutResultDICT["CNA_tag"][f"KNOWLEDGE_{person_s}"].items():
-                        viewDICT["person"][sentence_s] = {}
+                    for key_s, value_l in articutResultDICT["CNA_tag"][f"KNOWLEDGE_{person_s}"].items():
+                        if key_s in article_s:
+                            # 加字元
+                            charSET.add(key_s[0])
+                            charSET.add(key_s[-1])
+
+                            # 加 viewDICT
+                            viewDICT["person"][key_s] = {"來源": [f"KNOWLEDGE_{person_s}"]}
+
                         for value_s in value_l:
-                            viewDICT["person"][value_s] = {}
+                            if value_s in article_s:
+                                # 加字元
+                                charSET.add(value_s[0])
+                                charSET.add(value_s[-1])
+                                
+                                # 加 viewDICT
+                                viewDICT["person"][value_s] = {"來源": [f"KNOWLEDGE_{person_s}"]}
 
-            # Location
-            for locationSTR in self.AITLASKG["location"]:
-                viewDICT["location"][locationSTR] = {}
-                for keySTR, dataSTR in self.AITLASKG["location"][locationSTR].items():
-                    viewDICT["location"][locationSTR].update({
-                        keySTR: [dataSTR]
-                    })
+            ## 比對AItlas
+            for person_s in self.AITLASKG["person"]:
+                isRemovalBOOL: bool = False
 
+                # 檢查是否有重複字元
+                for ch in person_s:
+                    if ch in charSET:
+                        isRemovalBOOL = True
+                        continue
+                
+                if isRemovalBOOL:
+                    continue
+                
+                viewDICT["person"][person_s] = {}
+                for key in self.AITLASKG["person"][person_s]:
+                    if key in translatePersonDICT.keys():
+                        # viewDICT["person"][person][translateDICT[key]] = self.AITLASKG["person"][person][key]
+                        valueSET: set = set()
+                        for itemSTR in self.AITLASKG["person"][person_s][key]:
+                            for x in self._listPacker(translatePersonDICT[key], itemSTR):
+                                valueSET.add(x)
+
+                        viewDICT["person"][person_s][translatePersonDICT[key]] = list(valueSET)
+            
+            # viewDICT: Location
+            logging.info("location")
             ## 比對 articut
             locationLIST: list[str] = [
                 "city",
@@ -665,21 +685,46 @@ class AItlas:
                 "VietnamCity"
             ]
             for location_s in locationLIST:
-                ### location
                 if f"KNOWLEDGE_{location_s}" in articutResultDICT["CNA_tag"]:
-                    for sentence_s, value_l in articutResultDICT["CNA_tag"][f"KNOWLEDGE_{location_s}"].items():
-                        viewDICT["location"][sentence_s] = {}
-                        for value_s in value_l:
-                            viewDICT["location"][value_s] = {}
+                    for key_s, value_l in articutResultDICT["CNA_tag"][f"KNOWLEDGE_{location_s}"].items():
+                        if key_s in article_s:
+                            # 加字元
+                            charSET.add(key_s[0])
+                            charSET.add(key_s[-1])
 
-            # Entity
-            for nerSTR in self.AITLASKG["entity"]:
-                viewDICT["entity"][nerSTR] = {}
-                for keySTR, dataSTR in self.AITLASKG["entity"][nerSTR].items():
-                    viewDICT["entity"][nerSTR].update({
-                        keySTR: [dataSTR],
+                            # 加 viewDICT
+                            viewDICT["location"][key_s] = {"來源": [f"KNOWLEDGE_{location_s}"]}
+
+                        for value_s in value_l:
+                            if value_s in article_s:
+                                # 加字元
+                                charSET.add(value_s[0])
+                                charSET.add(value_s[-1])
+                                
+                                # 加 viewDICT
+                                viewDICT["location"][value_s] = {"來源": [f"KNOWLEDGE_{location_s}"]}
+            
+            ## 比對 AItlas
+            for location_s in self.AITLASKG["location"]:
+                isRemovalBOOL: bool = False
+
+                # 檢查是否有重複字元
+                for ch in location_s:
+                    if ch in charSET:
+                        isRemovalBOOL = True
+                        continue
+                
+                if isRemovalBOOL:
+                    continue
+
+                viewDICT["location"][location_s] = {}
+                for keySTR, dataSTR in self.AITLASKG["location"][location_s].items():
+                    viewDICT["location"][location_s].update({
+                        keySTR: [dataSTR]
                     })
 
+            # viewDICT: Entity
+            logging.info("entity")
             ## 比對 Articut
             entityLIST: list[str] = [
                 "adminAgency",
@@ -741,11 +786,44 @@ class AItlas:
 
             for entity_s in entityLIST:
                 if f"KNOWLEDGE_{entity_s}" in articutResultDICT["CNA_tag"]:
-                    for sentence_s, value_l in articutResultDICT["CNA_tag"][f"KNOWLEDGE_{entity_s}"].items():
-                        viewDICT["entity"][sentence_s] = {}
-                        for value_s in value_l:
-                            viewDICT["entity"][value_s] = {}
+                    for key_s, value_l in articutResultDICT["CNA_tag"][f"KNOWLEDGE_{entity_s}"].items():
+                        if key_s in article_s:
+                            # 加字元
+                            charSET.add(key_s[0])
+                            charSET.add(key_s[-1])
 
+                            # 加 viewDICT
+                            viewDICT["entity"][key_s] = {"來源": [f"KNOWLEDGE_{entity_s}"]}
+
+                        for value_s in value_l:
+                            if value_s in article_s:
+                                # 加字元
+                                charSET.add(value_s[0])
+                                charSET.add(value_s[-1])
+                                
+                                # 加 viewDICT
+                                viewDICT["entity"][value_s] = {"來源": [f"KNOWLEDGE_{entity_s}"]}
+
+            ## 比對 AItlas
+            for ner_s in self.AITLASKG["entity"]:
+                isRemovalBOOL: bool = False
+
+                # 檢查是否有重複字元
+                for ch in ner_s:
+                    if ch in charSET:
+                        isRemovalBOOL = True
+                        continue
+                
+                if isRemovalBOOL:
+                    continue
+
+                viewDICT["entity"][ner_s] = {}
+                for keySTR, dataSTR in self.AITLASKG["entity"][ner_s].items():
+                    viewDICT["entity"][ner_s].update({
+                        keySTR: [dataSTR],
+                    })
+            pprint(viewDICT)
+            exit()
             #人物關聯圖
             #tempDICT = tempfile.NamedTemporaryFile(mode="w+")
             #udLIST = [e for e in viewDICT["entity"].keys()]
@@ -761,7 +839,6 @@ class AItlas:
             knowledgeSentenceLIST: list[str] = self._parseArticutKnowledgeSentence(articutResultDICT)
             ## 接LLM
             for sentence_s in knowledgeSentenceLIST:
-                print(f"[AItlasAPI 774] {sentence_s}")
                 result = self._callLiteLlm2GenContent(sentenceSTR=sentence_s)
 
                 if not result["status"]:
