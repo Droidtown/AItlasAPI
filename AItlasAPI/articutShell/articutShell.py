@@ -27,9 +27,7 @@ G_accountDICT: dict = {}
 try:
     try:
         with open(Path.cwd()/"account.info", encoding="utf-8") as f:
-            print(Path.cwd()/"account.info")
             G_accountDICT = json.load(f)
-            pprint(G_accountDICT)
     except Exception as e:
         pprint(e)
         
