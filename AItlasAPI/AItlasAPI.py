@@ -613,11 +613,12 @@ class AItlas:
             viewDICT["article"][0]["content"] += article_s
 
             # viewDICT: Person
-            logging.info("Person")
+            logging.info("[aitlasViewPacker] Person")
             ## 比對 Articut
             personLIST: list[str] = [
                 "person",
-                "people"
+                "people",
+                "CNAMember"
             ]
             charSET: set = set()
             for person_s in personLIST:
@@ -665,7 +666,7 @@ class AItlas:
                         viewDICT["person"][person_s][translatePersonDICT[key]] = list(valueSET)
             
             # viewDICT: Location
-            logging.info("location")
+            logging.info("[aitlasViewPacker] Location")
             ## 比對 articut
             locationLIST: list[str] = [
                 "city",
@@ -724,7 +725,7 @@ class AItlas:
                     })
 
             # viewDICT: Entity
-            logging.info("entity")
+            logging.info("[aitlasViewPacker] Entity")
             ## 比對 Articut
             entityLIST: list[str] = [
                 "adminAgency",
@@ -822,8 +823,7 @@ class AItlas:
                     viewDICT["entity"][ner_s].update({
                         keySTR: [dataSTR],
                     })
-            pprint(viewDICT)
-            exit()
+
             #人物關聯圖
             #tempDICT = tempfile.NamedTemporaryFile(mode="w+")
             #udLIST = [e for e in viewDICT["entity"].keys()]
