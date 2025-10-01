@@ -651,10 +651,14 @@ class AItlas:
                         isRemovalBOOL = True
                         continue
                 
-                if isRemovalBOOL:
-                    continue
-                
-                viewDICT["person"][person_s] = {}
+                # 檢查是否已經在 articut 出現過完全一樣的詞
+                if person_s in viewDICT["person"]:
+                    isRemovalBOOL = True
+                else:
+                    if isRemovalBOOL:
+                        continue
+                    viewDICT["person"][person_s] = {}
+
                 for key in self.AITLASKG["person"][person_s]:
                     if key in translatePersonDICT.keys():
                         # viewDICT["person"][person][translateDICT[key]] = self.AITLASKG["person"][person][key]
@@ -664,6 +668,12 @@ class AItlas:
                                 valueSET.add(x)
 
                         viewDICT["person"][person_s][translatePersonDICT[key]] = list(valueSET)
+                        
+                        if "來源" not in viewDICT["person"][person_s]:
+                            viewDICT["person"][person_s].update({"來源": []})
+
+                        if "wiki" not in viewDICT["person"][person_s]["來源"]:
+                            viewDICT["person"][person_s]["來源"].append("wiki")
             
             # viewDICT: Location
             logging.info("[aitlasViewPacker] Location")
@@ -714,15 +724,23 @@ class AItlas:
                     if ch in charSET:
                         isRemovalBOOL = True
                         continue
-                
-                if isRemovalBOOL:
-                    continue
 
-                viewDICT["location"][location_s] = {}
+                # 檢查是否已經在 articut 出現過完全一樣的詞
+                if location_s in viewDICT["location"]:
+                    isRemovalBOOL = True
+                else:
+                    if isRemovalBOOL:
+                        continue
+                    viewDICT["location"][location_s] = {}
+
                 for keySTR, dataSTR in self.AITLASKG["location"][location_s].items():
-                    viewDICT["location"][location_s].update({
-                        keySTR: [dataSTR]
-                    })
+                    viewDICT["location"][location_s].update({keySTR: [dataSTR]})
+
+                    if "來源" not in viewDICT["location"][location_s]:
+                        viewDICT["location"][location_s].update({"來源": []})
+
+                    if "wiki" not in viewDICT["location"][location_s]["來源"]:
+                        viewDICT["location"][location_s]["來源"].append("wiki")
 
             # viewDICT: Entity
             logging.info("[aitlasViewPacker] Entity")
@@ -806,24 +824,31 @@ class AItlas:
                                 viewDICT["entity"][value_s] = {"來源": [f"KNOWLEDGE_{entity_s}"]}
 
             ## 比對 AItlas
-            for ner_s in self.AITLASKG["entity"]:
+            for entity_s in self.AITLASKG["entity"]:
                 isRemovalBOOL: bool = False
 
                 # 檢查是否有重複字元
-                for ch in ner_s:
+                for ch in entity_s:
                     if ch in charSET:
                         isRemovalBOOL = True
                         continue
-                
-                if isRemovalBOOL:
-                    continue
 
-                viewDICT["entity"][ner_s] = {}
-                for keySTR, dataSTR in self.AITLASKG["entity"][ner_s].items():
-                    viewDICT["entity"][ner_s].update({
-                        keySTR: [dataSTR],
-                    })
+              # 檢查是否已經在 articut 出現過完全一樣的詞
+                if entity_s in viewDICT["entity"]:
+                    isRemovalBOOL = True
+                else:
+                    if isRemovalBOOL:
+                        continue
+                    viewDICT["entity"][entity_s] = {}
+    
+                for keySTR, dataSTR in self.AITLASKG["entity"][entity_s].items():
+                    viewDICT["entity"][entity_s].update({keySTR: [dataSTR]})
+                    if "來源" not in viewDICT["entity"][entity_s]:
+                        viewDICT["entity"][entity_s].update({"來源": []})
 
+                    if "wiki" not in viewDICT["entity"][entity_s]["來源"]:
+                        viewDICT["entity"][entity_s]["來源"].append("wiki")
+            
             #人物關聯圖
             #tempDICT = tempfile.NamedTemporaryFile(mode="w+")
             #udLIST = [e for e in viewDICT["entity"].keys()]
